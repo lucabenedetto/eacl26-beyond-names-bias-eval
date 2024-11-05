@@ -27,3 +27,10 @@ CLAUDE_3_5 = 'claude_3_5_sonnet'
 ANTHROPIC_MODEL_TO_API_NAME = {
     CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',  # # Claude 3.5 Sonnet 2024-10-22
 }
+
+GEMINI_1_5_FLASH = 'gemini_1_5'
+GEMINI_1_5_FLASH_8B = 'gemini_1_5_8b'
+GOOGLE_MODEL_TO_API_NAME = {
+    GEMINI_1_5_FLASH: 'gemini-1.5-flash',
+    GEMINI_1_5_FLASH_8B: 'gemini-1.5-flash-8b',
+}
