@@ -1,8 +1,10 @@
 from utils_anthropic import get_anthropic_response
+from utils_google import get_google_response
 from utils_open_ai import get_openai_response
 from constants import (
     OPENAI_MODEL_TO_API_NAME,
     ANTHROPIC_MODEL_TO_API_NAME,
+    GOOGLE_MODEL_TO_API_NAME,
 )
 
 def get_llm_response(api_key, model, prompt, temperature):
@@ -25,6 +27,18 @@ def get_llm_response(api_key, model, prompt, temperature):
                 system_context='',
                 user_prompt=prompt,
                 model=ANTHROPIC_MODEL_TO_API_NAME[model],
+                temperature=temperature,
+            )
+        except Exception as e:
+            print(e)
+            response = "{'index': -9, 'text': 'None'}"  # this if the model did not produce a response
+    elif model in GOOGLE_MODEL_TO_API_NAME:
+        try:
+            response = get_google_response(
+                api_key=api_key,
+                system_context=None,  # empty string breaks the google API.
+                user_prompt=prompt,
+                model=GOOGLE_MODEL_TO_API_NAME[model],
                 temperature=temperature,
             )
         except Exception as e:
