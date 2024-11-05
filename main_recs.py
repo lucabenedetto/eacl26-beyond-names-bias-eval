@@ -1,7 +1,7 @@
-import json
 import pandas as pd
 
 from utils import get_llm_response
+from utils_keys import get_api_key_from_model
 from utils_prompting import get_prompt_from_name_language_prompt_id_and_version
 from constants import (
     NAMES_F,
@@ -23,11 +23,7 @@ from prompts import (
 
 
 def main(list_names, language, prompt_id, prompt_version, model, temperature=0.0, n_runs_per_name=1):
-    # with open('/home/luca/.keys/openai_key.json', 'r') as f:
-    with open('/home/luca/.keys/anthropic_key.json', 'r') as f:
-    # with open('/home/luca/.keys/google_ai_api_key.json', 'r') as f:
-        data = json.load(f)
-    api_key = data['key']
+    api_key = get_api_key_from_model(model)
 
     out_df = pd.DataFrame(columns=['language', 'model', 'prompt_id', 'prompt_version', 'name', 'temperature', 'response', 'prompt'])
     for name in list_names:
