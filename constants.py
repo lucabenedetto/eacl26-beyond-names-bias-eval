@@ -34,3 +34,8 @@ GOOGLE_MODEL_TO_API_NAME = {
     GEMINI_1_5_FLASH: 'gemini-1.5-flash',
     GEMINI_1_5_FLASH_8B: 'gemini-1.5-flash-8b',
 }
+
+GROK = 'grok'
+GROK_MODEL_TO_API_NAME = {
+    GROK: 'grok-beta',
+}

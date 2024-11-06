@@ -1,5 +1,6 @@
 import anthropic
 from retry import retry
+from constants import GROK_MODEL_TO_API_NAME
 
 
 @retry(tries=5, max_delay=60)
@@ -10,8 +11,10 @@ def get_anthropic_response(
         temperature=0,
         model=None,
 ) -> str:
-    # TODO: Possibly move this outside since I don't want to always reinitialise it.
-    client = anthropic.Anthropic(api_key=api_key)
+    if model in GROK_MODEL_TO_API_NAME:
+        client = anthropic.Anthropic(api_key=api_key, base_url="https://api.x.ai")
+    else:
+        client = anthropic.Anthropic(api_key=api_key)
 
     response = client.messages.create(
         model=model,  #"claude-3-5-sonnet-20241022",
