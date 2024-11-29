@@ -20,7 +20,7 @@ OPENAI_MODEL_TO_API_NAME = {
 
 CLAUDE_3_5 = 'claude_3_5_sonnet'
 ANTHROPIC_MODEL_TO_API_NAME = {
-    CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',  # # Claude 3.5 Sonnet 2024-10-22
+    CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',
 }
 
 GEMINI_1_5_FLASH = 'gemini_1_5'
