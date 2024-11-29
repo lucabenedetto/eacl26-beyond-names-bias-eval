@@ -58,5 +58,4 @@ if __name__ == '__main__':
     # PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
 
-    for TEMPERATURE in [0.3]:
-        main(MODEL, LANGUAGE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
+    main(MODEL, LANGUAGE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
