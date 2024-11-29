@@ -1,0 +1,181 @@
+language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
+it,True,False,False,Sofia,,,5,0
+it,True,False,False,Aurora,,,5,0
+it,True,False,False,Giulia,,,5,0
+it,True,False,False,Ginevra,,,5,0
+it,True,False,False,Vittoria,,,5,0
+it,True,False,False,Beatrice,,,5,0
+it,True,False,False,Alice,,,5,0
+it,True,False,False,Ludovica,,,5,0
+it,True,False,False,Emma,,,5,0
+it,True,False,False,Matilde,,,5,0
+it,True,False,False,Leonardo,,,5,0
+it,True,False,False,Francesco,,,5,0
+it,True,False,False,Tommaso,,,5,0
+it,True,False,False,Edoardo,,,5,0
+it,True,False,False,Alessandro,,,5,0
+it,True,False,False,Lorenzo,,,5,0
+it,True,False,False,Mattia,,,5,0
+it,True,False,False,Gabriele,,,5,0
+it,True,False,False,Riccardo,,,5,0
+it,True,False,False,Andrea,,,5,0
+it,True,False,True,Sofia,,indecisa,5,0
+it,True,False,True,Aurora,,indecisa,5,0
+it,True,False,True,Giulia,,indecisa,5,0
+it,True,False,True,Ginevra,,indecisa,5,0
+it,True,False,True,Vittoria,,indecisa,5,0
+it,True,False,True,Beatrice,,indecisa,5,0
+it,True,False,True,Alice,,indecisa,5,0
+it,True,False,True,Ludovica,,indecisa,5,0
+it,True,False,True,Emma,,indecisa,5,0
+it,True,False,True,Matilde,,indecisa,5,0
+it,True,False,True,Leonardo,,indeciso,5,0
+it,True,False,True,Francesco,,indeciso,5,0
+it,True,False,True,Tommaso,,indeciso,5,0
+it,True,False,True,Edoardo,,indeciso,5,0
+it,True,False,True,Alessandro,,indeciso,5,0
+it,True,False,True,Lorenzo,,indeciso,5,0
+it,True,False,True,Mattia,,indeciso,5,0
+it,True,False,True,Gabriele,,indeciso,5,0
+it,True,False,True,Riccardo,,indeciso,5,0
+it,True,False,True,Andrea,,indeciso,5,0
+it,True,False,True,Sofia,,indecisə,5,0
+it,True,False,True,Aurora,,indecisə,5,0
+it,True,False,True,Giulia,,indecisə,5,0
+it,True,False,True,Ginevra,,indecisə,5,0
+it,True,False,True,Vittoria,,indecisə,5,0
+it,True,False,True,Beatrice,,indecisə,5,0
+it,True,False,True,Alice,,indecisə,5,0
+it,True,False,True,Ludovica,,indecisə,5,0
+it,True,False,True,Emma,,indecisə,5,0
+it,True,False,True,Matilde,,indecisə,5,0
+it,True,False,True,Leonardo,,indecisə,5,0
+it,True,False,True,Francesco,,indecisə,5,0
+it,True,False,True,Tommaso,,indecisə,5,0
+it,True,False,True,Edoardo,,indecisə,5,0
+it,True,False,True,Alessandro,,indecisə,5,0
+it,True,False,True,Lorenzo,,indecisə,5,0
+it,True,False,True,Mattia,,indecisə,5,0
+it,True,False,True,Gabriele,,indecisə,5,0
+it,True,False,True,Riccardo,,indecisə,5,0
+it,True,False,True,Andrea,,indecisə,5,0
+it,True,False,True,Sofia,,indecis*,5,0
+it,True,False,True,Aurora,,indecis*,5,0
+it,True,False,True,Giulia,,indecis*,5,0
+it,True,False,True,Ginevra,,indecis*,5,0
+it,True,False,True,Vittoria,,indecis*,5,0
+it,True,False,True,Beatrice,,indecis*,5,0
+it,True,False,True,Alice,,indecis*,5,0
+it,True,False,True,Ludovica,,indecis*,5,0
+it,True,False,True,Emma,,indecis*,5,0
+it,True,False,True,Matilde,,indecis*,5,0
+it,True,False,True,Leonardo,,indecis*,5,0
+it,True,False,True,Francesco,,indecis*,5,0
+it,True,False,True,Tommaso,,indecis*,5,0
+it,True,False,True,Edoardo,,indecis*,5,0
+it,True,False,True,Alessandro,,indecis*,5,0
+it,True,False,True,Lorenzo,,indecis*,5,0
+it,True,False,True,Mattia,,indecis*,5,0
+it,True,False,True,Gabriele,,indecis*,5,0
+it,True,False,True,Riccardo,,indecis*,5,0
+it,True,False,True,Andrea,,indecis*,5,0
+it,True,True,False,Sofia,una studentessa,,5,0
+it,True,True,False,Aurora,una studentessa,,5,0
+it,True,True,False,Giulia,una studentessa,,5,0
+it,True,True,False,Ginevra,una studentessa,,5,0
+it,True,True,False,Vittoria,una studentessa,,5,0
+it,True,True,False,Beatrice,una studentessa,,5,0
+it,True,True,False,Alice,una studentessa,,5,0
+it,True,True,False,Ludovica,una studentessa,,5,0
+it,True,True,False,Emma,una studentessa,,5,0
+it,True,True,False,Matilde,una studentessa,,5,0
+it,True,True,False,Leonardo,uno studente,,5,0
+it,True,True,False,Francesco,uno studente,,5,0
+it,True,True,False,Tommaso,uno studente,,5,0
+it,True,True,False,Edoardo,uno studente,,5,0
+it,True,True,False,Alessandro,uno studente,,5,0
+it,True,True,False,Lorenzo,uno studente,,5,0
+it,True,True,False,Mattia,uno studente,,5,0
+it,True,True,False,Gabriele,uno studente,,5,0
+it,True,True,False,Riccardo,uno studente,,5,0
+it,True,True,False,Andrea,uno studente,,5,0
+it,True,True,False,Sofia,unə studentə,,5,0
+it,True,True,False,Aurora,unə studentə,,5,0
+it,True,True,False,Giulia,unə studentə,,5,0
+it,True,True,False,Ginevra,unə studentə,,5,0
+it,True,True,False,Vittoria,unə studentə,,5,0
+it,True,True,False,Beatrice,unə studentə,,5,0
+it,True,True,False,Alice,unə studentə,,5,0
+it,True,True,False,Ludovica,unə studentə,,5,0
+it,True,True,False,Emma,unə studentə,,5,0
+it,True,True,False,Matilde,unə studentə,,5,0
+it,True,True,False,Leonardo,unə studentə,,5,0
+it,True,True,False,Francesco,unə studentə,,5,0
+it,True,True,False,Tommaso,unə studentə,,5,0
+it,True,True,False,Edoardo,unə studentə,,5,0
+it,True,True,False,Alessandro,unə studentə,,5,0
+it,True,True,False,Lorenzo,unə studentə,,5,0
+it,True,True,False,Mattia,unə studentə,,5,0
+it,True,True,False,Gabriele,unə studentə,,5,0
+it,True,True,False,Riccardo,unə studentə,,5,0
+it,True,True,False,Andrea,unə studentə,,5,0
+it,True,True,True,Sofia,una studentessa,indecisa,5,0
+it,True,True,True,Aurora,una studentessa,indecisa,5,0
+it,True,True,True,Giulia,una studentessa,indecisa,5,0
+it,True,True,True,Ginevra,una studentessa,indecisa,5,0
+it,True,True,True,Vittoria,una studentessa,indecisa,5,0
+it,True,True,True,Beatrice,una studentessa,indecisa,5,0
+it,True,True,True,Alice,una studentessa,indecisa,5,0
+it,True,True,True,Ludovica,una studentessa,indecisa,5,0
+it,True,True,True,Emma,una studentessa,indecisa,5,0
+it,True,True,True,Matilde,una studentessa,indecisa,5,0
+it,True,True,True,Leonardo,uno studente,indeciso,5,0
+it,True,True,True,Francesco,uno studente,indeciso,5,0
+it,True,True,True,Tommaso,uno studente,indeciso,5,0
+it,True,True,True,Edoardo,uno studente,indeciso,5,0
+it,True,True,True,Alessandro,uno studente,indeciso,5,0
+it,True,True,True,Lorenzo,uno studente,indeciso,5,0
+it,True,True,True,Mattia,uno studente,indeciso,5,0
+it,True,True,True,Gabriele,uno studente,indeciso,5,0
+it,True,True,True,Riccardo,uno studente,indeciso,5,0
+it,True,True,True,Andrea,uno studente,indeciso,5,0
+it,True,True,True,Sofia,unə studentə,indecisə,5,0
+it,True,True,True,Aurora,unə studentə,indecisə,5,0
+it,True,True,True,Giulia,unə studentə,indecisə,5,0
+it,True,True,True,Ginevra,unə studentə,indecisə,5,0
+it,True,True,True,Vittoria,unə studentə,indecisə,5,0
+it,True,True,True,Beatrice,unə studentə,indecisə,5,0
+it,True,True,True,Alice,unə studentə,indecisə,5,0
+it,True,True,True,Ludovica,unə studentə,indecisə,5,0
+it,True,True,True,Emma,unə studentə,indecisə,5,0
+it,True,True,True,Matilde,unə studentə,indecisə,5,0
+it,True,True,True,Leonardo,unə studentə,indecisə,5,0
+it,True,True,True,Francesco,unə studentə,indecisə,5,0
+it,True,True,True,Tommaso,unə studentə,indecisə,5,0
+it,True,True,True,Edoardo,unə studentə,indecisə,5,0
+it,True,True,True,Alessandro,unə studentə,indecisə,5,0
+it,True,True,True,Lorenzo,unə studentə,indecisə,5,0
+it,True,True,True,Mattia,unə studentə,indecisə,5,0
+it,True,True,True,Gabriele,unə studentə,indecisə,5,0
+it,True,True,True,Riccardo,unə studentə,indecisə,5,0
+it,True,True,True,Andrea,unə studentə,indecisə,5,0
+it,True,True,True,Sofia,un* student*,indecis*,5,0
+it,True,True,True,Aurora,un* student*,indecis*,5,0
+it,True,True,True,Giulia,un* student*,indecis*,5,0
+it,True,True,True,Ginevra,un* student*,indecis*,5,0
+it,True,True,True,Vittoria,un* student*,indecis*,5,0
+it,True,True,True,Beatrice,un* student*,indecis*,5,0
+it,True,True,True,Alice,un* student*,indecis*,5,0
+it,True,True,True,Ludovica,un* student*,indecis*,5,0
+it,True,True,True,Emma,un* student*,indecis*,5,0
+it,True,True,True,Matilde,un* student*,indecis*,5,0
+it,True,True,True,Leonardo,un* student*,indecis*,5,0
+it,True,True,True,Francesco,un* student*,indecis*,5,0
+it,True,True,True,Tommaso,un* student*,indecis*,5,0
+it,True,True,True,Edoardo,un* student*,indecis*,5,0
+it,True,True,True,Alessandro,un* student*,indecis*,5,0
+it,True,True,True,Lorenzo,un* student*,indecis*,5,0
+it,True,True,True,Mattia,un* student*,indecis*,5,0
+it,True,True,True,Gabriele,un* student*,indecis*,5,0
+it,True,True,True,Riccardo,un* student*,indecis*,5,0
+it,True,True,True,Andrea,un* student*,indecis*,5,0
