@@ -6,11 +6,6 @@ NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice'
 NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lorenzo', 'Mattia', 'Gabriele', 'Riccardo', 'Andrea']
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
 
-NAMES_F = NAMES_F_IT + NAMES_F_FR
-NAMES_M = NAMES_M_IT + NAMES_M_FR
-
-NO_NAME = 'no_name'
-
 IT = 'it'
 FR = 'fr'
 EN = 'en'
