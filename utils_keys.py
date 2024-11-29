@@ -1,4 +1,4 @@
-import json
+import os
 from constants import (
     OPENAI_MODEL_TO_API_NAME,
     ANTHROPIC_MODEL_TO_API_NAME,
@@ -8,13 +8,16 @@ from constants import (
 
 def get_api_key_from_model(model):
     if model in OPENAI_MODEL_TO_API_NAME:
-        path = '/home/luca/.keys/openai_key.json'
+        key_name = 'OPENAI_KEY'
     elif model in ANTHROPIC_MODEL_TO_API_NAME:
-        path = '/home/luca/.keys/anthropic_key.json'
+        key_name = 'ANTHROPIC_KEY'
     elif model in GOOGLE_MODEL_TO_API_NAME:
-        path = '/home/luca/.keys/google_ai_api_key.json'
+        key_name = 'GOOGLE_AI_KEY'
     else:
         raise ValueError(f"Model {model} not found")
-    with open(path, 'r') as f:
-        data = json.load(f)
-        return data['key']
+    api_key = os.environ.get(key_name)
+
+    if not api_key:
+        raise ValueError(f"{key_name} is not set in environment variables!")
+
+    return api_key
