@@ -9,6 +9,7 @@ from constants import (
     GEMINI_1_5_FLASH_8B,
 )
 from prompts_user_as_student import get_prompt_user_as_student
+from prompts_llm_as_student import get_prompt_llm_as_student
 
 
 def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
@@ -28,7 +29,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
         if prompt_type == 'user_as_student':
             prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         else:  # prompt_type == 'llm_as_student'
-            pass  # TODO
+            prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
             response = get_llm_response(api_key, model, prompt, temperature)
