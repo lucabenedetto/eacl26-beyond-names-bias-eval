@@ -8,7 +8,7 @@ from constants import (
     CLAUDE_3_5,
     GEMINI_1_5_FLASH_8B,
 )
-from prompts_user_as_student import get_prompt
+from prompts_user_as_student import get_prompt_user_as_student
 
 
 def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
@@ -22,7 +22,7 @@ def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt
 
     prompt_params_df = pd.read_csv(f'params_{prompt_params_file}.csv')
     for row in prompt_params_df.itertuples():
-        prompt = get_prompt(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
+        prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
             response = get_llm_response(api_key, model, prompt, temperature)
@@ -46,7 +46,7 @@ def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    out_df.to_csv(f'data/output/responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
+    out_df.to_csv(f'data/output/responses_user_as_student_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
 
 
 if __name__ == '__main__':

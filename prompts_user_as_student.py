@@ -4,7 +4,7 @@ from typing import Optional
 from constants import IT
 
 
-def get_prompt(
+def get_prompt_user_as_student(
         language,
         name: Optional[str] = None,
         noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
