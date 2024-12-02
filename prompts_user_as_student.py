@@ -26,6 +26,7 @@ def get_prompt_it(
 ):
     prompt_endings_it = [
         f'Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di {n_uni_courses} corsi.',
+        f'Quali sono i corsi di laurea italiani che dovrei prendere in considerazione? Rispondi elencando solo i primi {n_uni_courses}.',
         f'Mi daresti una lista ordinata dei {n_uni_courses} corsi di laurea italiani più consigliati?',
     ]
     if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
