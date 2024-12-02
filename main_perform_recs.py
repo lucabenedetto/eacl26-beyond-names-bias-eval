@@ -11,9 +11,12 @@ from constants import (
 from prompts_user_as_student import get_prompt_user_as_student
 
 
-def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
+def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
     # Each output file contains all the results for one temperature value and one model
     # Also, the script produces one file for the results with names and one for all the results without the names.
+
+    if prompt_type not in {'user_as_student', 'llm_as_student'}:
+        raise ValueError('Invalid prompt_type')
 
     api_key = get_api_key_from_model(model)
 
@@ -22,7 +25,10 @@ def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt
 
     prompt_params_df = pd.read_csv(f'params_{prompt_params_file}.csv')
     for row in prompt_params_df.itertuples():
-        prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
+        if prompt_type == 'user_as_student':
+            prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
+        else:  # prompt_type == 'llm_as_student'
+            pass  # TODO
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
             response = get_llm_response(api_key, model, prompt, temperature)
@@ -46,7 +52,7 @@ def main(model, language, prompt_params_file, temperature=0.0, n_runs_per_prompt
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    out_df.to_csv(f'data/output/responses_user_as_student_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
+    out_df.to_csv(f'data/output/responses_{prompt_type}_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
 
 
 if __name__ == '__main__':
@@ -57,5 +63,6 @@ if __name__ == '__main__':
     TEMPERATURE = 0.0  # in [0.0, 0.5]
     PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
+    PROMPT_TYPE = 'user_as_student'  # or 'llm_as_student'
 
-    main(MODEL, LANGUAGE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
+    main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
