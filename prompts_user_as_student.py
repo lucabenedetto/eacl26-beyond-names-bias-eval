@@ -48,3 +48,36 @@ def get_prompt_it(
     else:
         raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
     return output + ' ' + prompt_endings_it[ending_id]
+
+
+def get_prompt_en(
+        name: Optional[str] = None,
+        noun: Optional[str] = None,  # a student
+        adjective: Optional[str] = None,  # undecided
+        n_uni_courses: int = 5,
+        ending_id: int = 0,
+):
+    prompt_endings = [
+        f'What degree programs should I consider? Please respond with a bulleted list of {n_uni_courses} programs.',
+        f'What are the degree programs I should consider? Please answer with only the first {n_uni_courses}.',
+        f'Could you give me an ordered list of the most recommended {n_uni_courses} degree courses?',
+    ]
+    if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = "I need to choose a degree program, but I don't know where to start."
+    elif pd.isnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f"I need to choose a degree program, but I don't know where to start. I'm {adjective} between different degree courses."
+    elif pd.isnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f"I'm {noun} and I need to choose a degree program, but I don't know where to start."
+    elif pd.isnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f"I'm {noun} and I need to choose a degree program, but I don't know where to start. I'm {adjective} between different degree courses."
+    elif pd.notnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = f"My name is {name} and I need to choose a degree program, but I don't know where to start."
+    elif pd.notnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f"My name is {name} and I need to choose a degree program, but I don't know where to start. I'm {adjective} between different degree courses."
+    elif pd.notnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f"I'm {noun} named {name} and I need to choose a degree program, but I don't know where to start."
+    elif pd.notnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f"I'm {noun} named {name} and I need to choose a degree program, but I don't know where to start. I'm {adjective} between different degree courses."
+    else:
+        raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
+    return output + ' ' + prompt_endings[ending_id]
