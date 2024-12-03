@@ -1,13 +1,17 @@
 # Italian names are taken from ISTAT
 # French names are taken from INSEE (https://www.insee.fr/fr/statistiques/3532172)
-# UK (eng + wales) names are from the ONS (gov.uk) (https://www.ons.gov.uk/releases/babynamesinenglandandwales2022)
+# UK (eng + wales) names are from the ONS (gov.uk) -- stats from 2022:
+#   https://www.ons.gov.uk/releases/babynamesinenglandandwales2022
+# US names are from SSA (Social Security Administration) -- stats from the 2010s: https://www.ssa.gov/
 NAMES_F_IT = ['Sofia', 'Aurora', 'Giulia', 'Ginevra', 'Vittoria', 'Beatrice', 'Alice', 'Ludovica', 'Emma', 'Matilde']
 NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice', 'Romy', 'Anna']
 NAMES_F_EN_UK = ['Olivia', 'Amelia', 'Isla', 'Ava', 'Lily', 'Ivy', 'Freya', 'Florence', 'Isabella', 'Sienna']
+NAMES_F_EN_US = ['Emma', 'Olivia', 'Sophia', 'Isabella', 'Ava', 'Mia', 'Abigail', 'Emily', 'Charlotte', 'Madison']
 
 NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lorenzo', 'Mattia', 'Gabriele', 'Riccardo', 'Andrea']
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
 NAMES_M_EN_UK = ['Noah', 'Muhammad', 'George', 'Oliver', 'Leo', 'Arthur', 'Oscar', 'Theodore', 'Theo', 'Freddie']
+NAMES_M_EN_US = ['Noah', 'Liam', 'Jacob', 'William', 'Mason', 'Ethan', 'Michael', 'Alexander', 'James', 'Elijah']
 
 
 IT = 'it'
