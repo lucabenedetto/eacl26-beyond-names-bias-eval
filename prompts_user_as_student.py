@@ -1,7 +1,7 @@
 import pandas as pd
 from typing import Optional
 
-from constants import IT
+from constants import IT, EN
 
 
 def get_prompt_user_as_student(
@@ -14,6 +14,8 @@ def get_prompt_user_as_student(
 ):
     if language == IT:
         return get_prompt_it(name, noun, adjective, n_uni_courses, ending_id)
+    if language == EN:
+        return get_prompt_en(name, noun, adjective, n_uni_courses, ending_id)
     raise ValueError(f"Language {language} not supported.")
 
 
