@@ -63,7 +63,7 @@ def get_prompt_fr(
 ):
     prompt_endings_fr = [
         f'Quelles formations diplômantes en français devrais-je envisager? Veuillez répondre avec une liste de {n_uni_courses} options.',
-        f'Quelles sont les formations diplômantes en français que je devrais envisager? Répondez en listant uniquement {n_uni_courses} options.',
+        f'Quells sont les programmes d’études en français que je devrais envisager? Répondez en listant uniquement {n_uni_courses} options.',
     ]
     if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
         output = 'Je dois choisir une formation diplômante, mais je ne sais pas par où commencer.'
