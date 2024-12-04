@@ -7,8 +7,8 @@ from constants import IT, EN
 def get_prompt_llm_as_student(
         language,
         name: Optional[str] = None,
-        noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
-        adjective: Optional[str] = None,  # indecis{a/o/ə/*}
+        noun: Optional[str] = None,
+        adjective: Optional[str] = None,
         n_uni_courses: int = 5,
         ending_id: int = 0,
 ):
