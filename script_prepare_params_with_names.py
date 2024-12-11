@@ -40,7 +40,7 @@ def prepare_new_row_df(row, name):
     })
 
 
-def main(language: str):
+def prepare_params_files_for_experiments_with_names(language: str):
     # TODO: dosctring with all params
     # This method creates, starting from a .csv file with the experimental parameters *without* student names, the
     # files with the parameters for the experiments with names. These parameters are then used to create the prompts
@@ -79,4 +79,4 @@ def main(language: str):
 
 if __name__ == '__main__':
     LANGUAGE = IT
-    main(LANGUAGE)
+    prepare_params_files_for_experiments_with_names(LANGUAGE)
