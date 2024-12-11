@@ -53,19 +53,16 @@ def main(language: str):
     for row in df.itertuples():
         if (not row.with_noun and not row.with_adjective) or row.adjective in ADJECTIVES_N[language]  or row.noun in NOUNS_N[language]:
             for name in NAMES_F_IT + NAMES_M_IT:
-                new_row_df = prepare_new_row_df(row, name)
                 if len(out_df) == 0:
-                    out_df = new_row_df.copy()
+                    out_df = prepare_new_row_df(row, name).copy()
                 else:
-                    out_df = pd.concat([out_df, new_row_df], ignore_index=True)
+                    out_df = pd.concat([out_df, prepare_new_row_df(row, name)], ignore_index=True)
         elif row.adjective in ADJECTIVES_F[IT]  or row.noun in NOUNS_F[IT]:
             for name in NAMES_F_IT:
-                new_row_df = prepare_new_row_df(row, name)
-                out_df = pd.concat([out_df, new_row_df], ignore_index=True)
+                out_df = pd.concat([out_df, prepare_new_row_df(row, name)], ignore_index=True)
         elif row.adjective in ADJECTIVES_M[IT] or row.noun in NOUNS_M[IT]:
             for name in NAMES_M_IT:
-                new_row_df = prepare_new_row_df(row, name)
-                out_df = pd.concat([out_df, new_row_df], ignore_index=True)
+                out_df = pd.concat([out_df, prepare_new_row_df(row, name)], ignore_index=True)
     out_df.to_csv(f'params_with_names_{language}.csv', index=False)
 
     out_df = pd.DataFrame(columns=df.columns)
