@@ -54,11 +54,13 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    out_df.to_csv(os.path.join('data', 'output', f'{prompt_type}',
-                               f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'),
-                  index=False)
-
-    # out_df.to_csv(f'data/output/{prompt_type}/responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
+    folder_path = os.path.join('data', 'output', f'{prompt_type}')
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        print(f"[INFO] Created folder {folder_path}")
+    else:
+        print(f"[INFO] Folder already exists: {folder_path}")
+    out_df.to_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'), index=False)
 
 
 if __name__ == '__main__':
@@ -66,7 +68,7 @@ if __name__ == '__main__':
     LANGUAGE = IT
     MODEL = GPT_4o_MINI
     N_RUNS_PER_PROMPT = 3
-    TEMPERATURE = 0.0  # in [0.0, 0.5]
+    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
     PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
     PROMPT_TYPE = 'user_as_student'  # or 'llm_as_student'
