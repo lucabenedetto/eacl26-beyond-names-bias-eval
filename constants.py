@@ -13,6 +13,15 @@ IT = 'it'
 FR = 'fr'
 EN = 'en'
 
+NAMES_F = {
+    IT: NAMES_F_IT,
+    FR: NAMES_F_FR,
+}
+NAMES_M = {
+    IT: NAMES_M_IT,
+    FR: NAMES_M_FR,
+}
+
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
 
