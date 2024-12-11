@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from constants import (
     NAMES_F_IT, 
@@ -47,7 +48,7 @@ def main(language: str):
     # the params_no_name_{language}.csv file which is used as a starting point has to be manually curated (it is already
     # available in this repo, as well as the params_with_names* files, meaning that you don't have to re-run this script
     # to reproduce the results shown in the paper but can directly re-use those param files.
-    df = pd.read_csv(f'params_no_name_{language}.csv')
+    df = pd.read_csv(os.path.join('config', f'params_no_name_{language}.csv'))
     out_df = pd.DataFrame(columns=df.columns)
 
     for row in df.itertuples():
@@ -63,7 +64,7 @@ def main(language: str):
         elif row.adjective in ADJECTIVES_M[IT] or row.noun in NOUNS_M[IT]:
             for name in NAMES_M_IT:
                 out_df = pd.concat([out_df, prepare_new_row_df(row, name)], ignore_index=True)
-    out_df.to_csv(f'params_with_names_{language}.csv', index=False)
+    out_df.to_csv(os.path.join('config', f'params_with_names_{language}.csv'), index=False)
 
     out_df = pd.DataFrame(columns=df.columns)
     for row in df.itertuples():
@@ -73,7 +74,7 @@ def main(language: str):
                 out_df = new_row_df.copy()
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
-    out_df.to_csv(f'params_with_names_all_combinations_{language}.csv', index=False)
+    out_df.to_csv(os.path.join('config', f'params_with_names_all_combinations_{language}.csv'), index=False)
 
 
 if __name__ == '__main__':
