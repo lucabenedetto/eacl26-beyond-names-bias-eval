@@ -56,7 +56,7 @@ def get_prompt_it(
 
 def get_prompt_fr(
         name: Optional[str] = None,
-        noun: Optional[str] = None,  # un étudiant / une étudiante / étudiant·e
+        noun: Optional[str] = None,  # un étudiant / une étudiante / un·e étudiant·e
         adjective: Optional[str] = None,  # indécis / indécise / indécis·e
         n_uni_courses: int = 5,
         ending_id: int = 0,
