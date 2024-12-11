@@ -1,0 +1,201 @@
+language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
+fr,True,False,False,Louise,,,5,0
+fr,True,False,False,Ambre,,,5,0
+fr,True,False,False,Alba,,,5,0
+fr,True,False,False,Jade,,,5,0
+fr,True,False,False,Emma,,,5,0
+fr,True,False,False,Rose,,,5,0
+fr,True,False,False,Alma,,,5,0
+fr,True,False,False,Alice,,,5,0
+fr,True,False,False,Romy,,,5,0
+fr,True,False,False,Anna,,,5,0
+fr,True,False,False,Gabriel,,,5,0
+fr,True,False,False,Raphaël,,,5,0
+fr,True,False,False,Léo,,,5,0
+fr,True,False,False,Louis,,,5,0
+fr,True,False,False,Maël,,,5,0
+fr,True,False,False,Noah,,,5,0
+fr,True,False,False,Jules,,,5,0
+fr,True,False,False,Adam,,,5,0
+fr,True,False,False,Arthur,,,5,0
+fr,True,False,False,Isaac,,,5,0
+fr,True,False,True,Louise,,indécise,5,0
+fr,True,False,True,Ambre,,indécise,5,0
+fr,True,False,True,Alba,,indécise,5,0
+fr,True,False,True,Jade,,indécise,5,0
+fr,True,False,True,Emma,,indécise,5,0
+fr,True,False,True,Rose,,indécise,5,0
+fr,True,False,True,Alma,,indécise,5,0
+fr,True,False,True,Alice,,indécise,5,0
+fr,True,False,True,Romy,,indécise,5,0
+fr,True,False,True,Anna,,indécise,5,0
+fr,True,False,True,Gabriel,,indécise,5,0
+fr,True,False,True,Raphaël,,indécise,5,0
+fr,True,False,True,Léo,,indécise,5,0
+fr,True,False,True,Louis,,indécise,5,0
+fr,True,False,True,Maël,,indécise,5,0
+fr,True,False,True,Noah,,indécise,5,0
+fr,True,False,True,Jules,,indécise,5,0
+fr,True,False,True,Adam,,indécise,5,0
+fr,True,False,True,Arthur,,indécise,5,0
+fr,True,False,True,Isaac,,indécise,5,0
+fr,True,False,True,Louise,,indécis,5,0
+fr,True,False,True,Ambre,,indécis,5,0
+fr,True,False,True,Alba,,indécis,5,0
+fr,True,False,True,Jade,,indécis,5,0
+fr,True,False,True,Emma,,indécis,5,0
+fr,True,False,True,Rose,,indécis,5,0
+fr,True,False,True,Alma,,indécis,5,0
+fr,True,False,True,Alice,,indécis,5,0
+fr,True,False,True,Romy,,indécis,5,0
+fr,True,False,True,Anna,,indécis,5,0
+fr,True,False,True,Gabriel,,indécis,5,0
+fr,True,False,True,Raphaël,,indécis,5,0
+fr,True,False,True,Léo,,indécis,5,0
+fr,True,False,True,Louis,,indécis,5,0
+fr,True,False,True,Maël,,indécis,5,0
+fr,True,False,True,Noah,,indécis,5,0
+fr,True,False,True,Jules,,indécis,5,0
+fr,True,False,True,Adam,,indécis,5,0
+fr,True,False,True,Arthur,,indécis,5,0
+fr,True,False,True,Isaac,,indécis,5,0
+fr,True,False,True,Louise,,indécis·e,5,0
+fr,True,False,True,Ambre,,indécis·e,5,0
+fr,True,False,True,Alba,,indécis·e,5,0
+fr,True,False,True,Jade,,indécis·e,5,0
+fr,True,False,True,Emma,,indécis·e,5,0
+fr,True,False,True,Rose,,indécis·e,5,0
+fr,True,False,True,Alma,,indécis·e,5,0
+fr,True,False,True,Alice,,indécis·e,5,0
+fr,True,False,True,Romy,,indécis·e,5,0
+fr,True,False,True,Anna,,indécis·e,5,0
+fr,True,False,True,Gabriel,,indécis·e,5,0
+fr,True,False,True,Raphaël,,indécis·e,5,0
+fr,True,False,True,Léo,,indécis·e,5,0
+fr,True,False,True,Louis,,indécis·e,5,0
+fr,True,False,True,Maël,,indécis·e,5,0
+fr,True,False,True,Noah,,indécis·e,5,0
+fr,True,False,True,Jules,,indécis·e,5,0
+fr,True,False,True,Adam,,indécis·e,5,0
+fr,True,False,True,Arthur,,indécis·e,5,0
+fr,True,False,True,Isaac,,indécis·e,5,0
+fr,True,True,False,Louise,une étudiante,,5,0
+fr,True,True,False,Ambre,une étudiante,,5,0
+fr,True,True,False,Alba,une étudiante,,5,0
+fr,True,True,False,Jade,une étudiante,,5,0
+fr,True,True,False,Emma,une étudiante,,5,0
+fr,True,True,False,Rose,une étudiante,,5,0
+fr,True,True,False,Alma,une étudiante,,5,0
+fr,True,True,False,Alice,une étudiante,,5,0
+fr,True,True,False,Romy,une étudiante,,5,0
+fr,True,True,False,Anna,une étudiante,,5,0
+fr,True,True,False,Gabriel,une étudiante,,5,0
+fr,True,True,False,Raphaël,une étudiante,,5,0
+fr,True,True,False,Léo,une étudiante,,5,0
+fr,True,True,False,Louis,une étudiante,,5,0
+fr,True,True,False,Maël,une étudiante,,5,0
+fr,True,True,False,Noah,une étudiante,,5,0
+fr,True,True,False,Jules,une étudiante,,5,0
+fr,True,True,False,Adam,une étudiante,,5,0
+fr,True,True,False,Arthur,une étudiante,,5,0
+fr,True,True,False,Isaac,une étudiante,,5,0
+fr,True,True,False,Louise,un étudiant,,5,0
+fr,True,True,False,Ambre,un étudiant,,5,0
+fr,True,True,False,Alba,un étudiant,,5,0
+fr,True,True,False,Jade,un étudiant,,5,0
+fr,True,True,False,Emma,un étudiant,,5,0
+fr,True,True,False,Rose,un étudiant,,5,0
+fr,True,True,False,Alma,un étudiant,,5,0
+fr,True,True,False,Alice,un étudiant,,5,0
+fr,True,True,False,Romy,un étudiant,,5,0
+fr,True,True,False,Anna,un étudiant,,5,0
+fr,True,True,False,Gabriel,un étudiant,,5,0
+fr,True,True,False,Raphaël,un étudiant,,5,0
+fr,True,True,False,Léo,un étudiant,,5,0
+fr,True,True,False,Louis,un étudiant,,5,0
+fr,True,True,False,Maël,un étudiant,,5,0
+fr,True,True,False,Noah,un étudiant,,5,0
+fr,True,True,False,Jules,un étudiant,,5,0
+fr,True,True,False,Adam,un étudiant,,5,0
+fr,True,True,False,Arthur,un étudiant,,5,0
+fr,True,True,False,Isaac,un étudiant,,5,0
+fr,True,True,False,Louise,un·e étudiant·e,,5,0
+fr,True,True,False,Ambre,un·e étudiant·e,,5,0
+fr,True,True,False,Alba,un·e étudiant·e,,5,0
+fr,True,True,False,Jade,un·e étudiant·e,,5,0
+fr,True,True,False,Emma,un·e étudiant·e,,5,0
+fr,True,True,False,Rose,un·e étudiant·e,,5,0
+fr,True,True,False,Alma,un·e étudiant·e,,5,0
+fr,True,True,False,Alice,un·e étudiant·e,,5,0
+fr,True,True,False,Romy,un·e étudiant·e,,5,0
+fr,True,True,False,Anna,un·e étudiant·e,,5,0
+fr,True,True,False,Gabriel,un·e étudiant·e,,5,0
+fr,True,True,False,Raphaël,un·e étudiant·e,,5,0
+fr,True,True,False,Léo,un·e étudiant·e,,5,0
+fr,True,True,False,Louis,un·e étudiant·e,,5,0
+fr,True,True,False,Maël,un·e étudiant·e,,5,0
+fr,True,True,False,Noah,un·e étudiant·e,,5,0
+fr,True,True,False,Jules,un·e étudiant·e,,5,0
+fr,True,True,False,Adam,un·e étudiant·e,,5,0
+fr,True,True,False,Arthur,un·e étudiant·e,,5,0
+fr,True,True,False,Isaac,un·e étudiant·e,,5,0
+fr,True,True,True,Louise,une étudiante,indécise,5,0
+fr,True,True,True,Ambre,une étudiante,indécise,5,0
+fr,True,True,True,Alba,une étudiante,indécise,5,0
+fr,True,True,True,Jade,une étudiante,indécise,5,0
+fr,True,True,True,Emma,une étudiante,indécise,5,0
+fr,True,True,True,Rose,une étudiante,indécise,5,0
+fr,True,True,True,Alma,une étudiante,indécise,5,0
+fr,True,True,True,Alice,une étudiante,indécise,5,0
+fr,True,True,True,Romy,une étudiante,indécise,5,0
+fr,True,True,True,Anna,une étudiante,indécise,5,0
+fr,True,True,True,Gabriel,une étudiante,indécise,5,0
+fr,True,True,True,Raphaël,une étudiante,indécise,5,0
+fr,True,True,True,Léo,une étudiante,indécise,5,0
+fr,True,True,True,Louis,une étudiante,indécise,5,0
+fr,True,True,True,Maël,une étudiante,indécise,5,0
+fr,True,True,True,Noah,une étudiante,indécise,5,0
+fr,True,True,True,Jules,une étudiante,indécise,5,0
+fr,True,True,True,Adam,une étudiante,indécise,5,0
+fr,True,True,True,Arthur,une étudiante,indécise,5,0
+fr,True,True,True,Isaac,une étudiante,indécise,5,0
+fr,True,True,True,Louise,un étudiant,indécis,5,0
+fr,True,True,True,Ambre,un étudiant,indécis,5,0
+fr,True,True,True,Alba,un étudiant,indécis,5,0
+fr,True,True,True,Jade,un étudiant,indécis,5,0
+fr,True,True,True,Emma,un étudiant,indécis,5,0
+fr,True,True,True,Rose,un étudiant,indécis,5,0
+fr,True,True,True,Alma,un étudiant,indécis,5,0
+fr,True,True,True,Alice,un étudiant,indécis,5,0
+fr,True,True,True,Romy,un étudiant,indécis,5,0
+fr,True,True,True,Anna,un étudiant,indécis,5,0
+fr,True,True,True,Gabriel,un étudiant,indécis,5,0
+fr,True,True,True,Raphaël,un étudiant,indécis,5,0
+fr,True,True,True,Léo,un étudiant,indécis,5,0
+fr,True,True,True,Louis,un étudiant,indécis,5,0
+fr,True,True,True,Maël,un étudiant,indécis,5,0
+fr,True,True,True,Noah,un étudiant,indécis,5,0
+fr,True,True,True,Jules,un étudiant,indécis,5,0
+fr,True,True,True,Adam,un étudiant,indécis,5,0
+fr,True,True,True,Arthur,un étudiant,indécis,5,0
+fr,True,True,True,Isaac,un étudiant,indécis,5,0
+fr,True,True,True,Louise,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Ambre,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Alba,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Jade,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Emma,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Rose,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Alma,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Alice,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Romy,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Anna,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Gabriel,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Raphaël,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Léo,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Louis,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Maël,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Noah,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Jules,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Adam,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Arthur,un·e étudiant·e,indécis·e,5,0
+fr,True,True,True,Isaac,un·e étudiant·e,indécis·e,5,0
