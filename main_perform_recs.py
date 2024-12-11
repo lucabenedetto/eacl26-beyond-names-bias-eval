@@ -53,7 +53,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    out_df.to_csv(f'data/output/responses_{prompt_type}_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
+    out_df.to_csv(f'data/output/{prompt_type}/responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
 
 
 if __name__ == '__main__':
