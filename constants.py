@@ -14,6 +14,9 @@ NAMES_M_EN_UK = ['Noah', 'Muhammad', 'George', 'Oliver', 'Leo', 'Arthur', 'Oscar
 NAMES_M_EN_US = ['Noah', 'Liam', 'Jacob', 'William', 'Mason', 'Ethan', 'Michael', 'Alexander', 'James', 'Elijah']
 
 
+USER_AS_STUDENT = 'user_as_student'
+LLM_AS_STUDENT = 'llm_as_student'
+
 IT = 'it'
 FR = 'fr'
 EN = 'en'
@@ -26,9 +29,11 @@ OPENAI_MODEL_TO_API_NAME = {
     GPT_4o_MINI: 'gpt-4o-mini',
 }
 
-CLAUDE_3_5 = 'claude_3_5_sonnet'
+CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
+CLAUDE_3_5_HAIKU = 'claude_3_5_haiku'
 ANTHROPIC_MODEL_TO_API_NAME = {
-    CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',
+    CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
+    CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
 }
 
 GEMINI_1_5_FLASH = 'gemini_1_5'
