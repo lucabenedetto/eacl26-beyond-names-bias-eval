@@ -4,25 +4,32 @@ from constants import (
     NAMES_F,
     NAMES_M,
     IT,
+    FR,
 )
 
 ADJECTIVES_M = {
     IT: {'indeciso'},
+    FR: {'indécis'}
 }
 ADJECTIVES_F = {
     IT: {'indecisa'},
+    FR: {'indécise'}
 }
 ADJECTIVES_N = {
     IT: {'indecisə', 'indecis*'},
+    FR: {'indécis·e'}
 }
 NOUNS_M = {
     IT: {'uno studente'},
+    FR: {'un étudiant'}
 }
 NOUNS_F = {
     IT: {'una studentessa'},
+    FR: {'une étudiante'}
 }
 NOUNS_N = {
     IT: {'unə studentə', 'un* student*'},
+    FR: {'un·e étudiant·e'}
 }
 
 
@@ -81,5 +88,5 @@ def prepare_params_files_for_experiments_with_names(language: str):
 
 
 if __name__ == '__main__':
-    LANGUAGE = IT
+    LANGUAGE = IT  # IT, FR
     prepare_params_files_for_experiments_with_names(LANGUAGE)
