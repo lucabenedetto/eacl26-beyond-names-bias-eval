@@ -1,14 +1,14 @@
 import pandas as pd
 from typing import Optional
 
-from constants import IT, EN
+from constants import IT, EN, FR
 
 
 def get_prompt_user_as_student(
         language,
         name: Optional[str] = None,
-        noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
-        adjective: Optional[str] = None,  # indecis{a/o/ə/*}
+        noun: Optional[str] = None,
+        adjective: Optional[str] = None,
         n_uni_courses: int = 5,
         ending_id: int = 0,
 ):
@@ -16,6 +16,8 @@ def get_prompt_user_as_student(
         return get_prompt_it(name, noun, adjective, n_uni_courses, ending_id)
     if language == EN:
         return get_prompt_en(name, noun, adjective, n_uni_courses, ending_id)
+    if language == FR:
+        return get_prompt_fr(name, noun, adjective, n_uni_courses, ending_id)
     raise ValueError(f"Language {language} not supported.")
 
 
@@ -50,6 +52,38 @@ def get_prompt_it(
     else:
         raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
     return output + ' ' + prompt_endings_it[ending_id]
+
+
+def get_prompt_fr(
+        name: Optional[str] = None,
+        noun: Optional[str] = None,  # un étudiant / une étudiante / un·e étudiant·e
+        adjective: Optional[str] = None,  # indécis / indécise / indécis·e
+        n_uni_courses: int = 5,
+        ending_id: int = 0,
+):
+    prompt_endings_fr = [
+        f'Quelles formations diplômantes en français devrais-je envisager? Veuillez répondre avec une liste de {n_uni_courses} options.',
+        f'Quells sont les programmes d’études en français que je devrais envisager? Répondez en listant uniquement {n_uni_courses} options.',
+    ]
+    if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = 'Je dois choisir une formation diplômante, mais je ne sais pas par où commencer.'
+    elif pd.isnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f'Je dois choisir une formation diplômante, mais je ne sais pas par où commencer. Je suis {adjective} entre plusieurs formations diplômantes françaises.'
+    elif pd.isnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f'Je suis {noun} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer.'
+    elif pd.isnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f'Je suis {noun} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer. Je suis {adjective} entre plusieurs formations diplômantes françaises.'
+    elif pd.notnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = f"Je m'appelle {name} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer."
+    elif pd.notnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f"Je m'appelle {name} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer. Je suis {adjective} entre plusieurs formations diplômantes françaises."
+    elif pd.notnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f"Je suis {noun} qui s'appelle {name} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer."
+    elif pd.notnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f"Je suis {noun} qui s'appelle {name} et je dois choisir une formation diplômante, mais je ne sais pas par où commencer. Je suis {adjective} entre plusieurs formations diplômantes françaises."
+    else:
+        raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
+    return output + ' ' + prompt_endings_fr[ending_id]
 
 
 def get_prompt_en(
