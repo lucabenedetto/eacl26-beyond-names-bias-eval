@@ -24,34 +24,42 @@ EN = 'en'
 NAMES_F = {
     IT: NAMES_F_IT,
     FR: NAMES_F_FR,
+    EN: NAMES_F_EN_UK,
 }
 NAMES_M = {
     IT: NAMES_M_IT,
     FR: NAMES_M_FR,
+    EN: NAMES_M_EN_UK,
 }
 ADJECTIVES_M = {
     IT: {'indeciso'},
-    FR: {'indécis'}
+    FR: {'indécis'},
+    EN: {},
 }
 ADJECTIVES_F = {
     IT: {'indecisa'},
-    FR: {'indécise'}
+    FR: {'indécise'},
+    EN: {},
 }
 ADJECTIVES_N = {
     IT: {'indecisə', 'indecis*'},
-    FR: {'indécis·e'}
+    FR: {'indécis·e'},
+    EN: {'undecided'},
 }
 NOUNS_M = {
     IT: {'uno studente'},
-    FR: {'un étudiant'}
+    FR: {'un étudiant'},
+    EN: {},
 }
 NOUNS_F = {
     IT: {'una studentessa'},
-    FR: {'une étudiante'}
+    FR: {'une étudiante'},
+    EN: {},
 }
 NOUNS_N = {
     IT: {'unə studentə', 'un* student*'},
-    FR: {'un·e étudiant·e'}
+    FR: {'un·e étudiant·e'},
+    EN: {'a student'},
 }
 
 
