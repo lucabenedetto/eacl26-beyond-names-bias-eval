@@ -1,10 +1,18 @@
 # Italian names are taken from ISTAT
 # French names are taken from INSEE (https://www.insee.fr/fr/statistiques/3532172)
+# UK (eng + wales) names are from the ONS (gov.uk) -- stats from 2022:
+#   https://www.ons.gov.uk/releases/babynamesinenglandandwales2022
+# US names are from SSA (Social Security Administration) -- stats from the 2010s: https://www.ssa.gov/
 NAMES_F_IT = ['Sofia', 'Aurora', 'Giulia', 'Ginevra', 'Vittoria', 'Beatrice', 'Alice', 'Ludovica', 'Emma', 'Matilde']
 NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice', 'Romy', 'Anna']
+NAMES_F_EN_UK = ['Olivia', 'Amelia', 'Isla', 'Ava', 'Lily', 'Ivy', 'Freya', 'Florence', 'Isabella', 'Sienna']
+NAMES_F_EN_US = ['Emma', 'Olivia', 'Sophia', 'Isabella', 'Ava', 'Mia', 'Abigail', 'Emily', 'Charlotte', 'Madison']
 
 NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lorenzo', 'Mattia', 'Gabriele', 'Riccardo', 'Andrea']
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
+NAMES_M_EN_UK = ['Noah', 'Muhammad', 'George', 'Oliver', 'Leo', 'Arthur', 'Oscar', 'Theodore', 'Theo', 'Freddie']
+NAMES_M_EN_US = ['Noah', 'Liam', 'Jacob', 'William', 'Mason', 'Ethan', 'Michael', 'Alexander', 'James', 'Elijah']
+
 
 USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'
@@ -16,34 +24,42 @@ EN = 'en'
 NAMES_F = {
     IT: NAMES_F_IT,
     FR: NAMES_F_FR,
+    EN: NAMES_F_EN_UK,
 }
 NAMES_M = {
     IT: NAMES_M_IT,
     FR: NAMES_M_FR,
+    EN: NAMES_M_EN_UK,
 }
 ADJECTIVES_M = {
     IT: {'indeciso'},
-    FR: {'indécis'}
+    FR: {'indécis'},
+    EN: {},
 }
 ADJECTIVES_F = {
     IT: {'indecisa'},
-    FR: {'indécise'}
+    FR: {'indécise'},
+    EN: {},
 }
 ADJECTIVES_N = {
     IT: {'indecisə', 'indecis*'},
-    FR: {'indécis·e'}
+    FR: {'indécis·e'},
+    EN: {'undecided'},
 }
 NOUNS_M = {
     IT: {'uno studente'},
-    FR: {'un étudiant'}
+    FR: {'un étudiant'},
+    EN: {},
 }
 NOUNS_F = {
     IT: {'una studentessa'},
-    FR: {'une étudiante'}
+    FR: {'une étudiante'},
+    EN: {},
 }
 NOUNS_N = {
     IT: {'unə studentə', 'un* student*'},
-    FR: {'un·e étudiant·e'}
+    FR: {'un·e étudiant·e'},
+    EN: {'a student'},
 }
 
 

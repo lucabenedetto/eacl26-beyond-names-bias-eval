@@ -55,7 +55,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    folder_path = os.path.join('data', 'output', f'{prompt_type}')
+    folder_path = os.path.join('data', 'output', f'{prompt_type}', f'{language}')
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
         print(f"[INFO] Created folder {folder_path}")
