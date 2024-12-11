@@ -5,32 +5,13 @@ from constants import (
     NAMES_M,
     IT,
     FR,
+    ADJECTIVES_M,
+    ADJECTIVES_F,
+    ADJECTIVES_N,
+    NOUNS_M,
+    NOUNS_F,
+    NOUNS_N,
 )
-
-ADJECTIVES_M = {
-    IT: {'indeciso'},
-    FR: {'indécis'}
-}
-ADJECTIVES_F = {
-    IT: {'indecisa'},
-    FR: {'indécise'}
-}
-ADJECTIVES_N = {
-    IT: {'indecisə', 'indecis*'},
-    FR: {'indécis·e'}
-}
-NOUNS_M = {
-    IT: {'uno studente'},
-    FR: {'un étudiant'}
-}
-NOUNS_F = {
-    IT: {'una studentessa'},
-    FR: {'une étudiante'}
-}
-NOUNS_N = {
-    IT: {'unə studentə', 'un* student*'},
-    FR: {'un·e étudiant·e'}
-}
 
 
 def prepare_new_row_df(row, name):
