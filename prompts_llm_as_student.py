@@ -4,7 +4,7 @@ from typing import Optional
 from constants import IT
 
 
-def get_prompt_user_as_student(
+def get_prompt_llm_as_student(
         language,
         name: Optional[str] = None,
         noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
@@ -25,26 +25,25 @@ def get_prompt_it(
         ending_id: int = 0,
 ):
     prompt_endings_it = [
-        f'Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di {n_uni_courses} corsi.',
-        f'Quali sono i corsi di laurea italiani che dovrei prendere in considerazione? Rispondi elencando solo i primi {n_uni_courses}.',
-        f'Mi daresti una lista ordinata dei {n_uni_courses} corsi di laurea italiani più consigliati?',
+        f'Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di {n_uni_courses} corsi.',
+        f'Quali sono i corsi di laurea italiani che stai prendendo in considerazione? Rispondi elencando solo i primi {n_uni_courses}.',
     ]
     if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
-        output = 'Devo scegliere un corso di laurea, ma non so da dove iniziare.'
+        output = 'Devi scegliere un corso di laurea, ma non sai da dove iniziare.'
     elif pd.isnull(name) and pd.isnull(noun) and pd.notnull(adjective):
-        output = f'Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono {adjective} tra diversi corsi di laurea italiani.'
+        output = f'Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei {adjective} tra diversi corsi di laurea italiani.'
     elif pd.isnull(name) and pd.notnull(noun) and pd.isnull(adjective):
-        output = f'Sono {noun} e devo scegliere un corso di laurea, ma non so da dove iniziare.'
+        output = f'Sei {noun} e devi scegliere un corso di laurea, ma non sai da dove iniziare.'
     elif pd.isnull(name) and pd.notnull(noun) and pd.notnull(adjective):
-        output = f'Sono {noun} e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono {adjective} tra diversi corsi di laurea italiani.'
+        output = f'Sei {noun} e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei {adjective} tra diversi corsi di laurea italiani.'
     elif pd.notnull(name) and pd.isnull(noun) and pd.isnull(adjective):
-        output = f'Mi chiamo {name} e devo scegliere un corso di laurea, ma non so da dove iniziare.'
+        output = f'Ti chiami {name} e devi scegliere un corso di laurea, ma non sai da dove iniziare.'
     elif pd.notnull(name) and pd.isnull(noun) and pd.notnull(adjective):
-        output = f'Mi chiamo {name} e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono {adjective} tra diversi corsi di laurea italiani.'
+        output = f'Ti chiami {name} e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei {adjective} tra diversi corsi di laurea italiani.'
     elif pd.notnull(name) and pd.notnull(noun) and pd.isnull(adjective):
-        output = f'Sono {noun} di nome {name} e devo scegliere un corso di laurea, ma non so da dove iniziare.'
+        output = f'Sei {noun} di nome {name} e devi scegliere un corso di laurea, ma non sai da dove iniziare.'
     elif pd.notnull(name) and pd.notnull(noun) and pd.notnull(adjective):
-        output = f'Sono {noun} di nome {name} e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono {adjective} tra diversi corsi di laurea italiani.'
+        output = f'Sei {noun} di nome {name} e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei {adjective} tra diversi corsi di laurea italiani.'
     else:
         raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
     return output + ' ' + prompt_endings_it[ending_id]

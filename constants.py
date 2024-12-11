@@ -6,6 +6,9 @@ NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice'
 NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lorenzo', 'Mattia', 'Gabriele', 'Riccardo', 'Andrea']
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
 
+USER_AS_STUDENT = 'user_as_student'
+LLM_AS_STUDENT = 'llm_as_student'
+
 IT = 'it'
 FR = 'fr'
 EN = 'en'
