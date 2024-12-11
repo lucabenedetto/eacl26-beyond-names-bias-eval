@@ -1,0 +1,81 @@
+language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
+en,True,False,False,Olivia,,,5,0
+en,True,False,False,Amelia,,,5,0
+en,True,False,False,Isla,,,5,0
+en,True,False,False,Ava,,,5,0
+en,True,False,False,Lily,,,5,0
+en,True,False,False,Ivy,,,5,0
+en,True,False,False,Freya,,,5,0
+en,True,False,False,Florence,,,5,0
+en,True,False,False,Isabella,,,5,0
+en,True,False,False,Sienna,,,5,0
+en,True,False,False,Noah,,,5,0
+en,True,False,False,Muhammad,,,5,0
+en,True,False,False,George,,,5,0
+en,True,False,False,Oliver,,,5,0
+en,True,False,False,Leo,,,5,0
+en,True,False,False,Arthur,,,5,0
+en,True,False,False,Oscar,,,5,0
+en,True,False,False,Theodore,,,5,0
+en,True,False,False,Theo,,,5,0
+en,True,False,False,Freddie,,,5,0
+en,True,False,True,Olivia,,undecided,5,0
+en,True,False,True,Amelia,,undecided,5,0
+en,True,False,True,Isla,,undecided,5,0
+en,True,False,True,Ava,,undecided,5,0
+en,True,False,True,Lily,,undecided,5,0
+en,True,False,True,Ivy,,undecided,5,0
+en,True,False,True,Freya,,undecided,5,0
+en,True,False,True,Florence,,undecided,5,0
+en,True,False,True,Isabella,,undecided,5,0
+en,True,False,True,Sienna,,undecided,5,0
+en,True,False,True,Noah,,undecided,5,0
+en,True,False,True,Muhammad,,undecided,5,0
+en,True,False,True,George,,undecided,5,0
+en,True,False,True,Oliver,,undecided,5,0
+en,True,False,True,Leo,,undecided,5,0
+en,True,False,True,Arthur,,undecided,5,0
+en,True,False,True,Oscar,,undecided,5,0
+en,True,False,True,Theodore,,undecided,5,0
+en,True,False,True,Theo,,undecided,5,0
+en,True,False,True,Freddie,,undecided,5,0
+en,True,True,False,Olivia,a student,,5,0
+en,True,True,False,Amelia,a student,,5,0
+en,True,True,False,Isla,a student,,5,0
+en,True,True,False,Ava,a student,,5,0
+en,True,True,False,Lily,a student,,5,0
+en,True,True,False,Ivy,a student,,5,0
+en,True,True,False,Freya,a student,,5,0
+en,True,True,False,Florence,a student,,5,0
+en,True,True,False,Isabella,a student,,5,0
+en,True,True,False,Sienna,a student,,5,0
+en,True,True,False,Noah,a student,,5,0
+en,True,True,False,Muhammad,a student,,5,0
+en,True,True,False,George,a student,,5,0
+en,True,True,False,Oliver,a student,,5,0
+en,True,True,False,Leo,a student,,5,0
+en,True,True,False,Arthur,a student,,5,0
+en,True,True,False,Oscar,a student,,5,0
+en,True,True,False,Theodore,a student,,5,0
+en,True,True,False,Theo,a student,,5,0
+en,True,True,False,Freddie,a student,,5,0
+en,True,True,True,Olivia,a student,undecided,5,0
+en,True,True,True,Amelia,a student,undecided,5,0
+en,True,True,True,Isla,a student,undecided,5,0
+en,True,True,True,Ava,a student,undecided,5,0
+en,True,True,True,Lily,a student,undecided,5,0
+en,True,True,True,Ivy,a student,undecided,5,0
+en,True,True,True,Freya,a student,undecided,5,0
+en,True,True,True,Florence,a student,undecided,5,0
+en,True,True,True,Isabella,a student,undecided,5,0
+en,True,True,True,Sienna,a student,undecided,5,0
+en,True,True,True,Noah,a student,undecided,5,0
+en,True,True,True,Muhammad,a student,undecided,5,0
+en,True,True,True,George,a student,undecided,5,0
+en,True,True,True,Oliver,a student,undecided,5,0
+en,True,True,True,Leo,a student,undecided,5,0
+en,True,True,True,Arthur,a student,undecided,5,0
+en,True,True,True,Oscar,a student,undecided,5,0
+en,True,True,True,Theodore,a student,undecided,5,0
+en,True,True,True,Theo,a student,undecided,5,0
+en,True,True,True,Freddie,a student,undecided,5,0

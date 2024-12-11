@@ -1,0 +1,5 @@
+language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
+en,FALSE,FALSE,FALSE,,,,5,0
+en,FALSE,FALSE,TRUE,,,undecided,5,0
+en,FALSE,TRUE,FALSE,,a student,,5,0
+en,FALSE,TRUE,TRUE,,a student,undecided,5,0
