@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 from utils import get_llm_response
@@ -53,7 +54,11 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
 
-    out_df.to_csv(f'data/output/{prompt_type}/responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
+    out_df.to_csv(os.path.join('data', 'output', f'{prompt_type}',
+                               f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'),
+                  index=False)
+
+    # out_df.to_csv(f'data/output/{prompt_type}/responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv', index=False)
 
 
 if __name__ == '__main__':
