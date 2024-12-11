@@ -41,6 +41,16 @@ def prepare_new_row_df(row, name):
 
 
 def prepare_params_files_for_experiments_with_names(language: str):
+    """
+    This method creates, starting from a .csv file with the experimental parameters *without* student names, the
+    files with the parameters for the experiments with names. These parameters are then used to create the prompts
+    used for the experiments.
+    the params_no_name_{language}.csv file which is used as a starting point has to be manually curated -- it is already
+    available in this repo, as well as the params_with_names* files, meaning that you don't have to re-run this script
+    to reproduce the results shown in the paper but can directly re-use those param files.
+    :param language: the language to use; this script works on one language at a time.
+    :return: None
+    """
     # TODO: dosctring with all params
     # This method creates, starting from a .csv file with the experimental parameters *without* student names, the
     # files with the parameters for the experiments with names. These parameters are then used to create the prompts
