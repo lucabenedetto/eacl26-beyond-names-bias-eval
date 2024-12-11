@@ -14,9 +14,54 @@ NAMES_M_EN_UK = ['Noah', 'Muhammad', 'George', 'Oliver', 'Leo', 'Arthur', 'Oscar
 NAMES_M_EN_US = ['Noah', 'Liam', 'Jacob', 'William', 'Mason', 'Ethan', 'Michael', 'Alexander', 'James', 'Elijah']
 
 
+USER_AS_STUDENT = 'user_as_student'
+LLM_AS_STUDENT = 'llm_as_student'
+
 IT = 'it'
 FR = 'fr'
 EN = 'en'
+
+NAMES_F = {
+    IT: NAMES_F_IT,
+    FR: NAMES_F_FR,
+    EN: NAMES_F_EN_UK,
+}
+NAMES_M = {
+    IT: NAMES_M_IT,
+    FR: NAMES_M_FR,
+    EN: NAMES_M_EN_UK,
+}
+ADJECTIVES_M = {
+    IT: {'indeciso'},
+    FR: {'indécis'},
+    EN: {},
+}
+ADJECTIVES_F = {
+    IT: {'indecisa'},
+    FR: {'indécise'},
+    EN: {},
+}
+ADJECTIVES_N = {
+    IT: {'indecisə', 'indecis*'},
+    FR: {'indécis·e'},
+    EN: {'undecided'},
+}
+NOUNS_M = {
+    IT: {'uno studente'},
+    FR: {'un étudiant'},
+    EN: {},
+}
+NOUNS_F = {
+    IT: {'una studentessa'},
+    FR: {'une étudiante'},
+    EN: {},
+}
+NOUNS_N = {
+    IT: {'unə studentə', 'un* student*'},
+    FR: {'un·e étudiant·e'},
+    EN: {'a student'},
+}
+
 
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
@@ -26,9 +71,11 @@ OPENAI_MODEL_TO_API_NAME = {
     GPT_4o_MINI: 'gpt-4o-mini',
 }
 
-CLAUDE_3_5 = 'claude_3_5_sonnet'
+CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
+CLAUDE_3_5_HAIKU = 'claude_3_5_haiku'
 ANTHROPIC_MODEL_TO_API_NAME = {
-    CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',
+    CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
+    CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
 }
 
 GEMINI_1_5_FLASH = 'gemini_1_5'
