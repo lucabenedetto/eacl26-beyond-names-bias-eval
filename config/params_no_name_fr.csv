@@ -1,0 +1,11 @@
+language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
+fr,FALSE,FALSE,FALSE,,,,5,0
+fr,FALSE,FALSE,TRUE,,,indécise,5,0
+fr,FALSE,FALSE,TRUE,,,indécis,5,0
+fr,FALSE,FALSE,TRUE,,,indécis·e,5,0
+fr,FALSE,TRUE,FALSE,,une étudiante,,5,0
+fr,FALSE,TRUE,FALSE,,un étudiant,,5,0
+fr,FALSE,TRUE,FALSE,,un·e étudiant·e,,5,0
+fr,FALSE,TRUE,TRUE,,une étudiante,indécise,5,0
+fr,FALSE,TRUE,TRUE,,un étudiant,indécis,5,0
+fr,FALSE,TRUE,TRUE,,un·e étudiant·e,indécis·e,5,0

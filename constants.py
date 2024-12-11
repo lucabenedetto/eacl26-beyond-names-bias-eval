@@ -13,6 +13,40 @@ IT = 'it'
 FR = 'fr'
 EN = 'en'
 
+NAMES_F = {
+    IT: NAMES_F_IT,
+    FR: NAMES_F_FR,
+}
+NAMES_M = {
+    IT: NAMES_M_IT,
+    FR: NAMES_M_FR,
+}
+ADJECTIVES_M = {
+    IT: {'indeciso'},
+    FR: {'indécis'}
+}
+ADJECTIVES_F = {
+    IT: {'indecisa'},
+    FR: {'indécise'}
+}
+ADJECTIVES_N = {
+    IT: {'indecisə', 'indecis*'},
+    FR: {'indécis·e'}
+}
+NOUNS_M = {
+    IT: {'uno studente'},
+    FR: {'un étudiant'}
+}
+NOUNS_F = {
+    IT: {'una studentessa'},
+    FR: {'une étudiante'}
+}
+NOUNS_N = {
+    IT: {'unə studentə', 'un* student*'},
+    FR: {'un·e étudiant·e'}
+}
+
+
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
 

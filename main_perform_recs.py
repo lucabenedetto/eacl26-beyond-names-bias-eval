@@ -26,7 +26,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
     out_df = pd.DataFrame(columns=['language', 'model', 'response', 'with_name', 'with_noun', 'with_adjective',
                                    'name', 'noun', 'adjective', 'ending_id', 'n_uni_courses', 'prompt', 'temperature'])
 
-    prompt_params_df = pd.read_csv(f'params_{prompt_params_file}.csv')
+    prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}.csv'))
     for row in prompt_params_df.itertuples():
         if prompt_type == USER_AS_STUDENT:
             prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
