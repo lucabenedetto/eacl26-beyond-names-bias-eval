@@ -8,6 +8,7 @@ from constants import (
     GPT_3_5, GPT_4o_MINI,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
+    USER_AS_STUDENT, LLM_AS_STUDENT,
 )
 from prompts_user_as_student import get_prompt_user_as_student
 from prompts_llm_as_student import get_prompt_llm_as_student
@@ -17,7 +18,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
     # Each output file contains all the results for one temperature value and one model
     # Also, the script produces one file for the results with names and one for all the results without the names.
 
-    if prompt_type not in {'user_as_student', 'llm_as_student'}:
+    if prompt_type not in {USER_AS_STUDENT, LLM_AS_STUDENT}:
         raise ValueError('Invalid prompt_type')
 
     api_key = get_api_key_from_model(model)
@@ -27,9 +28,9 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
 
     prompt_params_df = pd.read_csv(f'params_{prompt_params_file}.csv')
     for row in prompt_params_df.itertuples():
-        if prompt_type == 'user_as_student':
+        if prompt_type == USER_AS_STUDENT:
             prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
-        else:  # prompt_type == 'llm_as_student'
+        else:  # prompt_type == LLM_AS_STUDENT
             prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
@@ -71,6 +72,6 @@ if __name__ == '__main__':
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
     PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
-    PROMPT_TYPE = 'user_as_student'  # or 'llm_as_student'
+    PROMPT_TYPE = USER_AS_STUDENT  # or LLM_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
