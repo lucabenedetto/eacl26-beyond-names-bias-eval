@@ -6,11 +6,6 @@ NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice'
 NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lorenzo', 'Mattia', 'Gabriele', 'Riccardo', 'Andrea']
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
 
-NAMES_F = NAMES_F_IT + NAMES_F_FR
-NAMES_M = NAMES_M_IT + NAMES_M_FR
-
-NO_NAME = 'no_name'
-
 IT = 'it'
 FR = 'fr'
 EN = 'en'
@@ -23,9 +18,11 @@ OPENAI_MODEL_TO_API_NAME = {
     GPT_4o_MINI: 'gpt-4o-mini',
 }
 
-CLAUDE_3_5 = 'claude_3_5_sonnet'
+CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
+CLAUDE_3_5_HAIKU = 'claude_3_5_haiku'
 ANTHROPIC_MODEL_TO_API_NAME = {
-    CLAUDE_3_5 : 'claude-3-5-sonnet-20241022',  # # Claude 3.5 Sonnet 2024-10-22
+    CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
+    CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
 }
 
 GEMINI_1_5_FLASH = 'gemini_1_5'
