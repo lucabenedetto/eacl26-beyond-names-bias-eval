@@ -29,9 +29,9 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         if parsed_response is None:
             parsed_response = [None] * n_courses
         if len(parsed_response) != local_n_courses:
+            # Unsure about this. We might actually accept the first {n_courses} recommendations (or all if < n_courses)
             print(len(parsed_response))
-            parsed_response = [None] * n_courses  # Unsure whether I want to keep this. We might actually accept the
-                                                  # first {n_courses} recommendations (or all if < n_courses)
+            parsed_response = [None] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
         if len(parsed_response) != n_courses:
