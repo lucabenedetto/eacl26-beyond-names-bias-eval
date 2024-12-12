@@ -17,6 +17,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
 
     n_courses = df['n_uni_courses'].max()  # I consider the max number of recommended courses as given in the prompt.
     if df['n_uni_courses'].nunique() != 1:
+        # The script should work when 'n_uni_courses' is not constant across the dataframe, but it has not been tested.
         print("[WARNING]: different values for 'n_uni_courses' in the dataframe.")
 
     # dataframe with the recommended courses.
