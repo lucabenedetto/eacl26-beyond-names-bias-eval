@@ -25,6 +25,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     out_df = pd.DataFrame(columns=[f'rec_{idx}' for idx in range(n_courses)])
 
     for response, local_n_courses in df[['response', 'n_uni_courses']].values:
+        # Parse the LLM response, get the recommended courses, and add the new row to the output dataframe.
         parsed_response = parse_llm_response(response, model=model)
         if parsed_response is None:
             parsed_response = [None] * n_courses
