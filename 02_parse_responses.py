@@ -12,8 +12,9 @@ from utils_parsing import parse_llm_response
 
 
 def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
-    folder_path = os.path.join('data', 'output', f'{prompt_type}', f'{language}')
-    df = pd.read_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'))
+    # Dataframe with the LLM responses.
+    df = pd.read_csv(os.path.join('data', 'output', f'{prompt_type}', f'{language}',
+                                  f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'))
 
     n_courses = df['n_uni_courses'].max()  # I consider the max number of recommended courses as given in the prompt.
     if df['n_uni_courses'].nunique() != 1:
