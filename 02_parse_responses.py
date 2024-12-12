@@ -35,9 +35,12 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
             parsed_response = [None] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
+
+        # This can only happen if df['n_uni_courses'].nunique() != 1:
         if len(parsed_response) != n_courses:
             for idx in range(len(parsed_response), n_courses):
                 dict_new_row[f'rec_{idx}'] = [None]
+
         new_row_df = pd.DataFrame(dict_new_row)
 
         if len(out_df) == 0:
