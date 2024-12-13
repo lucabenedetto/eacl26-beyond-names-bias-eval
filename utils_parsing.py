@@ -22,9 +22,19 @@ def clean_single_text(text, model):
         text = re.sub(r'\([^()]*\)', ' ', text)
         text = text.strip()
     # Some models do not respond only with the name of the course but also by adding "Degree in..." (in different lang).
-    if model in {GPT_3_5, GPT_4o_MINI}:
+    if model in {GPT_3_5, GPT_4o_MINI, GEMINI_1_5_FLASH_8B}:
         if text[:10] == "laurea in ":
             text = text[10:]
+    if model in {GEMINI_1_5_FLASH_8B}:
+        if text[-1] == '.':
+            text = text[:-1]
+        if text[:21] == "laurea magistrale in ":
+            text = text[21:]
+        text = text.split(" - ")[0]
+    if model == GEMINI_1_5_FLASH_8B:
+        text = text.split(', con specializzazione')[0]
+        text = text.split(', specializzazione')[0]
+        text = text.split(', indirizzo')[0]
     if model == CLAUDE_3_5_HAIKU:
         # TODO: Possibly make a function for the post-processing below.
         text = text.split(": ")[0]
