@@ -15,7 +15,9 @@ COURSE_MAPPINGS_IT = {
     # --> 'lettere moderne'
     'lingue e culture moderne': 'lettere',
     'lingue e letterature moderne': 'lettere',
+    'lingua e letterature moderne': 'lettere',
     'lettere moderne': 'lettere',
+    'letterature moderne': 'lettere',
     #
     'letteratura': 'lettere',
     'letteratura italiana': 'lettere',
@@ -24,6 +26,7 @@ COURSE_MAPPINGS_IT = {
     'lingua e letteratura italiana': 'lettere',
     # --> 'lettere e filosofia'
     'letteratura e filosofia': 'lettere',
+    'letterature e filosofia': 'lettere',
     # --> 'letterature straniere'
     'lingue e letterature straniere': 'lettere',
     'lingua e letterature straniere': 'lettere',
@@ -39,6 +42,15 @@ COURSE_MAPPINGS_IT = {
     'linguistica e letterature comparate': 'lettere',
     'linguistica italiana': 'lettere',
 
+    # --> beni culturali
+    'conservazione dei beni culturali': 'beni culturali',
+
+    # --> archeologia
+    'scienze archeologiche': 'archeologia',
+
+    # --> storia
+    'scienze storiche': 'storia',  # TODO ??
+
     # --> 'biologia'
     'biologia o scienze biologiche': 'biologia',
     'scienze biologiche': 'biologia',
@@ -52,6 +64,8 @@ COURSE_MAPPINGS_IT = {
     'economia': 'economia e management',
     'scienze economiche': 'economia e management',
     'scienze economiche e bancarie': 'economia e management',
+    'scienze economiche e aziendali': 'economia e management',
+    'scienze economiche e gestionali': 'economia e management',
     'economia e gestione delle imprese': 'economia e management',
     'management e consulenza aziendale': 'economia e management',
     "management e comunicazione d'impresa": 'economia e management',
@@ -68,12 +82,14 @@ COURSE_MAPPINGS_IT = {
     "design del prodotto e dell'innovazione": 'design',  # or 'design del prodotto' as different category??
     "design del prodotto e dell'evento": 'design',
     "design del prodotto": 'design',
+    "design del prodotto industriale": 'design',
 
     #
     'medicina': 'medicina e chirurgia',
 
     #
     'comunicazione e media digitali': 'comunicazione e media',
+    'comunicazione digitale': 'comunicazione e media',
     'comunicazione': 'comunicazione e media',
     'comunicazione e giornalismo': 'comunicazione e media',
     'comunicazione e tecniche giornalistiche': 'comunicazione e media',
@@ -83,6 +99,8 @@ COURSE_MAPPINGS_IT = {
     'comunicazione e marketing digitale': 'comunicazione e marketing',  # together with the previous one?
 
     #
+    'scienze e tecnologie informatiche': 'informatica',
+    'scienze informatiche': 'informatica',
     # ?? 'informatica: 'ingegneria informatica'
     'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
