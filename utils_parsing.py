@@ -1,4 +1,5 @@
-from typing import List
+import re
+from typing import List, Optional
 from constants import (
     IT, FR, EN,
     GPT_3_5, GPT_4o_MINI,
@@ -7,7 +8,6 @@ from constants import (
 )
 from regex_patterns import REGEX_PATTERNS
 from course_mappings import COURSE_MAPPINGS_IT
-import re
 
 
 def clean_parsed_responses(parsed_response, model):
@@ -69,7 +69,7 @@ def parse_with_multiple_patterns(text, patterns):
     return None
 
 
-def parse_llm_response(response: str, model: str) -> List[str]:
+def parse_llm_response(response: str, model: str) -> Optional[List[str]]:
     # Parse response with the pattern(s) defined in the regex_patterns.py file.
     parsed_response = parse_with_multiple_patterns(response, REGEX_PATTERNS[model])
     if parsed_response is None:
