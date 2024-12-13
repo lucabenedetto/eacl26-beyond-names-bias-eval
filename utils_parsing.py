@@ -11,7 +11,11 @@ import re
 
 
 def clean_parsed_responses(parsed_response, model):
-    return [clean_single_text(x, model) for x in parsed_response]
+    clean_texts = [clean_single_text(x, model) for x in parsed_response]
+    if model in {GEMINI_1_5_FLASH_8B}:
+        # This is needed to avoid things such as "['quali sono i tuoi interessi?']"
+        clean_texts = [x for x in clean_texts if x[-1] != '?']
+    return clean_texts
 
 
 def clean_single_text(text, model):
