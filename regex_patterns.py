@@ -29,10 +29,7 @@ REGEX_PATTERNS = {
         r'\*\*(.*?):\*\*',  # same as the one for GPT-4o-mini, but with the column (:) between the double asterisks.
     ],
     GEMINI_1_5_FLASH_8B: [
-        # TODO get back to this and improve it.
-        r'\*\*(.*?):\*\*',  # same as the one for GPT-4o-mini, but with the column (:) between the double asterisks.
-        r'\*\s\*\*(.*?)\*\*',  # same as the one for GPT-4o-mini, but with the column (:) between the double asterisks.
-        # r'\*\s\*\*(.*?):\*\*',
+        r'\*\*(.*?):?\*\*:?',  # similar as the one for GPT-4o-mini, but with the two columns (:) are optional (between or out of the asterisks).
         r'\*\s(.+)',  # Pattern for bullet-point list (almost the same as GPT_3_5, but with asterisk instead of dash)
     ],
     CLAUDE_3_5_HAIKU: [
