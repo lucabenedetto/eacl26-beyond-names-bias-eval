@@ -31,7 +31,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
             parsed_response = [None] * n_courses
         if len(parsed_response) != local_n_courses:
             # Unsure about this. We might actually accept the first {n_courses} recommendations (or all if < n_courses)
-            print(len(parsed_response))
+            print(len(parsed_response), parsed_response)
             parsed_response = [None] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
@@ -51,7 +51,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     course_set = set(out_df[f'rec_0'].values)
     for idx in range(1, n_courses):
         course_set = course_set.union(set(out_df[f'rec_{idx}'].values))
-    print(course_set)
+    print(sorted(list(course_set)))
 
     folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{language}')
     if not os.path.exists(folder_path):
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     LANGUAGE = IT
     MODEL = GEMINI_1_5_FLASH_8B
 
-    for PROMPT_PARAMS_FILE in ['with_names']:
+    for PROMPT_PARAMS_FILE in ['with_names', 'no_name']:
         for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             for TEMPERATURE in [0.0, 0.3, 0.6]:
                 print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
