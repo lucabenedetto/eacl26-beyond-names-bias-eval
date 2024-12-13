@@ -30,9 +30,15 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         if parsed_response is None:
             parsed_response = [None] * n_courses
         if len(parsed_response) != local_n_courses:
-            # Unsure about this. We might actually accept the first {n_courses} recommendations (or all if < n_courses)
-            print(len(parsed_response), parsed_response)
-            parsed_response = [None] * n_courses
+            # Unsure about this. I now accept the first {n_courses} recommendations (or None if < n_courses)
+            if len(parsed_response) > local_n_courses:
+                print(f"Recommended more than {local_n_courses} items ({len(parsed_response)}). Complete list:")
+                print(parsed_response)
+                parsed_response = parsed_response[:local_n_courses]
+                print(f"After filtering, keeping only the following {len(parsed_response)} items:")
+                print(parsed_response)
+            else:
+                parsed_response = [None] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
 
@@ -51,6 +57,9 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     course_set = set(out_df[f'rec_0'].values)
     for idx in range(1, n_courses):
         course_set = course_set.union(set(out_df[f'rec_{idx}'].values))
+    if None in course_set:
+        course_set.remove(None)
+    print("Complete list of courses recommended at least once:")
     print(sorted(list(course_set)))
 
     folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{language}')
