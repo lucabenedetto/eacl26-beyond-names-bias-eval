@@ -28,7 +28,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         # Parse the LLM response, get the recommended courses, and add the new row to the output dataframe.
         parsed_response = parse_llm_response(response, model=model)
         if parsed_response is None:
-            parsed_response = [None] * n_courses
+            parsed_response = ['NONE'] * n_courses
         if len(parsed_response) != local_n_courses:
             # Unsure about this. I now accept the first {n_courses} recommendations (or None if < n_courses)
             if len(parsed_response) > local_n_courses:
@@ -38,14 +38,14 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
                 print(f"After filtering, keeping only the following {len(parsed_response)} items:")
                 print(parsed_response)
             else:
-                parsed_response = [None] * n_courses
+                parsed_response = ['NONE'] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
 
         # This can only happen if df['n_uni_courses'].nunique() != 1:
         if len(parsed_response) != n_courses:
             for idx in range(len(parsed_response), n_courses):
-                dict_new_row[f'rec_{idx}'] = [None]
+                dict_new_row[f'rec_{idx}'] = ['NONE']
 
         new_row_df = pd.DataFrame(dict_new_row)
 
@@ -57,8 +57,6 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     course_set = set(out_df[f'rec_0'].values)
     for idx in range(1, n_courses):
         course_set = course_set.union(set(out_df[f'rec_{idx}'].values))
-    if None in course_set:
-        course_set.remove(None)
     print("Complete list of courses recommended at least once:")
     print(sorted(list(course_set)))
 
