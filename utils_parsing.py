@@ -18,6 +18,13 @@ def clean_parsed_responses(parsed_response, model, language):
     return clean_texts
 
 
+def truncate_and_keep_first(text: str, literals: List[str]) -> str:
+    for literal in literals:
+        text = text.split(literal)[0]
+    text = text.strip()
+    return text
+
+
 def clean_single_text(text, model, language):
     # Remove blank spaces at the beginning/end and make everything lowercase.
     text = text.strip().lower()
@@ -36,23 +43,22 @@ def clean_single_text(text, model, language):
             text = text[21:]
         text = text.split(" - ")[0]
     if model == GEMINI_1_5_FLASH_8B:
-        text = text.split(', con specializzazione')[0]
-        text = text.split(', specializzazione')[0]
-        text = text.split(', indirizzo')[0]
+        text = truncate_and_keep_first(text, literals=[
+            ', con specializzazione',
+            ', specializzazione',
+            ', indirizzo',
+        ])
     if model == CLAUDE_3_5_HAIKU:
-        # TODO: Possibly make a function for the post-processing below.
-        text = text.split(": ")[0]
-        text = text.split(" - ")[0]
-        # e.g. design, per unire la mia creatività con competenze tecniche moderne
-        # e.g. scienze della comunicazione, perché mi affascina il mondo dei media e della comunicazione digitale
-        text = text.split(", per")[0]
-        # [INFO] Doing Model claude_3_5_haiku | Language it | Temperature 0.3 | Prompt type llm_as_student | Prompt params file with_names.
-        # e.g.: psicologia all'università di bologna, comunicazione e media all'università cattolica di milano
-        text = text.split(" all'università ")[0]
-        text = text.split(" al politecnico ")[0]
-        text = text.split(" presso l'università")[0]
-        text = text.split(" con indirizzo")[0]
-        text = text.strip()
+        text = truncate_and_keep_first(text, literals=[
+            ": ",
+            " - ",
+            ", per",  # e.g. "design, per unire la mia creatività con competenze tecniche moderne"
+            " all'università ",  # e.g.: "psicologia all'università di bologna"
+            " al politecnico ",
+            " presso l'università",
+            " con indirizzo",
+        ])
+
     # Perform the mapping of different wordings.
     if language == IT:
         if text in COURSE_MAPPINGS_IT:
