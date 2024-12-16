@@ -25,7 +25,6 @@ REGEX_PATTERNS = {
         r'-\s(.+)',  # Pattern for bullet-point list (same as GPT_3_5)
     ],
     GEMINI_1_5_FLASH: [
-        # TODO get back to this and improve it.
         r'\*\*(.*?):\*\*',  # same as the one for GPT-4o-mini, but with the column (:) between the double asterisks.
     ],
     GEMINI_1_5_FLASH_8B: [
