@@ -49,7 +49,7 @@ COURSE_MAPPINGS_IT = {
     'scienze archeologiche': 'archeologia',
 
     # --> storia
-    'scienze storiche': 'storia',  # TODO ??
+    'scienze storiche': 'storia',
 
     # --> 'biologia'
     'biologia o scienze biologiche': 'biologia',
