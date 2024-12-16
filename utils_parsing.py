@@ -10,15 +10,15 @@ from regex_patterns import REGEX_PATTERNS
 from course_mappings import COURSE_MAPPINGS_IT
 
 
-def clean_parsed_responses(parsed_response, model):
-    clean_texts = [clean_single_text(x, model) for x in parsed_response]
+def clean_parsed_responses(parsed_response, model, language):
+    clean_texts = [clean_single_text(x, model, language) for x in parsed_response]
     if model in {GEMINI_1_5_FLASH_8B}:
         # This is needed to avoid things such as "['quali sono i tuoi interessi?']"
         clean_texts = [x for x in clean_texts if x[-1] != '?']
     return clean_texts
 
 
-def clean_single_text(text, model):
+def clean_single_text(text, model, language):
     # Remove blank spaces at the beginning/end and make everything lowercase.
     text = text.strip().lower()
     # Remove parentheses from the name of the degree.
@@ -54,8 +54,9 @@ def clean_single_text(text, model):
         text = text.split(" con indirizzo")[0]
         text = text.strip()
     # Perform the mapping of different wordings.
-    if text in COURSE_MAPPINGS_IT:  # TODO I have to add the check on the language
-        text = COURSE_MAPPINGS_IT[text]
+    if language == IT:
+        if text in COURSE_MAPPINGS_IT:  # TODO I have to add the check on the language
+            text = COURSE_MAPPINGS_IT[text]
     return text
 
 
@@ -69,11 +70,11 @@ def parse_with_multiple_patterns(text, patterns):
     return None
 
 
-def parse_llm_response(response: str, model: str) -> Optional[List[str]]:
+def parse_llm_response(response: str, model: str, language: str) -> Optional[List[str]]:
     # Parse response with the pattern(s) defined in the regex_patterns.py file.
     parsed_response = parse_with_multiple_patterns(response, REGEX_PATTERNS[model])
     if parsed_response is None:
         return None
     # Perform the additional cleaning for the models that need it.
-    parsed_response = clean_parsed_responses(parsed_response, model)
+    parsed_response = clean_parsed_responses(parsed_response, model, language)
     return parsed_response

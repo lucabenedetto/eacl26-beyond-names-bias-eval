@@ -24,9 +24,11 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     # dataframe with the recommended courses.
     out_df = pd.DataFrame(columns=[f'rec_{idx}' for idx in range(n_courses)])
 
-    for response, local_n_courses in df[['response', 'n_uni_courses']].values:
+    for response, local_n_courses, language_from_df in df[['response', 'n_uni_courses', 'language']].values:
+        if language_from_df != language:
+            print(f"[WARNING]: language in df ({language_from_df}) is different from given parameter ({language}).")
         # Parse the LLM response, get the recommended courses, and add the new row to the output dataframe.
-        parsed_response = parse_llm_response(response, model=model)
+        parsed_response = parse_llm_response(response, model=model, language=language_from_df)
         if parsed_response is None:
             parsed_response = ['NONE'] * n_courses
         if len(parsed_response) != local_n_courses:
