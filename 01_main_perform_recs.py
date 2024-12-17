@@ -92,7 +92,7 @@ if __name__ == '__main__':
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
     PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
-    # PROMPT_PARAMS_FILE = 'no_name_pronouns'  # For experiments with pronouns without names
+    # PROMPT_PARAMS_FILE = 'no_name_with_pronouns'  # For experiments with pronouns without names
     PROMPT_TYPE = USER_AS_STUDENT  # or USER_AS_STUDENT, LLM_AS_STUDENT or FRIEND_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
