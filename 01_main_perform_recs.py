@@ -20,7 +20,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
     # Each output file contains all the results for one temperature value and one model
     # Also, the script produces one file for the results with names and one for all the results without the names.
 
-    if prompt_type not in {USER_AS_STUDENT, LLM_AS_STUDENT}:
+    if prompt_type not in {USER_AS_STUDENT, LLM_AS_STUDENT, FRIEND_AS_STUDENT}:
         raise ValueError('Invalid prompt_type')
 
     api_key = get_api_key_from_model(model)
@@ -92,6 +92,7 @@ if __name__ == '__main__':
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
     PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
     # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
-    PROMPT_TYPE = USER_AS_STUDENT  # or LLM_AS_STUDENT or FRIEND_AS_STUDENT
+    # PROMPT_PARAMS_FILE = 'no_name_pronouns'  # For experiments with pronouns without names
+    PROMPT_TYPE = USER_AS_STUDENT  # or USER_AS_STUDENT, LLM_AS_STUDENT or FRIEND_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
