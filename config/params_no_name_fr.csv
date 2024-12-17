@@ -1,11 +1,11 @@
-language,with_name,with_noun,with_adjective,name,noun,adjective,n_uni_courses,ending_id
-fr,FALSE,FALSE,FALSE,,,,5,0
-fr,FALSE,FALSE,TRUE,,,indécise,5,0
-fr,FALSE,FALSE,TRUE,,,indécis,5,0
-fr,FALSE,FALSE,TRUE,,,indécis·e,5,0
-fr,FALSE,TRUE,FALSE,,une étudiante,,5,0
-fr,FALSE,TRUE,FALSE,,un étudiant,,5,0
-fr,FALSE,TRUE,FALSE,,un·e étudiant·e,,5,0
-fr,FALSE,TRUE,TRUE,,une étudiante,indécise,5,0
-fr,FALSE,TRUE,TRUE,,un étudiant,indécis,5,0
-fr,FALSE,TRUE,TRUE,,un·e étudiant·e,indécis·e,5,0
+language,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,n_uni_courses,ending_id
+fr,FALSE,FALSE,FALSE,FALSE,,,,,,,,,5,0
+fr,FALSE,FALSE,TRUE,FALSE,,,indécise,,,,,,5,0
+fr,FALSE,FALSE,TRUE,FALSE,,,indécis,,,,,,5,0
+fr,FALSE,FALSE,TRUE,FALSE,,,indécis·e,,,,,,5,0
+fr,FALSE,TRUE,FALSE,FALSE,,une étudiante,,,,,,,5,0
+fr,FALSE,TRUE,FALSE,FALSE,,un étudiant,,,,,,,5,0
+fr,FALSE,TRUE,FALSE,FALSE,,un·e étudiant·e,,,,,,,5,0
+fr,FALSE,TRUE,TRUE,FALSE,,une étudiante,indécise,,,,,,5,0
+fr,FALSE,TRUE,TRUE,FALSE,,un étudiant,indécis,,,,,,5,0
+fr,FALSE,TRUE,TRUE,FALSE,,un·e étudiant·e,indécis·e,,,,,,5,0
