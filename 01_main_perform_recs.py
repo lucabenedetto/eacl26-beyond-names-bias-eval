@@ -10,6 +10,9 @@ from constants import (
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     FRIEND_AS_STUDENT,
+    CONFIG_NO_NAME,
+    CONFIG_W_NAMES,
+    CONFIG_NO_NAME_W_PRONOUNS,
 )
 from prompts_friend_as_student import get_prompt_friend_as_student
 from prompts_user_as_student import get_prompt_user_as_student
@@ -90,9 +93,9 @@ if __name__ == '__main__':
     MODEL = GPT_4o_MINI
     N_RUNS_PER_PROMPT = 3
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
-    PROMPT_PARAMS_FILE = 'no_name'  # For experiments without names
-    # PROMPT_PARAMS_FILE = 'with_names'  # For experiments with names
-    # PROMPT_PARAMS_FILE = 'no_name_with_pronouns'  # For experiments with pronouns without names
+    PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
+    # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
+    # PROMPT_PARAMS_FILE = CONFIG_NO_NAME_W_PRONOUNS  # For experiments with pronouns without names
     PROMPT_TYPE = USER_AS_STUDENT  # or USER_AS_STUDENT, LLM_AS_STUDENT or FRIEND_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)

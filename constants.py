@@ -8,6 +8,10 @@ USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'
 FRIEND_AS_STUDENT = 'friend_as_student'
 
+CONFIG_NO_NAME = 'no_name'
+CONFIG_W_NAMES = 'with_names'
+CONFIG_NO_NAME_W_PRONOUNS = 'no_name_with_pronouns'
+
 # Names, adjectives and nouns for the different languages
 #     Italian names are taken from ISTAT
 #     French names are taken from INSEE (https://www.insee.fr/fr/statistiques/3532172)

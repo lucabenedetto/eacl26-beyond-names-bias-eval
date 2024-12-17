@@ -8,6 +8,9 @@ from constants import (
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     FRIEND_AS_STUDENT,
+    CONFIG_NO_NAME,
+    CONFIG_W_NAMES,
+    CONFIG_NO_NAME_W_PRONOUNS,
 )
 from utils_parsing import parse_llm_response
 
@@ -82,7 +85,7 @@ if __name__ == '__main__':
     LANGUAGE = IT
     MODEL = GEMINI_1_5_FLASH_8B
 
-    for PROMPT_PARAMS_FILE in ['with_names', 'no_name']:
+    for PROMPT_PARAMS_FILE in [CONFIG_W_NAMES, CONFIG_NO_NAME]:
         for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             for TEMPERATURE in [0.0, 0.3, 0.6]:
                 print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
