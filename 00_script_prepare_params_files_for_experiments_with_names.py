@@ -76,5 +76,5 @@ def prepare_params_files_for_experiments_with_names(language: str):
 
 
 if __name__ == '__main__':
-    LANGUAGE = IT  # IT, FR, EN
-    prepare_params_files_for_experiments_with_names(LANGUAGE)
+    for LANGUAGE in [IT, FR, EN]:
+        prepare_params_files_for_experiments_with_names(LANGUAGE)
