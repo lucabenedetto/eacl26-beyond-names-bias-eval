@@ -7,6 +7,7 @@ from constants import (
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
+    FRIEND_AS_STUDENT,
 )
 from utils_parsing import parse_llm_response
 
