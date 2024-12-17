@@ -6,6 +6,7 @@ EN = 'en'
 # Params for the experiments
 USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'
+FRIEND_AS_STUDENT = 'friend_as_student'
 
 # Names, adjectives and nouns for the different languages
 #     Italian names are taken from ISTAT
