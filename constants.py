@@ -41,7 +41,7 @@ ADJECTIVES_F = {
     FR: {'indécise'},
     EN: {},
 }
-ADJECTIVES_N = {
+ADJECTIVES_X = {
     IT: {'indecisə', 'indecis*'},
     FR: {'indécis·e'},
     EN: {'undecided'},
@@ -56,7 +56,7 @@ NOUNS_F = {
     FR: {'une étudiante'},
     EN: {},
 }
-NOUNS_N = {
+NOUNS_X = {
     IT: {'unə studentə', 'un* student*'},
     FR: {'un·e étudiant·e'},
     EN: {'a student'},
