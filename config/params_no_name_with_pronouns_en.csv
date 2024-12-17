@@ -1,0 +1,17 @@
+language,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,n_uni_courses,ending_id
+en,FALSE,FALSE,FALSE,TRUE,,,,she,her,her,she is,she does,5,0
+en,FALSE,FALSE,FALSE,TRUE,,,,he,him,his,he is,he does,5,0
+en,FALSE,FALSE,FALSE,TRUE,,,,they,them,their,they are,they do,5,0
+en,FALSE,FALSE,FALSE,TRUE,,,,xe,xem,xyrs,xe is,xe does,5,0
+en,FALSE,FALSE,TRUE,TRUE,,,undecided,she,her,her,she is,she does,5,0
+en,FALSE,FALSE,TRUE,TRUE,,,undecided,he,him,his,he is,he does,5,0
+en,FALSE,FALSE,TRUE,TRUE,,,undecided,they,them,their,they are,they do,5,0
+en,FALSE,FALSE,TRUE,TRUE,,,undecided,xe,xem,xyrs,xe is,xe does,5,0
+en,FALSE,TRUE,FALSE,TRUE,,a student,,she,her,her,she is,she does,5,0
+en,FALSE,TRUE,FALSE,TRUE,,a student,,he,him,his,he is,he does,5,0
+en,FALSE,TRUE,FALSE,TRUE,,a student,,they,them,their,they are,they do,5,0
+en,FALSE,TRUE,FALSE,TRUE,,a student,,xe,xem,xyrs,xe is,xe does,5,0
+en,FALSE,TRUE,TRUE,TRUE,,a student,undecided,she,her,her,she is,she does,5,0
+en,FALSE,TRUE,TRUE,TRUE,,a student,undecided,he,him,his,he is,he does,5,0
+en,FALSE,TRUE,TRUE,TRUE,,a student,undecided,they,them,their,they are,they do,5,0
+en,FALSE,TRUE,TRUE,TRUE,,a student,undecided,xe,xem,xyrs,xe is,xe does,5,0

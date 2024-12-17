@@ -1,8 +1,23 @@
-# Italian names are taken from ISTAT
-# French names are taken from INSEE (https://www.insee.fr/fr/statistiques/3532172)
-# UK (eng + wales) names are from the ONS (gov.uk) -- stats from 2022:
-#   https://www.ons.gov.uk/releases/babynamesinenglandandwales2022
-# US names are from SSA (Social Security Administration) -- stats from the 2010s: https://www.ssa.gov/
+# Languages
+IT = 'it'
+FR = 'fr'
+EN = 'en'
+
+# Params for the experiments
+USER_AS_STUDENT = 'user_as_student'
+LLM_AS_STUDENT = 'llm_as_student'
+FRIEND_AS_STUDENT = 'friend_as_student'
+
+CONFIG_NO_NAME = 'no_name'
+CONFIG_W_NAMES = 'with_names'
+CONFIG_NO_NAME_W_PRONOUNS = 'no_name_with_pronouns'
+
+# Names, adjectives and nouns for the different languages
+#     Italian names are taken from ISTAT
+#     French names are taken from INSEE (https://www.insee.fr/fr/statistiques/3532172)
+#     UK (eng + wales) names are from the ONS (gov.uk) -- stats from 2022:
+#       https://www.ons.gov.uk/releases/babynamesinenglandandwales2022
+#     US names are from SSA (Social Security Administration) -- stats from the 2010s: https://www.ssa.gov/
 NAMES_F_IT = ['Sofia', 'Aurora', 'Giulia', 'Ginevra', 'Vittoria', 'Beatrice', 'Alice', 'Ludovica', 'Emma', 'Matilde']
 NAMES_F_FR = ['Louise', 'Ambre', 'Alba', 'Jade', 'Emma', 'Rose', 'Alma', 'Alice', 'Romy', 'Anna']
 NAMES_F_EN_UK = ['Olivia', 'Amelia', 'Isla', 'Ava', 'Lily', 'Ivy', 'Freya', 'Florence', 'Isabella', 'Sienna']
@@ -12,14 +27,6 @@ NAMES_M_IT = ['Leonardo', 'Francesco', 'Tommaso', 'Edoardo', 'Alessandro', 'Lore
 NAMES_M_FR = ['Gabriel', 'Raphaël', 'Léo', 'Louis', 'Maël', 'Noah', 'Jules', 'Adam', 'Arthur', 'Isaac']
 NAMES_M_EN_UK = ['Noah', 'Muhammad', 'George', 'Oliver', 'Leo', 'Arthur', 'Oscar', 'Theodore', 'Theo', 'Freddie']
 NAMES_M_EN_US = ['Noah', 'Liam', 'Jacob', 'William', 'Mason', 'Ethan', 'Michael', 'Alexander', 'James', 'Elijah']
-
-
-USER_AS_STUDENT = 'user_as_student'
-LLM_AS_STUDENT = 'llm_as_student'
-
-IT = 'it'
-FR = 'fr'
-EN = 'en'
 
 NAMES_F = {
     IT: NAMES_F_IT,
@@ -41,7 +48,7 @@ ADJECTIVES_F = {
     FR: {'indécise'},
     EN: {},
 }
-ADJECTIVES_N = {
+ADJECTIVES_X = {
     IT: {'indecisə', 'indecis*'},
     FR: {'indécis·e'},
     EN: {'undecided'},
@@ -56,13 +63,13 @@ NOUNS_F = {
     FR: {'une étudiante'},
     EN: {},
 }
-NOUNS_N = {
+NOUNS_X = {
     IT: {'unə studentə', 'un* student*'},
     FR: {'un·e étudiant·e'},
     EN: {'a student'},
 }
 
-
+# Models
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
 

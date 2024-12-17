@@ -8,10 +8,10 @@ from constants import (
     EN,
     ADJECTIVES_M,
     ADJECTIVES_F,
-    ADJECTIVES_N,
+    ADJECTIVES_X,
     NOUNS_M,
     NOUNS_F,
-    NOUNS_N,
+    NOUNS_X,
 )
 
 
@@ -21,9 +21,15 @@ def prepare_new_row_df(row, name):
         'with_name': [True],
         'with_noun': [row.with_noun],
         'with_adjective': [row.with_adjective],
+        'with_pronouns': [row.with_pronouns],
         'name': [name],
         'noun': [row.noun],
         'adjective': [row.adjective],
+        'pronoun_0': [row.pronoun_0],
+        'pronoun_1': [row.pronoun_1],
+        'pronoun_2': [row.pronoun_2],
+        'pronoun_3': [row.pronoun_3],
+        'pronoun_4': [row.pronoun_4],
         'n_uni_courses': [row.n_uni_courses],
         'ending_id': [row.ending_id],
     })
@@ -44,7 +50,7 @@ def prepare_params_files_for_experiments_with_names(language: str):
     out_df = pd.DataFrame(columns=df.columns)
 
     for row in df.itertuples():
-        if (not row.with_noun and not row.with_adjective) or row.adjective in ADJECTIVES_N[language]  or row.noun in NOUNS_N[language]:
+        if (not row.with_noun and not row.with_adjective) or row.adjective in ADJECTIVES_X[language]  or row.noun in NOUNS_X[language]:
             for name in NAMES_F[language] + NAMES_M[language]:
                 if len(out_df) == 0:
                     out_df = prepare_new_row_df(row, name).copy()
@@ -70,5 +76,5 @@ def prepare_params_files_for_experiments_with_names(language: str):
 
 
 if __name__ == '__main__':
-    LANGUAGE = IT  # IT, FR, EN
-    prepare_params_files_for_experiments_with_names(LANGUAGE)
+    for LANGUAGE in [IT, FR, EN]:
+        prepare_params_files_for_experiments_with_names(LANGUAGE)
