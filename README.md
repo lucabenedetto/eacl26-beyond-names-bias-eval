@@ -9,7 +9,7 @@ For instance, you should set (in `main` in `01_main_perform_recs.py`):
     LANGUAGE = IT
     MODEL = GPT_4o_MINI
     N_RUNS_PER_PROMPT = 10
-    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+    TEMPERATURE = 0.0                    # in [0.0, 0.3, 0.6]
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     PROMPT_TYPE = USER_AS_STUDENT        # For experiments with the "user as student" type of prompts.
 ```
