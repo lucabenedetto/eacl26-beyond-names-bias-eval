@@ -19,14 +19,14 @@ from prompts_user_as_student import get_prompt_user_as_student
 from prompts_llm_as_student import get_prompt_llm_as_student
 
 
-def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
+def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0, n_runs_per_prompt=1):
     # Each output file contains all the results for one temperature value and one model
     # Also, the script produces one file for the results with names and one for all the results without the names.
 
     if prompt_type not in {USER_AS_STUDENT, LLM_AS_STUDENT, FRIEND_AS_STUDENT}:
         raise ValueError('Invalid prompt_type')
 
-    api_key = get_api_key_from_model(model)
+    api_key = get_api_key_from_model(model_name)
 
     out_df = pd.DataFrame(columns=['language', 'model', 'response', 'with_name', 'with_noun', 'with_adjective',
                                    'with_pronouns',
@@ -51,10 +51,10 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
             prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
-            response = get_llm_response(api_key, model, prompt, temperature)
+            response = get_llm_response(api_key, model_name, prompt, temperature)
             new_row_df = pd.DataFrame({
                 'language': [language],
-                'model': [model],
+                'model': [model_name],
                 'response': [response],
                 'with_name': [row.with_name],
                 'with_noun': [row.with_noun],
@@ -84,7 +84,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
         print(f"[INFO] Created folder {folder_path}")
     else:
         print(f"[INFO] Folder already exists: {folder_path}")
-    out_df.to_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'), index=False)
+    out_df.to_csv(os.path.join(folder_path, f'responses_{model_name}_{language}_{prompt_params_file}_temp_{temperature}.csv'), index=False)
 
 
 if __name__ == '__main__':
