@@ -91,11 +91,15 @@ if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
     MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 3
+    N_RUNS_PER_PROMPT = 1  # 10
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
     # PROMPT_PARAMS_FILE = CONFIG_NO_NAME_W_PRONOUNS  # For experiments with pronouns without names
-    PROMPT_TYPE = USER_AS_STUDENT  # or USER_AS_STUDENT, LLM_AS_STUDENT or FRIEND_AS_STUDENT
+
+    PROMPT_TYPE = USER_AS_STUDENT
+    # PROMPT_TYPE = LLM_AS_STUDENT
+    # PROMPT_TYPE = FRIEND_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
