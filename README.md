@@ -1,5 +1,27 @@
 # Evaluation of bias in LLM-based degree recomendations
 
+## How to use
+To run the experiments with the models and configuration parameters already defined in this repo, it is sufficient to 
+set the desired parameters in the `01_main_perform_recs.py` script and run it.
+
+For instance, you should set (in `main` in `01_main_perform_recs.py`):
+```python
+    LANGUAGE = IT
+    MODEL = GPT_4o_MINI
+    N_RUNS_PER_PROMPT = 10
+    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+    PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
+    PROMPT_TYPE = USER_AS_STUDENT        # For experiments with the "user as student" type of prompts.
+```
+The code produces one output file:
+```
+"data/output/{PROMPT_TYPE}/{LANGUAGE}/responses_{MODEL}_{LANGUAGE}_{PROMPT_PARAMS_FILE}_temp_{TEMPERATURE}.csv"
+```
+with the responses from the LLM.
+
+Please note that the code takes the API keys from environment variables, using `os.environ.get(key_name)`, thus you 
+should do like `export OPENAI_KEY=<you-API-key>` (for the model you want to use) before running the script.
+
 ## Repo structure
 ```
 bias_in_edu_llms
