@@ -72,10 +72,16 @@ NOUNS_X = {
 # Models
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
+GPT_4o = 'gpt_4o_mini'
+GPT_o1_mini = 'gpt_o1_mini'
+GPT_o1 = 'gpt_o1'
 
 OPENAI_MODEL_TO_API_NAME = {
     GPT_3_5: 'gpt-3.5-turbo-0125',
-    GPT_4o_MINI: 'gpt-4o-mini',
+    GPT_4o_MINI: 'gpt-4o-mini-2024-07-18',  # Default as of 18 December 2024
+    GPT_4o: 'gpt-4o-2024-08-06',            # Default as of 18 December 2024
+    GPT_o1_mini: 'o1-mini-2024-09-12',      # Default as of 18 December 2024
+    GPT_o1: 'o1-2024-12-17',                # Default as of 18 December 2024
 }
 
 CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
