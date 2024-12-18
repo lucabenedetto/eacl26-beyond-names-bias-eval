@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 
+from src.huggingface_llm_recommender import HuggingFaceLLMRecommender
 from utils import get_llm_response
 from utils_keys import get_api_key_from_model
 from constants import (
@@ -8,6 +9,7 @@ from constants import (
     GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
+    HUGGINGFACE_MODEL_NAMES,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     FRIEND_AS_STUDENT,
     CONFIG_NO_NAME,
@@ -34,6 +36,12 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
                                    'pronoun_0', 'pronoun_1', 'pronoun_2', 'pronoun_3', 'pronoun_4',
                                    'ending_id', 'n_uni_courses', 'prompt', 'temperature'])
 
+    if model_name in HUGGINGFACE_MODEL_NAMES:
+        recommender = HuggingFaceLLMRecommender(model_name=model_name, access_token=api_key, use_gpu=True)  # TODO: make param for use_gpu
+    else:
+        # TODO: I will upload the code to have Recommender objects for API-based models too.
+        recommender = None
+
     prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}.csv'))
     for row in prompt_params_df.itertuples():
         if prompt_type == USER_AS_STUDENT:
@@ -51,7 +59,10 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
             prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
-            response = get_llm_response(api_key, model_name, prompt, temperature)
+            if model_name in HUGGINGFACE_MODEL_NAMES:
+                response = recommender.perform_recommendation(prompt=prompt, temperature=temperature)
+            else:
+                response = get_llm_response(api_key, model_name, prompt, temperature)
             new_row_df = pd.DataFrame({
                 'language': [language],
                 'model': [model_name],
