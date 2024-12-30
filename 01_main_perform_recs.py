@@ -25,6 +25,8 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
 
     if prompt_type not in {USER_AS_STUDENT, LLM_AS_STUDENT, FRIEND_AS_STUDENT}:
         raise ValueError('Invalid prompt_type')
+    # TODO add check for prompt type and prompt params file so that they don't are incompatible (e.g. FRIEND AS STUDENT
+    #   with prompt type without pronouns.
 
     api_key = get_api_key_from_model(model)
 
