@@ -45,9 +45,9 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
             max_new_tokens=256, # TODO make the max_new_tokens a param
         )  # TODO: add temperature.
         response = outputs[0]["generated_text"][-1]["content"]
-        print("RESPONSE:")
-        print(response)
-        print("END RESPONSE:")
+        # print("RESPONSE:")
+        # print(response)
+        # print("END RESPONSE:")
         return response
         # The code below was used for an older version of transformers
         #   (for transformers >= 4.43.0 I can use the pipeline as above).
