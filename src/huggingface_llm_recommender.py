@@ -28,7 +28,7 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
                                system_message: Optional[str] = None,
                                **kwargs
                                ) -> str:
-        input_text = self.prepare_input_text(user_prompt)
+        input_text = self.prepare_complete_prompt(user_prompt)
         input_ids = self.tokenizer(input_text, return_tensors="pt")
         if self.use_gpu:
             input_ids = input_ids.to('cuda')
@@ -41,7 +41,7 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         response = self.tokenizer.decode(outputs[0])[start_index:]
         return response
 
-    def prepare_input_text(self, user_prompt: str, system_message: Optional[str] = None) -> str:
+    def prepare_complete_prompt(self, user_prompt: str, system_message: Optional[str] = None) -> str:
         if system_message is None:
             system_message = ""
         complete_prompt = system_message
