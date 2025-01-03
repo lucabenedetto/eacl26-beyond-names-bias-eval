@@ -44,7 +44,7 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
             messages,
             max_new_tokens=256, # TODO make the max_new_tokens a param
         )  # TODO: add temperature.
-        response = outputs[0]["generated_text"][-1]
+        response = outputs[0]["generated_text"][-1]["content"]
         print("RESPONSE:")
         print(response)
         print("END RESPONSE:")
