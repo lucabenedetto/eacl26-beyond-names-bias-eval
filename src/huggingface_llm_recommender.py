@@ -21,6 +21,7 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
             model=HUGGINGFACE_MODEL_NAMES[model_name],
             # torch_dtype=torch.bfloat16,
             device_map="auto",
+            token=access_token,
         )
         # self.use_gpu = use_gpu
         # self.tokenizer = AutoTokenizer.from_pretrained(HUGGINGFACE_MODEL_NAMES[model_name], token=access_token)
