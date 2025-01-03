@@ -13,16 +13,17 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
     def __init__(self,
                  model_name: str,
                  access_token: str = None,
-                 use_gpu: bool = False,
+                 # use_gpu: bool = False,
                  ) -> None:
         super().__init__(model_name)
         self.pipe = pipeline(
-            "text-generation",
+            task="text-generation",
             model=HUGGINGFACE_MODEL_NAMES[model_name],
-            # torch_dtype=torch.bfloat16,
             device_map="auto",
             token=access_token,
         )
+        # The code below was used for an older version of transformers
+        #   (for transformers >= 4.43.0 I can use the pipeline as above).
         # self.use_gpu = use_gpu
         # self.tokenizer = AutoTokenizer.from_pretrained(HUGGINGFACE_MODEL_NAMES[model_name], token=access_token)
         # if self.use_gpu:
@@ -36,17 +37,20 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
                                system_message: Optional[str] = None,
                                **kwargs
                                ) -> str:
-        messages = [
-            {"role": "system", "content": ""},
-            {"role": "user", "content": user_prompt},
-        ]
+        if system_message is None:
+            system_message = ""
+        messages = [{"role": "system", "content": system_message}, {"role": "user", "content": user_prompt}]
         outputs = self.pipe(
             messages,
-            max_new_tokens=256,
-        )
+            max_new_tokens=256, # TODO make the max_new_tokens a param
+        )  # TODO: add temperature.
         response = outputs[0]["generated_text"][-1]
+        print("RESPONSE:")
         print(response)
+        print("END RESPONSE:")
         return response
+        # The code below was used for an older version of transformers
+        #   (for transformers >= 4.43.0 I can use the pipeline as above).
         # input_text = self.prepare_complete_prompt(user_prompt)
         # input_ids = self.tokenizer(input_text, return_tensors="pt")
         # if self.use_gpu:
@@ -60,13 +64,15 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         # response = self.tokenizer.decode(outputs[0])[start_index:]
         # return response
 
-    def prepare_complete_prompt(self, user_prompt: str, system_message: Optional[str] = None) -> str:
-        if system_message is None:
-            system_message = ""
-        complete_prompt = system_message
-        if self.model_name in {LLAMA_3_8B}:
-            complete_prompt = "<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n" + system_message + "<|eot_id|>\n<|start_header_id|>user<|end_header_id|>"
-        complete_prompt += f"{user_prompt}\n"
-        if self.model_name in {LLAMA_3_8B}:
-            complete_prompt = complete_prompt + "\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
-        return complete_prompt
+    # The code below was needed for an older version of transformers
+    #   (for transformers >= 4.43.0 I can use the pipeline as above).
+    # def prepare_complete_prompt(self, user_prompt: str, system_message: Optional[str] = None) -> str:
+    #     if system_message is None:
+    #         system_message = ""
+    #     complete_prompt = system_message
+    #     if self.model_name in {LLAMA_3_8B}:
+    #         complete_prompt = "<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n" + system_message + "<|eot_id|>\n<|start_header_id|>user<|end_header_id|>"
+    #     complete_prompt += f"{user_prompt}\n"
+    #     if self.model_name in {LLAMA_3_8B}:
+    #         complete_prompt = complete_prompt + "\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
+    #     return complete_prompt
