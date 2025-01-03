@@ -41,7 +41,6 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         response = self.tokenizer.decode(outputs[0])[start_index:]
         return response
 
-    # TODO
     def prepare_input_text(self, user_prompt: str, system_message: Optional[str] = None) -> str:
         if system_message is None:
             system_message = ""
