@@ -42,15 +42,12 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
 
     # TODO
     def prepare_input_text(self, user_prompt: str, system_message: Optional[str] = None) -> str:
-        raise NotImplementedError()
-        # input_text = self.prompt
-        # if self.model_name == LLAMA_3_8B:
-        #     input_text = "<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n" + input_text + "<|eot_id|>\n<|start_header_id|>user<|end_header_id|>"
-        # if self.model_name == MISTRAL_7B_v02:
-        #     input_text = "<s>[INST] " + input_text
-        # input_text += f"Text: '{text}'\n\n"
-        # if self.model_name == LLAMA_3_8B:
-        #     input_text = input_text + "\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
-        # if self.model_name == MISTRAL_7B_v02:
-        #     input_text = input_text + " [/INST]"
-        # return input_text
+        if system_message is None:
+            system_message = ""
+        complete_prompt = system_message
+        if self.model_name in {LLAMA_3_8B}:
+            complete_prompt = "<|begin_of_text|>\n<|start_header_id|>system<|end_header_id|>\n" + system_message + "<|eot_id|>\n<|start_header_id|>user<|end_header_id|>"
+        complete_prompt += f"{user_prompt}\n"
+        if self.model_name in {LLAMA_3_8B}:
+            complete_prompt = complete_prompt + "\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
+        return complete_prompt
