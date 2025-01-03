@@ -40,7 +40,7 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
                                    'ending_id', 'n_uni_courses', 'prompt', 'temperature'])
 
     if model_name in HUGGINGFACE_MODEL_NAMES:
-        recommender = HuggingFaceLLMRecommender(model_name=model_name, access_token=api_key, use_gpu=True)  # TODO: make param for use_gpu
+        recommender = HuggingFaceLLMRecommender(model_name=model_name, access_token=api_key)  #, use_gpu=True)  # TODO: make param for use_gpu
     else:
         # TODO: I will upload the code to have Recommender objects for API-based models too.
         recommender = None
