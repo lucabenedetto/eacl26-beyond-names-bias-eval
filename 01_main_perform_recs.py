@@ -9,6 +9,7 @@ from constants import (
     GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
+    LLAMA_3_2_1B,
     HUGGINGFACE_MODEL_NAMES,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     FRIEND_AS_STUDENT,
@@ -102,8 +103,8 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
 
 if __name__ == '__main__':
     # Params to set:
-    LANGUAGE = IT
-    MODEL = GPT_4o_MINI
+    LANGUAGE = EN
+    MODEL = LLAMA_3_2_1B
     N_RUNS_PER_PROMPT = 1  # 10
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
 
