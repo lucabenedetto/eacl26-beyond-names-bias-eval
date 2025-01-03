@@ -62,7 +62,7 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
         print(f"[INFO] {prompt}")
         for _ in range(n_runs_per_prompt):
             if model_name in HUGGINGFACE_MODEL_NAMES:
-                response = recommender.perform_recommendation(prompt=prompt, temperature=temperature)
+                response = recommender.perform_recommendation(user_prompt=prompt, temperature=temperature)
             else:
                 response = get_llm_response(api_key, model_name, prompt, temperature)
             new_row_df = pd.DataFrame({

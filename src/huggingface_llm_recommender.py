@@ -1,3 +1,4 @@
+from typing import Optional
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 from src.base_llm_recommender import BaseLLMRecommender
@@ -20,9 +21,13 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         else:
             self.model = AutoModelForCausalLM.from_pretrained(HUGGINGFACE_MODEL_NAMES[model_name], token=access_token)
 
-    def perform_recommendation(self, prompt: str, temperature: float, **kwargs) -> str:
-        # Input text is the prompt (including the reading passage)
-        input_text = self.prepare_input_text(prompt)
+    def perform_recommendation(self,
+                               user_prompt: str,
+                               temperature: float,
+                               system_message: Optional[str] = None,
+                               **kwargs
+                               ) -> str:
+        input_text = self.prepare_input_text(user_prompt)
         input_ids = self.tokenizer(input_text, return_tensors="pt")
         if self.use_gpu:
             input_ids = input_ids.to('cuda')
