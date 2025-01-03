@@ -4,6 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from src.base_llm_recommender import BaseLLMRecommender
 from constants import (
     HUGGINGFACE_MODEL_NAMES,
+    LLAMA_3_8B,
 )
 
 class HuggingFaceLLMRecommender(BaseLLMRecommender):
