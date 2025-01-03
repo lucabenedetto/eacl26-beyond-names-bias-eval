@@ -117,5 +117,5 @@ if __name__ == '__main__':
     # PROMPT_TYPE = FRIEND_AS_STUDENT
 
     for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
-        for TEMPERATURE in [0.0, 0.3, 0.6]:
+        for TEMPERATURE in [0.01, 0.3, 0.6]:
             main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
