@@ -103,17 +103,19 @@ def main(model_name, language, prompt_type, prompt_params_file, temperature=0.0,
 
 if __name__ == '__main__':
     # Params to set:
-    LANGUAGE = EN
+    LANGUAGE = FR
     MODEL = LLAMA_3_2_1B
-    N_RUNS_PER_PROMPT = 1  # 10
-    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+    N_RUNS_PER_PROMPT = 10  # 10
+    # TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
 
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
     # PROMPT_PARAMS_FILE = CONFIG_NO_NAME_W_PRONOUNS  # For experiments with pronouns without names
 
-    PROMPT_TYPE = USER_AS_STUDENT
+    # PROMPT_TYPE = USER_AS_STUDENT
     # PROMPT_TYPE = LLM_AS_STUDENT
     # PROMPT_TYPE = FRIEND_AS_STUDENT
 
-    main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
+    for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+        for TEMPERATURE in [0.0, 0.3, 0.6]:
+            main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
