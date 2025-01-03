@@ -41,7 +41,7 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         return response
 
     # TODO
-    def prepare_input_text(self, user_prompt: str, system_message: Optional[str]) -> str:
+    def prepare_input_text(self, user_prompt: str, system_message: Optional[str] = None) -> str:
         raise NotImplementedError()
         # input_text = self.prompt
         # if self.model_name == LLAMA_3_8B:
