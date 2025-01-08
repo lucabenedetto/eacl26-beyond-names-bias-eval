@@ -106,6 +106,7 @@ LLAMA_3_2_1B = 'llama3_2_1b'
 # LLAMA_3_1_8B = 'llama3_1_8b'
 # MISTRAL_7B_v02 = 'mistral_v02_7b'
 # MISTRAL_7B_v03 = 'mistral_v03_7b'
+SMOLLM2_135M = "HF_SmolLM2_135M"
 HUGGINGFACE_MODEL_NAMES = {
     GEMMA_2B: "google/gemma-2b-it",
     GEMMA_7B: "google/gemma-7b-it",
@@ -114,4 +115,5 @@ HUGGINGFACE_MODEL_NAMES = {
     # LLAMA_3_1_8B: "meta-llama/Meta-Llama-3.1-8B-Instruct",
     # MISTRAL_7B_v02: "mistralai/Mistral-7B-Instruct-v0.2",
     # MISTRAL_7B_v03: "mistralai/Mistral-7B-Instruct-v0.3",
+    SMOLLM2_135M: "HuggingFaceTB/SmolLM2-135M-Instruct"
 }
