@@ -1,5 +1,6 @@
 # import torch
-from typing import Optional
+from typing import Optional, List, Dict
+from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers import pipeline
 from src.base_llm_recommender import BaseLLMRecommender
@@ -78,3 +79,47 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
     #     if self.model_name in {LLAMA_3_8B}:
     #         complete_prompt = complete_prompt + "\n<|eot_id|>\n<|start_header_id|>assistant<|end_header_id|>\n"
     #     return complete_prompt
+
+    def perform_recommendation_whole_dataset(self,
+                                             user_prompts: List[str],
+                                             temperature: float,
+                                             system_message: Optional[str] = None,
+                                             **kwargs
+                                             ) -> List[str]:
+        if system_message is None:
+            system_message = ""
+
+        # Prepare dataset from prompts
+        prompts = [{"user_prompt": prompt, "system_message": system_message} for prompt in user_prompts]
+        dataset = Dataset.from_list(prompts)
+
+        # Map the pipeline to the dataset
+        def generate_response(batch):
+            messages = [
+                {"role": "system", "content": batch.get("system_message", "")},
+                {"role": "user", "content": batch["user_prompt"]}
+            ]
+            outputs = self.pipe(
+                messages,
+                max_new_tokens=512,  # TODO make the max_new_tokens a param
+                temperature=temperature,
+                do_sample=True,
+            )
+            return {"response": outputs[0]["generated_text"][-1]["content"]}
+
+        # Apply the pipeline in batch
+        dataset = dataset.map(generate_response, batched=False)
+        return dataset["response"]
+        #
+        # messages = [{"role": "system", "content": system_message}, {"role": "user", "content": user_prompt}]
+        # outputs = self.pipe(
+        #     messages,
+        #     max_new_tokens=512, # TODO make the max_new_tokens a param
+        #     temperature=temperature,
+        #     do_sample=True,
+        # )
+        # response = outputs[0]["generated_text"][-1]["content"]
+        # # print("RESPONSE:")
+        # # print(response)
+        # # print("END RESPONSE:")
+        # return response
