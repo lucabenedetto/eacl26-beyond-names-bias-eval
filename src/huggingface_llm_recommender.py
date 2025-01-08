@@ -42,8 +42,9 @@ class HuggingFaceLLMRecommender(BaseLLMRecommender):
         messages = [{"role": "system", "content": system_message}, {"role": "user", "content": user_prompt}]
         outputs = self.pipe(
             messages,
-            max_new_tokens=256, # TODO make the max_new_tokens a param
+            max_new_tokens=512, # TODO make the max_new_tokens a param
             temperature=temperature,
+            do_sample=True,
         )
         response = outputs[0]["generated_text"][-1]["content"]
         # print("RESPONSE:")
