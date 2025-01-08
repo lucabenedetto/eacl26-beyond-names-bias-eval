@@ -37,24 +37,26 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
                                    'ending_id', 'n_uni_courses', 'prompt', 'temperature'])
 
     prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}.csv'))
-    for row in prompt_params_df.itertuples():
-        if prompt_type == USER_AS_STUDENT:
-            prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
-        elif prompt_type == FRIEND_AS_STUDENT:
-            prompt = get_prompt_friend_as_student(
-                language=language,
-                name=row.name,
-                noun=row.noun,
-                adjective=row.adjective,
-                pronouns=(row.pronoun_0, row.pronoun_1, row.pronoun_2, row.pronoun_3, row.pronoun_4),
-                n_uni_courses=row.n_uni_courses,
-            )
-        else:  # prompt_type == LLM_AS_STUDENT
-            prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
-        print(f"[INFO] {prompt}")
-        for _ in range(n_runs_per_prompt):
+    for run_number in range(n_runs_per_prompt):
+        print(f"[INFO] Run number: {run_number}")
+        for row in prompt_params_df.itertuples():
+            if prompt_type == USER_AS_STUDENT:
+                prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
+            elif prompt_type == FRIEND_AS_STUDENT:
+                prompt = get_prompt_friend_as_student(
+                    language=language,
+                    name=row.name,
+                    noun=row.noun,
+                    adjective=row.adjective,
+                    pronouns=(row.pronoun_0, row.pronoun_1, row.pronoun_2, row.pronoun_3, row.pronoun_4),
+                    n_uni_courses=row.n_uni_courses,
+                )
+            else:  # prompt_type == LLM_AS_STUDENT
+                prompt = get_prompt_llm_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
+            print(f"[INFO] {prompt}")
             response = get_llm_response(api_key, model, prompt, temperature)
             new_row_df = pd.DataFrame({
+                'run_number': [run_number],
                 'language': [language],
                 'model': [model],
                 'response': [response],
@@ -93,8 +95,8 @@ if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
     MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 1  # 10
-    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+    N_RUNS_PER_PROMPT = 1
+    TEMPERATURE = [0.0, 0.3, 0.6]
 
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
@@ -104,4 +106,6 @@ if __name__ == '__main__':
     # PROMPT_TYPE = LLM_AS_STUDENT
     # PROMPT_TYPE = FRIEND_AS_STUDENT
 
-    main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
+    for temperature in TEMPERATURE:
+        print(f"[INFO] Temperature: {temperature}")
+        main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=temperature, n_runs_per_prompt=N_RUNS_PER_PROMPT)

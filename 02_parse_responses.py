@@ -83,9 +83,11 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
 if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
-    MODEL = GEMINI_1_5_FLASH_8B
+    MODEL = GPT_4o_MINI
 
-    for PROMPT_PARAMS_FILE in [CONFIG_W_NAMES, CONFIG_NO_NAME]:
+    #Anto: temperatura 0 x 10 run x user_as_a_student, temperatura 0.6 x 10 run x user_as_a_student
+    #Albi: temperatura 0.3 x 10 run x user_as_a_student
+    for PROMPT_PARAMS_FILE in [CONFIG_NO_NAME]: # [CONFIG_W_NAMES, CONFIG_NO_NAME]:
         for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             for TEMPERATURE in [0.0, 0.3, 0.6]:
                 print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
