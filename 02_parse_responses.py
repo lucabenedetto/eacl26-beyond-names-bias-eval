@@ -42,17 +42,6 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
             if len(parsed_response) > local_n_courses:
                 print(f"Recommended more than {local_n_courses} items ({len(parsed_response)}). Complete list:")
                 print(parsed_response)
-
-                # TODO this is tmp to fix this:
-                #   After filtering, keeping only the following 5 items:
-                #   ['nel frattempo, ecco 5 corsi di laurea in diverse aree, come esempio generico', 'ingegneria informatica', 'scienze politiche', 'economia', 'medicina']
-                #       new_parsed_response = [MAPPING_TO_SSD[course] for course in new_parsed_response]
-                #                              ~~~~~~~~~~~~~~^^^^^^^^
-                #   KeyError: 'nel frattempo, ecco 5 corsi di laurea in diverse aree, come esempio generico'
-                if parsed_response[0][:14] == "nel frattempo,":
-                    parsed_response = parsed_response[1:]
-                # end of TMP
-
                 parsed_response = parsed_response[:local_n_courses]
                 print(f"After filtering, keeping only the following {len(parsed_response)} items:")
                 print(parsed_response)

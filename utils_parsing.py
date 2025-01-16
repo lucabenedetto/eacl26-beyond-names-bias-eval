@@ -12,8 +12,11 @@ from regex_patterns import REGEX_PATTERNS
 def clean_parsed_responses(parsed_response, model, language):
     clean_texts = [clean_single_text(x, model, language) for x in parsed_response]
     if model in {GEMINI_1_5_FLASH_8B}:
-        # This is needed to avoid things such as "['quali sono i tuoi interessi?']"
+        # This is needed to avoid things such as:
+        #  - "['quali sono i tuoi interessi?']"
+        #  - "nel frattempo, ecco 5 corsi di laurea in diverse aree, come esempio generico"
         clean_texts = [x for x in clean_texts if x[-1] != '?']
+        clean_texts = [x for x in clean_texts if x[:14] != "nel frattempo,"]
     return clean_texts
 
 
