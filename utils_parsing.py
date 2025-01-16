@@ -77,10 +77,6 @@ def clean_single_text(text, model, language):
             ", poiché",
         ])
 
-    # Perform the mapping of different wordings.
-    # if language == IT:
-    #     if text in COURSE_MAPPINGS_IT:
-    #         text = COURSE_MAPPINGS_IT[text]
     return text
 
 
