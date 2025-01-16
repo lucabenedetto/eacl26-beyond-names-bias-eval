@@ -1,28 +1,49 @@
 # Mapping da https://www.cun.it/uploads/storico/settori_scientifico_disciplinari_english.pdf
 # (consiglio universitario nazionale)
+
 COURSE_MAPPINGS_IT = {
-    # 1
+    # Area 01 - Scienze matematiche e informatiche
     "scienze statistiche": "matematica",
-    
-    # --> 'psicologia'
-    # 11E
-    'psychology': 'psicologia',
-    'psychologia': 'psicologia',
-    'scienze psicologiche': 'psicologia',
-    'psicologia clinica': 'psicologia',
-    "scienze cognitive": "psicologia",  # According to the same data from MUR used for MAP_SSD_TO_STEM
 
-    # --> 'scienze politiche e relazioni internazionali'
-    # 14/A
-    # (14/B is "storia politica", including "storia delle relazioni internazionali"
-    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche': 'scienze politiche e relazioni internazionali',
-    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
+    'scienze e tecnologie informatiche': 'informatica',
+    'scienze informatiche': 'informatica',
+    'data science e intelligenza artificiale': 'data science e artificial intelligence',
+    'data science': 'data science e artificial intelligence',
+    'scienze dei dati': 'data science e artificial intelligence',
 
-    "sociologia": "scienze sociali",
+    # Area 02 - Scienze fisiche
+    # Area 03 - Scienze chimiche
+    # Area 04 - Scienze della terra
 
-    # 10 (10/G and others)
+    # Area 05 - Scienze biologiche
+    'biologia o scienze biologiche': 'biologia',
+    'scienze biologiche': 'biologia',
+
+    # Area 06 - Scienze mediche
+    'medicina': 'medicina e chirurgia',
+
+    # Area 07 - Scienze agrarie e veterinarie
+
+    # Area 08 - Ingegneria civile e Architettura
+    'design e arti visive': 'design',
+    'design e arti': 'design',
+    'arti e design': 'design',
+    'arte e design': 'design',
+    'design della comunicazione': 'design',
+    'design e comunicazione': 'design',
+    'design e comunicazione visiva': 'design',
+    "design del prodotto e dell'innovazione": 'design',
+    "design del prodotto e dell'evento": 'design',
+    "design del prodotto": 'design',
+    "design del prodotto industriale": 'design',
+    "design industriale": 'design',
+
+    "scienze dell'architettura": "architettura",
+
+    # Area 09 - Ingegneria industriale e dell'informazione
+    "scienze biomediche": "ingegneria biomedica",  # is this ok?
+
+    # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
     'lingue e letterature moderne': 'lettere',
     'lingua e letterature moderne': 'lettere',
@@ -30,13 +51,11 @@ COURSE_MAPPINGS_IT = {
     'lettere moderne': 'lettere',
     'letteratura moderna e contemporanea': 'lettere',
     'letterature moderne': 'lettere',
-    #
     'letteratura': 'lettere',
     'letteratura italiana': 'lettere',
     'letteratura comparata': 'lettere',
     'letterature comparate': 'lettere',
     'lingua e letteratura italiana': 'lettere',
-    # --> 'letterature straniere'
     'lingue e letterature straniere': 'lettere',
     'lingua e letterature straniere': 'lettere',
     'letterature e lingue straniere': 'lettere',
@@ -44,43 +63,39 @@ COURSE_MAPPINGS_IT = {
     'lingue e letterature straniere moderne': 'lettere',
     'lingue e culture straniere': 'lettere',
     'lingua e letteratura inglese': 'lettere',
-    # --> linguistica
+
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
     'linguistica e letteratura italiana': 'lettere',
     'linguistica e letterature comparate': 'lettere',
     'linguistica italiana': 'lettere',
-    #
     "mediazione linguistica e culturale": "lingue",
     "mediazione linguistica": "lingue",
     "lingue e mediazione linguistica": "lingue",
 
-    # Filosofia is actually *11/C*
-    # --> 'lettere e filosofia'
+    'conservazione dei beni culturali': 'beni culturali',
+
+    'scienze archeologiche': 'archeologia',
+
+    # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
+    # 11A
+    'scienze storiche': 'storia',
+    # 11C
     'lettere e filosofia': 'filosofia',
     'letteratura e filosofia': 'filosofia',
     'letterature e filosofia': 'filosofia',
+    # 11E
+    'psychology': 'psicologia',
+    'psychologia': 'psicologia',
+    'scienze psicologiche': 'psicologia',
+    'psicologia clinica': 'psicologia',
+    "scienze cognitive": "psicologia",  # According to the same data from MUR used for MAP_SSD_TO_STEM
+    #
+    "scienze della formazione primaria": "scienze dell'educazione",
+    "scienze della formazione": "scienze dell'educazione",
 
-    # --> beni culturali
-    # 10
-    'conservazione dei beni culturali': 'beni culturali',
-
-    # 10/A
-    # --> archeologia
-    'scienze archeologiche': 'archeologia',
-
-    # 11/A
-    # --> storia
-    'scienze storiche': 'storia',
-
-    # 05 – SCIENZE BIOLOGICHE
-    # --> 'biologia'
-    'biologia o scienze biologiche': 'biologia',
-    'scienze biologiche': 'biologia',
-
-    # 13 – SCIENZE ECONOMICHE E STATISTICHE    
-    # --> 'economia e management'
-    # 13/B – Economia aziendale
+    # Area 12 - Scienze giuridiche
+    # Area 13 - Scienze economiche e statistiche
     'economia e finanza': 'economia e management',
     'economia e gestione aziendale': 'economia e management',
     'economia aziendale': 'economia e management',
@@ -97,30 +112,12 @@ COURSE_MAPPINGS_IT = {
     "management e comunicazione d'impresa": 'economia e management',
     'management internazionale': 'economia e management',
 
-    # 08 – INGEGNERIA CIVILE E ARCHITETTURA
-    # 08/C – Design e progettazione tecnologica dell'architettura
-    # --> 'design'
-    'design e arti visive': 'design',
-    'design e arti': 'design',
-    'arti e design': 'design',
-    'arte e design': 'design',
-    'design della comunicazione': 'design',  # design della comunicazione as different category?? ## TODO: could also be "comunicazione e marketing"
-    'design e comunicazione': 'design',
-    'design e comunicazione visiva': 'design',
-    "design del prodotto e dell'innovazione": 'design',  # or 'design del prodotto' as different category??
-    "design del prodotto e dell'evento": 'design',
-    "design del prodotto": 'design',
-    "design del prodotto industriale": 'design',
-    "design industriale": 'design',
+    # Area 14 - Scienze politiche e sociali
+    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche': 'scienze politiche e relazioni internazionali',
+    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
 
-    "scienze biomediche": "ingegneria biomedica",  # is this ok?
-
-    #
-    # 06 – SCIENZE MEDICHE
-    'medicina': 'medicina e chirurgia',
-
-    # Non ce n'e' uno chiaro!
-    # 14 – SCIENZE POLITICHE E SOCIALI	
     'comunicazione e media digitali': 'comunicazione e media',
     'comunicazione digitale': 'comunicazione e media',
     'comunicazione': 'comunicazione e media',
@@ -130,22 +127,10 @@ COURSE_MAPPINGS_IT = {
     'scienze della comunicazione': 'comunicazione e media',
     'comunicazione e marketing digitale': 'comunicazione e media',
 
-    # 01 – Scienze matematiche e informatiche
-    'scienze e tecnologie informatiche': 'informatica',
-    'scienze informatiche': 'informatica',
-    'data science e intelligenza artificiale': 'data science e artificial intelligence',
-    'data science': 'data science e artificial intelligence',
-    'scienze dei dati': 'data science e artificial intelligence',
-
-    # 11 – Scienze storiche, filosofiche, pedagogiche e psicologiche
-    "scienze della formazione primaria": "scienze dell'educazione",
-    "scienze della formazione": "scienze dell'educazione",
-
-    # 8
-    "scienze dell'architettura": "architettura",
+    "sociologia": "scienze sociali",
 }
 
-MAPPING_TO_SSD = {
+MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
     "scienze": "NONE", # unacceptable response
     "matematica": "01",

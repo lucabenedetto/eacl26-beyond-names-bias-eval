@@ -13,7 +13,7 @@ from constants import (
     CONFIG_NO_NAME_W_PRONOUNS,
 )
 from utils_parsing import parse_llm_response
-from course_mappings import COURSE_MAPPINGS_IT, MAPPING_TO_SSD, MAP_SSD_TO_STEM
+from course_mappings import COURSE_MAPPINGS_IT, MAP_COURSE_TO_SSD, MAP_SSD_TO_STEM
 
 
 def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
@@ -56,7 +56,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         dict_new_row.update({f'clean_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
 
         # Map from the smaller set of courses the different groups (e.g. "gruppo scientifico disciplinare" for IT).
-        new_parsed_response = [MAPPING_TO_SSD[course] for course in new_parsed_response]
+        new_parsed_response = [MAP_COURSE_TO_SSD[course] for course in new_parsed_response]
         dict_new_row.update({f'ssd_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
 
         # Map from the GSD to STEM vs. non-STEM (available for Italian on the MUR website).
