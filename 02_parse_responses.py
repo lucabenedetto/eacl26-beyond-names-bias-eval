@@ -3,7 +3,7 @@ import pandas as pd
 
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI,
+    GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
@@ -13,6 +13,7 @@ from constants import (
     CONFIG_NO_NAME_W_PRONOUNS,
 )
 from utils_parsing import parse_llm_response
+from course_mappings import COURSE_MAPPINGS_IT, MAP_COURSE_TO_SSD, MAP_SSD_TO_STEM
 
 
 def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
@@ -31,6 +32,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
     for response, local_n_courses, language_from_df in df[['response', 'n_uni_courses', 'language']].values:
         if language_from_df != language:
             print(f"[WARNING]: language in df ({language_from_df}) is different from given parameter ({language}).")
+
         # Parse the LLM response, get the recommended courses, and add the new row to the output dataframe.
         parsed_response = parse_llm_response(response, model=model, language=language_from_df)
         if parsed_response is None:
@@ -47,6 +49,19 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
                 parsed_response = ['NONE'] * n_courses
 
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
+
+        # parse_llm_response only performs parsing, w/o mapping to the different known categories, which is done below.
+        # Map from the parsed responses to a more manageable set of courses
+        new_parsed_response = [COURSE_MAPPINGS_IT[course] if course in COURSE_MAPPINGS_IT else course for course in parsed_response]
+        dict_new_row.update({f'clean_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
+
+        # Map from the smaller set of courses the different groups (e.g. "gruppo scientifico disciplinare" for IT).
+        new_parsed_response = [MAP_COURSE_TO_SSD[course] for course in new_parsed_response]
+        dict_new_row.update({f'ssd_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
+
+        # Map from the GSD to STEM vs. non-STEM (available for Italian on the MUR website).
+        new_parsed_response = [MAP_SSD_TO_STEM[course] for course in new_parsed_response]
+        dict_new_row.update({f'is_stem_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
 
         # This can only happen if df['n_uni_courses'].nunique() != 1:
         if len(parsed_response) != n_courses:
@@ -65,6 +80,12 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         course_set = course_set.union(set(out_df[f'rec_{idx}'].values))
     print("Complete list of courses recommended at least once:")
     print(sorted(list(course_set)))
+
+    ssd_set = set(out_df[f'ssd_rec_0'].values)
+    for idx in range(1, n_courses):
+        ssd_set = ssd_set.union(set(out_df[f'ssd_rec_{idx}'].values))
+    print("Complete list of S.S.D. recommended at least once:")
+    print(sorted(list(ssd_set)))
 
     folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{language}')
     if not os.path.exists(folder_path):
