@@ -7,7 +7,6 @@ from constants import (
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
 )
 from regex_patterns import REGEX_PATTERNS
-from course_mappings import COURSE_MAPPINGS_IT
 
 
 def clean_parsed_responses(parsed_response, model, language):
