@@ -18,16 +18,12 @@ COURSE_MAPPINGS_IT = {
     'lingua e letterature moderne': 'lettere',
     'lettere moderne': 'lettere',
     'letterature moderne': 'lettere',
-    'letteratura e lingue moderne': 'lettere',
     #
     'letteratura': 'lettere',
     'letteratura italiana': 'lettere',
     'letteratura comparata': 'lettere',
-    'letteratura italiana/comparata': 'lettere',
     'letterature comparate': 'lettere',
     'lingua e letteratura italiana': 'lettere',
-    'letteratura moderna e contemporanea': 'lettere',
-    'letteratura e culture comparate': 'lettere',
     # --> 'lettere e filosofia'
     'letteratura e filosofia': 'lettere',
     'letterature e filosofia': 'lettere',
@@ -39,15 +35,11 @@ COURSE_MAPPINGS_IT = {
     'lingue e letterature straniere moderne': 'lettere',
     'lingue e culture straniere': 'lettere',
     'lingua e letteratura inglese': 'lettere',
-    'lingua e letteratura straniere': 'lettere',
-    'letteratura e lingue straniere': 'lettere',
-    'lingua e letteratura': 'lettere',
     # --> linguistica
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
     'linguistica e letteratura italiana': 'lettere',
     'linguistica e letterature comparate': 'lettere',
-    'letteratura e linguistica': 'lettere',
     'linguistica italiana': 'lettere',
 
     # --> beni culturali
@@ -78,7 +70,6 @@ COURSE_MAPPINGS_IT = {
     'management e consulenza aziendale': 'economia e management',
     "management e comunicazione d'impresa": 'economia e management',
     'management internazionale': 'economia e management',
-    "scienze dell'economia": 'economia e management',
     # ? 'ingegneria gestionale': 'economia e management',
 
     # --> 'design'

@@ -2,19 +2,21 @@ import re
 from typing import List, Optional
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI,
+    GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
 )
 from regex_patterns import REGEX_PATTERNS
-from course_mappings import COURSE_MAPPINGS_IT
 
 
 def clean_parsed_responses(parsed_response, model, language):
     clean_texts = [clean_single_text(x, model, language) for x in parsed_response]
     if model in {GEMINI_1_5_FLASH_8B}:
-        # This is needed to avoid things such as "['quali sono i tuoi interessi?']"
+        # This is needed to avoid things such as:
+        #  - "['quali sono i tuoi interessi?']"
+        #  - "nel frattempo, ecco 5 corsi di laurea in diverse aree, come esempio generico"
         clean_texts = [x for x in clean_texts if x[-1] != '?']
+        clean_texts = [x for x in clean_texts if x[:14] != "nel frattempo,"]
     return clean_texts
 
 
@@ -36,6 +38,15 @@ def clean_single_text(text, model, language):
     if model in {GPT_3_5, GPT_4o_MINI, GEMINI_1_5_FLASH_8B}:
         if text[:10] == "laurea in ":
             text = text[10:]
+    if model == GPT_4o:
+        text = truncate_and_keep_first(text, literals=[
+            ":",  # KeyError: 'ingegneria informatica:'
+        ])
+    if model == GPT_3_5:
+        text = truncate_and_keep_first(text, literals=[
+            ": ",  # KeyError: "ingegneria informatica: se sei interessata alla tecnologia, all'informatica e alla risoluzione di problemi complessi, potresti valutare questo corso di laurea che ti permetterà di acquisire competenze nel campo dell'ingegneria informatica."
+            "\n",  # KeyError: 'lingue e letterature straniere\n\nquesti sono solo alcuni esempi, assicurati di esplorare diverse opzioni e scegliere un corso di laurea che ti appassioni e che sia in linea con i tuoi interessi e obiettivi di carriera. buona fortuna nella tua scelta!'
+        ])
     if model in {GEMINI_1_5_FLASH_8B}:
         if text[-1] == '.':
             text = text[:-1]
@@ -58,11 +69,16 @@ def clean_single_text(text, model, language):
             " presso l'università",
             " con indirizzo",
         ])
+    if model == CLAUDE_3_5_SONNET:
+        text = truncate_and_keep_first(text, literals=[
+            " - ",
+            ": ",
+            ", perché",  # e.g. ingegneria informatica, perché mi appassionano la tecnologia e la programmazione e offre ottime prospettive lavorative
+            ", dato che",
+            ", in quanto",
+            ", poiché",
+        ])
 
-    # Perform the mapping of different wordings.
-    if language == IT:
-        if text in COURSE_MAPPINGS_IT:
-            text = COURSE_MAPPINGS_IT[text]
     return text
 
 
