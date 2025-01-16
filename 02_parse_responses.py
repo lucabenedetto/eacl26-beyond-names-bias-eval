@@ -27,7 +27,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         print("[WARNING]: different values for 'n_uni_courses' in the dataframe.")
 
     # dataframe with the recommended courses.
-    out_df = pd.DataFrame(columns=[f'rec_{idx}' for idx in range(n_courses)])
+    out_df = pd.DataFrame()
 
     for response, local_n_courses, language_from_df in df[['response', 'n_uni_courses', 'language']].values:
         if language_from_df != language:
@@ -97,6 +97,10 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
 
     for idx in range(n_courses):
         df[f'rec_{idx}'] = out_df[f'rec_{idx}']
+    for idx in range(n_courses):
+        df[f'ssd_rec_{idx}'] = out_df[f'ssd_rec_{idx}']
+    for idx in range(n_courses):
+        df[f'is_stem_rec_{idx}'] = out_df[f'is_stem_rec_{idx}']
 
     df.to_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'), index=False)
 
