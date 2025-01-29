@@ -1,3 +1,4 @@
+from typing import List, Union, Tuple
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,19 +47,42 @@ def get_target_dict_from_df_row(row) -> str:
     raise ValueError(f"Error with row ({row}).")
 
 
-def compute_stem_magnitude(model, language, prompt_type, prompt_params_file, temperature):
-    folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{language}')
-    df = pd.read_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'))
+def group_scores_by_target_key(recommendations_df: pd.DataFrame, scores: List[Union[float, Tuple]]) -> defaultdict:
+    """
+    This method receives the dataframe with the list of recommendations and a list of scores (computed for instance with
+    the method compute_list_stem_magnitude_values) and returns a defaultdict object, where the keys are the groups we
+    are studying in the paper (MODEL, F, M, X) and the values are their scores.
+    :param recommendations_df: a list of recommendations.
+    :param scores: the scores computed for each recommendation.
+    :return: a defaultdict object, where the keys are the groups we are studying in the paper (MODEL, F, M, X) and the
+      values are their scores.
+    """
     result = defaultdict(list)
-    for index, row in df.iterrows():
-        # TODO check that I actually have to consider this recommendation (i.e. there is no NONE in it).
-        x = row.is_stem_rec_0*5 + row.is_stem_rec_1*4 + row.is_stem_rec_2*3 + row.is_stem_rec_3*2 + row.is_stem_rec_4*1
-        # Add the coordinates to the relevant key.
+    for index, (_, row) in enumerate(recommendations_df.iterrows()):
         target = get_target_dict_from_df_row(row)
-        result[target].append(x)
-        # result['m'].append(x)
-        # result['x'].append(x)
+        result[target].append(scores[index])
     return result
+
+
+def compute_list_stem_magnitude_values(response_df: pd. DataFrame) -> List[float]:
+    """
+    This method computes the "stem magnitude" of the recommendations stored in the dataframe passed as argument.
+    The "stem magnitude" is defined as follows:
+    each element in the list of five recommendations is either STEM or not -- this info must be already available in the
+    .csv file which contains the parsed responses (and it is if created with the script 02_parse_responses.py) -- and
+    the "stem magnitude" is the sum of the weights of the STEM recommendations, where the weight is 5 for the first
+    recommendation, 4 for the second recommendation, etc.
+    This method performs the computation of the stem magnitude and returns a list where each element indicates the stem
+    magnitude of the corresponding recommendation in the dataframe.
+    :param response_df:
+    :return:
+    """
+    list_stem_magnitude_values = []
+    for index, row in response_df.iterrows():
+        # TODO add check that I actually have to consider this recommendation (i.e. there is no NONE in it).
+        x = row.is_stem_rec_0*5 + row.is_stem_rec_1*4 + row.is_stem_rec_2*3 + row.is_stem_rec_3*2 + row.is_stem_rec_4*1
+        list_stem_magnitude_values.append(x)
+    return list_stem_magnitude_values
 
 
 def compute_ssd_coordinates(model, language, prompt_type, prompt_params_file, temperature):
@@ -127,12 +151,18 @@ if __name__ == '__main__':
     for MODEL in [GPT_3_5]: # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
         for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             for TEMP in [0.0, 0.3, 0.6]:
-                # print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
-                new_stem_magnitude = compute_stem_magnitude(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
-                stem_magnitude['model'] += new_stem_magnitude['model']
-                stem_magnitude['f'] += new_stem_magnitude['f']
-                stem_magnitude['m'] += new_stem_magnitude['m']
-                stem_magnitude['x'] += new_stem_magnitude['x']
+                # Get the recommendations for the given model and prompt (the prompt is identified by prompt_type,
+                #   prompt_params_file, and temperature)
+                folder_path = os.path.join('data', 'processed_output', f'{PROMPT_TYPE}', f'{LANGUAGE}')
+                df = pd.read_csv(os.path.join(folder_path, f'responses_{MODEL}_{LANGUAGE}_{PROMPT_PARAMS_FILE}_temp_{TEMP}.csv'))
+
+                # Measure "how STEM" each recommendation is for the given model and prompt.
+                new_stem_magnitude_values = compute_list_stem_magnitude_values(df)
+                # Groups the values from new_stem_magnitude_values depending on their type (MODEL, F, M, X).
+                grouped_stem_magnitude_values = group_scores_by_target_key(df, new_stem_magnitude_values)
+                # Add the grouped values to the dict that collects the values for all the models in the loop.
+                for key in grouped_stem_magnitude_values.keys():
+                    stem_magnitude[key] += grouped_stem_magnitude_values[key]
 
                 new_coordinates = compute_ssd_coordinates(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
                 coordinates['model'] += new_coordinates['model']
