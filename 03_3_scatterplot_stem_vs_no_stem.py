@@ -145,7 +145,7 @@ def main():
     LANGUAGE = IT
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME
     stem_magnitude = defaultdict(list)
-    coordinates = defaultdict(list)
+    ssd_coordinates = defaultdict(list)
     for MODEL in [GPT_3_5]: # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
         for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             for TEMP in [0.0, 0.3, 0.6]:
@@ -167,7 +167,7 @@ def main():
                 new_coordinates = compute_ssd_coordinates(df)
                 grouped_ssd_coordinates = group_scores_by_target_key(df, new_coordinates)
                 for key in grouped_ssd_coordinates.keys():
-                    coordinates[key] += grouped_ssd_coordinates[key]
+                    ssd_coordinates[key] += grouped_ssd_coordinates[key]
 
                 # coordinates['model'] += new_coordinates['model']
                 # coordinates['f'] += new_coordinates['f']
@@ -176,7 +176,7 @@ def main():
 
     # TODO below
     plot_distribution_stem_magnitude(stem_magnitude)
-    clustering_ssd(coordinates)
+    clustering_ssd(ssd_coordinates)
 
 
 if __name__ == '__main__':
