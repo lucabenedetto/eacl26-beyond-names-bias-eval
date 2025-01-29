@@ -2,6 +2,7 @@ from typing import List, Union, Tuple
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
+from numpy import ndarray
 import os
 import pandas as pd
 from sklearn.manifold import TSNE
@@ -47,7 +48,7 @@ def get_target_dict_from_df_row(row) -> str:
     raise ValueError(f"Error with row ({row}).")
 
 
-def group_scores_by_target_key(recommendations_df: pd.DataFrame, scores: List[Union[float, Tuple]]) -> defaultdict:
+def group_scores_by_target_key(recommendations_df: pd.DataFrame, scores: List[Union[float, ndarray]]) -> defaultdict:
     """
     This method receives the dataframe with the list of recommendations and a list of scores (computed for instance with
     the method compute_list_stem_magnitude_values) and returns a defaultdict object, where the keys are the groups we
@@ -85,35 +86,32 @@ def compute_list_stem_magnitude_values(response_df: pd. DataFrame) -> List[float
     return list_stem_magnitude_values
 
 
-def compute_ssd_coordinates(model, language, prompt_type, prompt_params_file, temperature):
-    # TODO: almost the same as the method above, but considers the ~14 s.s.d. instead of the binary stem-not stem
-    #   categorisation. Then I have to do PCA or t-SNE to show the clustering.
-    folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{language}')
-    df = pd.read_csv(os.path.join(folder_path, f'responses_{model}_{language}_{prompt_params_file}_temp_{temperature}.csv'))
-    result = defaultdict(list)
-    for _, row in df.iterrows():
-    # for row in df.itertuples():
+def compute_ssd_coordinates(response_df: pd. DataFrame) -> List[ndarray]:
+    """
+    This method computes the SSD coordinates of the recommendations stored in the dataframe passed as argument.
+    Each list of recommendations is converted into an array of 14 elements (because there are 14 S.S.D. in IT), where
+    each value indicates the "magnitude" of that S.S.D. in the recommendation, similarly to what is done when computing
+    the STEM magnitude.
+    :param response_df: the dataframe containing the recommendations.
+    :return: the list of SSD coordinates.
+    """
+    list_ssd_coordinates = []
+    for _, row in response_df.iterrows():
         # TODO check that I actually have to consider this recommendation (i.e. there is no NONE in it).
         if (row.ssd_rec_0 == "NONE" or row.ssd_rec_1 == "NONE" or row.ssd_rec_2 == "NONE"
             or row.ssd_rec_3 == "NONE" or row.ssd_rec_4 == "NONE"):
             print("[INFO] skipping one row as it contains NONE.")
             continue
-        # 'ssd_rec_o'  can then be one of "01", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"
-        # one recommended list is converted into an array of 14 elements (2 will always be 0).
-        coordinate = np.zeros(14)  # This works only for language = IT.
-        # TODO make the below with a loop
+        # 'ssd_rec_*' can then be one of "01", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14" (for IT)
+        coordinate = np.zeros(14)
+        # TODO possibly make the below with a loop
         coordinate[int(row.ssd_rec_0)-1] += 5  # I need the "-1" because the ssd are between 01 and 14.
-        coordinate[int(row.ssd_rec_1)-1] += 4  # I need the "-1" because the ssd are between 01 and 14.
-        coordinate[int(row.ssd_rec_2)-1] += 3  # I need the "-1" because the ssd are between 01 and 14.
-        coordinate[int(row.ssd_rec_3)-1] += 2  # I need the "-1" because the ssd are between 01 and 14.
-        coordinate[int(row.ssd_rec_4)-1] += 1  # I need the "-1" because the ssd are between 01 and 14.
-
-        # Add the coordinates to the relevant key.
-        target = get_target_dict_from_df_row(row)
-        result[target].append(coordinate)
-    return result
-
-    pass
+        coordinate[int(row.ssd_rec_1)-1] += 4
+        coordinate[int(row.ssd_rec_2)-1] += 3
+        coordinate[int(row.ssd_rec_3)-1] += 2
+        coordinate[int(row.ssd_rec_4)-1] += 1
+        list_ssd_coordinates.append(coordinate)
+    return list_ssd_coordinates
 
 
 def plot_distribution_stem_magnitude(coordinates):
@@ -164,11 +162,17 @@ if __name__ == '__main__':
                 for key in grouped_stem_magnitude_values.keys():
                     stem_magnitude[key] += grouped_stem_magnitude_values[key]
 
-                new_coordinates = compute_ssd_coordinates(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
-                coordinates['model'] += new_coordinates['model']
-                coordinates['f'] += new_coordinates['f']
-                coordinates['m'] += new_coordinates['m']
-                coordinates['x'] += new_coordinates['x']
+                # Get the S.S.D ("settore scientifico disciplinare") coordinates for each recommendation.
+                # new_coordinates = compute_ssd_coordinates(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
+                new_coordinates = compute_ssd_coordinates(df)
+                grouped_ssd_coordinates = group_scores_by_target_key(df, new_coordinates)
+                for key in grouped_ssd_coordinates.keys():
+                    coordinates[key] += grouped_ssd_coordinates[key]
+
+                # coordinates['model'] += new_coordinates['model']
+                # coordinates['f'] += new_coordinates['f']
+                # coordinates['m'] += new_coordinates['m']
+                # coordinates['x'] += new_coordinates['x']
 
     # TODO below
     plot_distribution_stem_magnitude(stem_magnitude)
