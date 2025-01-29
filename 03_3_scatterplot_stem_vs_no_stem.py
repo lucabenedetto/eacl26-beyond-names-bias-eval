@@ -141,9 +141,9 @@ def clustering_ssd(coordinates):
     plt.show()
 
 
-LANGUAGE = IT
-PROMPT_PARAMS_FILE = CONFIG_NO_NAME
-if __name__ == '__main__':
+def main():
+    LANGUAGE = IT
+    PROMPT_PARAMS_FILE = CONFIG_NO_NAME
     stem_magnitude = defaultdict(list)
     coordinates = defaultdict(list)
     for MODEL in [GPT_3_5]: # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
@@ -177,3 +177,7 @@ if __name__ == '__main__':
     # TODO below
     plot_distribution_stem_magnitude(stem_magnitude)
     clustering_ssd(coordinates)
+
+
+if __name__ == '__main__':
+    main()
