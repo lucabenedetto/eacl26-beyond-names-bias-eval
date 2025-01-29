@@ -1,4 +1,4 @@
-from typing import List, Union, Tuple
+from typing import List, Union, Tuple, Dict
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import numpy as np
@@ -65,8 +65,11 @@ def group_scores_by_target_key(recommendations_df: pd.DataFrame, scores: List[Un
     """
     result = defaultdict(list)
     for index, (_, row) in enumerate(recommendations_df.iterrows()):
-        target = get_target_dict_from_df_row(row)
-        result[target].append(scores[index])
+        if scores[index] is None:
+            print(f"[INFO] Skipping item at index {index}, due to empty recommendation.")
+        else:
+            target = get_target_dict_from_df_row(row)
+            result[target].append(scores[index])
     return result
 
 
@@ -86,9 +89,9 @@ def compute_list_stem_magnitude_values(response_df: pd. DataFrame) -> List[float
     list_stem_magnitude_values = []
     for index, row in response_df.iterrows():
         if to_be_skipped_due_to_empty_recommendation(row):
-            print("[INFO] skipping one row as it contains NONE.")
-            continue
-        x = row.is_stem_rec_0*5 + row.is_stem_rec_1*4 + row.is_stem_rec_2*3 + row.is_stem_rec_3*2 + row.is_stem_rec_4*1
+            x = None
+        else:
+            x = bool(row.is_stem_rec_0)*5 + bool(row.is_stem_rec_1)*4 + bool(row.is_stem_rec_2)*3 + bool(row.is_stem_rec_3)*2 + bool(row.is_stem_rec_4)*1
         list_stem_magnitude_values.append(x)
     return list_stem_magnitude_values
 
@@ -105,26 +108,45 @@ def compute_ssd_coordinates(response_df: pd. DataFrame) -> List[ndarray]:
     list_ssd_coordinates = []
     for _, row in response_df.iterrows():
         if to_be_skipped_due_to_empty_recommendation(row):
-            print("[INFO] skipping one row as it contains NONE.")
-            continue
-        # 'ssd_rec_*' can then be one of "01", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14" (for IT)
-        coordinate = np.zeros(14)
-        # TODO possibly make the below with a loop
-        coordinate[int(row.ssd_rec_0)-1] += 5  # I need the "-1" because the ssd are between 01 and 14.
-        coordinate[int(row.ssd_rec_1)-1] += 4
-        coordinate[int(row.ssd_rec_2)-1] += 3
-        coordinate[int(row.ssd_rec_3)-1] += 2
-        coordinate[int(row.ssd_rec_4)-1] += 1
+            coordinate = None
+        else:
+            # 'ssd_rec_*' can then be one of "01", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14" (for IT)
+            coordinate = np.zeros(14)
+            # TODO possibly make the below with a loop
+            coordinate[int(row.ssd_rec_0)-1] += 5  # I need the "-1" because the ssd are between 01 and 14.
+            coordinate[int(row.ssd_rec_1)-1] += 4
+            coordinate[int(row.ssd_rec_2)-1] += 3
+            coordinate[int(row.ssd_rec_3)-1] += 2
+            coordinate[int(row.ssd_rec_4)-1] += 1
         list_ssd_coordinates.append(coordinate)
     return list_ssd_coordinates
 
 
-def plot_distribution_stem_magnitude(coordinates):
-    fig, ax = plt.subplots(1, len(coordinates.keys()), sharex=True, sharey=True)
-    for idx, key in enumerate(coordinates.keys()):
-        ax[idx].hist(coordinates[key], bins=5, label=key)
-        ax[idx].legend()
-        ax[idx].grid(axis='y')
+def plot_distribution_stem_magnitude(stem_magnitudes: Dict[str, List[float]],
+                                     title_model: str,
+                                     title_promp_type: str,
+                                     title_prompt_params: str,
+                                     title_temp: str,
+                                     ) -> None:
+    """
+    This method plots the distribution of the STEM magnitude passed as argument.
+    :param stem_magnitudes:
+    :param title_model:
+    :param title_promp_type:
+    :param title_prompt_params:
+    :param title_temp:
+    :return:
+    """
+    data = [stem_magnitudes[key] for key in stem_magnitudes.keys()]
+
+    plt.figure()
+    plt.boxplot(data, tick_labels=list(stem_magnitudes.keys()), patch_artist=True)
+    plt.title(f'Distribution of STEM Magnitude: {title_model}|{title_promp_type}|{title_prompt_params}|{title_temp}')
+    plt.xlabel('Study Group')
+    plt.ylabel('STEM Magnitude')
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Show the plot
     plt.show()
 
 
@@ -151,9 +173,13 @@ def main():
     #   etc. of the output images.
     lang = IT
     prompt_params = CONFIG_NO_NAME
-    list_models = [GPT_3_5] # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
+    list_models = [GPT_3_5] # , GPT_3_5, GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
     list_prompt_types = [USER_AS_STUDENT, LLM_AS_STUDENT]
     list_temperatures = [0.0, 0.3, 0.6]
+    title_model = 'GPT_3_5'
+    title_promp_type = 'UaS and LaS'
+    title_prompt_params = 'No name'
+    title_temp = 'all temps.'
 
     stem_magnitude = defaultdict(list)
     ssd_coordinates = defaultdict(list)
@@ -180,7 +206,7 @@ def main():
                     ssd_coordinates[key] += grouped_ssd_coordinates[key]
 
     # TODO below
-    plot_distribution_stem_magnitude(stem_magnitude)
+    plot_distribution_stem_magnitude(stem_magnitude, title_model, title_promp_type, title_prompt_params, title_temp)
     clustering_ssd(ssd_coordinates)
 
 
