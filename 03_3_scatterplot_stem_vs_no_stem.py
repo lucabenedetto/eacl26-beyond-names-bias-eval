@@ -150,12 +150,21 @@ def plot_distribution_stem_magnitude(stem_magnitudes: Dict[str, List[float]],
     plt.show()
 
 
-def tsne_clustering(coordinates,
+def tsne_clustering(coordinates: Dict[str, List[ndarray]],
                     title_model: str,
                     title_promp_type: str,
                     title_prompt_params: str,
                     title_temp: str,
                     ) -> None:
+    """
+    This method performs TSNE dimensionality reduction of the coordinates passed as argument.
+    :param coordinates:
+    :param title_model:
+    :param title_promp_type:
+    :param title_prompt_params:
+    :param title_temp:
+    :return:
+    """
     # TODO test with other params, and make them tunable by changing the functions parameters.
     model = TSNE(n_components=2, perplexity=50, learning_rate=200, random_state=42)
 
