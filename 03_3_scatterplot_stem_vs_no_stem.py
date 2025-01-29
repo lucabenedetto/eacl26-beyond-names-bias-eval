@@ -163,16 +163,11 @@ def main():
                     stem_magnitude[key] += grouped_stem_magnitude_values[key]
 
                 # Get the S.S.D ("settore scientifico disciplinare") coordinates for each recommendation.
-                # new_coordinates = compute_ssd_coordinates(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
                 new_coordinates = compute_ssd_coordinates(df)
                 grouped_ssd_coordinates = group_scores_by_target_key(df, new_coordinates)
                 for key in grouped_ssd_coordinates.keys():
                     ssd_coordinates[key] += grouped_ssd_coordinates[key]
 
-                # coordinates['model'] += new_coordinates['model']
-                # coordinates['f'] += new_coordinates['f']
-                # coordinates['m'] += new_coordinates['m']
-                # coordinates['x'] += new_coordinates['x']
 
     # TODO below
     plot_distribution_stem_magnitude(stem_magnitude)
