@@ -95,8 +95,6 @@ def compute_ssd_coordinates(model, language, prompt_type, prompt_params_file, te
 def plot_distribution_stem_magnitude(coordinates):
     fig, ax = plt.subplots(1, len(coordinates.keys()), sharex=True, sharey=True)
     for idx, key in enumerate(coordinates.keys()):
-        if key == 'model':
-            continue
         ax[idx].hist(coordinates[key], bins=5, label=key)
         ax[idx].legend()
         ax[idx].grid(axis='y')
@@ -131,11 +129,13 @@ if __name__ == '__main__':
             for TEMP in [0.0, 0.3, 0.6]:
                 # print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
                 new_stem_magnitude = compute_stem_magnitude(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
+                stem_magnitude['model'] += new_stem_magnitude['model']
                 stem_magnitude['f'] += new_stem_magnitude['f']
                 stem_magnitude['m'] += new_stem_magnitude['m']
                 stem_magnitude['x'] += new_stem_magnitude['x']
 
                 new_coordinates = compute_ssd_coordinates(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, TEMP)
+                coordinates['model'] += new_coordinates['model']
                 coordinates['f'] += new_coordinates['f']
                 coordinates['m'] += new_coordinates['m']
                 coordinates['x'] += new_coordinates['x']
