@@ -147,17 +147,23 @@ def clustering_ssd(coordinates):
 
 
 def main():
-    LANGUAGE = IT
-    PROMPT_PARAMS_FILE = CONFIG_NO_NAME
+    # Change these params to run the evaluation and the plots on different models / prompts and update the titles, axes,
+    #   etc. of the output images.
+    lang = IT
+    prompt_params = CONFIG_NO_NAME
+    list_models = [GPT_3_5] # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
+    list_prompt_types = [USER_AS_STUDENT, LLM_AS_STUDENT]
+    list_temperatures = [0.0, 0.3, 0.6]
+
     stem_magnitude = defaultdict(list)
     ssd_coordinates = defaultdict(list)
-    for MODEL in [GPT_3_5]: # , GPT_4o, GPT_4o_MINI, CLAUDE_3_5_HAIKU, CLAUDE_3_5_SONNET, GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B]:
-        for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
-            for TEMP in [0.0, 0.3, 0.6]:
+    for model in list_models:
+        for prompt_type in list_prompt_types:
+            for temp in list_temperatures:
                 # Get the recommendations for the given model and prompt (the prompt is identified by prompt_type,
                 #   prompt_params_file, and temperature)
-                folder_path = os.path.join('data', 'processed_output', f'{PROMPT_TYPE}', f'{LANGUAGE}')
-                df = pd.read_csv(os.path.join(folder_path, f'responses_{MODEL}_{LANGUAGE}_{PROMPT_PARAMS_FILE}_temp_{TEMP}.csv'))
+                folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{lang}')
+                df = pd.read_csv(os.path.join(folder_path, f'responses_{model}_{lang}_{prompt_params}_temp_{temp}.csv'))
 
                 # Measure "how STEM" each recommendation is for the given model and prompt.
                 new_stem_magnitude_values = compute_list_stem_magnitude_values(df)
