@@ -48,6 +48,11 @@ def get_target_dict_from_df_row(row) -> str:
     raise ValueError(f"Error with row ({row}).")
 
 
+def to_be_skipped_due_to_empty_recommendation(row):
+    return (row.ssd_rec_0 == "NONE" or row.ssd_rec_1 == "NONE" or row.ssd_rec_2 == "NONE"
+            or row.ssd_rec_3 == "NONE" or row.ssd_rec_4 == "NONE")
+
+
 def group_scores_by_target_key(recommendations_df: pd.DataFrame, scores: List[Union[float, ndarray]]) -> defaultdict:
     """
     This method receives the dataframe with the list of recommendations and a list of scores (computed for instance with
@@ -80,7 +85,9 @@ def compute_list_stem_magnitude_values(response_df: pd. DataFrame) -> List[float
     """
     list_stem_magnitude_values = []
     for index, row in response_df.iterrows():
-        # TODO add check that I actually have to consider this recommendation (i.e. there is no NONE in it).
+        if to_be_skipped_due_to_empty_recommendation(row):
+            print("[INFO] skipping one row as it contains NONE.")
+            continue
         x = row.is_stem_rec_0*5 + row.is_stem_rec_1*4 + row.is_stem_rec_2*3 + row.is_stem_rec_3*2 + row.is_stem_rec_4*1
         list_stem_magnitude_values.append(x)
     return list_stem_magnitude_values
@@ -97,9 +104,7 @@ def compute_ssd_coordinates(response_df: pd. DataFrame) -> List[ndarray]:
     """
     list_ssd_coordinates = []
     for _, row in response_df.iterrows():
-        # TODO check that I actually have to consider this recommendation (i.e. there is no NONE in it).
-        if (row.ssd_rec_0 == "NONE" or row.ssd_rec_1 == "NONE" or row.ssd_rec_2 == "NONE"
-            or row.ssd_rec_3 == "NONE" or row.ssd_rec_4 == "NONE"):
+        if to_be_skipped_due_to_empty_recommendation(row):
             print("[INFO] skipping one row as it contains NONE.")
             continue
         # 'ssd_rec_*' can then be one of "01", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14" (for IT)
@@ -167,7 +172,6 @@ def main():
                 grouped_ssd_coordinates = group_scores_by_target_key(df, new_coordinates)
                 for key in grouped_ssd_coordinates.keys():
                     ssd_coordinates[key] += grouped_ssd_coordinates[key]
-
 
     # TODO below
     plot_distribution_stem_magnitude(stem_magnitude)
