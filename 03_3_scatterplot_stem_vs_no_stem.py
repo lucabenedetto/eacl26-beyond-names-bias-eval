@@ -150,21 +150,30 @@ def plot_distribution_stem_magnitude(stem_magnitudes: Dict[str, List[float]],
     plt.show()
 
 
-def clustering_ssd(coordinates):
-    # TODO dimensionality reduction with either PCA or t-SNE, then scatter plot.
-    model = TSNE(n_components=2, perplexity=50, learning_rate=200, random_state=42)  # TODO test with other params
-    full_list = coordinates['model'] + coordinates['f'] + coordinates['m'] + coordinates['x']
-    transformed_full_list = model.fit_transform(np.array(full_list))
+def tsne_clustering(coordinates,
+                    title_model: str,
+                    title_promp_type: str,
+                    title_prompt_params: str,
+                    title_temp: str,
+                    ) -> None:
+    # TODO test with other params, and make them tunable by changing the functions parameters.
+    model = TSNE(n_components=2, perplexity=50, learning_rate=200, random_state=42)
+
+    full_coordinates_list = coordinates['model'] + coordinates['f'] + coordinates['m'] + coordinates['x']
+    transformed_full_list = model.fit_transform(np.array(full_coordinates_list))
+
     x_model = transformed_full_list[:len(coordinates['model'])]
     x_f = transformed_full_list[len(x_model):len(x_model)+len(coordinates['f'])]
     x_m = transformed_full_list[len(x_model)+len(x_f):len(x_model)+len(x_f)+len(coordinates['m'])]
     x_x = transformed_full_list[len(x_model)+len(x_f)+len(x_m):]
+
     fig, ax = plt.subplots()
-    ax.scatter([x[0] for x in x_f], [x[1] for x in x_f], label='f', alpha=0.3)
-    ax.scatter([x[0] for x in x_m], [x[1] for x in x_m], label='m', alpha=0.3)
-    ax.scatter([x[0] for x in x_x], [x[1] for x in x_x], label='x', alpha=0.3)
-    ax.scatter([x[0] for x in x_model], [x[1] for x in x_model], label='model', alpha=0.3)
+    ax.scatter([x[0] for x in x_f], [x[1] for x in x_f], label='f', alpha=0.2)
+    ax.scatter([x[0] for x in x_m], [x[1] for x in x_m], label='m', alpha=0.2)
+    ax.scatter([x[0] for x in x_x], [x[1] for x in x_x], label='x', alpha=0.2)
+    ax.scatter([x[0] for x in x_model], [x[1] for x in x_model], label='model', alpha=0.2)
     ax.legend()
+    plt.title(f't-SNE: {title_model} | {title_promp_type} | {title_prompt_params} | {title_temp}')
     plt.show()
 
 
@@ -205,9 +214,8 @@ def main():
                 for key in grouped_ssd_coordinates.keys():
                     ssd_coordinates[key] += grouped_ssd_coordinates[key]
 
-    # TODO below
     plot_distribution_stem_magnitude(stem_magnitude, title_model, title_promp_type, title_prompt_params, title_temp)
-    clustering_ssd(ssd_coordinates)
+    tsne_clustering(ssd_coordinates, title_model, title_promp_type, title_prompt_params, title_temp)
 
 
 if __name__ == '__main__':
