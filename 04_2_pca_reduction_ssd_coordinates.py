@@ -36,7 +36,6 @@ def main():
 
     # Train PCA on the whole dataset and perform the conversion.
     coordinates = convert_df_to_coordinates(df)
-    print(coordinates)
     pca, transformed_full_list = pca_reduction(coordinates)
     # Store the PCA reduced list
     out_df = df.copy()
