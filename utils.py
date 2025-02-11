@@ -5,7 +5,9 @@ from constants import (
     OPENAI_MODEL_TO_API_NAME,
     ANTHROPIC_MODEL_TO_API_NAME,
     GOOGLE_MODEL_TO_API_NAME,
+    NAMES_F, NAMES_M, ADJECTIVES_M, ADJECTIVES_F, ADJECTIVES_X, NOUNS_M, NOUNS_F, NOUNS_X,
 )
+
 
 def get_llm_response(api_key, model, prompt, temperature):
     if model in OPENAI_MODEL_TO_API_NAME:
@@ -47,3 +49,36 @@ def get_llm_response(api_key, model, prompt, temperature):
     else:
         raise ValueError(f"Model {model} not found")
     return response
+
+
+def get_target_dict_from_df_row(row) -> str:
+    # Note that this does not distinguish between different adjectives and nouns in each group (e.g, groups together
+    # all adjective in ADJECTIVES_X).
+    if not (row['with_name'] or row['with_noun'] or row['with_adjective']):
+        return 'model'
+    if row['with_name']:  # TODO: This does not work for parsing the rows with names if the adjective/noun is X instead of F/M
+        if row['name'] in NAMES_F[row['language']]:
+            return 'f'
+        if row['name'] in NAMES_M[row['language']]:
+            return 'm'
+    if row['with_noun']:
+        if row['noun'] in NOUNS_F[row['language']]:
+            return 'f'
+        if row['noun'] in NOUNS_M[row['language']]:
+            return 'm'
+        if row['noun'] in NOUNS_X[row['language']]:
+            return 'x'
+    if row['with_adjective']:
+        if row['adjective'] in ADJECTIVES_F[row['language']]:
+            return 'f'
+        if row['adjective'] in ADJECTIVES_M[row['language']]:
+            return 'm'
+        if row['adjective'] in ADJECTIVES_X[row['language']]:
+            return 'x'
+    raise ValueError(f"Error with row ({row}).")
+
+
+def to_be_skipped_due_to_empty_recommendation(row):
+    # TODO: possibly re-make with a loop.
+    return (row.ssd_rec_0 == "NONE" or row.ssd_rec_1 == "NONE" or row.ssd_rec_2 == "NONE"
+            or row.ssd_rec_3 == "NONE" or row.ssd_rec_4 == "NONE")
