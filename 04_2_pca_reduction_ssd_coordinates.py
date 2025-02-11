@@ -1,5 +1,11 @@
 """
-TODO: add description for this script.
+This script uses thestem_magnitude_ssd_coordinates_recs.csv file produced by the
+`04_1_compute_stem_magnitude_and_ssd_coordinates.py` script.
+It performs PCA on the whole dataset and stores the PCA reduced coordinates in a new file.
+It also performs PCA separately for each "family" of models (grouping them by owner), and stored the PCA reduced
+coordinates in a new file for each of those.
+It is meant to be run after the `04_1_compute_stem_magnitude_and_ssd_coordinates.py` script, and to be run once on all
+the models and prompt types.
 """
 import numpy as np
 import os
@@ -28,7 +34,7 @@ def convert_df_to_coordinates(df):
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
-    # Train PCA on the all dataset and perform the conversion.
+    # Train PCA on the whole dataset and perform the conversion.
     coordinates = convert_df_to_coordinates(df)
     print(coordinates)
     pca, transformed_full_list = pca_reduction(coordinates)
