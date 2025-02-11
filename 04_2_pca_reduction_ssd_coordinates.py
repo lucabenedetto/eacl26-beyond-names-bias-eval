@@ -1,0 +1,59 @@
+"""
+TODO: add description for this script.
+"""
+import numpy as np
+import os
+import pandas as pd
+import pickle
+from sklearn.decomposition import PCA
+
+from constants import MODELS_BY_OWNER
+
+
+def pca_reduction(coordinates):
+    pca = PCA(n_components=2)
+    transformed_full_list = pca.fit_transform(coordinates)
+    return pca, transformed_full_list
+
+
+def convert_df_to_coordinates(df):
+    coordinates_list = list()
+    for index, (_, row) in enumerate(df.iterrows()):
+        coordinates = np.zeros(14)
+        for idx in range(14):
+            coordinates[idx] = row[f'SSD_{idx}']
+        coordinates_list.append(coordinates)
+    return coordinates_list
+
+def main():
+    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
+
+    # Train PCA on the all dataset and perform the conversion.
+    coordinates = convert_df_to_coordinates(df)
+    print(coordinates)
+    pca, transformed_full_list = pca_reduction(coordinates)
+    # Store the PCA reduced list
+    out_df = df.copy()
+    out_df['pca_0'] = transformed_full_list[:, 0]
+    out_df['pca_1'] = transformed_full_list[:, 1]
+    out_df = out_df[['model', 'lang', 'prompt_type', 'prompt_param', 'temperature', 'study_group', 'pca_0', 'pca_1', 'recs']]
+    out_df.to_csv(os.path.join('data', 'processed_output', 'pca_reduced_ssd_coordinates_aggregate.csv'), index=False)
+    with open("data/processed_output/pca_model_aggregate.pkl", "wb") as file:
+        pickle.dump(pca, file)
+
+    # Then, perform PCA separately for each "family" of models.
+    for model_owner, models in MODELS_BY_OWNER.items():
+        local_df = df[df['model'].isin(models)]
+        coordinates = convert_df_to_coordinates(local_df)
+        pca, transformed_full_list = pca_reduction(coordinates)
+        out_df = local_df.copy()
+        out_df['pca_0'] = transformed_full_list[:, 0]
+        out_df['pca_1'] = transformed_full_list[:, 1]
+        out_df = out_df[['model', 'lang', 'prompt_type', 'prompt_param', 'temperature', 'study_group', 'pca_0', 'pca_1', 'recs']]
+        out_df.to_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_{model_owner}.csv'), index=False)
+        with open(f"data/processed_output/pca_model_{model_owner}.pkl", "wb") as file:
+            pickle.dump(pca, file)
+
+
+if __name__ == '__main__':
+    main()
