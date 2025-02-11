@@ -12,34 +12,10 @@ from constants import (
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     NAMES_F, NAMES_M,
-    ADJECTIVES_M, ADJECTIVES_F, ADJECTIVES_N,
-    NOUNS_M, NOUNS_F, NOUNS_N,
+    ADJECTIVES_M, ADJECTIVES_F, ADJECTIVES_X,
+    NOUNS_M, NOUNS_F, NOUNS_X,
 )
-
-def get_target_dict_from_df_row(row) -> str:
-    # Note that this does not distinguish between different adjectives (for any gender nor no gender, it groups them together).
-    if not (row['with_name'] or row['with_noun'] or row['with_adjective']):
-        return 'model'
-    if row['with_name']:  # TODO: This does not work for parsing the rows with names if the adjective/noun is X instead of F/M
-        if row['name'] in NAMES_F[row['language']]:
-            return 'f'
-        if row['name'] in NAMES_M[row['language']]:
-            return 'm'
-    if row['with_noun']:
-        if row['noun'] in NOUNS_F[row['language']]:
-            return 'f'
-        if row['noun'] in NOUNS_M[row['language']]:
-            return 'm'
-        if row['noun'] in NOUNS_N[row['language']]:
-            return 'x'
-    if row['with_adjective']:
-        if row['adjective'] in ADJECTIVES_F[row['language']]:
-            return 'f'
-        if row['adjective'] in ADJECTIVES_M[row['language']]:
-            return 'm'
-        if row['adjective'] in ADJECTIVES_N[row['language']]:
-            return 'x'
-    raise ValueError(f"Error with row ({row}).")
+from utils import get_target_dict_from_df_row
 
 
 def main(language, model, prompt_params_file, prompt_type):
@@ -136,8 +112,8 @@ def plot_comparative_bar_plot(course_ranking, model, prompt_params_file, prompt_
 
     # Show plot
     plt.tight_layout()
-    # plt.show()
-    plt.savefig(f'figures/first_test__{prompt_params_file}__{prompt_type}__{model}.png')
+    plt.show()
+    # plt.savefig(f'figures/first_test__{prompt_params_file}__{prompt_type}__{model}.png')
 
 
 if __name__ == '__main__':
