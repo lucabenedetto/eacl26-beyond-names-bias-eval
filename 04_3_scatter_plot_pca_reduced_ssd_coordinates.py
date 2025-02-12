@@ -107,8 +107,8 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_Anthropic.csv'))
     scatter_plot_with_marginal_hist(df)
-    print_recommendations_from_corners(df)
-    print_recommendations_from_borders(df)
+    print_recommendations_from_corners(df, n_bins=5)
+    print_recommendations_from_borders(df, n_bins=15)
 
 
 if __name__ == '__main__':
