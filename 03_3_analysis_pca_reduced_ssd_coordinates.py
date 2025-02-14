@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pandas as pd
+import seaborn as sns
 
 from constants import (
     C_STUDY_GROUP, C_PCA_0, C_PCA_1, C_RECS
@@ -60,6 +61,15 @@ def scatter_plot_with_marginal_hist(
     plt.show()
 
 
+# This is a first test to see how it plots the jointplot, but it looks a bit unreadable.
+def joint_plot(df_with_2d_coordinates, title=''):
+    data = {'x': df_with_2d_coordinates[C_PCA_0],
+            'y': df_with_2d_coordinates[C_PCA_1],
+            'class': df_with_2d_coordinates[C_STUDY_GROUP]}
+    sns.jointplot(data=data, x='x', y='y', hue='class', kind='kde', fill=True, joint_kws={'alpha': 0.7})
+    plt.show()
+
+
 def get_x_y_min_max(df_with_2d_coordinates):
     x_min = df_with_2d_coordinates[C_PCA_0].min()
     x_max = df_with_2d_coordinates[C_PCA_0].max()
@@ -109,9 +119,10 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_Anthropic.csv'))
-    scatter_plot_with_marginal_hist(df)
-    print_recommendations_from_corners(df, n_bins=5)
-    print_recommendations_from_borders(df, n_bins=15)
+    # scatter_plot_with_marginal_hist(df)
+    # print_recommendations_from_corners(df, n_bins=5)
+    # print_recommendations_from_borders(df, n_bins=15)
+    joint_plot(df, title='')
 
 
 if __name__ == '__main__':
