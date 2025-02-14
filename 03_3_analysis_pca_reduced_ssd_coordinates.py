@@ -67,6 +67,18 @@ def joint_plot(df_with_2d_coordinates, title=''):
     plt.show()
 
 
+# TODO fix params, and x/y lim
+def joint_plot_by_class(df, class_column, x_column, y_column):
+    x_min, x_max, y_min, y_max = get_x_y_min_max(df)
+    for study_group in ['model', 'f', 'm', 'x']:
+        sns.jointplot(
+            data=df[df[C_STUDY_GROUP]==study_group], x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
+            joint_kws={'alpha': 0.7},
+            xlim=(x_min-2, x_max+2), ylim=(y_min-2, y_max+2),
+        )
+        plt.show()
+
+
 # TODO fig params
 def plot_hexbin_by_class(df, class_column, x_column, y_column):
     gridsize = 16
@@ -153,7 +165,8 @@ def main():
     # print_recommendations_from_borders(df, n_bins=15)
     # joint_plot(df, title='')
     # scatter_plot_with_marginal_distributions_sns(df)
-    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    # plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
