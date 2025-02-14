@@ -3,9 +3,12 @@ import numpy as np
 import os
 import pandas as pd
 
+from constants import (
+    C_STUDY_GROUP, C_PCA_0, C_PCA_1, C_RECS
+)
 
 def get_pca_coordinates_by_study_group(df, study_group):
-    return np.array([(x1, x2) for x1, x2 in df[df['study_group'] == study_group][['pca_0', 'pca_1']].values])
+    return np.array([(x1, x2) for x1, x2 in df[df[C_STUDY_GROUP] == study_group][[C_PCA_0, C_PCA_1]].values])
 
 
 def scatter_plot_with_marginal_hist(
@@ -58,10 +61,10 @@ def scatter_plot_with_marginal_hist(
 
 
 def get_x_y_min_max(df_with_2d_coordinates):
-    x_min = df_with_2d_coordinates['pca_0'].min()
-    x_max = df_with_2d_coordinates['pca_0'].max()
-    y_min = df_with_2d_coordinates['pca_1'].min()
-    y_max = df_with_2d_coordinates['pca_1'].max()
+    x_min = df_with_2d_coordinates[C_PCA_0].min()
+    x_max = df_with_2d_coordinates[C_PCA_0].max()
+    y_min = df_with_2d_coordinates[C_PCA_1].min()
+    y_max = df_with_2d_coordinates[C_PCA_1].max()
     return x_min, x_max, y_min, y_max
 
 
@@ -79,29 +82,29 @@ def print_recommendations_from_corners(df_2d_coord, n_bins=5):
     #   it works on different column names)
     low_threshold_x, high_threshold_x, low_threshold_y, high_threshold_y = get_x_y_low_high_thresholds(df_2d_coord, n_bins)
 
-    bottom_left = df_2d_coord[(df_2d_coord['pca_0'] < low_threshold_x) & (df_2d_coord['pca_1'] < low_threshold_y)]
-    top_left = df_2d_coord[(df_2d_coord['pca_0'] < low_threshold_x) & (df_2d_coord['pca_1'] > high_threshold_y)]
-    top_right = df_2d_coord[(df_2d_coord['pca_0'] > high_threshold_x) & (df_2d_coord['pca_1'] > high_threshold_y)]
-    bottom_right = df_2d_coord[(df_2d_coord['pca_0'] > high_threshold_x) & (df_2d_coord['pca_1'] < low_threshold_y)]
+    bottom_left = df_2d_coord[(df_2d_coord[C_PCA_0] < low_threshold_x) & (df_2d_coord[C_PCA_1] < low_threshold_y)]
+    top_left = df_2d_coord[(df_2d_coord[C_PCA_0] < low_threshold_x) & (df_2d_coord[C_PCA_1] > high_threshold_y)]
+    top_right = df_2d_coord[(df_2d_coord[C_PCA_0] > high_threshold_x) & (df_2d_coord[C_PCA_1] > high_threshold_y)]
+    bottom_right = df_2d_coord[(df_2d_coord[C_PCA_0] > high_threshold_x) & (df_2d_coord[C_PCA_1] < low_threshold_y)]
 
-    print("Bottom left:", bottom_left['recs'].value_counts())
-    print("Top left:", top_left['recs'].value_counts())
-    print("Top Right:", top_right['recs'].value_counts())
-    print("Bottom right:", bottom_right['recs'].value_counts())
+    print("Bottom left:", bottom_left[C_RECS].value_counts())
+    print("Top left:", top_left[C_RECS].value_counts())
+    print("Top Right:", top_right[C_RECS].value_counts())
+    print("Bottom right:", bottom_right[C_RECS].value_counts())
 
 
 def print_recommendations_from_borders(df_2d_coord, n_bins=10):
     # df_2d_coord must be a dataframe with at least cols pca_0, pca_1, and recs (I might actually change this so that
     #   it works on different column names)
     low_threshold_x, high_threshold_x, low_threshold_y, high_threshold_y = get_x_y_low_high_thresholds(df_2d_coord, n_bins)
-    left = df_2d_coord[df_2d_coord['pca_0'] < low_threshold_x]
-    right = df_2d_coord[df_2d_coord['pca_0'] > high_threshold_x]
-    top = df_2d_coord[df_2d_coord['pca_1'] > high_threshold_y]
-    bottom = df_2d_coord[df_2d_coord['pca_1'] < low_threshold_y]
-    print("Left:", left['recs'].value_counts())
-    print("Right:", right['recs'].value_counts())
-    print("Top:", top['recs'].value_counts())
-    print("Bottom:", bottom['recs'].value_counts())
+    left = df_2d_coord[df_2d_coord[C_PCA_0] < low_threshold_x]
+    right = df_2d_coord[df_2d_coord[C_PCA_0] > high_threshold_x]
+    top = df_2d_coord[df_2d_coord[C_PCA_1] > high_threshold_y]
+    bottom = df_2d_coord[df_2d_coord[C_PCA_1] < low_threshold_y]
+    print("Left:", left[C_RECS].value_counts())
+    print("Right:", right[C_RECS].value_counts())
+    print("Top:", top[C_RECS].value_counts())
+    print("Bottom:", bottom[C_RECS].value_counts())
 
 
 def main():
