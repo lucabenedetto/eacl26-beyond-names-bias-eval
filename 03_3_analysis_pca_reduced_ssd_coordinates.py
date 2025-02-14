@@ -59,10 +59,10 @@ def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title='
 
 # This is a first test to see how it plots the jointplot, but it looks a bit unreadable.
 def joint_plot(df_with_2d_coordinates, title=''):
-    data = {'x': df_with_2d_coordinates[C_PCA_0],
-            'y': df_with_2d_coordinates[C_PCA_1],
-            'class': df_with_2d_coordinates[C_STUDY_GROUP]}
-    sns.jointplot(data=data, x='x', y='y', hue='class', kind='kde', fill=True, joint_kws={'alpha': 0.7})
+    sns.jointplot(
+        data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
+        joint_kws={'alpha': 0.7}
+    )
     plt.show()
 
 
