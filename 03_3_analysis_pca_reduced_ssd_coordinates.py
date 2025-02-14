@@ -57,7 +57,8 @@ def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title='
     plt.show()
 
 
-# This is a first test to see how it plots the jointplot, but it looks a bit unreadable.
+# This is a first test to see how it plots the jointplot, but it looks a bit unreadable if I put everything in a single
+# figure.
 def joint_plot(df_with_2d_coordinates, title=''):
     sns.jointplot(
         data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
