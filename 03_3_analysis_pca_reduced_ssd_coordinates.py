@@ -79,7 +79,7 @@ def joint_plot_by_class(df, class_column, x_column, y_column):
         plt.show()
 
 
-# TODO fig params
+# TODO fix params
 def plot_hexbin_by_class(df, class_column, x_column, y_column):
     gridsize = 16
     # TODO set titles, axes, etc.
