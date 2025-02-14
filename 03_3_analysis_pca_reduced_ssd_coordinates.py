@@ -27,15 +27,6 @@ def scatter_plot_with_marginal_hist(
         'x': get_pca_coordinates_by_study_group(df_with_2d_coordinates, 'x'),
     }
 
-    # this the code for a "standard" scatter plot.
-    # fig, ax = plt.subplots()
-    # ax.scatter(coordinates['model'][:,0], coordinates['model'][:,1], label='model', alpha=0.5)
-    # ax.scatter(coordinates['f'][:,0], coordinates['f'][:,1], label='f', alpha=0.5)
-    # ax.scatter(coordinates['m'][:,0], coordinates['m'][:,1], label='m', alpha=0.5)
-    # ax.scatter(coordinates['x'][:,0], coordinates['x'][:,1], label='x', alpha=0.5)
-    # ax.legend()
-    # plt.show()
-
     fig = plt.figure(figsize=(10, 10))
     gs = fig.add_gridspec(3, 3)
     # Create the scatter plot
