@@ -29,6 +29,8 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     CONFIG_NO_NAME,
+    C_MODEL, C_STUDY_GROUP, C_TEMPERATURE, C_RECS, C_LANGUAGE, C_PROMPT_TYPE, C_PROMPT_PARAM, C_STEM_MAGNITUDE,
+    C_LIST_SSD,
 )
 
 
@@ -52,8 +54,8 @@ def main(
     :return: None
     """
     output_df = pd.DataFrame(
-        columns=['model', 'lang', 'prompt_type', 'prompt_param', 'temperature', 'study_group', 'STEM_magnitude']
-                + [f'SSD_{i}' for i in range(14)] + ['recs']
+        columns=[C_MODEL, C_LANGUAGE, C_PROMPT_TYPE, C_PROMPT_PARAM, C_TEMPERATURE, C_STUDY_GROUP, C_STEM_MAGNITUDE]
+                + C_LIST_SSD + [C_RECS]
     )
     for model in list_models:
         for lang in list_lang:
@@ -72,23 +74,23 @@ def main(
                                 continue
 
                             new_row_dict = {
-                                    'model': [model],
-                                    'lang': [lang],
-                                    'prompt_type': [prompt_type],
-                                    'prompt_param': [prompt_params],
-                                    'temperature': [temp],
+                                    C_MODEL: [model],
+                                    C_LANGUAGE: [lang],
+                                    C_PROMPT_TYPE: [prompt_type],
+                                    C_PROMPT_PARAM: [prompt_params],
+                                    C_TEMPERATURE: [temp],
                                 }
 
                             # get the target study group
                             target_study_group = get_target_dict_from_df_row(row)
-                            new_row_dict['study_group'] = [target_study_group]
+                            new_row_dict[C_STUDY_GROUP] = [target_study_group]
 
                             # Compute STEM magnitude of the recommendation.
                             # TODO make a method for this
                             stem_magnitude = bool(row.is_stem_rec_0) * 5 + bool(row.is_stem_rec_1) * 4 \
                                              + bool(row.is_stem_rec_2) * 3 + bool(row.is_stem_rec_3) * 2 \
                                              + bool(row.is_stem_rec_4) * 1
-                            new_row_dict['STEM_magnitude'] = [stem_magnitude]
+                            new_row_dict[C_STEM_MAGNITUDE] = [stem_magnitude]
 
                             # Compute S.S.D. coordinates of the recommendation.
                             # TODO make a method for this
@@ -100,10 +102,10 @@ def main(
                             coordinate[int(row.ssd_rec_3) - 1] += 2
                             coordinate[int(row.ssd_rec_4) - 1] += 1
                             for idx in range(14):
-                                new_row_dict[f'SSD_{idx}'] = [coordinate[idx]]
+                                new_row_dict[C_LIST_SSD[idx]] = [coordinate[idx]]
 
                             # To store the recs in a single column (just so it's easier to move them around).
-                            new_row_dict['recs'] = [[row.rec_0, row.rec_1, row.rec_2, row.rec_3, row.rec_4]]
+                            new_row_dict[C_RECS] = [[row.rec_0, row.rec_1, row.rec_2, row.rec_3, row.rec_4]]
 
                             # Add the new row to the output dataframe.
                             new_row_df = pd.DataFrame(new_row_dict)
