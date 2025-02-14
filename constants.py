@@ -123,5 +123,7 @@ C_STEM_MAGNITUDE = 'STEM_magnitude'
 C_RECS = 'recommendations'
 C_PCA_0 = 'pca_0'
 C_PCA_1 = 'pca_1'
+C_TSNE_0 = 'tsne_0'
+C_TSNE_1 = 'tsne_1'
 
 C_LIST_SSD = [f'SSD_{i}' for i in range(14)]
