@@ -68,7 +68,7 @@ def joint_plot(df_with_2d_coordinates, title=''):
 
 
 # TODO fig params
-def plot_jointplots_by_class(df, class_column, x_column, y_column):
+def plot_hexbin_by_class(df, class_column, x_column, y_column):
     gridsize = 16
     # TODO set titles, axes, etc.
 
@@ -153,7 +153,7 @@ def main():
     # print_recommendations_from_borders(df, n_bins=15)
     # joint_plot(df, title='')
     # scatter_plot_with_marginal_distributions_sns(df)
-    plot_jointplots_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
