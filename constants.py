@@ -93,3 +93,37 @@ GOOGLE_MODEL_TO_API_NAME = {
     GEMINI_1_5_FLASH: 'gemini-1.5-flash',
     GEMINI_1_5_FLASH_8B: 'gemini-1.5-flash-8b',
 }
+
+# These are the models evaluated in the experiments for the ARR paper (target EMNLP).
+MODELS_LIST = [
+    GPT_3_5,
+    GPT_4o_MINI,
+    GPT_4o,
+    CLAUDE_3_5_SONNET,
+    CLAUDE_3_5_HAIKU,
+    GEMINI_1_5_FLASH,
+    GEMINI_1_5_FLASH_8B,
+]
+
+MODELS_BY_OWNER = {
+    'OpenAI': {GPT_3_5, GPT_4o_MINI, GPT_4o},
+    'Anthropic': {CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU},
+    'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B},
+}
+
+
+# Column names
+C_MODEL = 'model'
+C_LANGUAGE = 'language'
+C_PROMPT_TYPE = 'prompt_type'
+C_PROMPT_PARAM = 'prompt_param'
+C_TEMPERATURE = 'temperature'
+C_STUDY_GROUP = 'study_group'
+C_STEM_MAGNITUDE = 'STEM_magnitude'
+C_RECS = 'recommendations'
+C_PCA_0 = 'pca_0'
+C_PCA_1 = 'pca_1'
+C_TSNE_0 = 'tsne_0'
+C_TSNE_1 = 'tsne_1'
+
+C_LIST_SSD = [f'SSD_{i}' for i in range(14)]
