@@ -67,6 +67,38 @@ def joint_plot(df_with_2d_coordinates, title=''):
     plt.show()
 
 
+# TODO fig params
+def plot_jointplots_by_class(df, class_column, x_column, y_column):
+    gridsize = 16
+    # TODO set titles, axes, etc.
+
+    x_min, x_max, y_min, y_max = get_x_y_min_max(df)
+
+    fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
+
+    hb = ax[0][0].hexbin(
+        df[df[C_STUDY_GROUP]=='model'][C_PCA_0], df[df[C_STUDY_GROUP]=='model'][C_PCA_1],
+        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
+    )
+    cb = fig.colorbar(hb, ax=ax[0][0], label='counts')
+    hb = ax[0][1].hexbin(
+        df[df[C_STUDY_GROUP]=='f'][C_PCA_0], df[df[C_STUDY_GROUP]=='f'][C_PCA_1],
+        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
+    )
+    cb = fig.colorbar(hb, ax=ax[0][1], label='counts')
+    hb = ax[1][0].hexbin(
+        df[df[C_STUDY_GROUP]=='m'][C_PCA_0], df[df[C_STUDY_GROUP]=='m'][C_PCA_1],
+        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
+    )
+    cb = fig.colorbar(hb, ax=ax[1][0], label='counts')
+    hb = ax[1][1].hexbin(
+        df[df[C_STUDY_GROUP]=='x'][C_PCA_0], df[df[C_STUDY_GROUP]=='x'][C_PCA_1],
+        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
+    )
+    cb = fig.colorbar(hb, ax=ax[1][1], label='counts')
+    plt.show()
+
+
 def get_x_y_min_max(df_with_2d_coordinates):
     x_min = df_with_2d_coordinates[C_PCA_0].min()
     x_max = df_with_2d_coordinates[C_PCA_0].max()
@@ -120,7 +152,8 @@ def main():
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
     # joint_plot(df, title='')
-    scatter_plot_with_marginal_distributions_sns(df)
+    # scatter_plot_with_marginal_distributions_sns(df)
+    plot_jointplots_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
