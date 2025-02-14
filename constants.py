@@ -110,3 +110,18 @@ MODELS_BY_OWNER = {
     'Anthropic': {CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU},
     'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B},
 }
+
+
+# Column names
+C_MODEL = 'model'
+C_LANGUAGE = 'language'
+C_PROMPT_TYPE = 'prompt_type'
+C_PROMPT_PARAM = 'prompt_param'
+C_TEMPERATURE = 'temperature'
+C_STUDY_GROUP = 'study_group'
+C_STEM_MAGNITUDE = 'STEM_magnitude'
+C_RECS = 'recommendations'
+C_PCA_0 = 'pca_0'
+C_PCA_1 = 'pca_1'
+
+C_LIST_SSD = [f'SSD_{i}' for i in range(14)]
