@@ -59,7 +59,7 @@ def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title='
 
 # This is a first test to see how it plots the jointplot, but it looks a bit unreadable if I put everything in a single
 # figure.
-def joint_plot(df_with_2d_coordinates, title=''):
+def joint_plot(df_with_2d_coordinates):
     sns.jointplot(
         data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
         joint_kws={'alpha': 0.7}
@@ -163,10 +163,10 @@ def main():
     # scatter_plot_with_marginal_hist(df)
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
-    # joint_plot(df, title='')
+    joint_plot(df)
     # scatter_plot_with_marginal_distributions_sns(df)
     # plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
-    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    # joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
