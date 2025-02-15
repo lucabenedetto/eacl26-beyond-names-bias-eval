@@ -5,7 +5,9 @@ import pandas as pd
 import seaborn as sns
 
 from constants import (
-    C_STUDY_GROUP, C_PCA_0, C_PCA_1, C_RECS
+    C_STUDY_GROUP, C_PCA_0, C_PCA_1, C_RECS,
+    COLOUR_BY_GROUP,
+    PALETTES_BY_GROUP,
 )
 
 def get_pca_coordinates_by_study_group(df, study_group):
@@ -67,12 +69,18 @@ def joint_plot(df_with_2d_coordinates):
     plt.show()
 
 
-# TODO fix params, and x/y lim
+# TODO fix x & y lim
 def joint_plot_by_class(df, class_column, x_column, y_column):
     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
     for study_group in ['model', 'f', 'm', 'x']:
         sns.jointplot(
-            data=df[df[C_STUDY_GROUP]==study_group], x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
+            data=df[df[C_STUDY_GROUP]==study_group],
+            x=x_column,
+            y=y_column,
+            hue=class_column,
+            kind='kde',
+            fill=True,
+            palette=PALETTES_BY_GROUP[study_group],
             joint_kws={'alpha': 0.7},
             xlim=(x_min-2, x_max+2), ylim=(y_min-2, y_max+2),
         )
@@ -163,10 +171,10 @@ def main():
     # scatter_plot_with_marginal_hist(df)
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
-    joint_plot(df)
+    # joint_plot(df)
     # scatter_plot_with_marginal_distributions_sns(df)
     # plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
-    # joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':

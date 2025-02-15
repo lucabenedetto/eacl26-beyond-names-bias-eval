@@ -127,3 +127,19 @@ C_TSNE_0 = 'tsne_0'
 C_TSNE_1 = 'tsne_1'
 
 C_LIST_SSD = [f'SSD_{i}' for i in range(14)]
+
+
+# Colours for plotting
+COLOUR_BY_GROUP = {
+    'model': 'tab:gray',
+    'f': 'tab:blue',
+    'm': 'tab:orange',
+    'x': 'tab:green',
+}
+PALETTES_BY_GROUP = {
+    'model': 'Greys',
+    'f': 'Blues',
+    'm': 'Oranges',
+    'x': 'Greens',
+}
+# TAB_COLOURS = ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
