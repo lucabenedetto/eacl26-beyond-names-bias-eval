@@ -3,6 +3,8 @@ IT = 'it'
 FR = 'fr'
 EN = 'en'
 
+STUDY_GROUPS = ['model', 'f', 'm', 'x']
+
 # Params for the experiments
 USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'

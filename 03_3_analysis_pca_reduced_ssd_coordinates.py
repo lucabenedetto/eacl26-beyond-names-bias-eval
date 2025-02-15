@@ -8,6 +8,7 @@ from constants import (
     C_STUDY_GROUP, C_PCA_0, C_PCA_1, C_RECS,
     COLOUR_BY_GROUP,
     PALETTES_BY_GROUP,
+    STUDY_GROUPS,
 )
 
 def get_pca_coordinates_by_study_group(df, study_group):
@@ -87,35 +88,17 @@ def joint_plot_by_class(df, class_column, x_column, y_column):
         plt.show()
 
 
-# TODO fix params
-def plot_hexbin_by_class(df, class_column, x_column, y_column):
-    gridsize = 16
-    # TODO set titles, axes, etc.
-
+def plot_hexbin_by_class(df, class_column, x_column, y_column, gridsize=16):
     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
 
     fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
-
-    hb = ax[0][0].hexbin(
-        df[df[C_STUDY_GROUP]=='model'][C_PCA_0], df[df[C_STUDY_GROUP]=='model'][C_PCA_1],
-        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
-    )
-    cb = fig.colorbar(hb, ax=ax[0][0], label='counts')
-    hb = ax[0][1].hexbin(
-        df[df[C_STUDY_GROUP]=='f'][C_PCA_0], df[df[C_STUDY_GROUP]=='f'][C_PCA_1],
-        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
-    )
-    cb = fig.colorbar(hb, ax=ax[0][1], label='counts')
-    hb = ax[1][0].hexbin(
-        df[df[C_STUDY_GROUP]=='m'][C_PCA_0], df[df[C_STUDY_GROUP]=='m'][C_PCA_1],
-        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
-    )
-    cb = fig.colorbar(hb, ax=ax[1][0], label='counts')
-    hb = ax[1][1].hexbin(
-        df[df[C_STUDY_GROUP]=='x'][C_PCA_0], df[df[C_STUDY_GROUP]=='x'][C_PCA_1],
-        bins='log', gridsize=gridsize, cmap='inferno', extent=(x_min, x_max, y_min, y_max)
-    )
-    cb = fig.colorbar(hb, ax=ax[1][1], label='counts')
+    for axis, study_group in zip([ax[0][0], ax[0][1], ax[1][0], ax[1][1]], STUDY_GROUPS):
+        hb = axis.hexbin(
+            df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
+            bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
+        )
+        cb = fig.colorbar(hb, ax=axis, label='counts')
+        axis.set_title(study_group)
     plt.show()
 
 
@@ -173,8 +156,8 @@ def main():
     # print_recommendations_from_borders(df, n_bins=15)
     # joint_plot(df)
     # scatter_plot_with_marginal_distributions_sns(df)
-    # plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
-    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    # joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
