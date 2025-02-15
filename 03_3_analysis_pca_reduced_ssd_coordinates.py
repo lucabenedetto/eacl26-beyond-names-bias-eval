@@ -15,20 +15,14 @@ def get_pca_coordinates_by_study_group(df, study_group):
     return np.array([(x1, x2) for x1, x2 in df[df[C_STUDY_GROUP] == study_group][[C_PCA_0, C_PCA_1]].values])
 
 
-def scatter_plot_with_marginal_hist(
+def scatter_plot_with_marginal_hist_plt(
         df_with_2d_coordinates, 
         title='',
 ) -> None:
     """
     Generate a scatter plot with marginal histograms for the given coordinates grouped by type.
     """
-
-    coordinates = {
-        'model': get_pca_coordinates_by_study_group(df_with_2d_coordinates, 'model'),
-        'f': get_pca_coordinates_by_study_group(df_with_2d_coordinates, 'f'),
-        'm': get_pca_coordinates_by_study_group(df_with_2d_coordinates, 'm'),
-        'x': get_pca_coordinates_by_study_group(df_with_2d_coordinates, 'x'),
-    }
+    coordinates = {sg: get_pca_coordinates_by_study_group(df_with_2d_coordinates, sg) for sg in STUDY_GROUPS}
 
     fig = plt.figure(figsize=(10, 10))
     gs = fig.add_gridspec(3, 3)
@@ -55,6 +49,7 @@ def scatter_plot_with_marginal_hist(
     plt.show()
 
 
+# TODO fix params
 def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title=''):
     sns.jointplot(data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP)
     plt.show()
@@ -62,7 +57,7 @@ def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title='
 
 # This is a first test to see how it plots the jointplot, but it looks a bit unreadable if I put everything in a single
 # figure.
-def joint_plot(df_with_2d_coordinates):
+def joint_plot_sns(df_with_2d_coordinates):
     sns.jointplot(
         data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
         joint_kws={'alpha': 0.7}
@@ -151,13 +146,13 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_Anthropic.csv'))
-    # scatter_plot_with_marginal_hist(df)
+    scatter_plot_with_marginal_hist_plt(df)
+    scatter_plot_with_marginal_distributions_sns(df)
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
-    # joint_plot(df)
-    # scatter_plot_with_marginal_distributions_sns(df)
+    joint_plot_sns(df)
     plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
-    # joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
 
 
 if __name__ == '__main__':
