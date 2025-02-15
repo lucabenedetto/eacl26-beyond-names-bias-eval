@@ -9,6 +9,7 @@ from constants import (
     COLOUR_BY_GROUP,
     PALETTES_BY_GROUP,
     STUDY_GROUPS,
+    MODELS_BY_OWNER,
 )
 
 def get_pca_coordinates_by_study_group(df, study_group):
@@ -145,7 +146,11 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 
 
 def main():
-    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_Anthropic.csv'))
+    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
+
+    # df = df[df['model'].isin(MODELS_BY_OWNER['Google'])]
+    # df = df[df['temperature'].isin([0.6])]
+
     print("scatter_plot_with_marginal_hist_plt")
     scatter_plot_with_marginal_hist_plt(df)
     print("scatter_plot_with_marginal_distributions_sns")
