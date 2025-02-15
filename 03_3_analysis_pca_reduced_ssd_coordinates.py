@@ -51,7 +51,7 @@ def scatter_plot_with_marginal_hist_plt(
 
 # TODO fix params
 def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title=''):
-    sns.jointplot(data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP)
+    sns.jointplot(data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, palette=COLOUR_BY_GROUP)
     plt.show()
 
 
@@ -146,13 +146,18 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_Anthropic.csv'))
+    print("scatter_plot_with_marginal_hist_plt")
     scatter_plot_with_marginal_hist_plt(df)
-    scatter_plot_with_marginal_distributions_sns(df)
+    print("scatter_plot_with_marginal_distributions_sns")
+    scatter_plot_with_marginal_distributions_sns(df)  # Seems ok
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
+    print("joint_plot_sns")
     joint_plot_sns(df)
-    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
-    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)
+    print("plot_hexbin_by_class")
+    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)  # Seems ok
+    print("joint_plot_by_class")
+    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)  # Seems ok
 
 
 if __name__ == '__main__':
