@@ -29,18 +29,18 @@ def scatter_plot_with_marginal_hist_plt(
     # Create the scatter plot
     ax_scatter = fig.add_subplot(gs[1:, :-1])
     for key, value in coordinates.items():
-        ax_scatter.scatter([x[0] for x in value], [x[1] for x in value], label=key, alpha=0.5)
+        ax_scatter.scatter([x[0] for x in value], [x[1] for x in value], label=key, alpha=0.5, color=COLOUR_BY_GROUP[key])
     ax_scatter.legend()
     ax_scatter.grid(True)
     # Create the x-axis histograms
     ax_histx = fig.add_subplot(gs[0, :-1])
     for key, value in coordinates.items():
-        ax_histx.hist([x[0] for x in value], bins=30, alpha=0.5)  # color=blue
+        ax_histx.hist([x[0] for x in value], bins=30, alpha=0.5, color=COLOUR_BY_GROUP[key])
     ax_histx.set_xticks([])
     # Create the y-axis histograms
     ax_histy = fig.add_subplot(gs[1:, -1])
     for key, value in coordinates.items():
-        ax_histy.hist([x[1] for x in value], bins=30, orientation='horizontal', alpha=0.5)  # color=blue
+        ax_histy.hist([x[1] for x in value], bins=30, orientation='horizontal', alpha=0.5, color=COLOUR_BY_GROUP[key])
     ax_histy.set_yticks([])
 
     # Add a title
