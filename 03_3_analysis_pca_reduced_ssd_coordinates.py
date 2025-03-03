@@ -17,8 +17,9 @@ def get_pca_coordinates_by_study_group(df, study_group):
 
 
 def scatter_plot_with_marginal_hist_plt(
-        df_with_2d_coordinates, 
-        title='',
+        df_with_2d_coordinates,
+        title='scatter plot with marginal histograms',
+        output_file=None,
 ) -> None:
     """
     Generate a scatter plot with marginal histograms for the given coordinates grouped by type.
@@ -47,27 +48,50 @@ def scatter_plot_with_marginal_hist_plt(
     # Add a title
     plt.suptitle(title)  # , y=0.95)
     plt.tight_layout()
-    plt.show()
+    if output_file:
+        plt.savefig(output_file)
+    else:
+        plt.show()
 
 
 # TODO fix params
-def scatter_plot_with_marginal_distributions_sns(df_with_2d_coordinates, title=''):
+def scatter_plot_with_marginal_distributions_sns(
+        df_with_2d_coordinates,
+        title='scatter plot with marginal distributions (seaborn)',
+        output_file=None,
+):
     sns.jointplot(data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, palette=COLOUR_BY_GROUP)
-    plt.show()
+    if output_file:
+        plt.savefig(output_file)
+    else:
+        plt.show()
 
 
-# This is a first test to see how it plots the jointplot, but it looks a bit unreadable if I put everything in a single
-# figure.
-def joint_plot_sns(df_with_2d_coordinates):
-    sns.jointplot(
-        data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
-        joint_kws={'alpha': 0.7}
-    )
-    plt.show()
+# This was a first test to see the jointplot, but it looks a bit unreadable if I put everything in a single figure.
+# def joint_plot_sns(
+#         df_with_2d_coordinates,
+#         title='jointplot (seaborn)',
+#         output_file=None,
+# ):
+#     sns.jointplot(
+#         data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, kind='kde', fill=True,
+#         joint_kws={'alpha': 0.7}
+#     )
+#     if output_file:
+#         plt.savefig(output_file)
+#     else:
+#         plt.show()
 
 
 # TODO fix x & y lim
-def joint_plot_by_class(df, class_column, x_column, y_column):
+def joint_plot_by_class(
+        df,
+        class_column,
+        x_column,
+        y_column,
+        title='joint plot by class',
+        output_file=None,
+):
     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
     for study_group in ['model', 'f', 'm', 'x']:
         sns.jointplot(
@@ -81,10 +105,23 @@ def joint_plot_by_class(df, class_column, x_column, y_column):
             joint_kws={'alpha': 0.7},
             xlim=(x_min-2, x_max+2), ylim=(y_min-2, y_max+2),
         )
-        plt.show()
+        if output_file:
+            new_output_file = output_file.replace('.png', f'_{study_group}.png') # TODO change this to work with pdf too
+            plt.savefig(new_output_file)
+        else:
+            plt.show()
 
 
-def plot_hexbin_by_class(df, class_column, x_column, y_column, gridsize=16):
+def plot_hexbin_by_class(
+        df,
+        class_column,
+        x_column,
+        y_column,
+        gridsize=16,
+        title='hexbin by class',
+        output_file=None,
+):
+    # TODO: Possibly redo this to create four different images. It could be better for sharing it.
     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
 
     fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
@@ -94,8 +131,11 @@ def plot_hexbin_by_class(df, class_column, x_column, y_column, gridsize=16):
             bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
         )
         cb = fig.colorbar(hb, ax=axis, label='counts')
-        axis.set_title(study_group)
-    plt.show()
+        axis.set_title(f'{title} - {study_group}')
+    if output_file:
+        plt.savefig(output_file)
+    else:
+        plt.show()
 
 
 def get_x_y_min_max(df_with_2d_coordinates):
@@ -116,8 +156,8 @@ def get_x_y_low_high_thresholds(df_with_2d_coordinates, n_bins):
 
 
 def print_recommendations_from_corners(df_2d_coord, n_bins=5):
-    # df_2d_coord must be a dataframe with at least cols pca_0, pca_1, and recs (I might actually change this so that
-    #   it works on different column names)
+    # df_2d_coord must be a dataframe with at least cols pca_0, pca_1, and recs
+    # TODO: change this so that it works on different column names
     low_threshold_x, high_threshold_x, low_threshold_y, high_threshold_y = get_x_y_low_high_thresholds(df_2d_coord, n_bins)
 
     bottom_left = df_2d_coord[(df_2d_coord[C_PCA_0] < low_threshold_x) & (df_2d_coord[C_PCA_1] < low_threshold_y)]
@@ -132,8 +172,8 @@ def print_recommendations_from_corners(df_2d_coord, n_bins=5):
 
 
 def print_recommendations_from_borders(df_2d_coord, n_bins=10):
-    # df_2d_coord must be a dataframe with at least cols pca_0, pca_1, and recs (I might actually change this so that
-    #   it works on different column names)
+    # df_2d_coord must be a dataframe with at least cols pca_0, pca_1, and recs
+    # TODO: change this so that it works on different column names
     low_threshold_x, high_threshold_x, low_threshold_y, high_threshold_y = get_x_y_low_high_thresholds(df_2d_coord, n_bins)
     left = df_2d_coord[df_2d_coord[C_PCA_0] < low_threshold_x]
     right = df_2d_coord[df_2d_coord[C_PCA_0] > high_threshold_x]
@@ -148,21 +188,53 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
 def main():
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
 
-    # df = df[df['model'].isin(MODELS_BY_OWNER['Google'])]
+    # Here is where I have to filter the df if I want to focus on specific models/params only.
+    # df = df[df['model'].isin(MODELS_BY_OWNER['OpenAI'])]
     # df = df[df['temperature'].isin([0.6])]
 
+    # These are used to choose whether to show the images or save them, and the name the output figures.
+    WHICH_PCA = 'agg_pca'
+    WHICH_MODEL_AND_PARAMS = 'aggregate'
+    OUTPUT_FOLDER = os.path.join('figures', '2025_02_17')
+
     print("scatter_plot_with_marginal_hist_plt")
-    scatter_plot_with_marginal_hist_plt(df)
-    print("scatter_plot_with_marginal_distributions_sns")
-    scatter_plot_with_marginal_distributions_sns(df)  # Seems ok
+    scatter_plot_with_marginal_hist_plt(
+        df,
+        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__scatter_with_marginals.png'),
+    )
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
-    print("joint_plot_sns")
-    joint_plot_sns(df)
+
+    print("scatter_plot_with_marginal_distributions_sns")
+    scatter_plot_with_marginal_distributions_sns(
+        df,
+        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__scatter_with_marginals_sns.png'),
+    )
+
+    # This will not be used in the analysis as it is not very readable.
+    # print("joint_plot_sns")
+    # joint_plot_sns(
+    #     df,
+    #     output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__joint_plot_sns.png'),
+    # )
+
     print("plot_hexbin_by_class")
-    plot_hexbin_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)  # Seems ok
+    plot_hexbin_by_class(
+        df,
+        C_STUDY_GROUP,
+        C_PCA_0,
+        C_PCA_1,
+        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__hexbin_by_class.png'),
+    )
+
     print("joint_plot_by_class")
-    joint_plot_by_class(df, C_STUDY_GROUP, C_PCA_0, C_PCA_1)  # Seems ok
+    joint_plot_by_class(
+        df,
+        C_STUDY_GROUP,
+        C_PCA_0,
+        C_PCA_1,
+        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__joint_plot_by_class.png'),
+    )
 
 
 if __name__ == '__main__':
