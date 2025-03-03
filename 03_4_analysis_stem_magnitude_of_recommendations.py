@@ -1,7 +1,9 @@
+import numpy as np
 import pandas as pd
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import wasserstein_distance
 
 from constants import (
     C_STUDY_GROUP,
@@ -52,6 +54,44 @@ def violinplot_stem_magnitude_by_study_group(
 
 
 # method for computing the EMD between the distribution of STEM magnitudes of the recommendations for different groups and plotting a conf mat.
+def confusion_matrix_stem_magnitude_distance(
+        df,
+        class_column,
+        x_column,
+):
+    # TODO: possibly change this so that it doesn't use the EMD by default but rather I can pass the method.
+    n_study_groups = df[class_column].nunique()
+    if len(STUDY_GROUPS) != n_study_groups:
+        raise ValueError("The number of study groups in the DF is not the expected one.")
+
+    conf_mat = np.zeros((n_study_groups, n_study_groups))
+
+    for (idx_1, study_group_1) in enumerate(STUDY_GROUPS):
+        stem_magnitudes_1 = df[df[class_column] == study_group_1][x_column].tolist()
+        for (idx_2, study_group_2) in enumerate(STUDY_GROUPS):
+            stem_magnitudes_2 = df[df[class_column] == study_group_2][x_column].tolist()
+            conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
+
+    print('Confusion matrix')
+    print(conf_mat)
+
+    fig, ax = plt.subplots()
+    im = ax.imshow(conf_mat, cmap='Reds')
+
+    # Show all ticks and label them with the respective list entries
+    ax.set_xticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS, rotation=45, ha="right", rotation_mode="anchor")
+    ax.set_yticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS)
+
+    # Loop over data dimensions and create text annotations.
+    for i in range(len(STUDY_GROUPS)):
+        for j in range(len(STUDY_GROUPS)):
+            text = ax.text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
+
+    # TODO fix set title.
+    ax.set_title("EMD distance between distribution of STEM magnitudes")
+    fig.tight_layout()
+    # TODO save file
+    plt.show()
 
 
 if __name__ == '__main__':
@@ -67,12 +107,12 @@ if __name__ == '__main__':
     WHICH_MODEL_AND_PARAMS = 'aggregate'
     OUTPUT_FOLDER = os.path.join('figures', '2025_02_17')
 
-    print("Doing violinplot distribution of STEM magnitude by study group.")
-    violinplot_stem_magnitude_by_study_group(df, C_STUDY_GROUP, C_STEM_MAGNITUDE)
+    # print("Doing violinplot distribution of STEM magnitude by study group.")
+    # violinplot_stem_magnitude_by_study_group(df, C_STUDY_GROUP, C_STEM_MAGNITUDE)
 
-    print("Doing histogram of the distribution of STEM magnitude by study group.")
-    plot_histogram_by_class(df, C_STUDY_GROUP, C_STEM_MAGNITUDE)
+    # print("Doing histogram of the distribution of STEM magnitude by study group.")
+    # plot_histogram_by_class(df, C_STUDY_GROUP, C_STEM_MAGNITUDE)
 
-    print(df.columns)
+    confusion_matrix_stem_magnitude_distance(df, C_STUDY_GROUP, C_STEM_MAGNITUDE)
 
     pass
