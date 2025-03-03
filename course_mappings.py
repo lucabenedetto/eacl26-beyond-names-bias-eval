@@ -188,3 +188,20 @@ MAP_SSD_TO_STEM = {
     "13": False,
     "14": False,
 }
+
+LIST_SSD = [
+    "S. matematiche e informatiche",  # Area 01
+    "S. fisiche",  # Area 02 
+    "S. chimiche",  # Area 03
+    "S. della terra",  # Area 04
+    "S. biologiche",  # Area 05
+    "S. mediche",  # Area 06
+    "S. agrarie e veterinarie",  # Area 07
+    "Ing. civile e Architettura",  # Area 08
+    "Ing. industriale e dell'informazione",  # Area 09
+    "S. dell'antichità, filologico-letterarie e storico-artistiche",  # Area 10
+    "S. storiche, filosofiche, pedagogiche e psicologiche",  # Area 11
+    "S. giuridiche",  # Area 12
+    "S. economiche e statistiche",  # Area 13
+    "S. politiche e sociali",  # Area 14
+]
