@@ -139,6 +139,7 @@ def plot_hexbin_by_class(
 
 
 def get_x_y_min_max(df_with_2d_coordinates):
+    # TODO make this using some x_column and y_column params instead of C_PCA_0 and C_PCA_1
     x_min = df_with_2d_coordinates[C_PCA_0].min()
     x_max = df_with_2d_coordinates[C_PCA_0].max()
     y_min = df_with_2d_coordinates[C_PCA_1].min()
