@@ -292,7 +292,7 @@ if __name__ == '__main__':
 
     WHICH_PCA = 'agg_pca'
     RUN_DATE = "2025_03_06"
-    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE)
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd')
 
     # Analysis aggregating all the models and runs.
     run_analysis_pca_reduced_ssd_coordinates(df, OUTPUT_FOLDER, WHICH_PCA, 'aggregate')
@@ -309,5 +309,7 @@ if __name__ == '__main__':
     for temperatures in [[0.0, 0.3], [0.3, 0.6]]:
         local_df = df[df['temperature'].isin(temperatures)]
         run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
+
+    # analysis on different temperature values
 
     # To run other analysis, you can filter df as is done above for the temperature and model name.
