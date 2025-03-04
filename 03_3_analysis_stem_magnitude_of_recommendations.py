@@ -38,6 +38,7 @@ def plot_histogram_by_class(
     plt.tight_layout()
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
@@ -54,6 +55,7 @@ def violinplot_stem_magnitude_by_study_group(
     sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
@@ -96,27 +98,28 @@ def confusion_matrix_stem_magnitude_distance(
     fig.tight_layout()
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
 
-def run_analysis_stem_magnitude(df, which_model_and_params, run_date):
+def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
     print("Doing violinplot distribution of STEM magnitude by study group.")
     violinplot_stem_magnitude_by_study_group(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=f'figures/{run_date}/{which_model_and_params}__violinplot_stem_magnitude_by_class.png'
+        output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
     )
 
     print("Doing histogram of the distribution of STEM magnitude by study group.")
     plot_histogram_by_class(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE, 
-        output_file=f'figures/{run_date}/{which_model_and_params}__hist_stem_magnitude_by_class.png'
+        output_file=os.path.join(output_folder, f'{which_model_and_params}__hist_stem_magnitude_by_class.png'),
     )
 
     print("Doing confusion matrix EMD of STEM magnitude")
     confusion_matrix_stem_magnitude_distance(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=f'figures/{run_date}/{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'
+        output_file=os.path.join(output_folder, f'{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'),
         )
 
 
@@ -124,13 +127,14 @@ if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
     RUN_DATE = '2025_03_06'
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
 
     # analysis on the aggregate dataframe
-    run_analysis_stem_magnitude(df, 'aggregate', RUN_DATE)
+    run_analysis_stem_magnitude(df, OUTPUT_FOLDER, 'aggregate')
 
     for model_owner, list_models in MODELS_BY_OWNER.items():
         local_df = df[df['model'].isin(list_models)]
-        run_analysis_stem_magnitude(local_df, model_owner, RUN_DATE)
+        run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, model_owner)
 
     # To perform other analyses (e.g. on different temperature values), you can filter the original df, as follows.
     # new_df = df[df['temperature'].isin([0.6])]  # to filter on the temperature
