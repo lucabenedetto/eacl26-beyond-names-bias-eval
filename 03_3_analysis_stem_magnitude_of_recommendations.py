@@ -76,9 +76,11 @@ def confusion_matrix_stem_magnitude_distance(
 
     conf_mat = np.zeros((n_study_groups, n_study_groups))
 
-    for (idx_1, study_group_1) in enumerate(STUDY_GROUPS):
+    # I am using this order instead of the original one in the constant STUDY_GROUPS because it better highlights the trends in the heatmaps.
+    reordered_study_groups = ['model', 'm', 'x', 'f']
+    for (idx_1, study_group_1) in enumerate(reordered_study_groups):
         stem_magnitudes_1 = df[df[class_column] == study_group_1][x_column].tolist()
-        for (idx_2, study_group_2) in enumerate(STUDY_GROUPS):
+        for (idx_2, study_group_2) in enumerate(reordered_study_groups):
             stem_magnitudes_2 = df[df[class_column] == study_group_2][x_column].tolist()
             conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
 
@@ -88,11 +90,11 @@ def confusion_matrix_stem_magnitude_distance(
     fig, ax = plt.subplots()
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
-    ax.set_xticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS, rotation=45, ha="right", rotation_mode="anchor")
-    ax.set_yticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS)
+    ax.set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
+    ax.set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
     # Loop over data dimensions and create text annotations.
-    for i in range(len(STUDY_GROUPS)):
-        for j in range(len(STUDY_GROUPS)):
+    for i in range(len(reordered_study_groups)):
+        for j in range(len(reordered_study_groups)):
             text = ax.text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
     # TODO finalise title.
     ax.set_title("EMD distance between distribution of STEM magnitudes")
