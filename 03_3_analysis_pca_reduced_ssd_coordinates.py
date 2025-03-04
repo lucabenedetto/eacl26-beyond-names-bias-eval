@@ -193,7 +193,7 @@ def confusion_matrix_distribution_distance(
         x_column,
         y_column,
         # vmax,
-        title='hexbin by class',
+        # title='hexbin by class',
         output_file=None,
 ):
     # TODO: possibly change this so that it doesn't use the EMD by default but rather I can pass the method.
@@ -233,22 +233,11 @@ def confusion_matrix_distribution_distance(
         plt.show()
 
 
-def main():
-    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
-
-    # Here is where I have to filter the df if I want to focus on specific models/params only.
-    # df = df[df['model'].isin(MODELS_BY_OWNER['OpenAI'])]
-    # df = df[df['temperature'].isin([0.6])]
-
-    # These are used to choose whether to show the images or save them, and the name the output figures.
-    WHICH_PCA = 'agg_pca'
-    WHICH_MODEL_AND_PARAMS = 'aggregate'
-    OUTPUT_FOLDER = os.path.join('figures', '2025_02_17')
-
+def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which_model_and_params):
     print("scatter_plot_with_marginal_hist_plt")
     scatter_plot_with_marginal_hist_plt(
         df,
-        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__scatter_with_marginals.png'),
+        output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__scatter_with_marginals.png'),
     )
     # print_recommendations_from_corners(df, n_bins=5)
     # print_recommendations_from_borders(df, n_bins=15)
@@ -259,20 +248,20 @@ def main():
         C_STUDY_GROUP,
         C_PCA_0,
         C_PCA_1,
-        # output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__conf_mat_EMD_ssd_coordinates.png'),
+        output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__conf_mat_EMD_ssd_coordinates.png'),
         )
 
     print("scatter_plot_with_marginal_distributions_sns")
     scatter_plot_with_marginal_distributions_sns(
         df,
-        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__scatter_with_marginals_sns.png'),
+        output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__scatter_with_marginals_sns.png'),
     )
 
     # This will not be used in the analysis as it is not very readable.
     # print("joint_plot_sns")
     # joint_plot_sns(
     #     df,
-    #     output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__joint_plot_sns.png'),
+    #     output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__joint_plot_sns.png'),
     # )
 
     print("plot_hexbin_by_class")
@@ -281,7 +270,7 @@ def main():
         C_STUDY_GROUP,
         C_PCA_0,
         C_PCA_1,
-        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__hexbin_by_class.png'),
+        output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__hexbin_by_class.png'),
     )
 
     print("joint_plot_by_class")
@@ -290,8 +279,28 @@ def main():
         C_STUDY_GROUP,
         C_PCA_0,
         C_PCA_1,
-        output_file=os.path.join(OUTPUT_FOLDER, f'{WHICH_PCA}__{WHICH_MODEL_AND_PARAMS}__joint_plot_by_class.png'),
+        output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__joint_plot_by_class.png'),
     )
+
+
+def main():
+    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
+
+    WHICH_PCA = 'agg_pca'
+    RUN_DATE = "2025_03_06"
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE)
+
+    # Analysis aggregating all the models and runs.
+    run_analysis_pca_reduced_ssd_coordinates(df, OUTPUT_FOLDER, WHICH_PCA, 'aggregate')
+
+    # Analysis on separately on the different models
+    for model_owner, list_models in MODELS_BY_OWNER.items():
+        local_df = df[df['model'].isin(list_models)]
+        run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, model_owner)
+
+    # To run other analysis, eg for different values of the temperature, you can filter df.
+    # df = df[df['temperature'].isin([0.6])]
+    # df = df[df['model'].isin(MODELS_BY_OWNER['OpenAI'])]
 
 
 if __name__ == '__main__':
