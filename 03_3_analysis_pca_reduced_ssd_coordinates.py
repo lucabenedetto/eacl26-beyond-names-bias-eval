@@ -208,13 +208,15 @@ def confusion_matrix_distribution_distance(
         raise ValueError("The number of study groups in the DF is not the expected one.")
 
 
+    # I am using this order instead of the original one in the constant STUDY_GROUPS because it better highlights the trends in the heatmaps.
+    reordered_study_groups = ['model', 'm', 'x', 'f']
     fig, ax = plt.subplots(1, 2, figsize=(10, 4))
     for ax_idx, column in enumerate([x_column, y_column]):
         conf_mat = np.zeros((n_study_groups, n_study_groups))
 
-        for (idx_1, study_group_1) in enumerate(STUDY_GROUPS):
+        for (idx_1, study_group_1) in enumerate(reordered_study_groups):
             stem_magnitudes_1 = df[df[class_column] == study_group_1][column].tolist()
-            for (idx_2, study_group_2) in enumerate(STUDY_GROUPS):
+            for (idx_2, study_group_2) in enumerate(reordered_study_groups):
                 stem_magnitudes_2 = df[df[class_column] == study_group_2][column].tolist()
                 conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
 
@@ -223,11 +225,11 @@ def confusion_matrix_distribution_distance(
 
         im = ax[ax_idx].imshow(conf_mat, cmap='Reds')  # , vmax=vmax)  # TODO: Possibly readd vmax
         # Show all ticks and label them with the respective list entries
-        ax[ax_idx].set_xticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS, rotation=45, ha="right", rotation_mode="anchor")
-        ax[ax_idx].set_yticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS)
+        ax[ax_idx].set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
+        ax[ax_idx].set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
         # Loop over data dimensions and create text annotations.
-        for i in range(len(STUDY_GROUPS)):
-            for j in range(len(STUDY_GROUPS)):
+        for i in range(len(reordered_study_groups)):
+            for j in range(len(reordered_study_groups)):
                 text = ax[ax_idx].text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
         ax[ax_idx].set_title(f"EMD distance ({column}).")
     fig.tight_layout()
