@@ -51,6 +51,7 @@ def scatter_plot_with_marginal_hist_plt(
     plt.tight_layout()
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
@@ -109,6 +110,7 @@ def joint_plot_by_class(
         if output_file:
             new_output_file = output_file.replace('.png', f'_{study_group}.png') # TODO change this to work with pdf too
             plt.savefig(new_output_file)
+            plt.close()
         else:
             plt.show()
 
@@ -135,6 +137,7 @@ def plot_hexbin_by_class(
         axis.set_title(f'{title} - {study_group}')
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
@@ -229,6 +232,7 @@ def confusion_matrix_distribution_distance(
     fig.tight_layout()
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
@@ -298,9 +302,15 @@ def main():
         local_df = df[df['model'].isin(list_models)]
         run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, model_owner)
 
-    # To run other analysis, eg for different values of the temperature, you can filter df.
-    # df = df[df['temperature'].isin([0.6])]
-    # df = df[df['model'].isin(MODELS_BY_OWNER['OpenAI'])]
+    # Analysis on different temperature values
+    for temperature in [0.0, 0.3, 0.6]:
+        local_df = df[df['temperature'] == temperature]
+        run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperature}')
+    for temperatures in [[0.0, 0.3], [0.3, 0.6]]:
+        local_df = df[df['temperature'].isin(temperatures)]
+        run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
+
+    # To run other analysis, you can filter df as is done above for the temperature and model name.
 
 
 if __name__ == '__main__':
