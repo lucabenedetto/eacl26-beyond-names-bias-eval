@@ -7,7 +7,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 from constants import MODELS_BY_OWNER
-from course_mappings import LIST_SSD
+from course_mappings import LIST_SSD, MAP_SSD_TO_STEM
 
 
 def main(model_owner, output_filename=None):
@@ -31,8 +31,9 @@ def main(model_owner, output_filename=None):
     fig, ax = plt.subplots(figsize=(12, 6))
     bar_width = 0.4
     y_positions = np.arange(len(LIST_SSD))
-    ax.barh(y_positions - bar_width / 2, pca_model.components_[0], height=bar_width, label="PCA 0")
-    ax.barh(y_positions + bar_width / 2, pca_model.components_[1], height=bar_width, label="PCA 1")
+    hatch = ['//' if MAP_SSD_TO_STEM.get('%02d' % (i+1), False) else '' for i in range(len(LIST_SSD))]  # bars with forward slashes are STEM disciplines.
+    ax.barh(y_positions - bar_width / 2, pca_model.components_[0], height=bar_width, label="PCA 0", hatch=hatch)
+    ax.barh(y_positions + bar_width / 2, pca_model.components_[1], height=bar_width, label="PCA 1", hatch=hatch)
     ax.set_yticks(y_positions)
     ax.set_yticklabels([x if len(x) < 20 else x[:18]+'...' for x in LIST_SSD])
     # ax.set_xlabel("Values")
@@ -43,6 +44,7 @@ def main(model_owner, output_filename=None):
         plt.show()
     else:
         plt.savefig(output_filename)
+        plt.close()
 
 
 if __name__ == '__main__':
