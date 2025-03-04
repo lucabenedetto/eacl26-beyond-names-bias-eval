@@ -11,6 +11,7 @@ from constants import (
     PALETTES_BY_GROUP,
     STUDY_GROUPS,
     MODELS_BY_OWNER,
+    MODELS_LIST,
 )
 
 def get_pca_coordinates_by_study_group(df, study_group):
@@ -310,6 +311,16 @@ if __name__ == '__main__':
         local_df = df[df['temperature'].isin(temperatures)]
         run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
 
-    # analysis on different temperature values
+    # analysis on different temperature values and different models
+    for model_owner, list_models in MODELS_BY_OWNER.items():
+        for temperature in [0.0, 0.3, 0.6]:
+            local_df = df[df['model'].isin(list_models)]
+            local_df = df[df['temperature'] == temperature]
+            run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'{model_owner}_temp_{temperature}')
+
+    # analysis on the individual models
+    for model in MODELS_LIST:
+        local_df = df[df['model'] == model]
+        run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, model)
 
     # To run other analysis, you can filter df as is done above for the temperature and model name.
