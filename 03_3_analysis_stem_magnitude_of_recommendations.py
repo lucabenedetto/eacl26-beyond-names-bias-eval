@@ -10,6 +10,7 @@ from constants import (
     C_STEM_MAGNITUDE,
     COLOUR_BY_GROUP,
     STUDY_GROUPS,
+    MODELS_BY_OWNER,
 )
 
 
@@ -62,6 +63,7 @@ def confusion_matrix_stem_magnitude_distance(
         df,
         class_column,
         x_column,
+        vmax=3,
         output_file=None,
 ):
     # TODO: possibly change this so that it doesn't use the EMD by default but rather I can pass the method.
@@ -81,7 +83,7 @@ def confusion_matrix_stem_magnitude_distance(
     print(conf_mat)
 
     fig, ax = plt.subplots()
-    im = ax.imshow(conf_mat, cmap='Reds')
+    im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
     ax.set_xticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS, rotation=45, ha="right", rotation_mode="anchor")
     ax.set_yticks(range(len(STUDY_GROUPS)), labels=STUDY_GROUPS)
@@ -98,32 +100,38 @@ def confusion_matrix_stem_magnitude_distance(
         plt.show()
 
 
-if __name__ == '__main__':
-    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
-
-    # Here is where I have to filter the df if I want to focus on specific models/params only.
-    #   TODO: make a method to perform this filtering, since it's the same as in 03_3
-    # df = df[df['model'].isin(MODELS_BY_OWNER['OpenAI'])]
-    # df = df[df['temperature'].isin([0.6])]
-
-    # These are used to choose whether to show the images or save them, and the name the output figures.
-    WHICH_MODEL_AND_PARAMS = 'aggregate'
-    RUN_DATE = '2025_03_06'
-
+def run_analysis_stem_magnitude(df, which_model_and_params, run_date):
     print("Doing violinplot distribution of STEM magnitude by study group.")
     violinplot_stem_magnitude_by_study_group(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=f'figures/{RUN_DATE}/{WHICH_MODEL_AND_PARAMS}__violinplot_stem_magnitude_by_class.png'
+        output_file=f'figures/{run_date}/{which_model_and_params}__violinplot_stem_magnitude_by_class.png'
     )
 
     print("Doing histogram of the distribution of STEM magnitude by study group.")
     plot_histogram_by_class(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE, 
-        output_file=f'figures/{RUN_DATE}/{WHICH_MODEL_AND_PARAMS}__hist_stem_magnitude_by_class.png'
+        output_file=f'figures/{run_date}/{which_model_and_params}__hist_stem_magnitude_by_class.png'
     )
 
     print("Doing confusion matrix EMD of STEM magnitude")
     confusion_matrix_stem_magnitude_distance(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=f'figures/{RUN_DATE}/{WHICH_MODEL_AND_PARAMS}__conf_mat_EMD_stem_magnitude_by_class.png'
+        output_file=f'figures/{run_date}/{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'
         )
+
+
+if __name__ == '__main__':
+    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
+
+    RUN_DATE = '2025_03_06'
+
+    # analysis on the aggregate dataframe
+    run_analysis_stem_magnitude(df, 'aggregate', RUN_DATE)
+
+    for model_owner, list_models in MODELS_BY_OWNER.items():
+        local_df = df[df['model'].isin(list_models)]
+        run_analysis_stem_magnitude(local_df, model_owner, RUN_DATE)
+
+    # To perform other analyses (e.g. on different temperature values), you can filter the original df, as follows.
+    # new_df = df[df['temperature'].isin([0.6])]  # to filter on the temperature
+    # new_df = df[df['model'].isin(MODELS_BY_OWNER[WHICH_MODEL_AND_PARAMS])]  # to filter on the model name
