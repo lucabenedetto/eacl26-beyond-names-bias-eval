@@ -287,7 +287,7 @@ def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which
     )
 
 
-def main():
+if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
 
     WHICH_PCA = 'agg_pca'
@@ -311,7 +311,3 @@ def main():
         run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
 
     # To run other analysis, you can filter df as is done above for the temperature and model name.
-
-
-if __name__ == '__main__':
-    main()
