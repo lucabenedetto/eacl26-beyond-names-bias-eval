@@ -12,6 +12,8 @@ from constants import (
     STUDY_GROUPS,
     MODELS_BY_OWNER,
     MODELS_LIST,
+    USER_AS_STUDENT, 
+    LLM_AS_STUDENT,
 )
 
 
@@ -158,5 +160,17 @@ if __name__ == '__main__':
     for model in MODELS_LIST:
         local_df = df[df['model'] == model]
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, model)
+
+    # analysis on the different prompt types
+    for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+        local_df = df[df['prompt_type'] == prompt_type]
+        run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_{prompt_type}')
+
+    # analysis on the different prompt types and families of models
+    for model_owner, list_models in MODELS_BY_OWNER.items():
+        for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+            local_df = df[df['model'].isin(list_models)]
+            local_df = df[df['prompt_type'] == prompt_type]
+            run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'{model_owner}_{prompt_type}')
 
     # To run other analysis, you can filter df as is done above for the temperature and model name.
