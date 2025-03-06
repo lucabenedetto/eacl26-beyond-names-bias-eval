@@ -174,10 +174,8 @@ if __name__ == '__main__':
             local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'{model_owner}_{prompt_type}')
 
-    # 
-    local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
-    local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
-    local_df = local_df[local_df['temperature'] == 0.3]
-    run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'TEMPORARY')
-
     # To run other analysis, you can filter df as is done above for the temperature and model name.
+    # local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
+    # local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
+    # local_df = local_df[local_df['temperature'] == 0.3]
+    # run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'TEMPORARY')
