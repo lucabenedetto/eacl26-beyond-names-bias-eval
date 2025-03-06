@@ -267,7 +267,7 @@ def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which
         output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__scatter_with_marginals_sns.png'),
     )
 
-    # This will not be used iregating all the models and runs.
+    # This will not be used iterating on all the models and runs.
     # run_analysis_pca_reduced_ssd_coordinates(df, OUTPUT_FOLDER, WHICH_PCA, 'aggregate')
 
     # # Analysis on separately on the different models
