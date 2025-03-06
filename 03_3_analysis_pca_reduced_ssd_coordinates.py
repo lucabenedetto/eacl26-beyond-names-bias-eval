@@ -14,6 +14,7 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, 
     LLM_AS_STUDENT,
+    CLAUDE_3_5_HAIKU,
 )
 
 def get_pca_coordinates_by_study_group(df, study_group):
@@ -266,7 +267,45 @@ def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which
         output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__scatter_with_marginals_sns.png'),
     )
 
-    # This will not be used in the analysis as it is not very readable.
+    # This will not be used iregating all the models and runs.
+    # run_analysis_pca_reduced_ssd_coordinates(df, OUTPUT_FOLDER, WHICH_PCA, 'aggregate')
+
+    # # Analysis on separately on the different models
+    # for model_owner, list_models in MODELS_BY_OWNER.items():
+    #     local_df = df[df['model'].isin(list_models)]
+    #     run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, model_owner)
+
+    # # Analysis on different temperature values
+    # for temperature in [0.0, 0.3, 0.6]:
+    #     local_df = df[df['temperature'] == temperature]
+    #     run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperature}')
+    # for temperatures in [[0.0, 0.3], [0.3, 0.6]]:
+    #     local_df = df[df['temperature'].isin(temperatures)]
+    #     run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
+
+    # # analysis on different temperature values and different models
+    # for model_owner, list_models in MODELS_BY_OWNER.items():
+    #     for temperature in [0.0, 0.3, 0.6]:
+    #         local_df = df[df['model'].isin(list_models)]
+    #         local_df = df[df['temperature'] == temperature]
+    #         run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'{model_owner}_temp_{temperature}')
+
+    # # analysis on the individual models
+    # for model in MODELS_LIST:
+    #     local_df = df[df['model'] == model]
+    #     run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, model)
+
+    # # analysis on the different prompt types
+    # for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+    #     local_df = df[df['prompt_type'] == prompt_type]
+    #     run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate_{prompt_type}')
+
+    # # analysis on the different prompt types and families of models
+    # for model_owner, list_models in MODELS_BY_OWNER.items():
+    #     for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+    #         local_df = df[df['model'].isin(list_models)]
+    #         local_df = df[df['prompt_type'] == prompt_type]
+    #         run_analysis_pca_n the analysis as it is not very readable.
     # print("joint_plot_sns")
     # joint_plot_sns(
     #     df,
@@ -319,7 +358,7 @@ if __name__ == '__main__':
     for model_owner, list_models in MODELS_BY_OWNER.items():
         for temperature in [0.0, 0.3, 0.6]:
             local_df = df[df['model'].isin(list_models)]
-            local_df = df[df['temperature'] == temperature]
+            local_df = local_df[local_df['temperature'] == temperature]
             run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'{model_owner}_temp_{temperature}')
 
     # analysis on the individual models
@@ -336,7 +375,13 @@ if __name__ == '__main__':
     for model_owner, list_models in MODELS_BY_OWNER.items():
         for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
             local_df = df[df['model'].isin(list_models)]
-            local_df = df[df['prompt_type'] == prompt_type]
+            local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'{model_owner}_{prompt_type}')
+
+    local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
+    local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
+    local_df = local_df[local_df['temperature'] == 0.3]
+    run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'TEMPORARY')
+
 
     # To run other analysis, you can filter df as is done above for the temperature and model name.
