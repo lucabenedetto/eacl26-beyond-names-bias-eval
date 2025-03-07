@@ -69,6 +69,7 @@ def scatter_plot_with_marginal_distributions_sns(
     sns.jointplot(data=df_with_2d_coordinates, x=C_PCA_0, y=C_PCA_1, hue=C_STUDY_GROUP, palette=COLOUR_BY_GROUP)
     if output_file:
         plt.savefig(output_file)
+        plt.close()
     else:
         plt.show()
 
