@@ -10,10 +10,10 @@ from constants import MODELS_BY_OWNER
 from course_mappings import LIST_SSD, MAP_SSD_TO_STEM
 
 
-def main(model_owner, output_filename=None):
+def plot_pca_components(model_owner, output_filename=None):
     pca_model = pickle.load(open(f'data/processed_output/pca_model_{model_owner}.pkl', 'rb'))
  
-    print(pca_model.components_)
+    # print(pca_model.components_)
  
     # V1: two separate figures with the barh plots.
     # fig, ax = plt.subplots(2, 1, sharex=True, sharey=True)
@@ -47,7 +47,29 @@ def main(model_owner, output_filename=None):
         plt.close()
 
 
+def plot_pca_explained_variance(model_owner, output_filename=None):
+    pca_model = pickle.load(open(f'data/processed_output/pca_model_{model_owner}.pkl', 'rb'))
+
+    explained_variance_ratio = pca_model.explained_variance_ratio_
+
+    fig, ax = plt.subplots(figsize=(8, 5))
+    ax.bar(range(1, len(explained_variance_ratio) + 1), explained_variance_ratio, alpha=0.7, align='center')
+    ax.step(range(1, len(explained_variance_ratio) + 1), explained_variance_ratio.cumsum(), where='mid', linestyle='--', color='red')  # the cumulative sum
+    ax.set_xlabel('Principal Component Index')
+    ax.set_ylabel('Explained Variance Ratio')
+    ax.set_title('Explained Variance by Principal Components')
+    ax.set_xticks(range(1, len(explained_variance_ratio) + 1))
+    ax.grid(True)
+    if output_filename is None:
+        plt.show()
+    else:
+        plt.savefig(output_filename)
+        plt.close()
+
+
 if __name__ == '__main__':
-    main(model_owner='aggregate', output_filename='figures/2025_03_06/pca_components_aggregate.png')
+    plot_pca_components(model_owner='aggregate', output_filename='figures/2025_03_06/pca_components_aggregate.png')
+    plot_pca_explained_variance(model_owner='aggregate', output_filename='figures/2025_03_06/pca_explained_variance_aggregate.png')
     for model_owner in MODELS_BY_OWNER.keys():
-        main(model_owner=model_owner, output_filename=f'figures/2025_03_06/pca_components_{model_owner}.png')
+        plot_pca_components(model_owner=model_owner, output_filename=f'figures/2025_03_06/pca_components_{model_owner}.png')
+        plot_pca_explained_variance(model_owner=model_owner, output_filename=f'figures/2025_03_06/pca_explained_variance_{model_owner}.png')
