@@ -199,7 +199,7 @@ def confusion_matrix_distribution_distance(
         class_column,
         x_column,
         y_column,
-        # vmax,
+        vmax=3,  # Possibly change this after doing a first analysis of all the results.
         # title='hexbin by class',
         output_file=None,
 ):
@@ -226,7 +226,7 @@ def confusion_matrix_distribution_distance(
         print(f'Confusion matrix {column}:')
         print(conf_mat)
 
-        im = ax[ax_idx].imshow(conf_mat, cmap='Reds')  # , vmax=vmax)  # TODO: Possibly readd vmax
+        im = ax[ax_idx].imshow(conf_mat, cmap='Reds', vmax=vmax)
         # Show all ticks and label them with the respective list entries
         ax[ax_idx].set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
         ax[ax_idx].set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
