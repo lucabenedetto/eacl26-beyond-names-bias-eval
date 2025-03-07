@@ -2,6 +2,11 @@ import pandas as pd
 import os
 from scipy.stats import wasserstein_distance
 
+from constants import (
+    C_STEM_MAGNITUDE,
+)
+
+
 if __name__ == '__main__':
     # this is to analyse the max possible EMD in our experimental settings.
     # It is basically computed by measuring the distance between two distributions which are made one of points at xmin, ymin and the other of points at xmax, ymax.
@@ -22,3 +27,9 @@ if __name__ == '__main__':
     print("'MAX' EMD PCA_1 = %.2f" % wasserstein_distance(distribution_1_pca_1, distribution_2_pca_1))    
     # 'MAX' EMD PCA_0 = 12.24 (on the ssd coordinates reduced with the aggregate PCA)
     # 'MAX' EMD PCA_1 = 8.90
+
+    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
+    distribution_1 = [df[C_STEM_MAGNITUDE].min()] * 100
+    distribution_2 = [df[C_STEM_MAGNITUDE].max()] * 100
+    print("'MAX' EMD STEM magnitude = %.2f" % wasserstein_distance(distribution_1, distribution_2))    
+    # 'MAX' EMD STEM magnitude = 15.00
