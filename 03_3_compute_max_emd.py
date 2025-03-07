@@ -4,6 +4,8 @@ from scipy.stats import wasserstein_distance
 
 from constants import (
     C_STEM_MAGNITUDE,
+    C_PCA_0,
+    C_PCA_1,
 )
 
 
@@ -12,10 +14,10 @@ if __name__ == '__main__':
     # It is basically computed by measuring the distance between two distributions which are made one of points at xmin, ymin and the other of points at xmax, ymax.
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
 
-    x_min = df['pca_0'].min()
-    x_max = df['pca_0'].max()
-    y_min = df['pca_1'].min()
-    y_max = df['pca_1'].max()
+    x_min = df[C_PCA_0].min()
+    x_max = df[C_PCA_0].max()
+    y_min = df[C_PCA_1].min()
+    y_max = df[C_PCA_1].max()
     
     distribution_1_pca_0 = [x_min] * 100  # Results were the same with 10 and 1000 (even when 100 for distribution 1 and 1000 for distribution 2).
     distribution_1_pca_1 = [y_min] * 100
