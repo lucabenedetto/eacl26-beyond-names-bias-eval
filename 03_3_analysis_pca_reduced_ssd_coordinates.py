@@ -200,7 +200,7 @@ def confusion_matrix_distribution_distance(
         class_column,
         x_column,
         y_column,
-        vmax=3,  # Possibly change this after doing a first analysis of all the results.
+        vmax=5,  # Selected this after doing a first analysis of all the results.
         # title='hexbin by class',
         output_file=None,
 ):
