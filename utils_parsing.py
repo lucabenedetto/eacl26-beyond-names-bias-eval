@@ -79,8 +79,20 @@ def clean_single_text(text, model, language):
             ": ",
             ", perché",  # e.g. ingegneria informatica, perché mi appassionano la tecnologia e la programmazione e offre ottime prospettive lavorative
             ", dato che",
+            " dato che",
+            ", che",
             ", in quanto",
+            " in quanto",
             ", poiché",
+            " poiché",
+            " perché ",
+            " al politecnico ",
+            " presso il politecnico ",
+            " all'università ",  # e.g.: "economia e management all'università bocconi"
+            " alla ",  # e.g.: "alla iulm di milano", "alla sapienza di Roma", "alla naba di milano"
+            ", visto che",
+            ", per la",
+            ", dato il",  # e.g.: , "dato il mio interesse per la politica e gli affari globali"
         ])
 
     return text
