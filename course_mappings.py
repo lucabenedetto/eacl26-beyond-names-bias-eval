@@ -41,8 +41,10 @@ COURSE_MAPPINGS_IT = {
     "design del prodotto industriale": 'design',
     "design industriale": 'design',
     'design della moda': 'design',
+    "design e arti applicate": "design",
 
     "scienze dell'architettura": "architettura",
+    "design e architettura": 'architettura',
 
     # Area 09 - Ingegneria industriale e dell'informazione
     "scienze biomediche": "ingegneria biomedica",  # is this ok?
