@@ -42,6 +42,7 @@ COURSE_MAPPINGS_IT = {
     "design industriale": 'design',
     'design della moda': 'design',
     "design e arti applicate": "design",
+    "design e innovazione": 'design',
 
     "scienze dell'architettura": "architettura",
     "design e architettura": 'architettura',
@@ -53,6 +54,7 @@ COURSE_MAPPINGS_IT = {
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
     'lingue straniere e culture moderne': 'lettere',
+    'lingue straniere': 'lettere',
     'lingue e letterature straniere moderno': 'lettere',
     'lingue e letterature moderne': 'lettere',
     'lingua e letterature moderne': 'lettere',
@@ -123,12 +125,14 @@ COURSE_MAPPINGS_IT = {
     'management e consulenza aziendale': 'economia e management',
     "management e comunicazione d'impresa": 'economia e management',
     'management internazionale': 'economia e management',
+    'management e marketing': 'economia e management',
 
     # Area 14 - Scienze politiche e sociali
     'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze politiche': 'scienze politiche e relazioni internazionali',
     'relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali': 'scienze politiche e relazioni internazionali',
 
     'comunicazione e media digitali': 'comunicazione e media',
     'comunicazione digitale': 'comunicazione e media',
@@ -138,6 +142,7 @@ COURSE_MAPPINGS_IT = {
     'comunicazione e relazioni pubbliche': 'comunicazione e media',
     'scienze della comunicazione': 'comunicazione e media',
     'comunicazione e marketing digitale': 'comunicazione e media',
+    'comunicazione e marketing': 'comunicazione e media',
 
     "sociologia": "scienze sociali",
 }
