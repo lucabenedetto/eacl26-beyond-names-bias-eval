@@ -27,11 +27,18 @@ if __name__ == '__main__':
 
     print("'MAX' EMD PCA_0 = %.2f" % wasserstein_distance(distribution_1_pca_0, distribution_2_pca_0))    
     print("'MAX' EMD PCA_1 = %.2f" % wasserstein_distance(distribution_1_pca_1, distribution_2_pca_1))    
+    # On the experiments without names (aggregate PCA):
     # 'MAX' EMD PCA_0 = 12.24 (on the ssd coordinates reduced with the aggregate PCA)
     # 'MAX' EMD PCA_1 = 8.90
+    # On the experiments with names (aggregate PCA):
+    # 'MAX' EMD PCA_0 = 13.08
+    # 'MAX' EMD PCA_1 = 9.13
 
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
     distribution_1 = [df[C_STEM_MAGNITUDE].min()] * 100
     distribution_2 = [df[C_STEM_MAGNITUDE].max()] * 100
     print("'MAX' EMD STEM magnitude = %.2f" % wasserstein_distance(distribution_1, distribution_2))    
+    # On the experiments without names (aggregate PCA):
+    # 'MAX' EMD STEM magnitude = 15.00
+    # On the experiments with names (aggregate PCA):
     # 'MAX' EMD STEM magnitude = 15.00
