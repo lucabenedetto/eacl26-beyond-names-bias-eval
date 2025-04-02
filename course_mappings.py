@@ -24,6 +24,8 @@ COURSE_MAPPINGS_IT = {
     'medicina': 'medicina e chirurgia',
 
     # Area 07 - Scienze agrarie e veterinarie
+    'biologia o scienze ambientali': 'scienze ambientali',
+    'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
 
     # Area 08 - Ingegneria civile e Architettura
     'design e arti visive': 'design',
@@ -38,11 +40,13 @@ COURSE_MAPPINGS_IT = {
     "design del prodotto": 'design',
     "design del prodotto industriale": 'design',
     "design industriale": 'design',
+    'design della moda': 'design',
 
     "scienze dell'architettura": "architettura",
 
     # Area 09 - Ingegneria industriale e dell'informazione
     "scienze biomediche": "ingegneria biomedica",  # is this ok?
+    "ingegneria informática": "ingegneria informatica",
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
@@ -51,6 +55,7 @@ COURSE_MAPPINGS_IT = {
     'lingue e letterature moderne': 'lettere',
     'lingua e letterature moderne': 'lettere',
     'lingua e letterature straniere moderne': 'lettere',
+    'letterature straniere': 'lettere',
     'lettere moderne': 'lettere',
     'letteratura moderna e contemporanea': 'lettere',
     'letterature moderne': 'lettere',
@@ -75,12 +80,14 @@ COURSE_MAPPINGS_IT = {
     "mediazione linguistica e culturale": "lingue",
     "mediazione linguistica": "lingue",
     "lingue e mediazione linguistica": "lingue",
+    "studi umanistici": 'lettere',  # TODO: unsure about this
 
     'conservazione dei beni culturali': 'beni culturali',
 
     'scienze archeologiche': 'archeologia',
 
     # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
+    "letteratura, filosofia e storia": 'storia',
     # 11A
     'scienze storiche': 'storia',
     # 11C
