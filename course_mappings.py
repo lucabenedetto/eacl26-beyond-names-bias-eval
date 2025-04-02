@@ -26,6 +26,7 @@ COURSE_MAPPINGS_IT = {
     # Area 07 - Scienze agrarie e veterinarie
     'biologia o scienze ambientali': 'scienze ambientali',
     'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
+    "scienze e tecnologie alimentari": 'Scienze agrarie e veterinarie',
 
     # Area 08 - Ingegneria civile e Architettura
     'design e arti visive': 'design',
@@ -146,6 +147,8 @@ COURSE_MAPPINGS_IT = {
     'comunicazione e marketing digitale': 'comunicazione e media',
     'comunicazione e marketing': 'comunicazione e media',
 
+    'scienze turistiche': 'comunicazione e media', # unsure about this
+
     "sociologia": "scienze sociali",
 }
 
@@ -164,6 +167,7 @@ MAP_COURSE_TO_SSD = {
     "scienze infermieristiche": "06",
     "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
     "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "Scienze agrarie e veterinarie": "07",
     "design": "08",
     "architettura": "08",
     "ingegneria civile": "08",
