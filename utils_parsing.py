@@ -58,6 +58,8 @@ def clean_single_text(text, model, language):
             ', con specializzazione',
             ', specializzazione',
             ', indirizzo',
+            ', università ',
+            ', politecnico',
         ])
     if model == CLAUDE_3_5_HAIKU:
         text = truncate_and_keep_first(text, literals=[

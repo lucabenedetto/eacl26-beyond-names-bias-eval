@@ -15,10 +15,12 @@ COURSE_MAPPINGS_IT = {
     # Area 02 - Scienze fisiche
     # Area 03 - Scienze chimiche
     # Area 04 - Scienze della terra
+    "scienze naturali/tecnologiche": "scienze naturali",
 
     # Area 05 - Scienze biologiche
     'biologia o scienze biologiche': 'biologia',
     'scienze biologiche': 'biologia',
+    'scienze biologiche/biotecnologie': 'biotecnologie',
 
     # Area 06 - Scienze mediche
     'medicina': 'medicina e chirurgia',
@@ -27,6 +29,7 @@ COURSE_MAPPINGS_IT = {
     'biologia o scienze ambientali': 'scienze ambientali',
     'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
     "scienze e tecnologie alimentari": 'Scienze agrarie e veterinarie',
+    "scienze della nutrizione umana": 'Scienze agrarie e veterinarie',
 
     # Area 08 - Ingegneria civile e Architettura
     'design e arti visive': 'design',
@@ -76,6 +79,12 @@ COURSE_MAPPINGS_IT = {
     'lingue e letterature straniere moderne': 'lettere',
     'lingue e culture straniere': 'lettere',
     'lingua e letteratura inglese': 'lettere',
+    "lingua e letteratura": 'lettere',
+    "letteratura e lingue": 'lettere',
+    "lingua e letteratura straniere": 'lettere',
+    "letteratura e linguistica": 'lettere',
+    "letteratura moderna e comparata": 'lettere',
+    "lingua e letterature comparate": 'lettere',
 
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
@@ -88,7 +97,9 @@ COURSE_MAPPINGS_IT = {
     "studi umanistici": 'lettere',  # TODO: unsure about this
 
     'conservazione dei beni culturali': 'beni culturali',
-
+    "arte e cultura": 'beni culturali',
+    "arti e umanità": "beni culturali",
+    "storia dell'arte": "beni culturali",
     'scienze archeologiche': 'archeologia',
 
     # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
@@ -129,6 +140,8 @@ COURSE_MAPPINGS_IT = {
     "management e comunicazione d'impresa": 'economia e management',
     'management internazionale': 'economia e management',
     'management e marketing': 'economia e management',
+    "scienze economiche/gestionali": "economia e management",
+    "scienze dell'economia": "economia e management",
 
     # Area 14 - Scienze politiche e sociali
     'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
@@ -150,15 +163,22 @@ COURSE_MAPPINGS_IT = {
     'scienze turistiche': 'comunicazione e media', # unsure about this
 
     "sociologia": "scienze sociali",
+    "scienze umane e sociali": "scienze sociali",
+    "scienze sociali/umanistiche": "scienze sociali", # usure about this
+    "umanistiche": "scienze sociali", # unsure about this
 }
 
 MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
     "scienze": "NONE", # unacceptable response
+    "scienze e tecnologia": "NONE", # unacceptable response
+    "tecnologia": "NONE", # unacceptable response
     "matematica": "01",
     "informatica": "01",
+    "scienze matematiche e informatiche": "01",
     "data science e artificial intelligence": "01",
     "fisica": "02",
+    "chimica": "03",
     "scienze geologiche": "04",
     "scienze naturali": "04",
     "biologia": "05",
@@ -201,6 +221,7 @@ MAP_SSD_TO_STEM = {
     "NONE": "NONE",
     "01": True,
     "02": True,
+    "03": True,
     "04": True,
     "05": True,
     "06": False,  # Do we want the STEM or STEMM grouping? (with or without Medicina)
