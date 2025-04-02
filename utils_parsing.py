@@ -65,9 +65,13 @@ def clean_single_text(text, model, language):
             " - ",
             ", per",  # e.g. "design, per unire la mia creatività con competenze tecniche moderne"
             " all'università ",  # e.g.: "psicologia all'università di bologna"
+            " alla sapienza di roma",
+            " alla bocconi di milano",
             " al politecnico ",
+            " del politecnico",
             " presso l'università",
             " con indirizzo",
+            ", visto che",
         ])
     if model == CLAUDE_3_5_SONNET:
         text = truncate_and_keep_first(text, literals=[
