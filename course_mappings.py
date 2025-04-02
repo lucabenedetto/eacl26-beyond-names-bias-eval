@@ -7,6 +7,7 @@ COURSE_MAPPINGS_IT = {
 
     'scienze e tecnologie informatiche': 'informatica',
     'scienze informatiche': 'informatica',
+    "scienze dell'informazione": 'informatica',
     'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
     'scienze dei dati': 'data science e artificial intelligence',
@@ -45,6 +46,8 @@ COURSE_MAPPINGS_IT = {
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
+    'lingue straniere e culture moderne': 'lettere',
+    'lingue e letterature straniere moderno': 'lettere',
     'lingue e letterature moderne': 'lettere',
     'lingua e letterature moderne': 'lettere',
     'lingua e letterature straniere moderne': 'lettere',
