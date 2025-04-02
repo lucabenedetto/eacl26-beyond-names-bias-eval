@@ -103,6 +103,8 @@ COURSE_MAPPINGS_IT = {
     'psychologia': 'psicologia',
     'scienze psicologiche': 'psicologia',
     'psicologia clinica': 'psicologia',
+    "psicologia clinica e della salute": 'psicologia',
+    "psicologia clinica e di comunità": 'psicologia',
     "scienze cognitive": "psicologia",  # According to the same data from MUR used for MAP_SSD_TO_STEM
     #
     "scienze della formazione primaria": "scienze dell'educazione",
@@ -153,6 +155,7 @@ MAP_COURSE_TO_SSD = {
     "matematica": "01",
     "informatica": "01",
     "data science e artificial intelligence": "01",
+    "fisica": "02",
     "scienze geologiche": "04",
     "scienze naturali": "04",
     "biologia": "05",
@@ -193,6 +196,7 @@ MAP_COURSE_TO_SSD = {
 MAP_SSD_TO_STEM = {
     "NONE": "NONE",
     "01": True,
+    "02": True,
     "04": True,
     "05": True,
     "06": False,  # Do we want the STEM or STEMM grouping? (with or without Medicina)
