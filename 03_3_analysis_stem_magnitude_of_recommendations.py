@@ -191,3 +191,15 @@ if __name__ == '__main__':
     # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
     # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
 
+
+    # # To run single analyses.
+    # RUN_DATE = '2025_05_08_for_paper'
+    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
+
+    # # only recommendations for the model prompt
+    # local_df = df[df[C_STUDY_GROUP] == 'model' ]
+    # run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate__model_preference')
+    # # local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
+    # # local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
+    # # local_df = local_df[local_df['temperature'] == 0.3]
+    # # run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'TEMPORARY')
