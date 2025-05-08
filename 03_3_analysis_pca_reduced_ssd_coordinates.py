@@ -408,3 +408,18 @@ if __name__ == '__main__':
     OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_with_names')
     run_complete_analysis_pca_reduced_ssd_coordinates(df[df['prompt_param'] == CONFIG_W_NAMES], WHICH_PCA, OUTPUT_FOLDER)
 
+
+    # To run single analyses.
+    # WHICH_PCA = 'agg_pca'
+    # RUN_DATE = '2025_05_08_for_paper'
+    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd')
+
+    # # only recommendations for the model prompt
+    # local_df = df[df[C_STUDY_GROUP] == 'model' ]
+    # run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'aggregate__model_preference')
+
+    # To run other analysis, you can filter df as is done above for the temperature and model name.
+    # local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
+    # local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
+    # local_df = local_df[local_df['temperature'] == 0.3]
+    # run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'TEMPORARY')
