@@ -68,8 +68,10 @@ def plot_pca_explained_variance(model_owner, output_filename=None):
 
 
 if __name__ == '__main__':
-    plot_pca_components(model_owner='aggregate', output_filename='figures/2025_03_06/pca_components_aggregate.png')
-    plot_pca_explained_variance(model_owner='aggregate', output_filename='figures/2025_03_06/pca_explained_variance_aggregate.png')
+    RUN_DATE = '2025_04_02_also_w_names'
+
+    plot_pca_components(model_owner='aggregate', output_filename=f'figures/{RUN_DATE}/pca_components_aggregate.png')
+    plot_pca_explained_variance(model_owner='aggregate', output_filename=f'figures/{RUN_DATE}/pca_explained_variance_aggregate.png')
     for model_owner in MODELS_BY_OWNER.keys():
-        plot_pca_components(model_owner=model_owner, output_filename=f'figures/2025_03_06/pca_components_{model_owner}.png')
-        plot_pca_explained_variance(model_owner=model_owner, output_filename=f'figures/2025_03_06/pca_explained_variance_{model_owner}.png')
+        plot_pca_components(model_owner=model_owner, output_filename=f'figures/{RUN_DATE}/pca_components_{model_owner}.png')
+        plot_pca_explained_variance(model_owner=model_owner, output_filename=f'figures/{RUN_DATE}/pca_explained_variance_{model_owner}.png')
