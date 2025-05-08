@@ -19,6 +19,10 @@ print(MAP_SSD_ID_TO_NAME)
 data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
 df = pd.read_csv(data_path)
 
+# These should be changed depending on the filter applied to the DF (see below).
+CURRENT_MODEL = 'aggregate'
+PROMPT_TYPE = 'aggregate'
+
 # Here you can add the filter on model / prompt type / etc.
 df_recommended_ssd_count = df.groupby(C_STUDY_GROUP).sum()[LIST_SSD_IDS]
 # this DF has one row for each study group, and one column for each SSD. The value of each cell is the frequency of the recommendation of the corresponding SSD (normalised)
@@ -35,13 +39,11 @@ print(df_melted)
 top_recs = df_melted.groupby("ssd_name")["Score"].mean().sort_values(ascending=False)[:5]
 df_melted = df_melted[df_melted['ssd_name'].isin(top_recs.index)]
 
-current_model = 'aggregate'
-prompt_type = 'aggregate'
-
 # Here is the code for the plot.
 fig = plt.figure(figsize=(16, 9))
-fig.suptitle(f"Model: {current_model}, Prompt Type: {prompt_type}")
+fig.suptitle(f"Model: {CURRENT_MODEL}, Prompt Type: {PROMPT_TYPE}")
 ax = fig.add_subplot(1, 1, 1)
 sns.barplot(df_melted, x="Score", y="ssd_name", hue="study_group", order=top_recs.index, orient="y")
 plt.tight_layout()
 plt.show()
+# TODO: save this as image.
