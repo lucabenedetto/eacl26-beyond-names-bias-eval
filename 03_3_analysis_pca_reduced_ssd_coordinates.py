@@ -14,6 +14,8 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, 
     LLM_AS_STUDENT,
+    CONFIG_NO_NAME,
+    CONFIG_W_NAMES,
     CLAUDE_3_5_HAIKU,
 )
 
@@ -132,14 +134,26 @@ def plot_hexbin_by_class(
     # TODO: Possibly redo this to create four different images. It could be better for sharing it.
     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
 
-    fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
-    for axis, study_group in zip([ax[0][0], ax[0][1], ax[1][0], ax[1][1]], STUDY_GROUPS):
-        hb = axis.hexbin(
-            df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
-            bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
-        )
-        cb = fig.colorbar(hb, ax=axis, label='counts')
-        axis.set_title(f'{title} - {study_group}')
+    filtered_study_groups = [x for x in STUDY_GROUPS if x in df[class_column].unique()]
+
+    if len(filtered_study_groups) == 4:
+        fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
+        for axis, study_group in zip([ax[0][0], ax[0][1], ax[1][0], ax[1][1]], STUDY_GROUPS):
+            hb = axis.hexbin(
+                df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
+                bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
+            )
+            cb = fig.colorbar(hb, ax=axis, label='counts')
+            axis.set_title(f'{title} - {study_group}')
+    elif len(filtered_study_groups) == 2:
+        fig, ax = plt.subplots(1,2, sharex=True, sharey=True)
+        for axis, study_group in zip([ax[0], ax[1]], filtered_study_groups):
+            hb = axis.hexbin(
+                df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
+                bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
+            )
+            # cb = fig.colorbar(hb, ax=axis, label='counts')  # TODO: fix this, it was causing an error.
+            axis.set_title(f'{title} - {study_group}')
     if output_file:
         plt.savefig(output_file)
         plt.close()
@@ -209,11 +223,12 @@ def confusion_matrix_distribution_distance(
     # TODO: make a method for this, it is used in several scripts/methods.
     n_study_groups = df[class_column].nunique()
     if len(STUDY_GROUPS) != n_study_groups:
-        raise ValueError("The number of study groups in the DF is not the expected one.")
+        print(f"[WARNING]T he number of study groups in the DF ({n_study_groups}) is not the expected one {len(STUDY_GROUPS)}.")
 
 
     # I am using this order instead of the original one in the constant STUDY_GROUPS because it better highlights the trends in the heatmaps.
     reordered_study_groups = ['model', 'm', 'x', 'f']
+    reordered_study_groups = [x for x in reordered_study_groups if x in df[class_column].unique()]
     fig, ax = plt.subplots(1, 2, figsize=(10, 4))
     for ax_idx, column in enumerate([x_column, y_column]):
         conf_mat = np.zeros((n_study_groups, n_study_groups))
@@ -224,8 +239,8 @@ def confusion_matrix_distribution_distance(
                 stem_magnitudes_2 = df[df[class_column] == study_group_2][column].tolist()
                 conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
 
-        print(f'Confusion matrix {column}:')
-        print(conf_mat)
+        # print(f'Confusion matrix {column}:')
+        # print(conf_mat)
 
         im = ax[ax_idx].imshow(conf_mat, cmap='Reds', vmax=vmax)
         # Show all ticks and label them with the respective list entries
@@ -332,13 +347,7 @@ def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which
     )
 
 
-if __name__ == '__main__':
-    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
-
-    WHICH_PCA = 'agg_pca'
-    RUN_DATE = "2025_03_06"
-    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd')
-
+def run_complete_analysis_pca_reduced_ssd_coordinates(df, WHICH_PCA, OUTPUT_FOLDER):
     # Analysis aggregating all the models and runs.
     run_analysis_pca_reduced_ssd_coordinates(df, OUTPUT_FOLDER, WHICH_PCA, 'aggregate')
 
@@ -379,8 +388,23 @@ if __name__ == '__main__':
             local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'{model_owner}_{prompt_type}')
 
-    # To run other analysis, you can filter df as is done above for the temperature and model name.
-    # local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
-    # local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
-    # local_df = local_df[local_df['temperature'] == 0.3]
-    # run_analysis_pca_reduced_ssd_coordinates(local_df, OUTPUT_FOLDER, WHICH_PCA, f'TEMPORARY')
+
+if __name__ == '__main__':
+    df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
+
+    WHICH_PCA = 'agg_pca'
+    RUN_DATE = "2025_04_02_w_names"
+
+
+    print("Doing both with and without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd')
+    run_complete_analysis_pca_reduced_ssd_coordinates(df, WHICH_PCA, OUTPUT_FOLDER)
+
+    print("Doing without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_no_names')
+    run_complete_analysis_pca_reduced_ssd_coordinates(df[df['prompt_param'] == CONFIG_NO_NAME], WHICH_PCA, OUTPUT_FOLDER)
+
+    print("Doing with names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_with_names')
+    run_complete_analysis_pca_reduced_ssd_coordinates(df[df['prompt_param'] == CONFIG_W_NAMES], WHICH_PCA, OUTPUT_FOLDER)
+
