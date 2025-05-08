@@ -14,6 +14,8 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, 
     LLM_AS_STUDENT,
+    CONFIG_W_NAMES,
+    CONFIG_NO_NAME,
     CLAUDE_3_5_HAIKU,
 )
 
@@ -75,20 +77,21 @@ def confusion_matrix_stem_magnitude_distance(
     # TODO: possibly change this so that it doesn't use the EMD by default but rather I can pass the method.
     n_study_groups = df[class_column].nunique()
     if len(STUDY_GROUPS) != n_study_groups:
-        raise ValueError("The number of study groups in the DF is not the expected one.")
+        print(f"[WARNING]T he number of study groups in the DF ({n_study_groups}) is not the expected one {len(STUDY_GROUPS)}.")
 
     conf_mat = np.zeros((n_study_groups, n_study_groups))
 
     # I am using this order instead of the original one in the constant STUDY_GROUPS because it better highlights the trends in the heatmaps.
     reordered_study_groups = ['model', 'm', 'x', 'f']
+    reordered_study_groups = [x for x in reordered_study_groups if x in df[class_column].unique()]
     for (idx_1, study_group_1) in enumerate(reordered_study_groups):
         stem_magnitudes_1 = df[df[class_column] == study_group_1][x_column].tolist()
         for (idx_2, study_group_2) in enumerate(reordered_study_groups):
             stem_magnitudes_2 = df[df[class_column] == study_group_2][x_column].tolist()
             conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
 
-    print('Confusion matrix')
-    print(conf_mat)
+    # print('Confusion matrix')
+    # print(conf_mat)
 
     fig, ax = plt.subplots()
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
@@ -129,12 +132,7 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
         )
 
 
-if __name__ == '__main__':
-    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
-
-    RUN_DATE = '2025_03_06'
-    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
-
+def run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER):
     # analysis on the aggregate dataframe
     run_analysis_stem_magnitude(df, OUTPUT_FOLDER, 'aggregate')
 
@@ -174,8 +172,22 @@ if __name__ == '__main__':
             local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'{model_owner}_{prompt_type}')
 
-    # To run other analysis, you can filter df as is done above for the temperature and model name.
-    # local_df = df[df['model'].isin([CLAUDE_3_5_HAIKU])]
-    # local_df = local_df[local_df['prompt_type'] == LLM_AS_STUDENT]
-    # local_df = local_df[local_df['temperature'] == 0.3]
-    # run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'TEMPORARY')
+
+if __name__ == '__main__':
+    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
+
+    # RUN_DATE = '2025_05_08_for_paper'
+    # # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
+
+    # print("Doing both with and without names")
+    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
+    # run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER)
+
+    # print("Doing without names")
+    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
+    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+
+    # print("Doing with names")
+    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
+    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
+
