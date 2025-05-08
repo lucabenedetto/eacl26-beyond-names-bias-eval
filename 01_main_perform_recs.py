@@ -93,7 +93,7 @@ if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
     MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 1  # 10
+    N_RUNS_PER_PROMPT = 10  # 3 or 10 / For the paper, we use 3 for the experiments with names and 10 for the experiments without names.
     TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
 
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names

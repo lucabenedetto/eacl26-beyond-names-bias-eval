@@ -35,7 +35,7 @@ def clean_single_text(text, model, language):
         text = re.sub(r'\([^()]*\)', ' ', text)
         text = text.strip()
     # Some models do not respond only with the name of the course but also by adding "Degree in..." (in different lang).
-    if model in {GPT_3_5, GPT_4o_MINI, GEMINI_1_5_FLASH_8B}:
+    if model in {GPT_3_5, GPT_4o_MINI, GPT_4o, GEMINI_1_5_FLASH_8B}:
         if text[:10] == "laurea in ":
             text = text[10:]
     if model == GPT_4o:
@@ -58,6 +58,8 @@ def clean_single_text(text, model, language):
             ', con specializzazione',
             ', specializzazione',
             ', indirizzo',
+            ', università ',
+            ', politecnico',
         ])
     if model == CLAUDE_3_5_HAIKU:
         text = truncate_and_keep_first(text, literals=[
@@ -65,9 +67,13 @@ def clean_single_text(text, model, language):
             " - ",
             ", per",  # e.g. "design, per unire la mia creatività con competenze tecniche moderne"
             " all'università ",  # e.g.: "psicologia all'università di bologna"
+            " alla sapienza di roma",
+            " alla bocconi di milano",
             " al politecnico ",
+            " del politecnico",
             " presso l'università",
             " con indirizzo",
+            ", visto che",
         ])
     if model == CLAUDE_3_5_SONNET:
         text = truncate_and_keep_first(text, literals=[
@@ -75,8 +81,20 @@ def clean_single_text(text, model, language):
             ": ",
             ", perché",  # e.g. ingegneria informatica, perché mi appassionano la tecnologia e la programmazione e offre ottime prospettive lavorative
             ", dato che",
+            " dato che",
+            ", che",
             ", in quanto",
+            " in quanto",
             ", poiché",
+            " poiché",
+            " perché ",
+            " al politecnico ",
+            " presso il politecnico ",
+            " all'università ",  # e.g.: "economia e management all'università bocconi"
+            " alla ",  # e.g.: "alla iulm di milano", "alla sapienza di Roma", "alla naba di milano"
+            ", visto che",
+            ", per la",
+            ", dato il",  # e.g.: , "dato il mio interesse per la politica e gli affari globali"
         ])
 
     return text
