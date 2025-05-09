@@ -25,7 +25,7 @@ def compute_df_for_bar_plot_visualisation(df: pd.DataFrame):
     print(df_normalized)
 
     # pd.melt is turning wide-format data into long-format
-    df_melted = pd.melt(df_normalized, id_vars=['study_group'], var_name='SSD', value_name='Score')
+    df_melted = pd.melt(df_normalized, id_vars=[C_STUDY_GROUP], var_name='SSD', value_name='Score')
     # print(df_melted)
     df_melted['ssd_name'] = df_melted.apply(lambda r: MAP_SSD_ID_TO_NAME[r['SSD']], axis=1)
     print(df_melted)
@@ -55,7 +55,7 @@ def main():
     fig = plt.figure(figsize=(16, 9))
     fig.suptitle(f"Model: {CURRENT_MODEL}, Prompt Type: {PROMPT_TYPE}")
     ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(fitlered_df_melted, x="Score", y="ssd_name", hue="study_group", order=top_recs.index, orient="y")
+    sns.barplot(fitlered_df_melted, x="Score", y="ssd_name", hue=C_STUDY_GROUP, order=top_recs.index, orient="y")
     plt.tight_layout()
     plt.show()
     # TODO: save this as image.
@@ -65,7 +65,7 @@ def main():
     fig = plt.figure(figsize=(16, 9))
     fig.suptitle(f"Model preferences")
     ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue="study_group", orient="y")
+    sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue=C_STUDY_GROUP, orient="y")
     plt.tight_layout()
     plt.show()
     # TODO: save this as image.
@@ -80,7 +80,7 @@ def main():
     #     fig = plt.figure(figsize=(16, 9))
     #     fig.suptitle(f"Model preferences -- {model_owner}")
     #     ax = fig.add_subplot(1, 1, 1)
-    #     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue="study_group", orient="y")
+    #     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue=C_STUDY_GROUP, orient="y")
     #     plt.tight_layout()
     #     plt.show()
 
