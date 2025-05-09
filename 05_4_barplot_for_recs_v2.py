@@ -9,6 +9,7 @@ from constants import (
     C_STUDY_GROUP,
     MODELS_BY_OWNER,
     C_LIST_SSD,
+    MAP_MODEL_TO_OWNER,
 )
 from course_mappings import LIST_SSD
 
@@ -18,14 +19,14 @@ MAP_SSD_ID_TO_NAME = {ssd: LIST_SSD[idx] for idx, ssd in enumerate(C_LIST_SSD)}
 print(MAP_SSD_ID_TO_NAME)
 
 
-def compute_df_for_bar_plot_visualisation(df: pd.DataFrame):
-    df_recommended_ssd_count = df.groupby(C_STUDY_GROUP).sum()[C_LIST_SSD]
+def compute_df_for_bar_plot_visualisation(df: pd.DataFrame, group_by_column: str):
+    df_recommended_ssd_count = df.groupby(group_by_column).sum()[C_LIST_SSD]
     # this DF has one row for each study group, and one column for each SSD. The value of each cell is the frequency of the recommendation of the corresponding SSD (normalised)
     df_normalized = df_recommended_ssd_count.div(df_recommended_ssd_count.sum(axis=1), axis=0).reset_index()
     print(df_normalized)
 
     # pd.melt is turning wide-format data into long-format
-    df_melted = pd.melt(df_normalized, id_vars=[C_STUDY_GROUP], var_name='SSD', value_name='Score')
+    df_melted = pd.melt(df_normalized, id_vars=[group_by_column], var_name='SSD', value_name='Score')
     # print(df_melted)
     df_melted['ssd_name'] = df_melted.apply(lambda r: MAP_SSD_ID_TO_NAME[r['SSD']], axis=1)
     print(df_melted)
@@ -47,7 +48,7 @@ def main():
     PROMPT_TYPE = 'aggregate'
 
     # Before this, you can add the filter on model / prompt type / etc.
-    df_melted = compute_df_for_bar_plot_visualisation(df)
+    df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
     
     fitlered_df_melted, top_recs = filter_to_keep_top_n_recommendations(df_melted, top_n=5)
 
@@ -75,7 +76,7 @@ def main():
     #     df = pd.read_csv(data_path)
     #     # filter by LLM
     #     df = df[df['model'].isin(models)]
-    #     df_melted = compute_df_for_bar_plot_visualisation(df)
+    #     df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
     #     # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
     #     fig = plt.figure(figsize=(16, 9))
     #     fig.suptitle(f"Model preferences -- {model_owner}")
@@ -83,6 +84,23 @@ def main():
     #     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue=C_STUDY_GROUP, orient="y")
     #     plt.tight_layout()
     #     plt.show()
+
+    # Below the code for showing the preferences of individual models.
+    model_df = compute_df_for_bar_plot_visualisation(df, 'model')
+    model_df['model_owner'] = model_df.apply(lambda r: MAP_MODEL_TO_OWNER[r['model']], axis=1)
+    print(model_df.drop('model', axis=1))
+    # preferences for individual models
+    fig = plt.figure(figsize=(16, 9))
+    ax = fig.add_subplot(1, 1, 1)
+    sns.barplot(model_df, x="Score", y="ssd_name", hue='model', orient="y")
+    plt.tight_layout()
+    plt.show()
+    # preferences for model families
+    fig = plt.figure(figsize=(16, 9))
+    ax = fig.add_subplot(1, 1, 1)
+    sns.barplot(model_df, x="Score", y="ssd_name", hue='model_owner', orient="y")
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == '__main__':
