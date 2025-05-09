@@ -16,10 +16,6 @@ LIST_SSD_IDS = ['SSD_0','SSD_1','SSD_2','SSD_3','SSD_4','SSD_5','SSD_6','SSD_7',
 MAP_SSD_ID_TO_NAME = {ssd: LIST_SSD[idx] for idx, ssd in enumerate(LIST_SSD_IDS)}
 print(MAP_SSD_ID_TO_NAME)
 
-# These should be changed depending on the filter applied to the DF (see below).
-CURRENT_MODEL = 'aggregate'
-PROMPT_TYPE = 'aggregate'
-
 
 def compute_df_for_bar_plot_visualisation(df: pd.DataFrame):
     # Here you can add the filter on model / prompt type / etc.
@@ -45,6 +41,10 @@ def filter_to_keep_top_n_recommendations(df_melted: pd.DataFrame, top_n: int = 5
 def main():
     data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
     df = pd.read_csv(data_path)
+
+    # These should be changed depending on the filter applied to the DF (see below).
+    CURRENT_MODEL = 'aggregate'
+    PROMPT_TYPE = 'aggregate'
 
     df_melted = compute_df_for_bar_plot_visualisation(df)
     
