@@ -7,6 +7,7 @@ import seaborn as sns
 
 from constants import (
     C_STUDY_GROUP,
+    MODELS_BY_OWNER,
 )
 from course_mappings import LIST_SSD
 
@@ -18,7 +19,6 @@ print(MAP_SSD_ID_TO_NAME)
 
 
 def compute_df_for_bar_plot_visualisation(df: pd.DataFrame):
-    # Here you can add the filter on model / prompt type / etc.
     df_recommended_ssd_count = df.groupby(C_STUDY_GROUP).sum()[LIST_SSD_IDS]
     # this DF has one row for each study group, and one column for each SSD. The value of each cell is the frequency of the recommendation of the corresponding SSD (normalised)
     df_normalized = df_recommended_ssd_count.div(df_recommended_ssd_count.sum(axis=1), axis=0).reset_index()
@@ -46,6 +46,7 @@ def main():
     CURRENT_MODEL = 'aggregate'
     PROMPT_TYPE = 'aggregate'
 
+    # Before this, you can add the filter on model / prompt type / etc.
     df_melted = compute_df_for_bar_plot_visualisation(df)
     
     fitlered_df_melted, top_recs = filter_to_keep_top_n_recommendations(df_melted, top_n=5)
@@ -62,12 +63,26 @@ def main():
 
     # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
     fig = plt.figure(figsize=(16, 9))
-    fig.suptitle(f"'Model' preferences")
+    fig.suptitle(f"Model preferences")
     ax = fig.add_subplot(1, 1, 1)
     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue="study_group", orient="y")
     plt.tight_layout()
     plt.show()
     # TODO: save this as image.
+
+    for model_owner, models in MODELS_BY_OWNER.items():
+        df = pd.read_csv(data_path)
+        # filter by LLM
+        df = df[df['model'].isin(models)]
+        df_melted = compute_df_for_bar_plot_visualisation(df)
+        # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
+        fig = plt.figure(figsize=(16, 9))
+        fig.suptitle(f"Model preferences -- {model_owner}")
+        ax = fig.add_subplot(1, 1, 1)
+        sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue="study_group", orient="y")
+        plt.tight_layout()
+        plt.show()
+        # TODO: save this as image.
 
 
 if __name__ == '__main__':
