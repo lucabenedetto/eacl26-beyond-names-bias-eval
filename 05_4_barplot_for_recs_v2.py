@@ -37,13 +37,23 @@ print(df_melted)
 
 # This is to get the list of most frequently recommended SSD
 top_recs = df_melted.groupby("ssd_name")["Score"].mean().sort_values(ascending=False)[:5]
-df_melted = df_melted[df_melted['ssd_name'].isin(top_recs.index)]
+fitlered_df_melted = df_melted[df_melted['ssd_name'].isin(top_recs.index)]
 
 # Here is the code for the plot.
 fig = plt.figure(figsize=(16, 9))
 fig.suptitle(f"Model: {CURRENT_MODEL}, Prompt Type: {PROMPT_TYPE}")
 ax = fig.add_subplot(1, 1, 1)
-sns.barplot(df_melted, x="Score", y="ssd_name", hue="study_group", order=top_recs.index, orient="y")
+sns.barplot(fitlered_df_melted, x="Score", y="ssd_name", hue="study_group", order=top_recs.index, orient="y")
+plt.tight_layout()
+plt.show()
+# TODO: save this as image.
+
+
+# This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
+fig = plt.figure(figsize=(16, 9))
+fig.suptitle(f"'Model' preferences")
+ax = fig.add_subplot(1, 1, 1)
+sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue="study_group", orient="y")
 plt.tight_layout()
 plt.show()
 # TODO: save this as image.
