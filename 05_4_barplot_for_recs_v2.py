@@ -20,10 +20,8 @@ print(MAP_SSD_ID_TO_NAME)
 CURRENT_MODEL = 'aggregate'
 PROMPT_TYPE = 'aggregate'
 
-def main():
-    data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
-    df = pd.read_csv(data_path)
 
+def compute_df_for_bar_plot_visualisation(df: pd.DataFrame):
     # Here you can add the filter on model / prompt type / etc.
     df_recommended_ssd_count = df.groupby(C_STUDY_GROUP).sum()[LIST_SSD_IDS]
     # this DF has one row for each study group, and one column for each SSD. The value of each cell is the frequency of the recommendation of the corresponding SSD (normalised)
@@ -36,9 +34,21 @@ def main():
     df_melted['ssd_name'] = df_melted.apply(lambda r: MAP_SSD_ID_TO_NAME[r['SSD']], axis=1)
     print(df_melted)
 
-    # This is to get the list of most frequently recommended SSD
-    top_recs = df_melted.groupby("ssd_name")["Score"].mean().sort_values(ascending=False)[:5]
-    fitlered_df_melted = df_melted[df_melted['ssd_name'].isin(top_recs.index)]
+    return df_melted
+
+
+def filter_to_keep_top_n_recommendations(df_melted: pd.DataFrame, top_n: int = 5):
+        top_recs = df_melted.groupby("ssd_name")["Score"].mean().sort_values(ascending=False)[:top_n]
+        return df_melted[df_melted['ssd_name'].isin(top_recs.index)], top_recs
+
+
+def main():
+    data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
+    df = pd.read_csv(data_path)
+
+    df_melted = compute_df_for_bar_plot_visualisation(df)
+    
+    fitlered_df_melted, top_recs = filter_to_keep_top_n_recommendations(df_melted, top_n=5)
 
     # Here is the code for the plot.
     fig = plt.figure(figsize=(16, 9))
