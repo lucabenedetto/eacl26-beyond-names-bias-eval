@@ -112,6 +112,15 @@ MODELS_BY_OWNER = {
     'Anthropic': {CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU},
     'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B},
 }
+MAP_MODEL_TO_OWNER = {
+    GPT_3_5: 'OpenAI',
+    GPT_4o_MINI: 'OpenAI',
+    GPT_4o: 'OpenAI',
+    CLAUDE_3_5_SONNET: 'Anthropic',
+    CLAUDE_3_5_HAIKU: 'Anthropic',
+    GEMINI_1_5_FLASH: 'Google',
+    GEMINI_1_5_FLASH_8B: 'Google',
+}
 
 
 # Column names
