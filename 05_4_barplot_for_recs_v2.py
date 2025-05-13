@@ -14,6 +14,12 @@ from constants import (
 from course_mappings import LIST_SSD
 
 
+plt.rcParams.update({
+    "font.size": 16,
+    "font.family": "serif",
+})
+
+
 # TODO: Possibly move these to the constants or course mappings file.
 MAP_SSD_ID_TO_NAME = {ssd: LIST_SSD[idx] for idx, ssd in enumerate(C_LIST_SSD)}
 print(MAP_SSD_ID_TO_NAME)
@@ -45,7 +51,13 @@ def main():
 
     # These should be changed depending on the filter applied to the DF (see below).
     CURRENT_MODEL = 'aggregate'
-    PROMPT_TYPE = 'aggregate'
+    PROMPT_TYPE = 'aggre
+plt.rcParams.update({
+    "font.size": 16,
+    "font.family": "serif",
+})
+
+gate'
 
     # Before this, you can add the filter on model / prompt type / etc.
     df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
