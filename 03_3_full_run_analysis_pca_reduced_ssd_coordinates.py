@@ -345,9 +345,9 @@ if __name__ == '__main__':
     WHICH_PCA = 'agg_pca'  # The PCA model to use. All results in the paper are the ones obtained using the aggragete model (trained on all provided recommendations).
     RUN_DATE = "2025_05_for_paper"
 
-    # print("Doing both with and without names")
-    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_aggregate')
-    # run_complete_analysis_pca_reduced_ssd_coordinates(df, WHICH_PCA, OUTPUT_FOLDER)
+    print("Doing both with and without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_aggregate')
+    run_complete_analysis_pca_reduced_ssd_coordinates(df, WHICH_PCA, OUTPUT_FOLDER)
 
     print("Doing without names")
     OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_pca_reduced_ssd_no_names')
