@@ -130,7 +130,7 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
         output_file=os.path.join(output_folder, f'{which_model_and_params}__hist_stem_magnitude_by_class.png'),
     )
 
-    print("Doing confusion matrix EMD of STEM magnitude")
+    print("Computing matrix EMD of STEM magnitudes")
     compute_stem_magnitude_distribution_distance(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
         output_file=os.path.join(output_folder, f'{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'),
