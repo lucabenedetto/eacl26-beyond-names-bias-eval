@@ -1,5 +1,5 @@
 import ast
-
+import os
 import pandas as pd
 
 import matplotlib.pyplot as plt
@@ -7,11 +7,11 @@ import seaborn as sns
 
 from constants import (
     C_STUDY_GROUP,
-    MODELS_BY_OWNER,
     C_LIST_SSD,
     MAP_MODEL_TO_OWNER,
+    COLOUR_BY_GROUP,
 )
-from course_mappings import LIST_SSD
+from course_mappings import LIST_SSD_EN
 
 
 plt.rcParams.update({
@@ -21,8 +21,9 @@ plt.rcParams.update({
 
 
 # TODO: Possibly move these to the constants or course mappings file.
-MAP_SSD_ID_TO_NAME = {ssd: LIST_SSD[idx] for idx, ssd in enumerate(C_LIST_SSD)}
+MAP_SSD_ID_TO_NAME = {ssd: LIST_SSD_EN[idx] for idx, ssd in enumerate(C_LIST_SSD)}
 print(MAP_SSD_ID_TO_NAME)
+CUSTOM_ORDER = ['Model', 'M', 'X', 'F']
 
 
 def compute_df_for_bar_plot_visualisation(df: pd.DataFrame, group_by_column: str):
@@ -46,6 +47,7 @@ def filter_to_keep_top_n_recommendations(df_melted: pd.DataFrame, top_n: int = 5
 
 
 def main():
+    OUTPUT_FOLDER = './figures/2025_05_for_paper/bar_plot_recommendation_frequency/'
     data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
     df = pd.read_csv(data_path)
 
@@ -55,18 +57,21 @@ def main():
 
     # Before this, you can add the filter on model / prompt type / etc.
     df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
-    
+    df_melted['Study group'] = df_melted.apply(lambda r: r[C_STUDY_GROUP].title(), axis=1)
+
     fitlered_df_melted, top_recs = filter_to_keep_top_n_recommendations(df_melted, top_n=5)
 
     # Here is the code for the plot.
-    fig = plt.figure(figsize=(16, 9))
-    fig.suptitle(f"Model: {CURRENT_MODEL}, Prompt Type: {PROMPT_TYPE}")
+    fig = plt.figure(figsize=(16, 6))
+    # fig.suptitle(f"Model: {CURRENT_MODEL}, Prompt Type: {PROMPT_TYPE}")
     ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(fitlered_df_melted, x="Score", y="ssd_name", hue=C_STUDY_GROUP, order=top_recs.index, orient="y")
+    sns.barplot(fitlered_df_melted, x="Score", y="ssd_name", hue='Study group', order=top_recs.index, orient="y", palette=COLOUR_BY_GROUP, hue_order=CUSTOM_ORDER)
+    ax.grid(axis='x')
+    ax.set_ylabel('SSD Name')
+    ax.set_xlabel('Recommendation frequency')
     plt.tight_layout()
-    plt.show()
-    # TODO: save this as image.
-
+    # plt.show()
+    plt.savefig(os.path.join(OUTPUT_FOLDER, 'image_for_introduction.png'))
 
     # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
     fig = plt.figure(figsize=(16, 9))
