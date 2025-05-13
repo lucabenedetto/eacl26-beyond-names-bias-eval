@@ -16,7 +16,6 @@ from constants import (
     LLM_AS_STUDENT,
     CONFIG_W_NAMES,
     CONFIG_NO_NAME,
-    CLAUDE_3_5_HAIKU,
 )
 
 plt.rcParams.update({
