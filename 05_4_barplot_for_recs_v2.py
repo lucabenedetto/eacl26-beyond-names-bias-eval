@@ -51,13 +51,7 @@ def main():
 
     # These should be changed depending on the filter applied to the DF (see below).
     CURRENT_MODEL = 'aggregate'
-    PROMPT_TYPE = 'aggre
-plt.rcParams.update({
-    "font.size": 16,
-    "font.family": "serif",
-})
-
-gate'
+    PROMPT_TYPE = 'aggregate'
 
     # Before this, you can add the filter on model / prompt type / etc.
     df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
