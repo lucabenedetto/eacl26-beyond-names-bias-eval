@@ -55,20 +55,20 @@ def plot_histogram_by_class(
 
 
 # method for making a violinplot of the STEM magnitudes.
-def violinplot_stem_magnitude_by_study_group(
-        df,
-        class_column,
-        x_column,
-        title='violinplot STEM magnitude by class',
-        output_file=None,
-):
-    # TODO: add title.
-    sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
-    if output_file:
-        plt.savefig(output_file)
-        plt.close()
-    else:
-        plt.show()
+# def violinplot_stem_magnitude_by_study_group(
+#         df,
+#         class_column,
+#         x_column,
+#         title='violinplot STEM magnitude by class',
+#         output_file=None,
+# ):
+#     # TODO: add title.
+#     sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
+#     if output_file:
+#         plt.savefig(output_file)
+#         plt.close()
+#     else:
+#         plt.show()
 
 
 # method for computing the EMD between the distribution of STEM magnitudes of the recommendations for different groups and plotting a conf mat.
@@ -118,11 +118,11 @@ def compute_stem_magnitude_distribution_distance(
 
 
 def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
-    print("Doing violinplot distribution of STEM magnitude by study group.")
-    violinplot_stem_magnitude_by_study_group(
-        df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
-    )
+    # print("Doing violinplot distribution of STEM magnitude by study group.")
+    # violinplot_stem_magnitude_by_study_group(
+    #     df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
+    #     output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
+    # )
 
     print("Doing histogram of the distribution of STEM magnitude by study group.")
     plot_histogram_by_class(
