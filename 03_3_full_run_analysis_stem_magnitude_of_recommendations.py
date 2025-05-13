@@ -16,8 +16,12 @@ from constants import (
     LLM_AS_STUDENT,
     CONFIG_W_NAMES,
     CONFIG_NO_NAME,
-    CLAUDE_3_5_HAIKU,
 )
+
+plt.rcParams.update({
+    "font.size": 16,
+    "font.family": "serif",
+})
 
 
 # method for plotting in a 2x2 the distribution of STEM magnitudes.
@@ -30,17 +34,45 @@ def plot_histogram_by_class(
         title='histogram by class',
         output_file=None,
 ):
-    # TODO: Possibly redo this to create four different images. It could be better for sharing it.
+    # TODO: Possibly redo this to create four different images. It could be better for sharing it (and manage the case with only 2 study groups).
     # x_min = df[x_column].min()
     # x_max = df[x_column].max()
 
-    fig, ax = plt.subplots(4,1, sharex=True, sharey=True, figsize=(6, 10))
-    for axis, study_group in zip(ax, STUDY_GROUPS):
-        axis.hist(
-            df[df[class_column]==study_group][x_column], bins=bins, color=COLOUR_BY_GROUP[study_group], density=density,
-        )
-        axis.set_title(f'{title} - {study_group}')
-        axis.grid(axis='y')
+    n_study_groups = df[class_column].nunique()
+
+    # When I have all the study groups
+    if n_study_groups == len(STUDY_GROUPS):
+        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 8))
+        study_groups = [[STUDY_GROUPS[0], STUDY_GROUPS[1]], [STUDY_GROUPS[2], STUDY_GROUPS[3]]]
+        
+        for i in range(2):
+            for j in range(2):
+                ax[i][j].hist(
+                    df[df[class_column]==study_groups[i][j]][x_column], 
+                    bins=bins, 
+                    color=COLOUR_BY_GROUP[study_groups[i][j]], 
+                    density=density,
+                    label=study_groups[i][j].title(),
+                )
+                # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
+                ax[i][j].grid(axis='both')
+                ax[i][j].legend()
+    # For when I have only two study groups (with names, F and M).
+    elif n_study_groups == 2:
+        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 4))
+        study_groups = [sg for sg in STUDY_GROUPS if sg in df[class_column].unique()]
+        for i in range(2):
+            ax[i].hist(
+                df[df[class_column]==study_groups[i]][x_column], 
+                bins=bins, 
+                color=COLOUR_BY_GROUP[study_groups[i]], 
+                density=density,
+                label=study_groups[i].title(),
+            )
+            ax[i].grid(axis='both')
+            ax[i].legend()
+    else:
+        raise ValueError("Unsupported number of study groups.")
     plt.tight_layout()
     if output_file:
         plt.savefig(output_file)
@@ -50,24 +82,24 @@ def plot_histogram_by_class(
 
 
 # method for making a violinplot of the STEM magnitudes.
-def violinplot_stem_magnitude_by_study_group(
-        df,
-        class_column,
-        x_column,
-        title='violinplot STEM magnitude by class',
-        output_file=None,
-):
-    # TODO: add title.
-    sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
-    if output_file:
-        plt.savefig(output_file)
-        plt.close()
-    else:
-        plt.show()
+# def violinplot_stem_magnitude_by_study_group(
+#         df,
+#         class_column,
+#         x_column,
+#         title='violinplot STEM magnitude by class',
+#         output_file=None,
+# ):
+#     # TODO: add title.
+#     sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
+#     if output_file:
+#         plt.savefig(output_file)
+#         plt.close()
+#     else:
+#         plt.show()
 
 
 # method for computing the EMD between the distribution of STEM magnitudes of the recommendations for different groups and plotting a conf mat.
-def confusion_matrix_stem_magnitude_distance(
+def compute_stem_magnitude_distribution_distance(
         df,
         class_column,
         x_column,
@@ -93,17 +125,17 @@ def confusion_matrix_stem_magnitude_distance(
     # print('Confusion matrix')
     # print(conf_mat)
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(6, 6))
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
-    ax.set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
-    ax.set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
+    ax.set_xticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups])
+    ax.set_yticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups], rotation=90)
     # Loop over data dimensions and create text annotations.
     for i in range(len(reordered_study_groups)):
         for j in range(len(reordered_study_groups)):
             text = ax.text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
     # TODO finalise title.
-    ax.set_title("EMD distance between distribution of STEM magnitudes")
+    ax.set_title("EMD | STEM Magnitudes")
     fig.tight_layout()
     if output_file:
         plt.savefig(output_file)
@@ -113,11 +145,11 @@ def confusion_matrix_stem_magnitude_distance(
 
 
 def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
-    print("Doing violinplot distribution of STEM magnitude by study group.")
-    violinplot_stem_magnitude_by_study_group(
-        df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-        output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
-    )
+    # print("Doing violinplot distribution of STEM magnitude by study group.")
+    # violinplot_stem_magnitude_by_study_group(
+    #     df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
+    #     output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
+    # )
 
     print("Doing histogram of the distribution of STEM magnitude by study group.")
     plot_histogram_by_class(
@@ -125,14 +157,14 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
         output_file=os.path.join(output_folder, f'{which_model_and_params}__hist_stem_magnitude_by_class.png'),
     )
 
-    print("Doing confusion matrix EMD of STEM magnitude")
-    confusion_matrix_stem_magnitude_distance(
+    print("Computing matrix EMD of STEM magnitudes")
+    compute_stem_magnitude_distribution_distance(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
         output_file=os.path.join(output_folder, f'{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'),
         )
 
 
-def run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER):
+def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
     # analysis on the aggregate dataframe
     run_analysis_stem_magnitude(df, OUTPUT_FOLDER, 'aggregate')
 
@@ -176,20 +208,20 @@ def run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER):
 if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
-    # RUN_DATE = '2025_05_08_for_paper'
-    # # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
-
-    # print("Doing both with and without names")
+    RUN_DATE = '2025_05_for_paper'
     # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
-    # run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER)
 
-    # print("Doing without names")
-    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
-    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+    print("Doing both with and without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_aggregate')
+    run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER)
 
-    # print("Doing with names")
-    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
-    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
+    print("Doing without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
+    run_complete_analysis_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+
+    print("Doing with names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
+    run_complete_analysis_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
 
 
     # # To run single analyses.
