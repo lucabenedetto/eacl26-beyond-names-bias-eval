@@ -72,7 +72,7 @@ def violinplot_stem_magnitude_by_study_group(
 
 
 # method for computing the EMD between the distribution of STEM magnitudes of the recommendations for different groups and plotting a conf mat.
-def confusion_matrix_stem_magnitude_distance(
+def compute_stem_magnitude_distribution_distance(
         df,
         class_column,
         x_column,
@@ -131,7 +131,7 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
     )
 
     print("Doing confusion matrix EMD of STEM magnitude")
-    confusion_matrix_stem_magnitude_distance(
+    compute_stem_magnitude_distribution_distance(
         df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
         output_file=os.path.join(output_folder, f'{which_model_and_params}__conf_mat_EMD_stem_magnitude_by_class.png'),
         )
