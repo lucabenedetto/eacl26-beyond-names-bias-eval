@@ -77,20 +77,6 @@ def main():
     plt.show()
     # TODO: save this as image.
 
-    # # Below is the code that plots the model preferences separately for each model owner. Now commented out to have a single plot with the preferences for the different model owners.
-    # for model_owner, models in MODELS_BY_OWNER.items():
-    #     df = pd.read_csv(data_path)
-    #     # filter by LLM
-    #     df = df[df['model'].isin(models)]
-    #     df_melted = compute_df_for_bar_plot_visualisation(df, C_STUDY_GROUP)
-    #     # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
-    #     fig = plt.figure(figsize=(16, 9))
-    #     fig.suptitle(f"Model preferences -- {model_owner}")
-    #     ax = fig.add_subplot(1, 1, 1)
-    #     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue=C_STUDY_GROUP, orient="y")
-    #     plt.tight_layout()
-    #     plt.show()
-
     # Below the code for showing the preferences of individual models.
     model_df = compute_df_for_bar_plot_visualisation(df, 'model')
     model_df['model_owner'] = model_df.apply(lambda r: MAP_MODEL_TO_OWNER[r['model']], axis=1)
@@ -101,12 +87,12 @@ def main():
     sns.barplot(model_df, x="Score", y="ssd_name", hue='model', orient="y")
     plt.tight_layout()
     plt.show()
-    # preferences for model families
-    fig = plt.figure(figsize=(16, 9))
-    ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(model_df, x="Score", y="ssd_name", hue='model_owner', orient="y")
-    plt.tight_layout()
-    plt.show()
+    # # preferences for model families
+    # fig = plt.figure(figsize=(16, 9))
+    # ax = fig.add_subplot(1, 1, 1)
+    # sns.barplot(model_df, x="Score", y="ssd_name", hue='model_owner', orient="y")
+    # plt.tight_layout()
+    # plt.show()
 
 
 if __name__ == '__main__':
