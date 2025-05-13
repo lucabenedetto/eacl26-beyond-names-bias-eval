@@ -165,7 +165,7 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
         )
 
 
-def run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER):
+def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
     # analysis on the aggregate dataframe
     run_analysis_stem_magnitude(df, OUTPUT_FOLDER, 'aggregate')
 
@@ -214,15 +214,15 @@ if __name__ == '__main__':
 
     print("Doing both with and without names")
     OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_aggregate')
-    run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER)
+    run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER)
 
     print("Doing without names")
     OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
-    run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+    run_complete_analysis_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
 
     print("Doing with names")
     OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
-    run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
+    run_complete_analysis_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
 
 
     # # To run single analyses.
