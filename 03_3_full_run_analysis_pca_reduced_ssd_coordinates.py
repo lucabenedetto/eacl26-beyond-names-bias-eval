@@ -170,24 +170,28 @@ def plot_hexbin_by_class(
 
     filtered_study_groups = [x for x in STUDY_GROUPS if x in df[class_column].unique()]
 
+    # When I have all the study groups
     if len(filtered_study_groups) == 4:
-        fig, ax = plt.subplots(2,2, sharex=True, sharey=True)
+        fig, ax = plt.subplots(2,2, sharex=True, sharey=True, figsize=(8, 7))
         for axis, study_group in zip([ax[0][0], ax[0][1], ax[1][0], ax[1][1]], STUDY_GROUPS):
             hb = axis.hexbin(
                 df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
-                bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
+                bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max),
             )
-            cb = fig.colorbar(hb, ax=axis, label='counts')
-            axis.set_title(f'{title} - {study_group}')
+            cb = fig.colorbar(hb, ax=axis)  # , label='counts')
+            axis.set_title(f'{study_group.title()}')
+    # For when I have only two study groups (with names, F and M).
     elif len(filtered_study_groups) == 2:
-        fig, ax = plt.subplots(1,2, sharex=True, sharey=True)
+        fig, ax = plt.subplots(1,2, sharex=True, sharey=True, figsize=(8, 4))
         for axis, study_group in zip([ax[0], ax[1]], filtered_study_groups):
             hb = axis.hexbin(
                 df[df[class_column]==study_group][x_column], df[df[class_column]==study_group][y_column],
                 bins='log', gridsize=gridsize, cmap=PALETTES_BY_GROUP[study_group], extent=(x_min, x_max, y_min, y_max)
             )
             # cb = fig.colorbar(hb, ax=axis, label='counts')  # TODO: fix this, it was causing an error.
-            axis.set_title(f'{title} - {study_group}')
+            axis.set_title(f'{study_group.title()}')
+    else:
+        raise ValueError("Unsupported number of study groups.")
     if output_file:
         plt.savefig(output_file)
         plt.close()
