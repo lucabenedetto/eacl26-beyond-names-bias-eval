@@ -16,7 +16,6 @@ from constants import (
     LLM_AS_STUDENT,
     CONFIG_NO_NAME,
     CONFIG_W_NAMES,
-    CLAUDE_3_5_HAIKU,
 )
 
 
