@@ -221,11 +221,10 @@ def confusion_matrix_distribution_distance(
     if len(STUDY_GROUPS) != n_study_groups:
         print(f"[WARNING]T he number of study groups in the DF ({n_study_groups}) is not the expected one {len(STUDY_GROUPS)}.")
 
-
     # I am using this order instead of the original one in the constant STUDY_GROUPS because it better highlights the trends in the heatmaps.
     reordered_study_groups = ['model', 'm', 'x', 'f']
     reordered_study_groups = [x for x in reordered_study_groups if x in df[class_column].unique()]
-    fig, ax = plt.subplots(1, 2, figsize=(10, 4))
+    fig, ax = plt.subplots(1, 2, figsize=(8, 4))
     for ax_idx, column in enumerate([x_column, y_column]):
         conf_mat = np.zeros((n_study_groups, n_study_groups))
 
@@ -235,18 +234,15 @@ def confusion_matrix_distribution_distance(
                 stem_magnitudes_2 = df[df[class_column] == study_group_2][column].tolist()
                 conf_mat[idx_1, idx_2] = wasserstein_distance(stem_magnitudes_1, stem_magnitudes_2)
 
-        # print(f'Confusion matrix {column}:')
-        # print(conf_mat)
-
         im = ax[ax_idx].imshow(conf_mat, cmap='Reds', vmax=vmax)
         # Show all ticks and label them with the respective list entries
-        ax[ax_idx].set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
-        ax[ax_idx].set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
+        ax[ax_idx].set_xticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups])
+        ax[ax_idx].set_yticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups], rotation=90, va='center')
         # Loop over data dimensions and create text annotations.
         for i in range(len(reordered_study_groups)):
             for j in range(len(reordered_study_groups)):
                 text = ax[ax_idx].text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
-        ax[ax_idx].set_title(f"EMD distance ({column}).")
+        ax[ax_idx].set_title(f"EMD ({column.upper().replace('_', ' ')})")
     fig.tight_layout()
     if output_file:
         plt.savefig(output_file)
