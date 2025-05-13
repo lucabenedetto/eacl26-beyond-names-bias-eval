@@ -76,7 +76,7 @@ def main():
 
     # This is the plot with only the stats about the model preference (TODO: should we have mean +/- std dev instead of the sum of the scores??).
     fig = plt.figure(figsize=(16, 5))
-    fig.suptitle(f"Model preferences")
+    # fig.suptitle(f"Model preferences")
     ax = fig.add_subplot(1, 1, 1)
     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue='Study group', orient="y", palette=COLOUR_BY_GROUP)
     ax.grid(axis='x')
