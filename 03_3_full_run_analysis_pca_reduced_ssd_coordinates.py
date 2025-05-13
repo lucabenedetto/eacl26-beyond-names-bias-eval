@@ -19,6 +19,13 @@ from constants import (
     CLAUDE_3_5_HAIKU,
 )
 
+
+plt.rcParams.update({
+    "font.size": 16,
+    "font.family": "serif",
+})
+
+
 def get_pca_coordinates_by_study_group(df, study_group):
     return np.array([(x1, x2) for x1, x2 in df[df[C_STUDY_GROUP] == study_group][[C_PCA_0, C_PCA_1]].values])
 
