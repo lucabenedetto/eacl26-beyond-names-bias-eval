@@ -71,16 +71,21 @@ def main():
     ax.set_xlabel('Recommendation frequency')
     plt.tight_layout()
     # plt.show()
-    plt.savefig(os.path.join(OUTPUT_FOLDER, 'image_for_introduction.png'))
+    plt.savefig(os.path.join(OUTPUT_FOLDER, 'intro_figure.pdf'))
+    plt.close(fig)
 
-    # This is the plot with only the stats about the model study group (TODO: should we have mean +/- std dev instead of the sum of the scores??).
-    fig = plt.figure(figsize=(16, 9))
+    # This is the plot with only the stats about the model preference (TODO: should we have mean +/- std dev instead of the sum of the scores??).
+    fig = plt.figure(figsize=(16, 5))
     fig.suptitle(f"Model preferences")
     ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue=C_STUDY_GROUP, orient="y")
+    sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue='Study group', orient="y", palette=COLOUR_BY_GROUP)
+    ax.grid(axis='x')
+    ax.set_ylabel('SSD Name')
+    ax.set_xlabel('Recommendation frequency')
     plt.tight_layout()
-    plt.show()
-    # TODO: save this as image.
+    # plt.show()
+    plt.savefig(os.path.join(OUTPUT_FOLDER, 'model_preferences_aggregate.png'))
+    plt.close(fig)
 
     # Below the code for showing the preferences of individual models.
     model_df = compute_df_for_bar_plot_visualisation(df, 'model')
