@@ -19,6 +19,11 @@ from constants import (
     CLAUDE_3_5_HAIKU,
 )
 
+plt.rcParams.update({
+    "font.size": 16,
+    "font.family": "serif",
+})
+
 
 # method for plotting in a 2x2 the distribution of STEM magnitudes.
 def plot_histogram_by_class(
@@ -93,17 +98,17 @@ def confusion_matrix_stem_magnitude_distance(
     # print('Confusion matrix')
     # print(conf_mat)
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(6, 6))
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
-    ax.set_xticks(range(len(reordered_study_groups)), labels=reordered_study_groups, rotation=45, ha="right", rotation_mode="anchor")
-    ax.set_yticks(range(len(reordered_study_groups)), labels=reordered_study_groups)
+    ax.set_xticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups])
+    ax.set_yticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups], rotation=90)
     # Loop over data dimensions and create text annotations.
     for i in range(len(reordered_study_groups)):
         for j in range(len(reordered_study_groups)):
             text = ax.text(j, i, "%.2f" % conf_mat[i, j], ha="center", va="center")
     # TODO finalise title.
-    ax.set_title("EMD distance between distribution of STEM magnitudes")
+    ax.set_title("EMD | STEM Magnitudes")
     fig.tight_layout()
     if output_file:
         plt.savefig(output_file)
@@ -176,20 +181,20 @@ def run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER):
 if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
-    # RUN_DATE = '2025_05_08_for_paper'
-    # # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
-
-    # print("Doing both with and without names")
+    RUN_DATE = '2025_05_for_paper'
     # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
-    # run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER)
 
-    # print("Doing without names")
-    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
-    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+    print("Doing both with and without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_aggregate')
+    run_complete_analyais_stem_magnitude(df, OUTPUT_FOLDER)
 
-    # print("Doing with names")
-    # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
-    # run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
+    print("Doing without names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_no_names')
+    run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_NO_NAME], OUTPUT_FOLDER)
+
+    print("Doing with names")
+    OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude_with_names')
+    run_complete_analyais_stem_magnitude(df[df['prompt_param'] == CONFIG_W_NAMES], OUTPUT_FOLDER)
 
 
     # # To run single analyses.
