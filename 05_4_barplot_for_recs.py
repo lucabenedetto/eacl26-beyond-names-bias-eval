@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data_path = "./data/stem_magnitude_ssd_coordinates_recs.csv"
+data_path = "./data/processed_output/stem_magnitude_ssd_coordinates_recs.csv"  # changed this myself
 
 df = pd.read_csv(data_path)
 models_recs = dict()
@@ -19,7 +19,7 @@ for model, model_df in df.groupby('model'):
         for study_group, study_group_df in prompt_df.groupby('study_group'):
             if study_group not in models_recs[model][prompt_type]:
                 models_recs[model][prompt_type][study_group] = dict()
-            for recs in study_group_df['recs'].tolist():
+            for recs in study_group_df['recommendations'].tolist():  # changed this myself
                 recs = ast.literal_eval(recs)
                 for i, rec in enumerate(recs):
                     if rec not in models_recs[model][prompt_type][study_group]:
@@ -44,6 +44,7 @@ df['Model Family'] = df['Model'].replace(model_family_dict)
 
 for prompt_type, prompt_df in df.groupby("Prompt Type"):
     for current_model, current_model_df in prompt_df.groupby("Model"):
+        print(current_model_df)
         current_model_df['Normalized Score'] = current_model_df.groupby("Study Group")["Score"].transform(
             lambda x: x / x.sum())
         top_recs = current_model_df.groupby("Recommendation")["Normalized Score"].mean().sort_values(ascending=False)[:7]
@@ -56,4 +57,4 @@ for prompt_type, prompt_df in df.groupby("Prompt Type"):
         plt.tight_layout()
         # plt.show()
         plt.savefig(
-            f"./figure/{current_model}_{prompt_type}.png")
+            f"./figures/2025_05_08_for_paper/{current_model}_{prompt_type}.png")  # changed this myself
