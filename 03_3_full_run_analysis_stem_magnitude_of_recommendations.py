@@ -35,24 +35,45 @@ def plot_histogram_by_class(
         title='histogram by class',
         output_file=None,
 ):
-    # TODO: Possibly redo this to create four different images. It could be better for sharing it.
+    # TODO: Possibly redo this to create four different images. It could be better for sharing it (and manage the case with only 2 study groups).
     # x_min = df[x_column].min()
     # x_max = df[x_column].max()
-    fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 8))
-    study_groups = [[STUDY_GROUPS[0], STUDY_GROUPS[1]], [STUDY_GROUPS[2], STUDY_GROUPS[3]]]
-    
-    for i in range(2):
-        for j in range(2):
-            ax[i][j].hist(
-                df[df[class_column]==study_groups[i][j]][x_column], 
+
+    n_study_groups = df[class_column].nunique()
+
+    # When I have all the study groups
+    if n_study_groups == len(STUDY_GROUPS):
+        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 8))
+        study_groups = [[STUDY_GROUPS[0], STUDY_GROUPS[1]], [STUDY_GROUPS[2], STUDY_GROUPS[3]]]
+        
+        for i in range(2):
+            for j in range(2):
+                ax[i][j].hist(
+                    df[df[class_column]==study_groups[i][j]][x_column], 
+                    bins=bins, 
+                    color=COLOUR_BY_GROUP[study_groups[i][j]], 
+                    density=density,
+                    label=study_groups[i][j].title(),
+                )
+                # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
+                ax[i][j].grid(axis='both')
+                ax[i][j].legend()
+    # For when I have only two study groups (with names, F and M).
+    elif n_study_groups == 2:
+        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 4))
+        study_groups = [sg for sg in STUDY_GROUPS if sg in df[class_column].unique()]
+        for i in range(2):
+            ax[i].hist(
+                df[df[class_column]==study_groups[i]][x_column], 
                 bins=bins, 
-                color=COLOUR_BY_GROUP[study_groups[i][j]], 
+                color=COLOUR_BY_GROUP[study_groups[i]], 
                 density=density,
-                label=study_groups[i][j].title(),
+                label=study_groups[i].title(),
             )
-            # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
-            ax[i][j].grid(axis='both')
-            ax[i][j].legend()
+            ax[i].grid(axis='both')
+            ax[i].legend()
+    else:
+        raise ValueError("Unsupported number of study groups.")
     plt.tight_layout()
     if output_file:
         plt.savefig(output_file)
