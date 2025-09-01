@@ -8,7 +8,7 @@ STUDY_GROUPS = ['model', 'f', 'm', 'x']
 # Params for the experiments
 USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'
-FRIEND_AS_STUDENT = 'friend_as_student'
+THIRD_AS_STUDENT = 'third_as_student'
 
 CONFIG_NO_NAME = 'no_name'
 CONFIG_W_NAMES = 'with_names'
