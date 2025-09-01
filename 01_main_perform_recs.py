@@ -36,7 +36,13 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
                                    'pronoun_0', 'pronoun_1', 'pronoun_2', 'pronoun_3', 'pronoun_4',
                                    'ending_id', 'n_uni_courses', 'prompt', 'temperature'])
 
-    prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}.csv'))
+    # In the files available on github, the "params_{prompt_params_file}_{language}.csv" files are for 1st & 2nd person
+    #   the "params_{prompt_params_file}_{language}_third_person.csv" for 3rd person only.
+    if prompt_type in {USER_AS_STUDENT, LLM_AS_STUDENT}:
+        prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}.csv'))
+    else:  # prompt_type == THIRD_PERSON_AS_STUDENT
+        prompt_params_df = pd.read_csv(os.path.join('config', f'params_{prompt_params_file}_{language}_third_person.csv'))
+
     for row in prompt_params_df.itertuples():
         if prompt_type == USER_AS_STUDENT:
             prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
@@ -102,6 +108,6 @@ if __name__ == '__main__':
 
     PROMPT_TYPE = USER_AS_STUDENT
     # PROMPT_TYPE = LLM_AS_STUDENT
-    # PROMPT_TYPE = FRIEND_AS_STUDENT
+    # PROMPT_TYPE = THIRD_PERSON_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
