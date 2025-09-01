@@ -56,17 +56,17 @@ ADJECTIVES_X = {
     EN: {'undecided'},
 }
 NOUNS_M = {
-    IT: {'uno studente'},
+    IT: {'uno studente', 'Mio figlio'},
     FR: {'un étudiant'},
     EN: {},
 }
 NOUNS_F = {
-    IT: {'una studentessa'},
+    IT: {'una studentessa', 'Mia figlia'},
     FR: {'une étudiante'},
     EN: {},
 }
 NOUNS_X = {
-    IT: {'unə studentə', 'un* student*'},
+    IT: {'unə studentə', 'un* student*', 'Miə figliə', 'Mi* figli*'},
     FR: {'un·e étudiant·e'},
     EN: {'a student'},
 }
