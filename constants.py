@@ -8,7 +8,7 @@ STUDY_GROUPS = ['model', 'f', 'm', 'x']
 # Params for the experiments
 USER_AS_STUDENT = 'user_as_student'
 LLM_AS_STUDENT = 'llm_as_student'
-FRIEND_AS_STUDENT = 'friend_as_student'
+THIRD_PERSON_AS_STUDENT = 'third_as_student'
 
 CONFIG_NO_NAME = 'no_name'
 CONFIG_W_NAMES = 'with_names'
@@ -56,17 +56,17 @@ ADJECTIVES_X = {
     EN: {'undecided'},
 }
 NOUNS_M = {
-    IT: {'uno studente'},
+    IT: {'uno studente', 'Mio figlio'},
     FR: {'un étudiant'},
     EN: {},
 }
 NOUNS_F = {
-    IT: {'una studentessa'},
+    IT: {'una studentessa', 'Mia figlia'},
     FR: {'une étudiante'},
     EN: {},
 }
 NOUNS_X = {
-    IT: {'unə studentə', 'un* student*'},
+    IT: {'unə studentə', 'un* student*', 'Miə figliə', 'Mi* figli*'},
     FR: {'un·e étudiant·e'},
     EN: {'a student'},
 }

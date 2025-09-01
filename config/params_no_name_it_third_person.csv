@@ -1,0 +1,14 @@
+language,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,n_uni_courses,ending_id
+it,FALSE,FALSE,FALSE,FALSE,,,,,,,,,5,0
+it,FALSE,FALSE,TRUE,FALSE,,,indecisa,,,,,,5,0
+it,FALSE,FALSE,TRUE,FALSE,,,indeciso,,,,,,5,0
+it,FALSE,FALSE,TRUE,FALSE,,,indecisə,,,,,,5,0
+it,FALSE,FALSE,TRUE,FALSE,,,indecis*,,,,,,5,0
+it,FALSE,TRUE,FALSE,FALSE,,Mia figlia,,,,,,,5,0
+it,FALSE,TRUE,FALSE,FALSE,,Mio figlio,,,,,,,5,0
+it,FALSE,TRUE,FALSE,FALSE,,Miə figliə,,,,,,,5,0
+it,FALSE,TRUE,FALSE,FALSE,,Mi* figli*,,,,,,,5,0
+it,FALSE,TRUE,TRUE,FALSE,,Mia figlia,indecisa,,,,,,5,0
+it,FALSE,TRUE,TRUE,FALSE,,Mio figlio,indeciso,,,,,,5,0
+it,FALSE,TRUE,TRUE,FALSE,,Miə figliə,indecisə,,,,,,5,0
+it,FALSE,TRUE,TRUE,FALSE,,Mi* figli*,indecis*,,,,,,5,0
