@@ -12,7 +12,6 @@ from constants import (
     THIRD_PERSON_AS_STUDENT,
     CONFIG_NO_NAME,
     CONFIG_W_NAMES,
-    CONFIG_NO_NAME_W_PRONOUNS,
 )
 from prompts_third_person_as_student import get_prompt_third_person_as_student
 from prompts_user_as_student import get_prompt_user_as_student
@@ -104,10 +103,9 @@ if __name__ == '__main__':
 
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
-    # PROMPT_PARAMS_FILE = CONFIG_NO_NAME_W_PRONOUNS  # For experiments with pronouns without names
 
-    PROMPT_TYPE = USER_AS_STUDENT
+    # PROMPT_TYPE = USER_AS_STUDENT
     # PROMPT_TYPE = LLM_AS_STUDENT
-    # PROMPT_TYPE = THIRD_PERSON_AS_STUDENT
+    PROMPT_TYPE = THIRD_PERSON_AS_STUDENT
 
     main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
