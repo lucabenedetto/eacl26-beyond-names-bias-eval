@@ -10,6 +10,13 @@ from constants import (
     C_LIST_SSD,
     MAP_MODEL_TO_OWNER,
     COLOUR_BY_GROUP,
+    GPT_3_5,
+    GPT_4o_MINI,
+    GPT_4o,
+    CLAUDE_3_5_SONNET,
+    CLAUDE_3_5_HAIKU,
+    GEMINI_1_5_FLASH,
+    GEMINI_1_5_FLASH_8B,
 )
 from course_mappings import LIST_SSD_EN
 
@@ -75,28 +82,42 @@ def main():
     plt.close(fig)
 
     # This is the plot with only the stats about the model preference (TODO: should we have mean +/- std dev instead of the sum of the scores??).
-    fig = plt.figure(figsize=(16, 5))
+    fig = plt.figure(figsize=(16, 6))
     # fig.suptitle(f"Model preferences")
     ax = fig.add_subplot(1, 1, 1)
     sns.barplot(df_melted[df_melted['study_group'] == 'model'], x="Score", y="ssd_name", hue='Study group', orient="y", palette=COLOUR_BY_GROUP)
     ax.grid(axis='x')
     ax.set_ylabel('SSD Name')
-    ax.set_xlabel('Recommendation frequency')
+    ax.set_xlabel('Recommendation score')
     plt.tight_layout()
     # plt.show()
     plt.savefig(os.path.join(OUTPUT_FOLDER, 'model_preferences_aggregate.png'))
     plt.close(fig)
 
+    COLOUR_BY_MODEL = {
+        GPT_3_5: 'limegreen',
+        GPT_4o_MINI: 'forestgreen',
+        GPT_4o: 'darkgreen',
+        CLAUDE_3_5_HAIKU: 'lightcoral',
+        CLAUDE_3_5_SONNET: 'indianred',
+        GEMINI_1_5_FLASH_8B: 'lightblue',
+        GEMINI_1_5_FLASH: 'royalblue',
+    }
     # Below the code for showing the preferences of individual models.
     model_df = compute_df_for_bar_plot_visualisation(df, 'model')
     model_df['model_owner'] = model_df.apply(lambda r: MAP_MODEL_TO_OWNER[r['model']], axis=1)
-    print(model_df.drop('model', axis=1))
-    # preferences for individual models
-    fig = plt.figure(figsize=(16, 9))
+    model_df, top_recs = filter_to_keep_top_n_recommendations(model_df, top_n=14)  # was 9 to keep the top 9 SSD (we were removing the SSD with frequency <1% for all models.)
+    # print(model_df.drop('model', axis=1))
+    fig = plt.figure(figsize=(16, 8))
     ax = fig.add_subplot(1, 1, 1)
-    sns.barplot(model_df, x="Score", y="ssd_name", hue='model', orient="y")
+    sns.barplot(model_df, x="Score", y="ssd_name", hue='model', orient="y", order=top_recs.index, palette=COLOUR_BY_MODEL, hue_order=COLOUR_BY_MODEL.keys())
+    ax.grid(axis='x')
+    ax.set_ylabel('SSD Name')
+    ax.set_xlabel('Recommendation score')
     plt.tight_layout()
-    plt.show()
+    # plt.show()
+    plt.savefig(os.path.join(OUTPUT_FOLDER, 'model_preferences_by_model.png'))
+    plt.close(fig)
     # # preferences for model families
     # fig = plt.figure(figsize=(16, 9))
     # ax = fig.add_subplot(1, 1, 1)

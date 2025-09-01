@@ -57,6 +57,8 @@ def plot_histogram_by_class(
                 # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
                 ax[i][j].grid(axis='both')
                 ax[i][j].legend()
+                ax[i][j].set_xlabel('STEM Magnitude')
+                ax[i][j].set_ylabel('Frac.')
     # For when I have only two study groups (with names, F and M).
     elif n_study_groups == 2:
         fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 4))
@@ -71,6 +73,8 @@ def plot_histogram_by_class(
             )
             ax[i].grid(axis='both')
             ax[i].legend()
+            ax[i].set_xlabel('STEM Magnitude')
+            ax[i].set_ylabel('Frac.')
     else:
         raise ValueError("Unsupported number of study groups.")
     plt.tight_layout()

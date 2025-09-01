@@ -146,6 +146,10 @@ COLOUR_BY_GROUP = {
     'f': 'tab:blue',
     'm': 'tab:orange',
     'x': 'tab:green',
+    'Model': 'tab:gray',
+    'F': 'tab:blue',
+    'M': 'tab:orange',
+    'X': 'tab:green',
 }
 PALETTES_BY_GROUP = {
     'model': 'Greys',
