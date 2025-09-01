@@ -1,3 +1,4 @@
+from typing import Optional
 import os
 import pandas as pd
 from constants import (
@@ -12,6 +13,7 @@ from constants import (
     NOUNS_M,
     NOUNS_F,
     NOUNS_X,
+    THIRD_PERSON_AS_STUDENT,
 )
 
 
@@ -35,7 +37,7 @@ def prepare_new_row_df(row, name):
     })
 
 
-def prepare_params_files_for_experiments_with_names(language: str):
+def prepare_params_files_for_experiments_with_names(language: str, prompt_type: Optional[str] = None):
     """
     This method creates, starting from a .csv file with the experimental parameters *without* student names, the
     files with the parameters for the experiments with names. These parameters are then used to create the prompts
@@ -44,9 +46,15 @@ def prepare_params_files_for_experiments_with_names(language: str):
     available in this repo, as well as the params_with_names* files, meaning that you don't have to re-run this script
     to reproduce the results shown in the paper but can directly re-use those param files.
     :param language: the language to use; this script works on one language at a time.
+    :param prompt_type: if specified (has to be THIRD_PERSON_AS_STUDENT), it prepares the config files with names for
+      the experiments in third person. For the 1st and 2nd person it is not needed (as of Sept. 25) since they use the
+      same config files.
     :return: None
     """
-    df = pd.read_csv(os.path.join('config', f'params_no_name_{language}.csv'))
+    if prompt_type == THIRD_PERSON_AS_STUDENT:
+        df = pd.read_csv(os.path.join('config', f'params_no_name_{language}_third_person.csv'))
+    else:
+        df = pd.read_csv(os.path.join('config', f'params_no_name_{language}.csv'))
     out_df = pd.DataFrame(columns=df.columns)
 
     for row in df.itertuples():
@@ -62,7 +70,11 @@ def prepare_params_files_for_experiments_with_names(language: str):
         elif row.adjective in ADJECTIVES_M[language] or row.noun in NOUNS_M[language]:
             for name in NAMES_M[language]:
                 out_df = pd.concat([out_df, prepare_new_row_df(row, name)], ignore_index=True)
-    out_df.to_csv(os.path.join('config', f'params_with_names_{language}.csv'), index=False)
+
+    if prompt_type == THIRD_PERSON_AS_STUDENT:
+        out_df.to_csv(os.path.join('config', f'params_with_names_{language}_third_person.csv'), index=False)
+    else:
+        out_df.to_csv(os.path.join('config', f'params_with_names_{language}.csv'), index=False)
 
     out_df = pd.DataFrame(columns=df.columns)
     for row in df.itertuples():
@@ -72,9 +84,13 @@ def prepare_params_files_for_experiments_with_names(language: str):
                 out_df = new_row_df.copy()
             else:
                 out_df = pd.concat([out_df, new_row_df], ignore_index=True)
-    out_df.to_csv(os.path.join('config', f'params_with_names_all_combinations_{language}.csv'), index=False)
+    if prompt_type == THIRD_PERSON_AS_STUDENT:
+        out_df.to_csv(os.path.join('config', f'params_with_names_all_combinations_{language}_third_person.csv'), index=False)
+    else:
+        out_df.to_csv(os.path.join('config', f'params_with_names_all_combinations_{language}.csv'), index=False)
 
 
 if __name__ == '__main__':
     for LANGUAGE in [IT, FR, EN]:
         prepare_params_files_for_experiments_with_names(LANGUAGE)
+    prepare_params_files_for_experiments_with_names(IT, THIRD_PERSON_AS_STUDENT)
