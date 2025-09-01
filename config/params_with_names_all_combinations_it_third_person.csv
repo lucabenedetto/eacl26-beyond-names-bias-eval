@@ -1,0 +1,261 @@
+language,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,n_uni_courses,ending_id
+it,True,False,False,False,Sofia,,,,,,,,5,0
+it,True,False,False,False,Aurora,,,,,,,,5,0
+it,True,False,False,False,Giulia,,,,,,,,5,0
+it,True,False,False,False,Ginevra,,,,,,,,5,0
+it,True,False,False,False,Vittoria,,,,,,,,5,0
+it,True,False,False,False,Beatrice,,,,,,,,5,0
+it,True,False,False,False,Alice,,,,,,,,5,0
+it,True,False,False,False,Ludovica,,,,,,,,5,0
+it,True,False,False,False,Emma,,,,,,,,5,0
+it,True,False,False,False,Matilde,,,,,,,,5,0
+it,True,False,False,False,Leonardo,,,,,,,,5,0
+it,True,False,False,False,Francesco,,,,,,,,5,0
+it,True,False,False,False,Tommaso,,,,,,,,5,0
+it,True,False,False,False,Edoardo,,,,,,,,5,0
+it,True,False,False,False,Alessandro,,,,,,,,5,0
+it,True,False,False,False,Lorenzo,,,,,,,,5,0
+it,True,False,False,False,Mattia,,,,,,,,5,0
+it,True,False,False,False,Gabriele,,,,,,,,5,0
+it,True,False,False,False,Riccardo,,,,,,,,5,0
+it,True,False,False,False,Andrea,,,,,,,,5,0
+it,True,False,True,False,Sofia,,indecisa,,,,,,5,0
+it,True,False,True,False,Aurora,,indecisa,,,,,,5,0
+it,True,False,True,False,Giulia,,indecisa,,,,,,5,0
+it,True,False,True,False,Ginevra,,indecisa,,,,,,5,0
+it,True,False,True,False,Vittoria,,indecisa,,,,,,5,0
+it,True,False,True,False,Beatrice,,indecisa,,,,,,5,0
+it,True,False,True,False,Alice,,indecisa,,,,,,5,0
+it,True,False,True,False,Ludovica,,indecisa,,,,,,5,0
+it,True,False,True,False,Emma,,indecisa,,,,,,5,0
+it,True,False,True,False,Matilde,,indecisa,,,,,,5,0
+it,True,False,True,False,Leonardo,,indecisa,,,,,,5,0
+it,True,False,True,False,Francesco,,indecisa,,,,,,5,0
+it,True,False,True,False,Tommaso,,indecisa,,,,,,5,0
+it,True,False,True,False,Edoardo,,indecisa,,,,,,5,0
+it,True,False,True,False,Alessandro,,indecisa,,,,,,5,0
+it,True,False,True,False,Lorenzo,,indecisa,,,,,,5,0
+it,True,False,True,False,Mattia,,indecisa,,,,,,5,0
+it,True,False,True,False,Gabriele,,indecisa,,,,,,5,0
+it,True,False,True,False,Riccardo,,indecisa,,,,,,5,0
+it,True,False,True,False,Andrea,,indecisa,,,,,,5,0
+it,True,False,True,False,Sofia,,indeciso,,,,,,5,0
+it,True,False,True,False,Aurora,,indeciso,,,,,,5,0
+it,True,False,True,False,Giulia,,indeciso,,,,,,5,0
+it,True,False,True,False,Ginevra,,indeciso,,,,,,5,0
+it,True,False,True,False,Vittoria,,indeciso,,,,,,5,0
+it,True,False,True,False,Beatrice,,indeciso,,,,,,5,0
+it,True,False,True,False,Alice,,indeciso,,,,,,5,0
+it,True,False,True,False,Ludovica,,indeciso,,,,,,5,0
+it,True,False,True,False,Emma,,indeciso,,,,,,5,0
+it,True,False,True,False,Matilde,,indeciso,,,,,,5,0
+it,True,False,True,False,Leonardo,,indeciso,,,,,,5,0
+it,True,False,True,False,Francesco,,indeciso,,,,,,5,0
+it,True,False,True,False,Tommaso,,indeciso,,,,,,5,0
+it,True,False,True,False,Edoardo,,indeciso,,,,,,5,0
+it,True,False,True,False,Alessandro,,indeciso,,,,,,5,0
+it,True,False,True,False,Lorenzo,,indeciso,,,,,,5,0
+it,True,False,True,False,Mattia,,indeciso,,,,,,5,0
+it,True,False,True,False,Gabriele,,indeciso,,,,,,5,0
+it,True,False,True,False,Riccardo,,indeciso,,,,,,5,0
+it,True,False,True,False,Andrea,,indeciso,,,,,,5,0
+it,True,False,True,False,Sofia,,indecisə,,,,,,5,0
+it,True,False,True,False,Aurora,,indecisə,,,,,,5,0
+it,True,False,True,False,Giulia,,indecisə,,,,,,5,0
+it,True,False,True,False,Ginevra,,indecisə,,,,,,5,0
+it,True,False,True,False,Vittoria,,indecisə,,,,,,5,0
+it,True,False,True,False,Beatrice,,indecisə,,,,,,5,0
+it,True,False,True,False,Alice,,indecisə,,,,,,5,0
+it,True,False,True,False,Ludovica,,indecisə,,,,,,5,0
+it,True,False,True,False,Emma,,indecisə,,,,,,5,0
+it,True,False,True,False,Matilde,,indecisə,,,,,,5,0
+it,True,False,True,False,Leonardo,,indecisə,,,,,,5,0
+it,True,False,True,False,Francesco,,indecisə,,,,,,5,0
+it,True,False,True,False,Tommaso,,indecisə,,,,,,5,0
+it,True,False,True,False,Edoardo,,indecisə,,,,,,5,0
+it,True,False,True,False,Alessandro,,indecisə,,,,,,5,0
+it,True,False,True,False,Lorenzo,,indecisə,,,,,,5,0
+it,True,False,True,False,Mattia,,indecisə,,,,,,5,0
+it,True,False,True,False,Gabriele,,indecisə,,,,,,5,0
+it,True,False,True,False,Riccardo,,indecisə,,,,,,5,0
+it,True,False,True,False,Andrea,,indecisə,,,,,,5,0
+it,True,False,True,False,Sofia,,indecis*,,,,,,5,0
+it,True,False,True,False,Aurora,,indecis*,,,,,,5,0
+it,True,False,True,False,Giulia,,indecis*,,,,,,5,0
+it,True,False,True,False,Ginevra,,indecis*,,,,,,5,0
+it,True,False,True,False,Vittoria,,indecis*,,,,,,5,0
+it,True,False,True,False,Beatrice,,indecis*,,,,,,5,0
+it,True,False,True,False,Alice,,indecis*,,,,,,5,0
+it,True,False,True,False,Ludovica,,indecis*,,,,,,5,0
+it,True,False,True,False,Emma,,indecis*,,,,,,5,0
+it,True,False,True,False,Matilde,,indecis*,,,,,,5,0
+it,True,False,True,False,Leonardo,,indecis*,,,,,,5,0
+it,True,False,True,False,Francesco,,indecis*,,,,,,5,0
+it,True,False,True,False,Tommaso,,indecis*,,,,,,5,0
+it,True,False,True,False,Edoardo,,indecis*,,,,,,5,0
+it,True,False,True,False,Alessandro,,indecis*,,,,,,5,0
+it,True,False,True,False,Lorenzo,,indecis*,,,,,,5,0
+it,True,False,True,False,Mattia,,indecis*,,,,,,5,0
+it,True,False,True,False,Gabriele,,indecis*,,,,,,5,0
+it,True,False,True,False,Riccardo,,indecis*,,,,,,5,0
+it,True,False,True,False,Andrea,,indecis*,,,,,,5,0
+it,True,True,False,False,Sofia,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Aurora,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Giulia,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Ginevra,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Vittoria,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Beatrice,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Alice,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Ludovica,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Emma,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Matilde,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Leonardo,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Francesco,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Tommaso,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Edoardo,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Alessandro,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Lorenzo,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Mattia,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Gabriele,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Riccardo,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Andrea,Mia figlia,,,,,,,5,0
+it,True,True,False,False,Sofia,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Aurora,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Giulia,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Ginevra,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Vittoria,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Beatrice,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Alice,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Ludovica,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Emma,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Matilde,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Leonardo,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Francesco,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Tommaso,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Edoardo,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Alessandro,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Lorenzo,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Mattia,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Gabriele,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Riccardo,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Andrea,Mio figlio,,,,,,,5,0
+it,True,True,False,False,Sofia,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Aurora,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Giulia,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Ginevra,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Vittoria,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Beatrice,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Alice,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Ludovica,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Emma,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Matilde,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Leonardo,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Francesco,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Tommaso,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Edoardo,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Alessandro,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Lorenzo,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Mattia,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Gabriele,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Riccardo,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Andrea,Miə figliə,,,,,,,5,0
+it,True,True,False,False,Sofia,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Aurora,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Giulia,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Ginevra,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Vittoria,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Beatrice,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Alice,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Ludovica,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Emma,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Matilde,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Leonardo,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Francesco,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Tommaso,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Edoardo,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Alessandro,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Lorenzo,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Mattia,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Gabriele,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Riccardo,Mi* figli*,,,,,,,5,0
+it,True,True,False,False,Andrea,Mi* figli*,,,,,,,5,0
+it,True,True,True,False,Sofia,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Aurora,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Giulia,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Ginevra,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Vittoria,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Beatrice,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Alice,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Ludovica,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Emma,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Matilde,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Leonardo,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Francesco,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Tommaso,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Edoardo,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Alessandro,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Lorenzo,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Mattia,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Gabriele,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Riccardo,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Andrea,Mia figlia,indecisa,,,,,,5,0
+it,True,True,True,False,Sofia,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Aurora,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Giulia,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Ginevra,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Vittoria,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Beatrice,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Alice,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Ludovica,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Emma,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Matilde,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Leonardo,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Francesco,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Tommaso,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Edoardo,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Alessandro,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Lorenzo,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Mattia,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Gabriele,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Riccardo,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Andrea,Mio figlio,indeciso,,,,,,5,0
+it,True,True,True,False,Sofia,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Aurora,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Giulia,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Ginevra,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Vittoria,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Beatrice,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Alice,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Ludovica,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Emma,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Matilde,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Leonardo,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Francesco,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Tommaso,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Edoardo,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Alessandro,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Lorenzo,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Mattia,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Gabriele,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Riccardo,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Andrea,Miə figliə,indecisə,,,,,,5,0
+it,True,True,True,False,Sofia,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Aurora,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Giulia,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Ginevra,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Vittoria,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Beatrice,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Alice,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Ludovica,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Emma,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Matilde,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Leonardo,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Francesco,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Tommaso,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Edoardo,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Alessandro,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Lorenzo,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Mattia,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Gabriele,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Riccardo,Mi* figli*,indecis*,,,,,,5,0
+it,True,True,True,False,Andrea,Mi* figli*,indecis*,,,,,,5,0
