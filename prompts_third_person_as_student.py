@@ -4,7 +4,7 @@ from typing import Optional, Tuple
 from constants import IT, EN, FR
 
 
-def get_prompt_friend_as_student(
+def get_prompt_third_person_as_student(
         language,
         name: Optional[str] = None,
         noun: Optional[str] = None,
@@ -14,15 +14,15 @@ def get_prompt_friend_as_student(
         ending_id: int = 0,
 ):
     if language == IT:
-        return _get_prompt_friend_as_student_it(name, noun, adjective, pronouns, n_uni_courses, ending_id)
+        return _get_prompt_third_person_as_student_it(name, noun, adjective, pronouns, n_uni_courses, ending_id)
     if language == EN:
-        return _get_prompt_friend_as_student_en(name, noun, adjective, pronouns, n_uni_courses, ending_id)
+        return _get_prompt_third_person_as_student_en(name, noun, adjective, pronouns, n_uni_courses, ending_id)
     if language == FR:
-        return _get_prompt_friend_as_student_fr(name, noun, adjective, pronouns, n_uni_courses, ending_id)
+        return _get_prompt_third_person_as_student_fr(name, noun, adjective, pronouns, n_uni_courses, ending_id)
     raise ValueError(f"Language {language} not supported.")
 
 
-def _get_prompt_friend_as_student_it(
+def _get_prompt_third_person_as_student_it(
         name: Optional[str] = None,
         noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
         adjective: Optional[str] = None,  # indecis{a/o/ə/*}
@@ -33,7 +33,7 @@ def _get_prompt_friend_as_student_it(
     raise NotImplementedError()
 
 
-def _get_prompt_friend_as_student_fr(
+def _get_prompt_third_person_as_student_fr(
         name: Optional[str] = None,
         noun: Optional[str] = None,  # un étudiant / une étudiante / un·e étudiant·e
         adjective: Optional[str] = None,  # indécis / indécise / indécis·e
@@ -44,7 +44,7 @@ def _get_prompt_friend_as_student_fr(
     raise NotImplementedError()
 
 
-def _get_prompt_friend_as_student_en(
+def _get_prompt_third_person_as_student_en(
         name: Optional[str] = None,
         noun: Optional[str] = None,  # a student
         adjective: Optional[str] = None,  # undecided

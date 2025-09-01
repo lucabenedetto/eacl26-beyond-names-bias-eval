@@ -14,7 +14,7 @@ from constants import (
     CONFIG_W_NAMES,
     CONFIG_NO_NAME_W_PRONOUNS,
 )
-from prompts_third_person_as_student import get_prompt_friend_as_student
+from prompts_third_person_as_student import get_prompt_third_person_as_student
 from prompts_user_as_student import get_prompt_user_as_student
 from prompts_llm_as_student import get_prompt_llm_as_student
 
@@ -41,7 +41,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
         if prompt_type == USER_AS_STUDENT:
             prompt = get_prompt_user_as_student(language=language, name=row.name, noun=row.noun, adjective=row.adjective, n_uni_courses=row.n_uni_courses)
         elif prompt_type == THIRD_PERSON_AS_STUDENT:
-            prompt = get_prompt_friend_as_student(
+            prompt = get_prompt_third_person_as_student(
                 language=language,
                 name=row.name,
                 noun=row.noun,
