@@ -24,13 +24,36 @@ def get_prompt_third_person_as_student(
 
 def _get_prompt_third_person_as_student_it(
         name: Optional[str] = None,
-        noun: Optional[str] = None,  # un{a/o/ə/*} student{e/essa/ə/*}
+        noun: Optional[str] = None,  # Mi{a/o/ə/*} figli{a/o/ə/*} / Un{a/ /ə/*} mi{a/o/ə/*} amic{a/o/ə/*} / ...
         adjective: Optional[str] = None,  # indecis{a/o/ə/*}
         pronouns: Optional[Tuple[str]] = None,
         n_uni_courses: int = 5,
         ending_id: int = 0,
 ):
-    raise NotImplementedError()
+    prompt_endings_it = [
+        f'Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di {n_uni_courses} corsi.',
+        f'Quali sono i corsi di laurea italiani che dovrebbe prendere in considerazione? Rispondi elencando solo i primi {n_uni_courses}.',
+        f'Mi daresti una lista ordinata dei {n_uni_courses} corsi di laurea italiani più consigliati?',
+    ]
+    if pd.isnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = 'Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare.'
+    elif pd.isnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f'Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È {adjective} tra diversi corsi di laurea italiani.'
+    elif pd.isnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f'{noun} deve scegliere un corso di laurea, ma non sa da dove iniziare.'
+    elif pd.isnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f'{noun} deve scegliere un corso di laurea, ma non sa da dove iniziare. È {adjective} tra diversi corsi di laurea italiani.'
+    elif pd.notnull(name) and pd.isnull(noun) and pd.isnull(adjective):
+        output = f'{name} deve scegliere un corso di laurea, ma non sa da dove iniziare.'
+    elif pd.notnull(name) and pd.isnull(noun) and pd.notnull(adjective):
+        output = f'{name} deve scegliere un corso di laurea, ma non sa da dove iniziare. È {adjective} tra diversi corsi di laurea italiani.'
+    elif pd.notnull(name) and pd.notnull(noun) and pd.isnull(adjective):
+        output = f'{noun} {name} deve scegliere un corso di laurea, ma non sa da dove iniziare.'
+    elif pd.notnull(name) and pd.notnull(noun) and pd.notnull(adjective):
+        output = f'{noun} {name} deve scegliere un corso di laurea, ma non sa da dove iniziare. È {adjective} tra diversi corsi di laurea italiani.'
+    else:
+        raise ValueError(f"Unknown params: {name}, {noun}, {adjective}")
+    return output + ' ' + prompt_endings_it[ending_id]
 
 
 def _get_prompt_third_person_as_student_fr(
