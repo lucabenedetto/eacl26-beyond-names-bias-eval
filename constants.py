@@ -91,10 +91,11 @@ ANTHROPIC_MODEL_TO_API_NAME = {
     CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
 }
 
-
+GEMINI_2_5_FLASH_LITE = 'gemini_2_5_flash_lite'
 GEMINI_1_5_FLASH = 'gemini_1_5'
 GEMINI_1_5_FLASH_8B = 'gemini_1_5_8b'
 GOOGLE_MODEL_TO_API_NAME = {
+    GEMINI_2_5_FLASH_LITE: 'gemini-2.5-flash-lite',
     GEMINI_1_5_FLASH: 'gemini-1.5-flash',
     GEMINI_1_5_FLASH_8B: 'gemini-1.5-flash-8b',
 }
@@ -107,6 +108,7 @@ MODELS_LIST = [
     CLAUDE_4_SONNET,
     CLAUDE_3_5_SONNET,
     CLAUDE_3_5_HAIKU,
+    GEMINI_2_5_FLASH_LITE,
     GEMINI_1_5_FLASH,
     GEMINI_1_5_FLASH_8B,
 ]
@@ -114,7 +116,7 @@ MODELS_LIST = [
 MODELS_BY_OWNER = {
     'OpenAI': {GPT_3_5, GPT_4o_MINI, GPT_4o},
     'Anthropic': {CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET},
-    'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B},
+    'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B, GEMINI_2_5_FLASH_LITE},
 }
 
 
