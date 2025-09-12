@@ -6,7 +6,7 @@ from utils_keys import get_api_key_from_model
 from constants import (
     IT, FR, EN,
     GPT_3_5, GPT_4o_MINI, GPT_4o,
-    CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
+    CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     THIRD_PERSON_AS_STUDENT,
