@@ -11,6 +11,12 @@ from regex_patterns import REGEX_PATTERNS
 
 def clean_parsed_responses(parsed_response, model, language):
     clean_texts = [clean_single_text(x, model, language) for x in parsed_response]
+    if model in {GEMINI_2_5_FLASH_LITE}:
+        # This is to avoid things such as:
+        #  = "perché considerarla"
+        clean_texts = [x for x in clean_texts if x != "perché considerarla"]
+        clean_texts = [x for x in clean_texts if x != "perché considerarlo"]
+        clean_texts = [x for x in clean_texts if x != "sfide"]
     if model in {GEMINI_1_5_FLASH_8B}:
         # This is needed to avoid things such as:
         #  - "['quali sono i tuoi interessi?']"
@@ -64,7 +70,9 @@ def clean_single_text(text, model, language):
     if model == GEMINI_2_5_FLASH_LITE:
         text = truncate_and_keep_first(text, literals=[
             " (con specializzazione in",
+            " (con indirizzi in",
         ])
+        text = text.replace(" / ", "/")
     if model == CLAUDE_3_5_HAIKU:
         text = truncate_and_keep_first(text, literals=[
             ": ",
