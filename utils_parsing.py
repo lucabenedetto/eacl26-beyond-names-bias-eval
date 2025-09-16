@@ -4,7 +4,7 @@ from constants import (
     IT, FR, EN,
     GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
-    GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
+    GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
 )
 from regex_patterns import REGEX_PATTERNS
 
@@ -61,6 +61,10 @@ def clean_single_text(text, model, language):
             ', università ',
             ', politecnico',
         ])
+    if model == GEMINI_2_5_FLASH_LITE:
+        text = truncate_and_keep_first(text, literals=[
+            " (con specializzazione in",
+        ])
     if model == CLAUDE_3_5_HAIKU:
         text = truncate_and_keep_first(text, literals=[
             ": ",
@@ -106,6 +110,7 @@ def parse_with_multiple_patterns(text, patterns):
         match = re.findall(pattern, text)
         if match:
             return match
+    # "/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\"
     print("/\\"*20, "\n", text, "/\\"*20, "\n")  # print the text if it didn't match any regex
     return None
 
