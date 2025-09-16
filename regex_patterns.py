@@ -4,6 +4,7 @@ from constants import (
     GPT_4o,
     GEMINI_1_5_FLASH,
     GEMINI_1_5_FLASH_8B,
+    GEMINI_2_5_FLASH_LITE,
     CLAUDE_3_5_HAIKU,
     CLAUDE_3_5_SONNET,
 )
@@ -27,6 +28,9 @@ REGEX_PATTERNS = {
     GEMINI_1_5_FLASH_8B: [
         r'\*\*(.*?):?\*\*:?',  # similar to GEMINI_1_5_FLASH, but the two ":" are optional (in/outside the asterisks).
         r'\*\s(.+)',  # Pattern for bullet-point list (with asterisk) -- almost same as GPT_3_5
+    ],
+    GEMINI_2_5_FLASH_LITE: [
+        r'\*\*(.*?):\*\*',  # same as the one for GEMINI_1_5_FLASH.
     ],
     CLAUDE_3_5_HAIKU: [
         r'•\s(.+)',  # Pattern for bullet-point list (with •) -- almost same as GPT_3_5
