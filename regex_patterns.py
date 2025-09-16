@@ -31,6 +31,8 @@ REGEX_PATTERNS = {
     ],
     GEMINI_2_5_FLASH_LITE: [
         r'\*\*(.*?):\*\*',  # same as the one for GEMINI_1_5_FLASH.
+        r'\*\*(.*?)\*\*:',  # same as the above, but with the ":" outside of the asterisks.
+        r'\*\*(.*?)\*\*',  # same as the above, but without the ":".
     ],
     CLAUDE_3_5_HAIKU: [
         r'•\s(.+)',  # Pattern for bullet-point list (with •) -- almost same as GPT_3_5
