@@ -22,7 +22,20 @@ def clean_parsed_responses(parsed_response, model, language):
         #  - "['quali sono i tuoi interessi?']"
         #  - "nel frattempo, ecco 5 corsi di laurea in diverse aree, come esempio generico"
         clean_texts = [x for x in clean_texts if x[-1] != '?']
+        clean_texts = [x for x in clean_texts if x[:9] != "invece di"]
+        clean_texts = [x for x in clean_texts if x[:13] != "in assenza di"]
         clean_texts = [x for x in clean_texts if x[:14] != "nel frattempo,"]
+        clean_texts = [x for x in clean_texts if x[:8] != "per ora,"]
+        clean_texts = [x for x in clean_texts if x[:33] != "in attesa di queste informazioni,"]
+        clean_texts = [x for x in clean_texts if x[:15] != "in alternativa,"]
+        info_request_keywords = {
+            'interessi', 'competenze', 'ambizioni', 'aspetti pratici', 'possibili',
+            'i suoi interessi', 'le sue abilità', 'le sue aspirazioni future', 'le sue esigenze',
+            'parlare con lui', 'esplorare i contenuti dei corsi', 'considerare le sue abilità',
+            'valutare le prospettive di lavoro',
+
+        }
+        clean_texts = [x for x in clean_texts if x not in info_request_keywords]
     return clean_texts
 
 
@@ -41,7 +54,7 @@ def clean_single_text(text, model, language):
         text = re.sub(r'\([^()]*\)', ' ', text)
         text = text.strip()
     # Some models do not respond only with the name of the course but also by adding "Degree in..." (in different lang).
-    if model in {GPT_3_5, GPT_4o_MINI, GPT_4o, GEMINI_1_5_FLASH_8B}:
+    if model in {GPT_3_5, GPT_4o_MINI, GPT_4o, GEMINI_1_5_FLASH_8B, CLAUDE_3_5_HAIKU}:
         if text[:10] == "laurea in ":
             text = text[10:]
     if model == GPT_4o:
