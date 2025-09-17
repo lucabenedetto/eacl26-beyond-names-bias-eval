@@ -58,8 +58,10 @@ def main(
                 + C_LIST_SSD + [C_RECS]
     )
     for model in list_models:
+        print("[INFO] Processing model: %s" % model)
         for lang in list_lang:
             for prompt_type in list_prompt_types:
+                print("[INFO] Processing prompt_type: %s" % prompt_type)
                 for prompt_params in list_prompt_params:
                     for temp in list_temperatures:
                         # Get the recommendations for the given model and prompt and iterate over them.
