@@ -72,7 +72,7 @@ def main(
                         for index, (_, row) in enumerate(df.iterrows()):
                             # skip the recommendations if there are issues with it.
                             if to_be_skipped_due_to_empty_recommendation(row):
-                                print(f"[INFO] Skipping item at index {index}, due to empty recommendation.")
+                                print(f"[WARNING] Skipping item at index {index}, due to empty recommendation.")
                                 continue
 
                             new_row_dict = {
