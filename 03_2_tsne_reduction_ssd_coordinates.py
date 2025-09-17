@@ -43,6 +43,7 @@ def main():
     # Train t-SNE on the all dataset and perform the conversion.
     coordinates = convert_df_to_coordinates(df)
     # TODO: tests with other params
+    print("[INFO] Ready to fit t-SNE model aggregate.")
     tsne_model, transformed_full_list = tsne_reduction(coordinates, perplexity=50, learning_rate=200, random_state=42)
     # Store the t-SNE reduced list
     out_df = df.copy()
@@ -58,6 +59,7 @@ def main():
         local_df = df[df[C_MODEL].isin(models)]
         coordinates = convert_df_to_coordinates(local_df)
         # TODO: tests with other params
+        print("[INFO] Ready to fit t-SNE model %s." % model_owner)
         tsne_model, transformed_full_list = tsne_reduction(coordinates, perplexity=50, learning_rate=200, random_state=42)
         out_df = local_df.copy()
         out_df[C_TSNE_0] = transformed_full_list[:, 0]
