@@ -4,30 +4,88 @@
 COURSE_MAPPINGS_IT = {
     # Area 01 - Scienze matematiche e informatiche
     "scienze statistiche": "matematica",
+    "scienze matematiche": "matematica",
+    "statistica": "matematica",
 
     'scienze e tecnologie informatiche': 'informatica',
+    'informatica/scienze e tecnologie informatiche': 'informatica',
     'scienze informatiche': 'informatica',
     "scienze dell'informazione": 'informatica',
+    "informatica/scienze informatiche": 'informatica',
+    "informatica/scienze dell'informazione": 'informatica',
+    "informatica e tecnologie digitali": 'informatica',  # a bit of a weird one.
+    "tecnologie dell'informazione": 'informatica',  # a bit of a weird one.
+
     'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
     'scienze dei dati': 'data science e artificial intelligence',
+    'informatica/data science': 'data science e artificial intelligence',
 
     # Area 02 - Scienze fisiche
+    "scienze matematiche e fisiche": "fisica",  # this should be noted.
+    "chimica o fisica": "fisica",  # this should be noted.
+    "chimica/fisica": "fisica",  # this should be noted.
+    "chimica/fisica/matematica": "fisica",  # this should be noted. A very weird one. I might remove it
+    "chimica/scienze biologiche/fisica": "fisica",  # this should be noted. A very weird one. I might remove it
     # Area 03 - Scienze chimiche
+    "chimica/scienze chimiche": "chimica",
+    "chimica e tecnologie farmaceutiche": "chimica",
+    "chimica e tecnologie farmaceutiche   o farmacia": "chimica",
+    "chimica/chimica industriale": "chimica",
+    "chimica o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
+    "chimica o biologia": "chimica",  # a bit of a weird one, at the intersection with Area 05
+    "chimica, biologia o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
     # Area 04 - Scienze della terra
     "scienze naturali/tecnologiche": "scienze naturali",
 
     # Area 05 - Scienze biologiche
     'biologia o scienze biologiche': 'biologia',
+    'biologia/scienze biologiche': 'biologia',
+    'biotecnologie/scienze biologiche': 'biologia',
+    'biologia/biotecnologie': 'biologia',
+    'biologia o biotecnologie': 'biologia',
+    'scienze biologiche/biologia': 'biologia',
+    'scienze biologiche e biotecnologie': 'biologia',
     'scienze biologiche': 'biologia',
+    'scienze della vita': 'biologia',  # Not sure about this
+
     'scienze biologiche/biotecnologie': 'biotecnologie',
+    'biologia/scienze biologiche/biotecnologie': 'biotecnologie',
+    'biologia/biotecnologie/scienze farmaceutiche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    'scienze biologiche/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    'scienze biologiche/medicina/farmacia': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    'scienze biologiche e mediche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    'scienze biologiche e sanitarie': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
 
     # Area 06 - Scienze mediche
     'medicina': 'medicina e chirurgia',
+    'medicina e chirurgia/professioni sanitarie': 'medicina e chirurgia',
+    'professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
+    'scienze della salute': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
 
     # Area 07 - Scienze agrarie e veterinarie
     'biologia o scienze ambientali': 'scienze ambientali',
+    'scienze ambientali o gestione ambientale': 'scienze ambientali',
+    'scienze ambientali/gestione ambientale': 'scienze ambientali',
+    'scienze ambientali e naturali': 'scienze ambientali',
+    'scienze ambientali o scienze naturali': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
+    'scienze ambientali/scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
+    'scienze ambientali o scienze forestali e ambientali': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali o gestione ambientale e sostenibilità': 'scienze ambientali',
+    'scienze ambientali/scienze naturali': 'scienze ambientali',
+    'scienze ambientali o gestione e valorizzazione del territorio': 'scienze ambientali',
+    'scienze ambientali/scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali/scienze forestali e ambientali': 'scienze ambientali',
+    'scienze ambientali o per la conservazione della natura': 'scienze ambientali',
+    "scienze e tecnologie per l'ambiente e la natura": 'scienze ambientali',
     'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
+    'scienze ambientali o ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
+    'scienze ambientali/ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
+    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'scienze ambientali',  # TODO: unsure about this.
+    "scienze ambientali o biologia": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
+
     "scienze e tecnologie alimentari": 'Scienze agrarie e veterinarie',
     "scienze della nutrizione umana": 'Scienze agrarie e veterinarie',
 
@@ -43,10 +101,14 @@ COURSE_MAPPINGS_IT = {
     "design del prodotto e dell'evento": 'design',
     "design del prodotto": 'design',
     "design del prodotto industriale": 'design',
+    "design del prodotto o design industriale": 'design',
+    "design del prodotto o design della comunicazione": 'design',
     "design industriale": 'design',
     'design della moda': 'design',
     "design e arti applicate": "design",
     "design e innovazione": 'design',
+
+    "architettura/ingegneria edile-architettura": 'architettura',
 
     "scienze dell'architettura": "architettura",
     "design e architettura": 'architettura',
@@ -54,15 +116,46 @@ COURSE_MAPPINGS_IT = {
     # Area 09 - Ingegneria industriale e dell'informazione
     "scienze biomediche": "ingegneria biomedica",  # is this ok?
     "ingegneria informática": "ingegneria informatica",
+    "ingegneria informatica/informatica": "ingegneria informatica",  # TODO: this should be noted.
+    "ingegneria informatica/ingegneria dell'informazione": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'informazione/informatica": "ingegneria informatica",
+    "ingegneria informatica/informatica/ingegneria dell'informazione": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'automazione": "ingegneria informatica",
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
+    'lingue e culture': 'lettere',
     'lingue straniere e culture moderne': 'lettere',
     'lingue straniere': 'lettere',
     'lingue e letterature straniere moderno': 'lettere',
     'lingue e letterature moderne': 'lettere',
     'lingua e letterature moderne': 'lettere',
     'lingua e letterature straniere moderne': 'lettere',
+    'letteratura italiana e classica': 'lettere',
+    'letteratura e lingue moderne': 'lettere',
+    'letteratura, lingue e culture moderne': 'lettere',
+    'letteratura italiana/studi letterari': 'lettere',
+    'lettere classiche o lingue e letterature straniere': 'lettere',
+    'lettere moderne/lingue e letterature straniere': 'lettere',
+    'lettere   o lingue': 'lettere',
+    'lettere   o lingue e letterature straniere': 'lettere',
+    'lingue, letterature e culture straniere': 'lettere',
+    'lingue, letterature e culture moderne': 'lettere',
+    'lingue e letterature straniere/lingue per la mediazione': 'lettere',
+    'lingue per la mediazione linguistica': 'lettere',
+    'lingue e culture per la comunicazione e la cooperazione internazionale': 'lettere',  # could be Area 14 as well.
+    'lingue e culture per la mediazione': 'lettere',
+    'lingue e culture per la comunicazione': 'lettere',  # possibly "comunicazione" as well.
+    'lettere moderne/scienze della comunicazione': 'lettere',  # possibly "comunicazione" as well.
+    'lingue e letterature straniere/mediazione linguistica': 'lettere',
+    'lingue e culture straniere/mediazione linguistica': 'lettere',
+    'lingue, letterature e culture': 'lettere',
+    'lettere moderne o lingue e letterature straniere': 'lettere',
+    'lingue, letterature e culture stranieri': 'lettere',
+    'lettere moderne/filologia': 'lettere', # a bit of a weird one
+    'lettere moderne/filologia moderna': 'lettere',
+    'lettere/scienze umanistiche': 'lettere',  # a bit of a weird one
+    'lettere moderne/scienze umanistiche': 'lettere',  # a bit of a weird one
     'letterature straniere': 'lettere',
     'lettere moderne': 'lettere',
     'letteratura moderna e contemporanea': 'lettere',
@@ -83,8 +176,16 @@ COURSE_MAPPINGS_IT = {
     "letteratura e lingue": 'lettere',
     "lingua e letteratura straniere": 'lettere',
     "letteratura e linguistica": 'lettere',
+    "linguistica e letteratura": 'lettere',
     "letteratura moderna e comparata": 'lettere',
     "lingua e letterature comparate": 'lettere',
+    "letteratura e culture comparate": 'lettere',
+    "lingue, letterature e traduzione": 'lettere',
+    "lingue, culture e traduzione": 'lettere',
+    "lingue e letterature straniere/traduzione e interpretariato": 'lettere',
+    "letteratura e comunicazione": 'lettere',  # todo: this should be noted, could also be comunicazione
+    "lettere moderne/beni culturali": 'lettere',  # todo: this should be noted
+    "lettere classiche/lettere moderne": 'lettere',  # todo: this should be noted
 
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
@@ -94,12 +195,23 @@ COURSE_MAPPINGS_IT = {
     "mediazione linguistica e culturale": "lingue",
     "mediazione linguistica": "lingue",
     "lingue e mediazione linguistica": "lingue",
+    "lingue e culture per la mediazione linguistica": "lingue",
     "studi umanistici": 'lettere',  # TODO: unsure about this
 
     'conservazione dei beni culturali': 'beni culturali',
     "arte e cultura": 'beni culturali',
     "arti e umanità": "beni culturali",
+    "arti": "beni culturali",
+    "arte": "beni culturali",
+    "arte e umanità": "beni culturali",
+    "arte e umanistiche": "beni culturali",
+    "arte/umanità": "beni culturali",
+    "umanità": "beni culturali",  # TODO: ??
     "storia dell'arte": "beni culturali",
+    "beni culturali/conservazione e restauro": "beni culturali",
+    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "beni culturali",
+    "conservazione e restauro dei beni culturali": "beni culturali",
+    "beni culturali/storia dell'arte": "beni culturali",
     'scienze archeologiche': 'archeologia',
 
     # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
@@ -108,6 +220,7 @@ COURSE_MAPPINGS_IT = {
     'scienze storiche': 'storia',
     # 11C
     'lettere e filosofia': 'filosofia',
+    'lettere moderne/filosofia': 'filosofia',
     'letteratura e filosofia': 'filosofia',
     'letterature e filosofia': 'filosofia',
     # 11E
@@ -121,20 +234,32 @@ COURSE_MAPPINGS_IT = {
     #
     "scienze della formazione primaria": "scienze dell'educazione",
     "scienze della formazione": "scienze dell'educazione",
+    "scienze dell'educazione e della formazione": "scienze dell'educazione",
 
     # Area 12 - Scienze giuridiche
+    "diritto": "giurisprudenza",
     # Area 13 - Scienze economiche e statistiche
     'economia e finanza': 'economia e management',
+    'economia/finanza': 'economia e management',
+    'economia/finanza/management': 'economia e management',
     'economia e gestione aziendale': 'economia e management',
     'economia aziendale': 'economia e management',
     'economia e commercio': 'economia e management',
+    'economia/economia e commercio': 'economia e management',
+    'economia e commercio/management': 'economia e management',
     'economia e commercio internazionale': 'economia e management',
+    'economia e commercio/economia aziendale': 'economia e management',
+    'economia e commercio/economia': 'economia e management',
+    'economia e commercio/finanza': 'economia e management',
+    'economia e commercio/scienze economiche': 'economia e management',
+    'economia e commercio/gestione aziendale': 'economia e management',
     'economia': 'economia e management',
     'scienze economiche': 'economia e management',
     'scienze economiche e bancarie': 'economia e management',
     'scienze economiche e aziendali': 'economia e management',
     'scienze economiche e finanziarie': 'economia e management',
     'scienze economiche e gestionali': 'economia e management',
+    "scienze dell'economia e della gestione": 'economia e management',
     'economia e gestione delle imprese': 'economia e management',
     'management e consulenza aziendale': 'economia e management',
     "management e comunicazione d'impresa": 'economia e management',
@@ -142,14 +267,22 @@ COURSE_MAPPINGS_IT = {
     'management e marketing': 'economia e management',
     "scienze economiche/gestionali": "economia e management",
     "scienze dell'economia": "economia e management",
+    "economia e management/economia aziendale": "economia e management",
+    "economia aziendale/management": "economia e management",
+    "economia/management": "economia e management",
+    "finanza, marketing, o management)": "economia e management",
 
     # Area 14 - Scienze politiche e sociali
     'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/relazioni internazionali/scienze sociali': 'scienze politiche e relazioni internazionali',
     'scienze politiche': 'scienze politiche e relazioni internazionali',
     'relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
     'scienze internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze della mediazione linguistica': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
 
+    "scienze della comunicazione/comunicazione d'impresa": "comunicazione e media",  # could be Area 13 too
     'comunicazione e media digitali': 'comunicazione e media',
     'comunicazione digitale': 'comunicazione e media',
     'comunicazione': 'comunicazione e media',
@@ -159,20 +292,53 @@ COURSE_MAPPINGS_IT = {
     'scienze della comunicazione': 'comunicazione e media',
     'comunicazione e marketing digitale': 'comunicazione e media',
     'comunicazione e marketing': 'comunicazione e media',
+    'comunicazione, innovazione, multimedialità': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione, innovazione, multimedialità': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione digitale': 'comunicazione e media',
+    'scienze della comunicazione/giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/media e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/media digitali': 'comunicazione e media',
+    'scienze della comunicazione/editoria e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione': 'comunicazione e media',
+    'scienze della comunicazione/marketing': 'comunicazione e media',
+    'scienze della comunicazione/marketing e comunicazione': 'comunicazione e media',
+    'scienze della comunicazione/marketing e pubblicità': 'comunicazione e media',
+    'scienze della comunicazione/media e comunicazione': 'comunicazione e media',
+    'comunicazione, media e pubblicità': 'comunicazione e media',
+    'comunicazione e nuove tecnologie': 'comunicazione e media',
+    'comunicazione scientifica': 'comunicazione e media',  # a bit of a weird one.
+
+    'scienze della comunicazione/scienze politiche e sociali': 'scienze sociali',
+    'comunicazione interculturale': 'scienze sociali',
+    'sociali': 'scienze sociali',
+    'umanistiche e sociali': 'scienze sociali',
 
     'scienze turistiche': 'comunicazione e media', # unsure about this
 
+    "comunicazione e sociologia": "scienze sociali",
+    "comunicazione e società": "scienze sociali",
+
     "sociologia": "scienze sociali",
     "scienze umane e sociali": "scienze sociali",
-    "scienze sociali/umanistiche": "scienze sociali", # usure about this
-    "umanistiche": "scienze sociali", # unsure about this
+    "scienze sociali/umanistiche": "scienze sociali", # TODO:usure about this
+    "scienze umanistiche e sociali": "scienze sociali", # TODO:usure about this
+    "umanistiche": "scienze sociali", # TODO:unsure about this
+
+    "comunicazione, dams   o corsi affini": "dams",  # TODO: unsure about this
+
+    "scienze della moda": 'scienze sociali',  # TODO: *very* unsure about this
+
 }
 
 MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
     "scienze": "NONE", # unacceptable response
     "scienze e tecnologia": "NONE", # unacceptable response
+    "scienze e tecnologie": "NONE", # unacceptable response
+    "scienze tecnologiche": "NONE", # unacceptable response
+    "tecnologie": "NONE",  # unacceptable response
     "tecnologia": "NONE", # unacceptable response
+    "informatica umanistica": "NONE", # unacceptable response
     "matematica": "01",
     "informatica": "01",
     "scienze matematiche e informatiche": "01",
@@ -183,6 +349,7 @@ MAP_COURSE_TO_SSD = {
     "scienze naturali": "04",
     "biologia": "05",
     "biotecnologie": "05",
+    "biologia/biotecnologie": "05",
     "medicina e chirurgia": "06",
     "scienze infermieristiche": "06",
     "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
@@ -191,11 +358,16 @@ MAP_COURSE_TO_SSD = {
     "design": "08",
     "architettura": "08",
     "ingegneria civile": "08",
+    "ingegneria civile/edile": "08",
     "ingegneria": "09",  # seems quite rare
-    "tecnologie": "09",  # very rare, but should we ignore it?
+    "tecnologia e ingegneria": "09",  # seems quite rare
     "ingegneria informatica": "09",
     "ingegneria meccanica": "09",
     "ingegneria biomedica": "09",
+    "ingegneria aerospaziale": "09",
+    "ingegneria elettronica": "09",
+    "ingegneria meccanica/aerospaziale": "09",
+    "ingegneria meccanica/aerospaziale/elettronica": "09",
     "ingegneria gestionale": "09",  # this one I really don't like, but it is like this in the MUR data
     "beni culturali": "10",
     "archeologia": "10",
@@ -210,9 +382,12 @@ MAP_COURSE_TO_SSD = {
     "scienze motorie": "11",  # "metodi e didattiche attività sportive"
     "giurisprudenza":  "12",  # - Scienze giuridiche
     "economia e management": "13",
+    "scienze economiche e statistiche": "13",
     "comunicazione e media": "14",
     "scienze politiche e relazioni internazionali": "14",
+    "scienze politiche e sociali": "14",
     "scienze sociali": "14",
+    "dams": "14",  # todo not sure about this.
 }
 
 # This second mapping is done by using data from the following link:
