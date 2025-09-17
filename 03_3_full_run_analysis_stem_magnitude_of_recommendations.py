@@ -209,7 +209,9 @@ def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
 if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
-    RUN_DATE = '2025_05_for_paper'
+    RUN_DATE = '2025_09_17_for_paper'
+    # TODO: make this taken automatically from today's date
+    # TODO: create folder if not existing.
     # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
 
     print("Doing both with and without names")
