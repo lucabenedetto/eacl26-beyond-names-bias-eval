@@ -14,6 +14,7 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, 
     LLM_AS_STUDENT,
+    THIRD_PERSON_AS_STUDENT,
     CONFIG_W_NAMES,
     CONFIG_NO_NAME,
 )
@@ -193,13 +194,13 @@ def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, model)
 
     # analysis on the different prompt types
-    for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+    for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]:
         local_df = df[df['prompt_type'] == prompt_type]
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_{prompt_type}')
 
     # analysis on the different prompt types and families of models
     for model_owner, list_models in MODELS_BY_OWNER.items():
-        for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+        for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]:
             local_df = df[df['model'].isin(list_models)]
             local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'{model_owner}_{prompt_type}')
