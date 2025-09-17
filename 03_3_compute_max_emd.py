@@ -6,6 +6,8 @@ from constants import (
     C_STEM_MAGNITUDE,
     C_PCA_0,
     C_PCA_1,
+    CONFIG_NO_NAME,
+    CONFIG_W_NAMES,
 )
 
 
@@ -14,30 +16,49 @@ if __name__ == '__main__':
     # It is basically computed by measuring the distance between two distributions which are made one of points at xmin, ymin and the other of points at xmax, ymax.
     df = pd.read_csv(os.path.join('data', 'processed_output', f'pca_reduced_ssd_coordinates_aggregate.csv'))
 
-    x_min = df[C_PCA_0].min()
-    x_max = df[C_PCA_0].max()
-    y_min = df[C_PCA_1].min()
-    y_max = df[C_PCA_1].max()
-    
-    distribution_1_pca_0 = [x_min] * 100  # Results were the same with 10 and 1000 (even when 100 for distribution 1 and 1000 for distribution 2).
-    distribution_1_pca_1 = [y_min] * 100
+    for  prompt_param in [CONFIG_NO_NAME, 'aggregate']:
+        if prompt_param == CONFIG_NO_NAME:
+            local_df = df[df['prompt_param'] == prompt_param]
+        else:
+            local_df = df
 
-    distribution_2_pca_0 = [x_max] * 100
-    distribution_2_pca_1 = [y_max] * 100
+        x_min = local_df[C_PCA_0].min()
+        x_max = local_df[C_PCA_0].max()
+        y_min = local_df[C_PCA_1].min()
+        y_max = local_df[C_PCA_1].max()
 
-    print("'MAX' EMD PCA_0 = %.2f" % wasserstein_distance(distribution_1_pca_0, distribution_2_pca_0))    
-    print("'MAX' EMD PCA_1 = %.2f" % wasserstein_distance(distribution_1_pca_1, distribution_2_pca_1))    
+        distribution_1_pca_0 = [x_min] * 100  # Results were the same with 10 and 1000 (even when 100 for distribution 1 and 1000 for distribution 2).
+        distribution_1_pca_1 = [y_min] * 100
+
+        distribution_2_pca_0 = [x_max] * 100
+        distribution_2_pca_1 = [y_max] * 100
+
+        print("Prompt param: %s" % prompt_param)
+        print("'MAX' EMD PCA_0 = %.2f" % wasserstein_distance(distribution_1_pca_0, distribution_2_pca_0))
+        print("'MAX' EMD PCA_1 = %.2f" % wasserstein_distance(distribution_1_pca_1, distribution_2_pca_1))
+
+        local_df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
+        distribution_1 = [local_df[C_STEM_MAGNITUDE].min()] * 100
+        distribution_2 = [local_df[C_STEM_MAGNITUDE].max()] * 100
+        print("'MAX' EMD STEM magnitude = %.2f" % wasserstein_distance(distribution_1, distribution_2))
+
+    # Prompt param: no_name
+    # 'MAX' EMD PCA_0 = 15.16
+    # 'MAX' EMD PCA_1 = 9.89
+    # 'MAX' EMD STEM magnitude = 15.00
+
+    # Prompt param: aggregate (with and without names)
+    # 'MAX' EMD PCA_0 = 15.59
+    # 'MAX' EMD PCA_1 = 10.35
+    # 'MAX' EMD STEM magnitude = 15.00
+
+    # Numbers below are for the experiments submitted to EMNLP 25 (without 3rd person, Gemini 2.5 Flash Lite, and Claude 4 Sonnet).
     # On the experiments without names (aggregate PCA):
     # 'MAX' EMD PCA_0 = 12.24 (on the ssd coordinates reduced with the aggregate PCA)
     # 'MAX' EMD PCA_1 = 8.90
     # On the experiments with names (aggregate PCA):
     # 'MAX' EMD PCA_0 = 13.08
     # 'MAX' EMD PCA_1 = 9.13
-
-    df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
-    distribution_1 = [df[C_STEM_MAGNITUDE].min()] * 100
-    distribution_2 = [df[C_STEM_MAGNITUDE].max()] * 100
-    print("'MAX' EMD STEM magnitude = %.2f" % wasserstein_distance(distribution_1, distribution_2))    
     # On the experiments without names (aggregate PCA):
     # 'MAX' EMD STEM magnitude = 15.00
     # On the experiments with names (aggregate PCA):
