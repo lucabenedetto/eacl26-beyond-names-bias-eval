@@ -7,6 +7,7 @@ from constants import (
     IT, FR, EN,
     GPT_3_5, GPT_4o_MINI, GPT_4o,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
+    CLAUDE_4_SONNET,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH,
     USER_AS_STUDENT, LLM_AS_STUDENT,
     THIRD_PERSON_AS_STUDENT,
@@ -97,15 +98,16 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
 if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
-    MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 10  # 3 or 10 / For the paper, we use 3 for the experiments with names and 10 for the experiments without names.
-    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+    MODELS = [CLAUDE_4_SONNET]
+    N_RUNS_PER_PROMPT = 3  # 3 or 10 / For the paper, we use 3 for the experiments with names and 10 for the experiments without names.
+    TEMPERATURES = [0.0, 0.3, 0.6]
 
-    PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
-    # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
+    # PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
+    PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
 
     # PROMPT_TYPE = USER_AS_STUDENT
     # PROMPT_TYPE = LLM_AS_STUDENT
     PROMPT_TYPE = THIRD_PERSON_AS_STUDENT
-
-    main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)
+    for MODEL in MODELS:
+        for TEMPERATURE in TEMPERATURES:
+            main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE, n_runs_per_prompt=N_RUNS_PER_PROMPT)

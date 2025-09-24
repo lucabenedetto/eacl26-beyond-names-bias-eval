@@ -84,9 +84,11 @@ OPENAI_MODEL_TO_API_NAME = {
 
 CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
 CLAUDE_3_5_HAIKU = 'claude_3_5_haiku'
+CLAUDE_4_SONNET = 'claude_4_sonnet'
 ANTHROPIC_MODEL_TO_API_NAME = {
     CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
     CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
+    CLAUDE_4_SONNET: 'claude-sonnet-4-20250514',
 }
 
 GEMINI_1_5_FLASH = 'gemini_1_5'

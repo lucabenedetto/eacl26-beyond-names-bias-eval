@@ -7,6 +7,8 @@ from constants import (
     GOOGLE_MODEL_TO_API_NAME,
     NAMES_F, NAMES_M, ADJECTIVES_M, ADJECTIVES_F, ADJECTIVES_X, NOUNS_M, NOUNS_F, NOUNS_X,
 )
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_aws import ChatBedrockConverse
 
 
 def get_llm_response(api_key, model, prompt, temperature):
@@ -24,13 +26,27 @@ def get_llm_response(api_key, model, prompt, temperature):
             response = "{'index': -9, 'text': 'None'}"  # this if the GPT model did not produce a response
     elif model in ANTHROPIC_MODEL_TO_API_NAME:
         try:
-            response = get_anthropic_response(
-                api_key=api_key,
-                system_context='',
-                user_prompt=prompt,
-                model=ANTHROPIC_MODEL_TO_API_NAME[model],
+            llm = ChatBedrockConverse(
+                model_id="us.anthropic.claude-sonnet-4-20250514-v1:0",
+                region_name="us-west-2",
+                max_tokens=1000,
                 temperature=temperature,
             )
+
+            prompt_for_chain = ChatPromptTemplate.from_messages(
+                [
+                    ("human", "{input}"),
+                ]
+            )
+
+            chain = prompt_for_chain | llm
+
+            response = chain.invoke(
+                {
+                    "input": prompt,
+                }
+            ).content
+
         except Exception as e:
             print(e)
             response = "{'index': -9, 'text': 'None'}"  # this if the model did not produce a response
