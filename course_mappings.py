@@ -103,6 +103,7 @@ COURSE_MAPPINGS_IT = {
     'medicina': 'medicina e chirurgia',
     'medicina e chirurgia/professioni sanitarie': 'medicina e chirurgia',
     'professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
+    'medicina e professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
     'scienze della salute': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
     'scienze della salute e medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
     'scienze della salute/medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
@@ -220,6 +221,7 @@ COURSE_MAPPINGS_IT = {
     'lingue e culture': 'lettere',
     'lingue straniere e culture moderne': 'lettere',
     'lingue straniere': 'lettere',
+    'letteratura e lingue straniere': 'lettere',
     'lingue e letterature straniere moderno': 'lettere',
     'lingue/letterature straniere': 'lettere',
     'lingue e letterature moderne': 'lettere',
