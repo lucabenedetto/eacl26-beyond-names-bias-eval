@@ -5,7 +5,7 @@ from utils import get_llm_response
 from utils_keys import get_api_key_from_model
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI, GPT_4o,
+    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GPT_4_1_MINI,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
     USER_AS_STUDENT, LLM_AS_STUDENT,
