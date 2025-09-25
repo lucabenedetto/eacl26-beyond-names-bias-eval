@@ -2,7 +2,7 @@ import re
 from typing import List, Optional
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO,
+    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GPT_4_1_MINI,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
 )
@@ -73,6 +73,9 @@ def clean_single_text(text, model, language):
         text = text.replace(", ", "/")
         # text = text.replace(" e ", "/")
         text = text.replace(" - ", "/")
+    if model == GPT_4_1_MINI:
+        text = truncate_and_keep_first(text, literals=[': se'])
+        text = text.replace(" o ", "/")
     if model == GPT_3_5:
         text = truncate_and_keep_first(text, literals=[
             ": ",  # KeyError: "ingegneria informatica: se sei interessata alla tecnologia, all'informatica e alla risoluzione di problemi complessi, potresti valutare questo corso di laurea che ti permetterà di acquisire competenze nel campo dell'ingegneria informatica."
