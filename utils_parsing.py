@@ -2,7 +2,7 @@ import re
 from typing import List, Optional
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI, GPT_4o,
+    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
 )
@@ -54,13 +54,25 @@ def clean_single_text(text, model, language):
         text = re.sub(r'\([^()]*\)', ' ', text)
         text = text.strip()
     # Some models do not respond only with the name of the course but also by adding "Degree in..." (in different lang).
-    if model in {GPT_3_5, GPT_4o_MINI, GPT_4o, GEMINI_1_5_FLASH_8B, CLAUDE_3_5_HAIKU}:
+    if model in {GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GEMINI_1_5_FLASH_8B, CLAUDE_3_5_HAIKU}:
         if text[:10] == "laurea in ":
             text = text[10:]
     if model == GPT_4o:
         text = truncate_and_keep_first(text, literals=[
             ":",  # KeyError: 'ingegneria informatica:'
         ])
+    if model == GPT_4_1_NANO:
+        text = truncate_and_keep_first(text, literals=[
+            ' – percorso',
+            ', come '
+        ])
+        text = text.replace('’', "'")
+        text = text.replace('   ', " ")
+        text = text.replace(" o ", "/")
+        text = text.replace(" / ", "/")
+        text = text.replace(", ", "/")
+        # text = text.replace(" e ", "/")
+        text = text.replace(" - ", "/")
     if model == GPT_3_5:
         text = truncate_and_keep_first(text, literals=[
             ": ",  # KeyError: "ingegneria informatica: se sei interessata alla tecnologia, all'informatica e alla risoluzione di problemi complessi, potresti valutare questo corso di laurea che ti permetterà di acquisire competenze nel campo dell'ingegneria informatica."
