@@ -2,6 +2,7 @@ from constants import (
     GPT_3_5,
     GPT_4o_MINI,
     GPT_4o,
+    GPT_4_1_NANO,
     GEMINI_1_5_FLASH,
     GEMINI_1_5_FLASH_8B,
     GEMINI_2_5_FLASH_LITE,
@@ -22,6 +23,11 @@ REGEX_PATTERNS = {
         r'\*\*(.*?)\*\*',  # Captures anything between double asterisks.
         r'-\s(.+)',  # Pattern for bullet-point list (with dash) -- same as GPT_3_5
     ],
+    GPT_4_1_NANO: [
+        r'- \*\*(.*?)\*\*',
+        r'- (.+)',  # Pattern for bullet-point list (with dash) -- same as GPT_3_5
+    ],
+
     GEMINI_1_5_FLASH: [
         r'\*\*(.*?):\*\*',  # same as the one for GPT-4o-mini, but with a ":" is inside the double asterisks.
     ],
