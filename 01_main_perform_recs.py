@@ -5,7 +5,7 @@ from utils import get_llm_response
 from utils_keys import get_api_key_from_model
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI, GPT_4o,
+    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GPT_4_1_MINI,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
     USER_AS_STUDENT, LLM_AS_STUDENT,
@@ -97,13 +97,21 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0, n_ru
 if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
+
+    # The model to use for the current experiment
     MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 10  # 3 or 10 / For the paper, we use 3 for the experiments with names and 10 for the experiments without names.
-    TEMPERATURE = 0.0  # in [0.0, 0.3, 0.6]
+
+    # Number of repetitions for each prompt.
+    # For the paper, we use 3 for the experiments with names (CONFIG_W_NAMES) with names and 10 for CONFIG_NO_NAME.
+    N_RUNS_PER_PROMPT = 10
+
+    # The temperature to use for the current experiment. For the paper, we use [0.0, 0.3, 0.6]
+    TEMPERATURE = 0.0
 
     PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
     # PROMPT_PARAMS_FILE = CONFIG_W_NAMES  # For experiments with names
 
+    # Whether the experiment should use promtps in 1st, 2nd, or 3rd person.
     # PROMPT_TYPE = USER_AS_STUDENT
     # PROMPT_TYPE = LLM_AS_STUDENT
     PROMPT_TYPE = THIRD_PERSON_AS_STUDENT

@@ -75,11 +75,15 @@ NOUNS_X = {
 GPT_3_5 = 'gpt_3_5'
 GPT_4o_MINI = 'gpt_4o_mini'
 GPT_4o = 'gpt_4o'
+GPT_4_1_NANO = 'gpt_4_1_nano'
+GPT_4_1_MINI = 'gpt_4_1_mini'
 
 OPENAI_MODEL_TO_API_NAME = {
     GPT_3_5: 'gpt-3.5-turbo-0125',
     GPT_4o_MINI: 'gpt-4o-mini-2024-07-18',  # Default as of 18 December 2024
     GPT_4o: 'gpt-4o-2024-08-06',            # Default as of 18 December 2024
+    GPT_4_1_NANO: 'gpt-4.1-nano-2025-04-14',  # Default as of 24 Sept. 2025
+    GPT_4_1_MINI: 'gpt-4.1-mini-2025-04-14',  # Default as of 24 Sept. 2025
 }
 
 CLAUDE_4_SONNET = 'claude_4_sonnet'
@@ -105,6 +109,8 @@ MODELS_LIST = [
     GPT_3_5,
     GPT_4o_MINI,
     GPT_4o,
+    GPT_4_1_NANO,
+    GPT_4_1_MINI,
     CLAUDE_4_SONNET,
     CLAUDE_3_5_SONNET,
     CLAUDE_3_5_HAIKU,
@@ -114,7 +120,7 @@ MODELS_LIST = [
 ]
 
 MODELS_BY_OWNER = {
-    'OpenAI': {GPT_3_5, GPT_4o_MINI, GPT_4o},
+    'OpenAI': {GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GPT_4_1_MINI},
     'Anthropic': {CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET},
     'Google': {GEMINI_1_5_FLASH, GEMINI_1_5_FLASH_8B, GEMINI_2_5_FLASH_LITE},
 }
