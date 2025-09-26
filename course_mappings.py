@@ -162,18 +162,19 @@ COURSE_MAPPINGS_IT = {
     'biologia/biotecnologie/scienze farmaceutiche': 'biologia farmaceutica',
     'scienze biologiche/medicina/farmacia': 'biologia farmaceutica',
 
-    # Area 06 - Scienze mediche
+    # Area 06 - Scienze mediche Area 06 - Medicine
+    #  (not the full list because there are 50 of them).
     'medicina': 'medicina e chirurgia',
     'medicina e chirurgia/professioni sanitarie': 'medicina e chirurgia',
-    'professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'medicina e professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute/medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute/medicina e chirurgia': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e della vita': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e della nutrizione': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze biologiche/scienze della salute': 'medicina e chirurgia',  # TODO unsure about this..
+
+    'medicina e professioni sanitarie': 'scienze infermieristiche',
+    'professioni sanitarie': 'scienze infermieristiche',
+
+    'scienze della salute': 'scienze della salute e medicina',
+    'scienze della salute e della nutrizione': 'scienze della salute e medicina',
+    'scienze della salute e della vita': 'scienze della salute e medicina',
+    'scienze della salute/medicina': 'scienze della salute e medicina',
+    'scienze della salute/medicina e chirurgia': 'scienze della salute e medicina',
 
     # Area 07 - Scienze agrarie e veterinarie
     'biologia o scienze ambientali': 'scienze ambientali',
@@ -547,6 +548,7 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/mediche': 'NONE',
     'scienze biologiche/medicina': 'NONE',
     'scienze biologiche/medicina e chirurgia': 'NONE',
+    'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
 
 }
 
@@ -579,6 +581,7 @@ MAP_COURSE_TO_SSD = {
     "medicina e chirurgia": "06",
     "medicina/chirurgia": "06",
     "scienze infermieristiche": "06",
+    "scienze della salute e medicina": "06",
     "fisioterapia": "06",
     "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
     "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
