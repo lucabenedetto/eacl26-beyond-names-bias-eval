@@ -2,7 +2,7 @@
 # (consiglio universitario nazionale)
 
 COURSE_MAPPINGS_IT = {
-    # Area 01 - Scienze matematiche e informatiche
+    # Area 01 - Scienze matematiche e informatiche Area 01 - Mathematics and informatics
     # MAT/01 LOGICA MATEMATICA MAT/01 Mathematical logic
     # MAT/02 ALGEBRA MAT/02 Algebra
     # MAT/03 GEOMETRIA MAT/03 Geometry
@@ -29,7 +29,7 @@ COURSE_MAPPINGS_IT = {
     "scienze dell'informazione/informatica e tecnologie digitali": 'informatica',
     'scienze informatiche': 'informatica',
     'scienze informatiche e computing': 'informatica',
-    'scienze informatiche e comunicazione digitale': 'informatica',  # kept in here as on the same line of "Mathematics education and history of mathematics"
+    'scienze informatiche e comunicazione digitale': 'informatica',  # kept in here as on the same line of MAT/04
     'scienze informatiche e informatica': 'informatica',
     'scienze informatiche e matematica': 'informatica',
     'scienze informatiche e matematiche': 'informatica',
@@ -52,20 +52,46 @@ COURSE_MAPPINGS_IT = {
     'scienze informatiche e data science': 'data science e artificial intelligence',
     'scienze informatiche/data science': 'data science e artificial intelligence',
 
-    # Area 02 - Scienze fisiche
-    "scienze matematiche e fisiche": "fisica",  # this should be noted.
-    "chimica o fisica": "fisica",  # this should be noted.
-    "chimica/fisica": "fisica",  # this should be noted.
-    "chimica/fisica/matematica": "fisica",  # this should be noted. A very weird one. I might remove it
-    "chimica/scienze biologiche/fisica": "fisica",  # this should be noted. A very weird one. I might remove it
-    # Area 03 - Scienze chimiche
+    # Area 02 - Scienze fisiche Area 02 - Physics
+    # FIS/01 FISICA SPERIMENTALE FIS/01 Experimental physics
+    # FIS/02 FISICA TEORICA, MODELLI E METODI MATEMATICI FIS/02 Theoretical physics, mathematical models and methods
+    # FIS/03 FISICA DELLA MATERIA FIS/03 Physics of matter
+    # FIS/04 FISICA NUCLEARE E SUBNUCLEARE FIS/04 Nuclear and subnuclear physics
+    # FIS/05 ASTRONOMIA E ASTROFISICA FIS/05 Astronomy and astrophysics
+    # FIS/06 FISICA PER IL SISTEMA TERRA E IL MEZZO CIRCUMTERRESTRE FIS/06 Physics of the Earth and of the circumterrestrial medium
+    # FIS/07 FISICA APPLICATA (A BENI CULTURALI, AMBIENTALI, BIOLOGIA E MEDICINA) FIS/07 Applied physics
+    # FIS/08 DIDATTICA E STORIA DELLA FISICA FIS/08 Didactics and history of physics
+
+    "scienze matematiche e fisiche": "fisica",  # Kept because on the lines of FIS/02
+
+    # Area 03 - Scienze chimiche Area 03 - Chemistry
+    # CHIM/01 CHIMICA ANALITICA CHIM/01 Analytical chemistry
+    # CHIM/02 CHIMICA FISICA CHIM/02 Physical chemistry
+    # CHIM/03 CHIMICA GENERALE E INORGANICA CHIM/03 General and inorganic chemistry
+    # CHIM/04 CHIMICA INDUSTRIALE CHIM/04 Industrial chemistry
+    # CHIM/05 SCIENZA E TECNOLOGIA DEI MATERIALI POLIMERICI CHIM/05 Science and technology of polymeric materials
+    # CHIM/06 CHIMICA ORGANICA CHIM/06 Organic chemistry
+    # CHIM/07 FONDAMENTI CHIMICI DELLE TECNOLOGIE CHIM/07 Chemical foundations of technologies
+    # CHIM/08 CHIMICA FARMACEUTICA CHIM/08 Pharmaceutical chemistry
+    # CHIM/09 FARMACEUTICO TECNOLOGICO APPLICATIVO CHIM/09 Pharmaceutical and technological applications of chemistry
+    # CHIM/10 CHIMICA DEGLI ALIMENTI CHIM/10 Food chemistry
+    # CHIM/11 CHIMICA E BIOTECNOLOGIA DELLE FERMENTAZIONI CHIM/11 Chemistry and biotechnology of fermentation
+    # CHIM/12 CHIMICA DELL'AMBIENTE E DEI BENI CULTURALI CHIM/12 Chemistry for the environment and for cultural heritage
+
     "chimica/scienze chimiche": "chimica",
-    "chimica e tecnologie farmaceutiche": "chimica",
-    "chimica e tecnologie farmaceutiche   o farmacia": "chimica",
-    "chimica/chimica industriale": "chimica",
-    "chimica o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
-    "chimica o biologia": "chimica",  # a bit of a weird one, at the intersection with Area 05
-    "chimica, biologia o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
+
+    "chimica o fisica": "chimica fisica",
+    "chimica/fisica": "chimica fisica",
+
+    "chimica/chimica industriale": "chimica industriale",
+
+    "chimica e tecnologie farmaceutiche": "chimica farmaceutica",
+    "chimica e tecnologie farmaceutiche   o farmacia": "chimica farmaceutica",
+
+    "chimica o biotecnologie": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+    "chimica o biologia": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+    "chimica, biologia o biotecnologie": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+
     # Area 04 - Scienze della terra
     "scienze naturali/tecnologiche": "scienze naturali",
     "scienze della natura": "scienze naturali",
@@ -479,7 +505,9 @@ COURSE_MAPPINGS_IT = {
 
     # To be removed due to being unacceptable
     'lettere e banchetto': 'NONE',
-    "scienze informatiche/fisica": 'informatica',  # It is both 01 and 02.
+    "scienze informatiche/fisica": 'NONE',  # It is both 01 and 02.
+    "chimica/fisica/matematica": "NONE",  # Could be 03 (CHIM/02)
+    "chimica/scienze biologiche/fisica": "NONE",  # could be 03 (CHIM/06 or CHIM/02)
 
 }
 
@@ -498,6 +526,10 @@ MAP_COURSE_TO_SSD = {
     "data science e artificial intelligence": "01",
     "fisica": "02",
     "chimica": "03",
+    "chimica industriale": "03",
+    "chimica farmaceutica": "03",
+    "chimica fisica": "03",
+    "chimica organica": "03",
     "scienze geologiche": "04",
     "scienze naturali": "04",
     "biologia": "05",
