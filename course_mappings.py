@@ -605,9 +605,9 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
     'biologia o scienze ambientali': 'NONE',  # ??
     # The following are between 07 and 08.
-    'scienze ambientali o ingegneria ambientale': 'scienze ambientali',
-    'scienze ambientali/ingegneria ambientale': 'scienze ambientali',
-    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'scienze ambientali',
+    'scienze ambientali o ingegneria ambientale': 'NONE',
+    'scienze ambientali/ingegneria ambientale': 'NONE',
+    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'NONE',
     # THe two below are between 08 (design) and 10 (DISCIPLINE DELLO SPETTACOLO)
     "design/arti e spettacolo": 'NONE',
     'design/arti visive e discipline dello spettacolo': 'NONE',
