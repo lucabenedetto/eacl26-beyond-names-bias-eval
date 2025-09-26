@@ -2,511 +2,662 @@
 # (consiglio universitario nazionale)
 
 COURSE_MAPPINGS_IT = {
-    # Area 01 - Scienze matematiche e informatiche
-    "scienze statistiche": "matematica",
+    # Area 01 - Scienze matematiche e informatiche Area 01 - Mathematics and informatics
+    # MAT/01 LOGICA MATEMATICA MAT/01 Mathematical logic
+    # MAT/02 ALGEBRA MAT/02 Algebra
+    # MAT/03 GEOMETRIA MAT/03 Geometry
+    # MAT/04 MATEMATICHE COMPLEMENTARI MAT/04 Mathematics education and history of mathematics
+    # MAT/05 ANALISI MATEMATICA MAT/05 Mathematical analysis
+    # MAT/06 PROBABILITÀ E STATISTICA MATEMATICA MAT/06 Probability and statistics
+    # MAT/07 FISICA MATEMATICA MAT/07 Mathematical physics
+    # MAT/08 ANALISI NUMERICA MAT/08 Numerical analysis
+    # MAT/09 RICERCA OPERATIVA MAT/09 Operational research
+    # INF/01 INFORMATICA INF/01 Informatics
     "scienze matematiche": "matematica",
+    "scienze statistiche": "matematica",
     "statistica": "matematica",
 
+    "informaticà e tecnologia dell'informazione": 'informatica',
+    "informatica e tecnologie dell'informazione": 'informatica',
+    "informatica e tecnologie digitali": 'informatica',
+    "informatica/scienze dell'informazione": 'informatica',
+    'informatica/scienze e tecnologie informatiche': 'informatica',
+    "informatica/scienze informatiche": 'informatica',
     'scienze e tecnologie informatiche': 'informatica',
-    'scienze informatiche e tecnologia': 'informatica',
+    "scienze dell'informazione": 'informatica',
+    "scienze dell'informazione e informatica": 'informatica',
+    "scienze dell'informazione/informatica e tecnologie digitali": 'informatica',
+    'scienze informatiche': 'informatica',
+    'scienze informatiche e computing': 'informatica',
+    'scienze informatiche e comunicazione digitale': 'informatica',  # kept in here as on the same line of MAT/04
     'scienze informatiche e informatica': 'informatica',
     'scienze informatiche e matematica': 'informatica',
-    'scienze informatiche/matematica': 'informatica',
     'scienze informatiche e matematiche': 'informatica',
     'scienze informatiche e statistica': 'informatica',
     'scienze informatiche e statistiche': 'informatica',
-    'scienze informatiche/matematiche': 'informatica',
+    'scienze informatiche e tecnologia': 'informatica',
+    'scienze informatiche e tecnologiche': 'informatica',
+    "scienze informatiche e tecnologia dell'informazione": 'informatica',
     'scienze informatiche e tecnologie digitali': 'informatica',
     "scienze informatiche e tecnologie dell'informazione": 'informatica',
-    "informatica e tecnologie dell'informazione": 'informatica',
-    'scienze informatiche e tecnologiche': 'informatica',
+    'scienze informatiche/matematica': 'informatica',
+    'scienze informatiche/matematiche': 'informatica',
     'scienze informatiche/informatica': 'informatica',
-    'scienze informatiche e comunicazione digitale': 'informatica',
-    'informatica/scienze e tecnologie informatiche': 'informatica',
-    'scienze informatiche': 'informatica',
-    'scienze informatiche e computing': 'informatica',
-    "scienze dell'informazione": 'informatica',
-    "informatica/scienze informatiche": 'informatica',
-    "informatica/scienze dell'informazione": 'informatica',
-    "scienze dell'informazione e informatica": 'informatica',
-    "scienze dell'informazione/informatica e tecnologie digitali": 'informatica',
-    "informatica e tecnologie digitali": 'informatica',  # a bit of a weird one.
-    "tecnologie dell'informazione": 'informatica',  # a bit of a weird one.
-    "scienze informatiche e tecnologia dell'informazione": 'informatica',  # a bit of a weird one.
-    "informaticà e tecnologia dell'informazione": 'informatica',  # a bit of a weird one.
-    "scienze informatiche/fisica": 'informatica',  # TODO a bit of a weird one.
+    "tecnologie dell'informazione": 'informatica',
 
-    'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
-    'scienze dei dati': 'data science e artificial intelligence',
+    'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'informatica/data science': 'data science e artificial intelligence',
-    'scienze informatiche/data science': 'data science e artificial intelligence',
+    'scienze dei dati': 'data science e artificial intelligence',
     'scienze informatiche e data science': 'data science e artificial intelligence',
+    'scienze informatiche/data science': 'data science e artificial intelligence',
 
-    # Area 02 - Scienze fisiche
-    "scienze matematiche e fisiche": "fisica",  # this should be noted.
-    "chimica o fisica": "fisica",  # this should be noted.
-    "chimica/fisica": "fisica",  # this should be noted.
-    "chimica/fisica/matematica": "fisica",  # this should be noted. A very weird one. I might remove it
-    "chimica/scienze biologiche/fisica": "fisica",  # this should be noted. A very weird one. I might remove it
-    # Area 03 - Scienze chimiche
+    # Area 02 - Scienze fisiche Area 02 - Physics
+    # FIS/01 FISICA SPERIMENTALE FIS/01 Experimental physics
+    # FIS/02 FISICA TEORICA, MODELLI E METODI MATEMATICI FIS/02 Theoretical physics, mathematical models and methods
+    # FIS/03 FISICA DELLA MATERIA FIS/03 Physics of matter
+    # FIS/04 FISICA NUCLEARE E SUBNUCLEARE FIS/04 Nuclear and subnuclear physics
+    # FIS/05 ASTRONOMIA E ASTROFISICA FIS/05 Astronomy and astrophysics
+    # FIS/06 FISICA PER IL SISTEMA TERRA E IL MEZZO CIRCUMTERRESTRE FIS/06 Physics of the Earth and of the circumterrestrial medium
+    # FIS/07 FISICA APPLICATA (A BENI CULTURALI, AMBIENTALI, BIOLOGIA E MEDICINA) FIS/07 Applied physics
+    # FIS/08 DIDATTICA E STORIA DELLA FISICA FIS/08 Didactics and history of physics
+
+    "scienze matematiche e fisiche": "fisica",  # Kept because on the lines of FIS/02
+
+    # Area 03 - Scienze chimiche Area 03 - Chemistry
+    # CHIM/01 CHIMICA ANALITICA CHIM/01 Analytical chemistry
+    # CHIM/02 CHIMICA FISICA CHIM/02 Physical chemistry
+    # CHIM/03 CHIMICA GENERALE E INORGANICA CHIM/03 General and inorganic chemistry
+    # CHIM/04 CHIMICA INDUSTRIALE CHIM/04 Industrial chemistry
+    # CHIM/05 SCIENZA E TECNOLOGIA DEI MATERIALI POLIMERICI CHIM/05 Science and technology of polymeric materials
+    # CHIM/06 CHIMICA ORGANICA CHIM/06 Organic chemistry
+    # CHIM/07 FONDAMENTI CHIMICI DELLE TECNOLOGIE CHIM/07 Chemical foundations of technologies
+    # CHIM/08 CHIMICA FARMACEUTICA CHIM/08 Pharmaceutical chemistry
+    # CHIM/09 FARMACEUTICO TECNOLOGICO APPLICATIVO CHIM/09 Pharmaceutical and technological applications of chemistry
+    # CHIM/10 CHIMICA DEGLI ALIMENTI CHIM/10 Food chemistry
+    # CHIM/11 CHIMICA E BIOTECNOLOGIA DELLE FERMENTAZIONI CHIM/11 Chemistry and biotechnology of fermentation
+    # CHIM/12 CHIMICA DELL'AMBIENTE E DEI BENI CULTURALI CHIM/12 Chemistry for the environment and for cultural heritage
+
     "chimica/scienze chimiche": "chimica",
-    "chimica e tecnologie farmaceutiche": "chimica",
-    "chimica e tecnologie farmaceutiche   o farmacia": "chimica",
-    "chimica/chimica industriale": "chimica",
-    "chimica o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
-    "chimica o biologia": "chimica",  # a bit of a weird one, at the intersection with Area 05
-    "chimica, biologia o biotecnologie": "chimica",  # a bit of a weird one, at the intersection with Area 05
-    # Area 04 - Scienze della terra
-    "scienze naturali/tecnologiche": "scienze naturali",
-    "scienze della natura": "scienze naturali",
-    'scienze biologiche/scienze della terra': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/scienze naturali': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/scienze ambientali': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze naturali e matematiche': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
 
-    # Area 05 - Scienze biologiche
-    'biologia o scienze biologiche': 'biologia',
-    'biologia/scienze biologiche': 'biologia',
-    'biotecnologie/biologia': 'biotecnologie',
-    'scienze delle biotecnologie': 'biotecnologie',
-    'biotecnologie/scienze biologiche': 'biologia',
-    'biotecnologie o scienze biologiche': 'biologia',
-    'biologia/biotecnologie': 'biologia',
-    'biologia o biotecnologie': 'biologia',
-    'scienze biologiche/biologia': 'biologia',
-    'scienze biologiche e biotecnologie': 'biologia',
-    'scienze biologiche': 'biologia',
-    'scienze della vita': 'biologia',  # Not sure about this
-    'scienze della vita e biotecnologie': 'biologia',  # Not sure about this
-    'scienze biologiche/scienze della vita': 'biologia',  # Not sure about this
-    'biologia/scienze naturali': 'biologia',  # Not sure about this
-    'scienze naturali/biologia': 'biologia',  # Not sure about this
-    'scienze naturali/biologiche': 'biologia',  # Not sure about this
-    'scienze naturali e biologiche': 'biologia',  # Not sure about this
-    'scienze biologiche/scienze della natura': 'biologia',  # Not sure about this
+    "chimica o fisica": "chimica fisica",
+    "chimica/fisica": "chimica fisica",
 
-    'scienze biologiche/biotecnologie': 'biotecnologie',
-    'biologia/scienze biologiche/biotecnologie': 'biotecnologie',
-    'biologia/biotecnologie/scienze farmaceutiche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina e chirurgia': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina/farmacia': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche e mediche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche e sanitarie': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'biotecnologie/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche o medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'biologia/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/mediche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    "chimica/chimica industriale": "chimica industriale",
 
-    # Area 06 - Scienze mediche
+    "chimica e tecnologie farmaceutiche": "chimica farmaceutica",
+    "chimica e tecnologie farmaceutiche   o farmacia": "chimica farmaceutica",
+
+    "chimica o biotecnologie": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+    "chimica o biologia": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+    "chimica, biologia o biotecnologie": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
+
+    # Area 04 - Scienze della terra Area 04 - Earth sciences
+    # GEO/01 PALEONTOLOGIA E PALEOECOLOGIA GEO/01 Paleontology and paleoecology
+    # GEO/02 GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGICA GEO/02 Stratigraphic and sedimentary geology
+    # GEO/03 GEOLOGIA STRUTTURALE GEO/03 Structural geology
+    # GEO/04 GEOGRAFIA FISICA E GEOMORFOLOGIA GEO/04 Physical geography and geomorphology
+    # GEO/05 GEOLOGIA APPLICATA GEO/05 Applied geology
+    # GEO/06 MINERALOGIA GEO/06 Mineralogy
+    # GEO/07 PETROLOGIA E PETROGRAFIA GEO/07 Petrology and petrography
+    # GEO/08 GEOCHIMICA E VULCANOLOGIA GEO/08 Geochemistry and volcanology
+    # GEO/09 GEORISORSE MINERARIE E APPLICAZIONI MINERALOGICO- PETROGRAFICHE PER L'AMBIENTE ED I BENI CULTURALI GEO/09 Mining resources, mineralogic and petrographic applications for the environment and for cultural heritage
+    # GEO/10 GEOFISICA DELLA TERRA SOLIDA GEO/10 Solid Earth geophysics
+    # GEO/11 GEOFISICA APPLICATA GEO/11 Applied geophysics
+    # GEO/12 OCEANOGRAFIA E FISICA DELL'ATMOSFERA GEO/12 Oceanography and physics of the atmosphere
+    "scienze ambientali e della terra": 'scienze della terra',
+    "scienze ambientali e geografiche": 'scienze della terra',
+    "scienze ambientali e geologiche": 'scienze della terra',
+    "scienze ambientali/geografia": 'scienze della terra',
+
+    # Area 05 - Scienze biologiche Area 05 - Biology
+    # BIO/01 BOTANICA GENERALE BIO/01 General botany
+    # BIO/02 BOTANICA SISTEMATICA BIO/02 Systematic botany
+    # BIO/03 BOTANICA AMBIENTALE E APPLICATA BIO/03 Environmental and applied botany
+    # BIO/04 FISIOLOGIA VEGETALE BIO/04 Plant physiology
+    # BIO/05 ZOOLOGIA BIO/05 Zoology
+    # BIO/06 ANATOMIA COMPARATA E CITOLOGIA BIO/06 Comparative anatomy and cytology
+    # BIO/07 ECOLOGIA BIO/07 Ecology
+    # BIO/08 ANTROPOLOGIA BIO/08 Anthropology
+    # BIO/09 FISIOLOGIA BIO/09 Physiology
+    # BIO/10 BIOCHIMICA BIO/10 Biochemistry
+    # BIO/11 BIOLOGIA MOLECOLARE BIO/11 Molecular biology
+    # BIO/12 BIOCHIMICA CLINICA E BIOLOGIA MOLECOLARE CLINICA BIO/12 Clinical biochemistry and molecular biology
+    # BIO/13 BIOLOGIA APPLICATA BIO/13 Experimental biology
+    # BIO/14 FARMACOLOGIA BIO/14 Pharmacology
+    # BIO/15 BIOLOGIA FARMACEUTICA BIO/15 Pharmaceutical biology
+    # BIO/16 ANATOMIA UMANA BIO/16 Human anatomy
+    # BIO/17 ISTOLOGIA BIO/17 Histology
+    # BIO/18 GENETICA BIO/18 Genetics
+    # BIO/19 MICROBIOLOGIA GENERALE BIO/19 General microbiology
+    'biologia': 'scienze biologiche',
+    'biologia o biotecnologie': 'scienze biologiche',
+    'biologia o scienze biologiche': 'scienze biologiche',
+    'biologia/biotecnologie': 'scienze biologiche',
+    'biologia/scienze biologiche': 'scienze biologiche',
+    'biologia/scienze biologiche/biotecnologie': 'scienze biologiche',
+    'biologia/scienze naturali': 'scienze biologiche',
+
+    "biotecnologie": "scienze biologiche",
+    'biotecnologie o scienze biologiche': 'scienze biologiche',
+    'biotecnologie/biologia': 'scienze biologiche',
+    'biotecnologie/scienze biologiche': 'scienze biologiche',
+
+    'scienze biologiche e biotecnologie': 'scienze biologiche',
+    'scienze biologiche/biologia': 'scienze biologiche',
+    'scienze biologiche/biotecnologie': 'scienze biologiche',
+    'scienze biologiche/scienze ambientali': 'scienze biologiche',
+    'scienze biologiche/scienze della natura': 'scienze biologiche',
+    'scienze biologiche/scienze della vita': 'scienze biologiche',
+    'scienze biologiche/scienze naturali': 'scienze biologiche',
+    'scienze delle biotecnologie': 'scienze biologiche',
+    'scienze della vita': 'scienze biologiche',
+    'scienze della vita e biotecnologie': 'scienze biologiche',
+
+    "scienze della natura": "scienze biologiche",
+    'scienze naturali e biologiche': 'scienze biologiche',
+    'scienze naturali/biologia': 'scienze biologiche',
+    'scienze naturali/biologiche': 'scienze biologiche',
+    "scienze naturali/tecnologiche": "scienze biologiche",
+
+    # Kept in here things related to BIO/15 (biologia farmaceutica), but kind of borderline
+    # (there is also CHIM/08 chimica farmaceutica and CHIM/09 farmaceutico tecnologico applicativo).
+    'biologia/biotecnologie/scienze farmaceutiche': 'biologia farmaceutica',
+    'scienze biologiche/medicina/farmacia': 'biologia farmaceutica',
+
+    # Kep in here things the following as BIO/07 ECOLOGIA, but kind of borderline
+    "scienze naturali e ambientali": 'scienze ambientali',
+    "scienze ambientali e biologiche": 'scienze ambientali',
+    'scienze ambientali e naturali': 'scienze ambientali',
+    "scienze ambientali o biologia": 'scienze ambientali',
+    'scienze ambientali o gestione ambientale': 'scienze ambientali',
+    'scienze ambientali o scienze naturali': 'scienze ambientali',
+    "scienze ambientali/biologia": 'scienze ambientali',
+    "scienze ambientali/biologiche": 'scienze ambientali',
+    "scienze ambientali/biotecnologie": 'scienze ambientali',
+    'scienze ambientali/gestione ambientale': 'scienze ambientali',
+    "scienze ambientali/naturali": 'scienze ambientali',
+    'scienze ambientali/scienze naturali': 'scienze ambientali',
+
+    # Area 06 - Scienze mediche Area 06 - Medicine
+    #  (not the full list because there are 50 of them).
     'medicina': 'medicina e chirurgia',
     'medicina e chirurgia/professioni sanitarie': 'medicina e chirurgia',
-    'professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'medicina e professioni sanitarie': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute/medicina': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute/medicina e chirurgia': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e della vita': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze della salute e della nutrizione': 'medicina e chirurgia',  # this is kind of borderline: nurse/doctor case.
-    'scienze biologiche/scienze della salute': 'medicina e chirurgia',  # TODO unsure about this..
 
-    # Area 07 - Scienze agrarie e veterinarie
-    'biologia o scienze ambientali': 'scienze ambientali',
-    'scienze ambientali e agrarie': 'scienze ambientali',
-    'scienze ambientali/agrarie': 'scienze ambientali',
-    'scienze ambientali/agraria': 'scienze ambientali',
-    'scienze ambientali o gestione ambientale': 'scienze ambientali',
-    'scienze ambientali/gestione ambientale': 'scienze ambientali',
-    'scienze ambientali e naturali': 'scienze ambientali',
-    'scienze ambientali o scienze naturali': 'scienze ambientali',
-    'scienze ambientali o scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali/scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali o scienze forestali e ambientali': 'scienze ambientali',
-    'scienze ambientali o scienze per la conservazione della natura': 'scienze ambientali',
-    'scienze ambientali o gestione ambientale e sostenibilità': 'scienze ambientali',
+    'medicina e professioni sanitarie': 'scienze infermieristiche',
+    'professioni sanitarie': 'scienze infermieristiche',
+
+    'scienze della salute': 'scienze della salute e medicina',
+    'scienze della salute e della nutrizione': 'scienze della salute e medicina',
+    'scienze della salute e della vita': 'scienze della salute e medicina',
+    'scienze della salute/medicina': 'scienze della salute e medicina',
+    'scienze della salute/medicina e chirurgia': 'scienze della salute e medicina',
+
+    # Area 07 - scienze agrarie e veterinarie
+    #  (not the full list because there are 30 of them).
+    'scienze ambientali e agrarie': 'scienze agrarie e veterinarie',
+    'scienze ambientali/agraria': 'scienze agrarie e veterinarie',
+    'scienze ambientali/agrarie': 'scienze agrarie e veterinarie',
+
+    "scienze e tecnologie alimentari": 'scienze agrarie e veterinarie',
+    "scienze della nutrizione umana": 'scienze agrarie e veterinarie',
+    "scienze delle tecnologie alimentari": 'scienze agrarie e veterinarie',
+
+    'scienze ambientali o scienze forestali e ambientali': 'scienze forestali',
+    'scienze ambientali/scienze forestali e ambientali': 'scienze forestali',
+
+    # Some of the following were borderline
     'scienze ambientali e della sostenibilità': 'scienze ambientali',
-    'scienze ambientali/scienze naturali': 'scienze ambientali',
+    'scienze ambientali o gestione ambientale e sostenibilità': 'scienze ambientali',
     'scienze ambientali o gestione e valorizzazione del territorio': 'scienze ambientali',
-    'scienze ambientali/scienze per la conservazione della natura': 'scienze ambientali',
-    'scienze ambientali/scienze forestali e ambientali': 'scienze ambientali',
     'scienze ambientali o per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione e il restauro': 'scienze ambientali',
+    'scienze ambientali/scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali/scienze per la conservazione e il restauro': 'scienze ambientali',
     "scienze e tecnologie per l'ambiente e la natura": 'scienze ambientali',
-    'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali o ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali/ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'scienze ambientali',  # TODO: unsure about this.
-    "scienze ambientali o biologia": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biologia": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biologiche": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biotecnologie": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali e biologiche": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/naturali": 'scienze ambientali',
-    "scienze naturali e ambientali": 'scienze ambientali',
-    "scienze ambientali e geologiche": 'scienze ambientali',
-    "scienze ambientali e della terra": 'scienze ambientali',
-    "scienze ambientali e geografiche": 'scienze ambientali',
-    "scienze ambientali/geografia": 'scienze ambientali',
-
-    "scienze e tecnologie alimentari": 'Scienze agrarie e veterinarie',
-    "scienze delle tecnologie alimentari": 'Scienze agrarie e veterinarie',
-    "scienze della nutrizione umana": 'Scienze agrarie e veterinarie',
 
     # Area 08 - Ingegneria civile e Architettura
-    'design e arti visive': 'design',
-    'design/arti visive': 'design',
-    'design/arti visive e multimedia': 'design',
-    'design/arti visive e discipline dello spettacolo': 'design',  # TODO This is a *very* strange one, possibly to remove
-    'design/arti visive e discipline multimediali': 'design',  # TODO This is a *very* strange one, possibly to remove
-    'design/arti': 'design',
-    'design/moda e arti visive': 'design',
-    'design/moda/arti visive': 'design',
-    'design e discipline della moda': 'design',
-    'design e comunicazione/design e discipline della moda': 'design',
-    'design/architettura/moda': 'design',
-    'design/arti visive e comunicazione': 'design',
-    'design/arti visive/comunicazione': 'design',
-    'design/comunicazione visiva': 'design',
-    'design e moda': 'design',
-    'design della moda e arti visive': 'design',
-    'design/moda/architettura': 'design',
-    'design/architettura': 'design',
-    'design/architettura e urbanistica': 'design',
-    'architettura e design': 'design',
-    'architettura/design': 'design',
+    'architettura e design': 'design/architettura',
+    'architettura/design': 'design/architettura',
+    "design e architettura": 'design/architettura',
+    'design/architettura e urbanistica': 'design/architettura',
+    'design/architettura/moda': 'design/architettura',
+    'design/moda/architettura': 'design/architettura',
+
+    'arte e design': 'design e arti',
+    'arti e design': 'design e arti',
+    'design della comunicazione': 'design e arti',
+    'design della moda e arti visive': 'design e arti',
+    'design della moda': 'design e arti',
     'design e arti': 'design',
-    'arti e design': 'design',
-    'arte e design': 'design',
-    'design della comunicazione': 'design',
-    'design e comunicazione': 'design',
-    'design e comunicazione visiva': 'design',
-    "design del prodotto e dell'innovazione": 'design',
-    "design del prodotto e dell'evento": 'design',
+    "design e arti applicate": "design e arti",
+    'design e arti visive': 'design e arti',
+    'design e comunicazione': 'design e arti',
+    'design e comunicazione visiva': 'design e arti',
+    'design e comunicazione/design e discipline della moda': 'design e arti',
+    'design e discipline della moda': 'design e arti',
+    'design e moda': 'design e arti',
+    'design/arti': 'design e arti',
+    "design/arti e comunicazione": 'design e arti',  # TODO: Here?
+    'design/arti visive': 'design e arti',
+    'design/arti visive e comunicazione': 'design e arti',
+    'design/arti visive e multimedia': 'design e arti',
+    'design/arti visive e discipline multimediali': 'design e arti',  # TODO Here?
+    'design/arti visive/comunicazione': 'design e arti',
+    'design/comunicazione visiva': 'design e arti',
+    'design/moda e arti visive': 'design e arti',
+    'design/moda/arti visive': 'design e arti',
+
+    "design e innovazione": 'design',
     "design del prodotto": 'design',
+    "design del prodotto e dell'evento": 'design',
+    "design del prodotto e dell'innovazione": 'design',
+    "design del prodotto e della comunicazione": 'design',
+    "design del prodotto e della forma": 'design',
+    "design del prodotto e della moda": 'design',
     "design del prodotto industriale": 'design',
     "design del prodotto o design industriale": 'design',
     "design del prodotto o design della comunicazione": 'design',
-    "design del prodotto e della forma": 'design',
-    "design del prodotto e della comunicazione": 'design',
-    "design del prodotto e della moda": 'design',
     "design industriale": 'design',
-    'design della moda': 'design',
-    "design e arti applicate": "design",
-    "design e innovazione": 'design',
-    "design/arti e spettacolo": 'design',  # Probably not here.
-    "design/arti e comunicazione": 'design',  # Probably not here.
 
-    "architettura/ingegneria edile-architettura": 'architettura',
     'architettura**': 'architettura',
-
-    "scienze dell'architettura": "architettura",
-    "design e architettura": 'architettura',
     "architettura e urbanistica": 'architettura',
+    "architettura/ingegneria edile-architettura": 'architettura',
+    "scienze dell'architettura": "architettura",
 
     # Area 09 - Ingegneria industriale e dell'informazione
-    "scienze biomediche": "ingegneria biomedica",  # is this ok?
+    "scienze biomediche": "ingegneria biomedica",  # TODO: is this ok?
     "ingegneria informática": "ingegneria informatica",
-    "ingegneria informatica/informatica": "ingegneria informatica",  # TODO: this should be noted.
-    "ingegneria informatica/ingegneria dell'informazione": "ingegneria informatica",
-    "ingegneria informatica/ingegneria dell'informazione/informatica": "ingegneria informatica",
+    "ingegneria informatica e automatica": "ingegneria informatica",
+    "ingegneria informatica/informatica": "ingegneria informatica",
     "ingegneria informatica/informatica/ingegneria dell'informazione": "ingegneria informatica",
     "ingegneria informatica/ingegneria dell'automazione": "ingegneria informatica",
-    "ingegneria informatica/ingegneria elettronica": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'informazione": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'informazione/informatica": "ingegneria informatica",
     "ingegneria informatica/ingegneria elettrica": "ingegneria informatica",
-    "ingegneria informatica e automatica": "ingegneria informatica",
+    "ingegneria informatica/ingegneria elettronica": "ingegneria informatica",
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
-    'lingue e culture moderne': 'lettere',
-    'lingue e culture': 'lettere',
-    'lingue straniere e culture moderne': 'lettere',
-    'lingue straniere': 'lettere',
-    'letteratura e lingue straniere': 'lettere',
-    'lingue e letterature straniere moderno': 'lettere',
-    'lingue/letterature straniere': 'lettere',
-    'lingue e letterature moderne': 'lettere',
-    'lingua e letterature moderne': 'lettere',
-    'lingua e letterature straniere moderne': 'lettere',
-    'letteratura italiana e classica': 'lettere',
+    # 'lettere' = 'scienze filologico-letterarie'
+    # lettere classiche, moderne, traduzione, lingue, filologia, ...
+    'letteratura': 'lettere',
+    'letteratura comparata': 'lettere',
+    "letteratura e comunicazione": 'lettere',  # todo: is this okay?
+    "letteratura e culture comparate": 'lettere',
+    "letteratura e lingue": 'lettere',
     'letteratura e lingue moderne': 'lettere',
-    'letteratura, lingue e culture moderne': 'lettere',
+    'letteratura e lingue straniere': 'lettere',
+    "letteratura e linguistica": 'lettere',
+    'letteratura italiana': 'lettere',
+    'letteratura italiana e classica': 'lettere',
     'letteratura italiana/studi letterari': 'lettere',
-    'lettere classiche o lingue e letterature straniere': 'lettere',
-    'lettere/lingue e letterature straniere': 'lettere',
+    "letteratura moderna e comparata": 'lettere',
+    'letteratura moderna e contemporanea': 'lettere',
+    'letteratura, lingue e culture moderne': 'lettere',
+    'letteratura, lingue e culture straniere': 'lettere',
+    'letterature comparate': 'lettere',
+    'letterature e lingue straniere': 'lettere',
+    'letterature moderne': 'lettere',
+    'letterature straniere': 'lettere',
+
     'lettere classiche': 'lettere',
     'lettere classiche e moderne': 'lettere',
+    'lettere classiche o lingue e letterature straniere': 'lettere',
+    "lettere classiche/lettere moderne": 'lettere',
+    "lettere classiche/moderne": 'lettere',
+    "lettere e beni culturali": 'lettere',  # todo: is this okay?
+    'lettere moderne': 'lettere',
+    'lettere moderne o lingue e letterature straniere': 'lettere',
+    "lettere moderne/beni culturali": 'lettere',  # todo: is this okay?
+    'lettere moderne/filologia': 'lettere',
+    'lettere moderne/filologia moderna': 'lettere',
     'lettere moderne/lingue e letterature straniere': 'lettere',
+    'lettere moderne/scienze della comunicazione': 'lettere',
+    'lettere moderne/scienze umanistiche': 'lettere',
     'lettere   o lingue': 'lettere',
     'lettere   o lingue e letterature straniere': 'lettere',
-    'lingue, letterature e culture straniere': 'lettere',
-    'lingue, letterature e culture moderne': 'lettere',
-    'lingue e letterature straniere/lingue per la mediazione': 'lettere',
-    'lingue per la mediazione linguistica': 'lettere',
-    'lingue e culture per la comunicazione e la cooperazione internazionale': 'lettere',  # could be Area 14 as well.
-    'lingue e culture per la mediazione': 'lettere',
-    'lingue e culture per la comunicazione': 'lettere',  # possibly "comunicazione" as well.
-    'lettere moderne/scienze della comunicazione': 'lettere',  # possibly "comunicazione" as well.
-    'scienze della comunicazione/lettere e filosofia': 'lettere',  # possibly "comunicazione" as well.
-    'lingue e letterature straniere/mediazione linguistica': 'lettere',
-    'lingue e culture straniere/mediazione linguistica': 'lettere',
-    'lingue, letterature e culture': 'lettere',
-    'lettere moderne o lingue e letterature straniere': 'lettere',
-    'lingue, letterature e culture stranieri': 'lettere',
-    'lettere moderne/filologia': 'lettere', # a bit of a weird one
-    'lettere moderne/filologia moderna': 'lettere',
     'lettere/filologia/letterature e civiltà antiche': 'lettere',
-    'lettere/scienze umanistiche': 'lettere',  # a bit of a weird one
-    'lettere moderne/scienze umanistiche': 'lettere',  # a bit of a weird one
-    'letterature straniere': 'lettere',
-    'lettere moderne': 'lettere',
-    'letteratura moderna e contemporanea': 'lettere',
-    'letterature moderne': 'lettere',
-    'letteratura': 'lettere',
-    'letteratura italiana': 'lettere',
-    'letteratura comparata': 'lettere',
-    'letterature comparate': 'lettere',
-    'lingua e letteratura italiana': 'lettere',
-    'lingue e letterature straniere': 'lettere',
-    'lingua e letterature straniere': 'lettere',
-    'letterature e lingue straniere': 'lettere',
-    'letteratura, lingue e culture straniere': 'lettere',
-    'lingue e letterature straniere moderne': 'lettere',
-    'lingue e culture straniere': 'lettere',
-    'lingua e letteratura inglese': 'lettere',
+    'lettere/lingue e letterature straniere': 'lettere',
+    'lettere/scienze umanistiche': 'lettere',
+
     "lingua e letteratura": 'lettere',
-    "letteratura e lingue": 'lettere',
+    'lingua e letteratura inglese': 'lettere',
+    'lingua e letteratura italiana': 'lettere',
     "lingua e letteratura straniere": 'lettere',
-    "letteratura e linguistica": 'lettere',
-    "linguistica e letteratura": 'lettere',
-    "letteratura moderna e comparata": 'lettere',
     "lingua e letterature comparate": 'lettere',
-    "letteratura e culture comparate": 'lettere',
-    "lingue, letterature e traduzione": 'lettere',
-    "lingue, culture e traduzione": 'lettere',
+    'lingua e letterature moderne': 'lettere',
+    'lingua e letterature straniere': 'lettere',
+    'lingua e letterature straniere moderne': 'lettere',
+    'lingue e culture': 'lettere',
+    'lingue e culture moderne': 'lettere',
+    'lingue e culture straniere': 'lettere',
+    'lingue e culture per la comunicazione': 'lettere',
+    'lingue e culture per la comunicazione e la cooperazione internazionale': 'lettere',
+    'lingue e culture per la mediazione': 'lettere',
+    "lingue e culture per la mediazione linguistica": "lettere",
+    'lingue e culture straniere/mediazione linguistica': 'lettere',
+    'lingue e letterature moderne': 'lettere',
+    'lingue e letterature straniere': 'lettere',
+    'lingue e letterature straniere moderne': 'lettere',
+    'lingue e letterature straniere moderno': 'lettere',
+    'lingue e letterature straniere/lingue per la mediazione': 'lettere',
+    'lingue e letterature straniere/mediazione linguistica': 'lettere',
     "lingue e letterature straniere/traduzione e interpretariato": 'lettere',
-    "letteratura e comunicazione": 'lettere',  # todo: this should be noted, could also be comunicazione
-    "lettere moderne/beni culturali": 'lettere',  # todo: this should be noted
-    "lettere e beni culturali": 'lettere',  # todo: this should be noted
-    "lettere classiche/lettere moderne": 'lettere',  # todo: this should be noted
-    "lettere classiche/moderne": 'lettere',  # todo: this should be noted
+    "lingue e mediazione linguistica": "lettere",
+    'lingue per la mediazione linguistica': 'lettere',
+    'lingue straniere': 'lettere',
+    'lingue straniere e culture moderne': 'lettere',
+    'lingue/letterature straniere': 'lettere',
+    "lingue, culture e traduzione": 'lettere',
+    'lingue, letterature e culture': 'lettere',
+    'lingue, letterature e culture stranieri': 'lettere',
+    'lingue, letterature e culture moderne': 'lettere',
+    'lingue, letterature e culture straniere': 'lettere',
+    "lingue, letterature e traduzione": 'lettere',
 
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
+    "linguistica e letteratura": 'lettere',
     'linguistica e letteratura italiana': 'lettere',
     'linguistica e letterature comparate': 'lettere',
     'linguistica italiana': 'lettere',
-    "mediazione linguistica e culturale": "lingue",
-    "mediazione linguistica": "lingue",
-    "lingue e mediazione linguistica": "lingue",
-    "lingue e culture per la mediazione linguistica": "lingue",
-    "studi umanistici": 'lettere',  # TODO: unsure about this
 
-    'conservazione dei beni culturali': 'beni culturali',
-    "arte e cultura": 'beni culturali',
-    "arti e umanità": "beni culturali",
-    "arti": "beni culturali",
+    "mediazione linguistica e culturale": "lettere",
+    "mediazione linguistica": "lettere",
+
+    'scienze della comunicazione/lettere e filosofia': 'lettere',  # possibly "comunicazione" as well.
+    'scienze della mediazione linguistica': 'lettere',  # todo here?
+    'comunicazione interculturale': 'lettere',  # todo here?
+
+    # beni culturali = scienze storico artistiche
     "arte": "beni culturali",
-    "arte e umanità": "beni culturali",
+    "arte e cultura": 'beni culturali',
     "arte e umanistiche": "beni culturali",
+    "arte e umanità": "beni culturali",
     "arte/umanità": "beni culturali",
-    "umanità": "beni culturali",  # TODO: ??
-    "storia dell'arte": "beni culturali",
+    "arti": "beni culturali",
+    "arti e umanità": "beni culturali",
     "beni culturali/conservazione e restauro": "beni culturali",
-    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "beni culturali",
-    "conservazione e restauro dei beni culturali": "beni culturali",
     "beni culturali/storia dell'arte": "beni culturali",
+    'conservazione dei beni culturali': 'beni culturali',
+    "conservazione e restauro dei beni culturali": "beni culturali",
+    "storia dell'arte": "beni culturali",
+
     'scienze archeologiche': 'archeologia',
 
-    # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
+    #  Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche Area 11
+    #    - History, philosophy, pedagogy and psychology
     "letteratura, filosofia e storia": 'storia',
-    # 11A
     'scienze storiche': 'storia',
-    # 11C
-    'lettere e filosofia': 'filosofia',
-    'lettere/filosofia': 'filosofia',
-    'lettere moderne/filosofia': 'filosofia',
+
     'letteratura e filosofia': 'filosofia',
     'letterature e filosofia': 'filosofia',
+    'lettere e filosofia': 'filosofia',
+    'lettere moderne/filosofia': 'filosofia',
+    'lettere/filosofia': 'filosofia',
     'scienze umane e filosofia': 'filosofia',
-    # 11E
-    'psychology': 'psicologia',
-    'psychologia': 'psicologia',
-    'scienze psicologiche e psicologia sociale': 'psicologia',
-    'scienze psicologiche': 'psicologia',
+
     'psicologia clinica': 'psicologia',
     "psicologia clinica e della salute": 'psicologia',
     "psicologia clinica e di comunità": 'psicologia',
+    'psychology': 'psicologia',
+    'psychologia': 'psicologia',
     "scienze cognitive": "psicologia",  # According to the same data from MUR used for MAP_SSD_TO_STEM
-    #
-    "scienze della formazione primaria": "scienze dell'educazione",
-    "scienze della formazione": "scienze dell'educazione",
+    'scienze psicologiche': 'psicologia',
+    'scienze psicologiche e psicologia sociale': 'psicologia',
+
+    "scienze della comunicazione/scienze della formazione": "scienze dell'educazione",
     "scienze dell'educazione e della formazione": "scienze dell'educazione",
     "scienze dell'educazione/della formazione": "scienze dell'educazione",
-    "scienze della formazione e educazione": "scienze dell'educazione",
-    "scienze della formazione/educazione": "scienze dell'educazione",
-    "scienze della formazione e dell'educazione": "scienze dell'educazione",
-    "scienze della formazione e psicologia": "scienze dell'educazione",
-    "scienze della formazione/psicologia": "scienze dell'educazione",
     "scienze dell'educazione/psicologia": "scienze dell'educazione",
-    "scienze della comunicazione/scienze della formazione": "scienze dell'educazione",
-    "scienze umane e della formazione": "scienze dell'educazione",
-    "scienze della formazione/pedagogia": "scienze dell'educazione",
+    "scienze della formazione": "scienze dell'educazione",
+    "scienze della formazione e dell'educazione": "scienze dell'educazione",
+    "scienze della formazione e educazione": "scienze dell'educazione",
+    "scienze della formazione e psicologia": "scienze dell'educazione",
+    "scienze della formazione primaria": "scienze dell'educazione",
+    "scienze della formazione/educazione": "scienze dell'educazione",
     "scienze della formazione/educazione e psicologia": "scienze dell'educazione",
+    "scienze della formazione/pedagogia": "scienze dell'educazione",
+    "scienze della formazione/psicologia": "scienze dell'educazione",
+    "scienze umane e della formazione": "scienze dell'educazione",
 
-    # Area 12 - Scienze giuridiche
+    "scienze motorie e dello sport": "scienze motorie",
+    "scienze motorie e sportive": "scienze motorie",
+
+    #  Area 12 - Scienze giuridiche Area 12 - Law
     "diritto": "giurisprudenza",
-    # Area 13 - Scienze economiche e statistiche
-    'economia e finanza': 'economia e management',
-    'economia/finanza': 'economia e management',
-    'economia/finanza/management': 'economia e management',
-    'economia e gestione aziendale': 'economia e management',
+
+    # Area 13 - Scienze economiche e statistiche Area 13 - Economics and statistics
+    # SECS-P/01 ECONOMIA POLITICA SECS-P/01 Economics
+    # SECS P/02 POLITICA ECONOMICA SECS-P/02 Economic policy
+    # SECS-P/03 SCIENZA DELLE FINANZE SECS-P/03 Public economics
+    # SECS-P/04 STORIA DEL PENSIERO ECONOMICO SECS-P/04 History of economic thought
+    # SECS-P/05 ECONOMETRIA SECS-P/05 Econometrics
+    # SECS-P/06 ECONOMIA APPLICATA SECS-P/06 Applied economics
+    # SECS-P/07 ECONOMIA AZIENDALE SECS-P/07 Business administration and Management
+    # SECS-P/08 ECONOMIA E GESTIONE DELLE IMPRESE SECS-P/08 Management
+    # SECS-P/09 FINANZA AZIENDALE SECS-P/09 Finance
+    # SECS-P/10 ORGANIZZAZIONE AZIENDALE SECS-P/10 Organization studies
+    # SECS-P/11 ECONOMIA DEGLI INTERMEDIARI FINANZIARI SECS-P/11 Financial Markets and Institutions
+    # SECS-P/12 STORIA ECONOMICA SECS-P/12 Economic history
+    # SECS-P/13 SCIENZE MERCEOLOGICHE SECS-P/13 Commodity science
+    # SECS-S/01 STATISTICA SECS-S/01 Statistics
+    # SECS-S/02 STATISTICA PER LA RICERCA SPERIMENTALE E TECNOLOGICA SECS-S/02 Statistics for experimental and technological research
+    # SECS-S/03 STATISTICA ECONOMICA SECS-S/03 Economic statistics
+    # SECS-S/04 DEMOGRAFIA SECS-S/04 Demography
+    # SECS-S/05 STATISTICA SOCIALE SECS-S/05 Social statistics
+    # SECS-S/06 METODI MATEMATICI DELL'ECONOMIA E DELLE SCIENZE ATTUARIALI E FINANZIARIE SECS-S/06 Mathematical methods of economy, finance and actuarial sciences
+    'economia': 'economia e management',
     'economia aziendale': 'economia e management',
+    "economia aziendale/management": "economia e management",
     'economia e commercio': 'economia e management',
+    'economia e commercio internazionale': 'economia e management',
+    'economia e commercio/economia': 'economia e management',
+    'economia e commercio/economia aziendale': 'economia e management',
+    'economia e commercio/finanza': 'economia e management',
+    'economia e commercio/gestione aziendale': 'economia e management',
+    'economia e commercio/management': 'economia e management',
+    'economia e commercio/scienze economiche': 'economia e management',
+    'economia e finanza': 'economia e management',
+    'economia e gestione aziendale': 'economia e management',
+    'economia e gestione delle imprese': 'economia e management',
+    "economia e management/economia aziendale": "economia e management",
     'economia/commercio': 'economia e management',
     'economia/economia e commercio': 'economia e management',
-    'economia e commercio/management': 'economia e management',
-    'economia e commercio internazionale': 'economia e management',
-    'economia e commercio/economia aziendale': 'economia e management',
-    'economia e commercio/economia': 'economia e management',
-    'economia e commercio/finanza': 'economia e management',
-    'economia e commercio/scienze economiche': 'economia e management',
-    'economia e commercio/gestione aziendale': 'economia e management',
-    'economia': 'economia e management',
+    'economia/finanza': 'economia e management',
+    'economia/finanza/management': 'economia e management',
+    "economia/management": "economia e management",
+
+    "finanza, marketing, o management)": "economia e management",
+
+    "management e comunicazione d'impresa": 'economia e management',
+    'management e consulenza aziendale': 'economia e management',
+    'management e marketing': 'economia e management',
+    'management internazionale': 'economia e management',
+
+    "scienze della comunicazione/comunicazione d'impresa": "economia e management",  # is this Okay?
+
+    "scienze dell'economia": "economia e management",
+    "scienze dell'economia e della gestione": 'economia e management',
+
     'scienze economiche': 'economia e management',
-    'scienze economiche e bancarie': 'economia e management',
     'scienze economiche e aziendali': 'economia e management',
-    'scienze economiche/aziendali': 'economia e management',
+    'scienze economiche e bancarie': 'economia e management',
     'scienze economiche e commerciali': 'economia e management',
     'scienze economiche e finanziarie': 'economia e management',
     'scienze economiche e gestionali': 'economia e management',
-    "scienze dell'economia e della gestione": 'economia e management',
-    'economia e gestione delle imprese': 'economia e management',
-    'management e consulenza aziendale': 'economia e management',
-    "management e comunicazione d'impresa": 'economia e management',
-    'management internazionale': 'economia e management',
-    'management e marketing': 'economia e management',
+    'scienze economiche/aziendali': 'economia e management',
     "scienze economiche/gestionali": "economia e management",
-    "scienze dell'economia": "economia e management",
-    "economia e management/economia aziendale": "economia e management",
-    "economia aziendale/management": "economia e management",
-    "economia/management": "economia e management",
-    "finanza, marketing, o management)": "economia e management",
 
-    # Area 14 - Scienze politiche e sociali
-    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche/delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    # Area 14 - Scienze politiche e sociali Area 14 - Political and social sciences
+    # SPS/01 FILOSOFIA POLITICA SPS/01 Political philosophy
+    # SPS/02 STORIA DELLE DOTTRINE POLITICHE SPS/02 History of political thought
+    # SPS/03 STORIA DELLE ISTITUZIONI POLITICHE SPS/03 History of political institutions
+    # SPS/04 SCIENZA POLITICA SPS/04 Political science
+    # SPS/05 STORIA E ISTITUZIONI DELLE AMERICHE SPS/05 American history and institutions
+    # SPS/06 STORIA DELLE RELAZIONI INTERNAZIONALI SPS/06 History of international relations
+    # SPS/07 SOCIOLOGIA GENERALE SPS/07 General sociology
+    # SPS/08 SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI SPS/08 Sociology of culture and communication
+    # SPS/09 SOCIOLOGIA DEI PROCESSI ECONOMICI E DEL LAVORO SPS/09 Economic sociology and sociology of work and organisations
+    # SPS/10 SOCIOLOGIA DELL'AMBIENTE E DEL TERRITORIO SPS/10 Urban and environmental sociology
+    # SPS/11 SOCIOLOGIA DEI FENOMENI POLITICI SPS/11 Political sociology
+    # SPS/12 SOCIOLOGIA GIURIDICA, DELLA DEVIANZA E MUTAMENTO SOCIALE SPS/12 Sociology of law, deviance and social change
+    # SPS/13 STORIA E ISTITUZIONI DELL'AFRICA SPS/13 African history and institutions
+    # SPS/14 STORIA E ISTITUZIONI DELL'ASIA SPS/14 Asian history and institutions
+    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
+    'scienze politiche': 'scienze politiche e relazioni internazionali',
+    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/internazionali e dello sviluppo sostenibile': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
+    'scienze politiche/relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze politiche/relazioni internazionali e studi europei': 'scienze politiche e relazioni internazionali',
     'scienze politiche/relazioni internazionali/scienze sociali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche': 'scienze politiche e relazioni internazionali',
-    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
-    'scienze internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche/relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze politiche/sociali e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze della mediazione linguistica': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
-    'scienze politiche/internazionali e dello sviluppo sostenibile': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
+    'scienze politiche/sociali e internazionali': 'scienze politiche e relazioni internazionali',
 
-    "scienze della comunicazione/comunicazione d'impresa": "comunicazione e media",  # could be Area 13 too
-    'comunicazione e media digitali': 'comunicazione e media',
-    'comunicazione digitale': 'comunicazione e media',
     'comunicazione': 'comunicazione e media',
     'comunicazione e giornalismo': 'comunicazione e media',
-    'scienze della comunicazione/media/giornalismo': 'comunicazione e media',
-    'comunicazione e tecniche giornalistiche': 'comunicazione e media',
-    'comunicazione e relazioni pubbliche': 'comunicazione e media',
-    'scienze della comunicazione': 'comunicazione e media',
-    'comunicazione e marketing digitale': 'comunicazione e media',
     'comunicazione e marketing': 'comunicazione e media',
+    'comunicazione e marketing digitale': 'comunicazione e media',
+    'comunicazione e media digitali': 'comunicazione e media',
+    'comunicazione e nuove tecnologie': 'comunicazione e media',
+    'comunicazione e relazioni pubbliche': 'comunicazione e media',
+    'comunicazione e tecniche giornalistiche': 'comunicazione e media',
+    'comunicazione digitale': 'comunicazione e media',
+    'comunicazione scientifica': 'comunicazione e media',  # a bit of a weird one.
     'comunicazione, innovazione, multimedialità': 'comunicazione e media',
-    'scienze della comunicazione/comunicazione, innovazione, multimedialità': 'comunicazione e media',
-    'scienze della comunicazione/comunicazione digitale': 'comunicazione e media',
-    'scienze della comunicazione/giornalismo': 'comunicazione e media',
-    'scienze della comunicazione/media e giornalismo': 'comunicazione e media',
+    'comunicazione, media e pubblicità': 'comunicazione e media',
+    "comunicazione/media digitali": 'comunicazione e media',
+    "comunicazione/media e spettacolo": 'comunicazione e media',
+
+    'scienze della comunicazione': 'comunicazione e media',
+    "scienze della comunicazione e media": 'comunicazione e media',
     'scienze della comunicazione e media digitali': 'comunicazione e media',
-    'scienze della comunicazione/editoria e giornalismo': 'comunicazione e media',
     'scienze della comunicazione/comunicazione': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione digitale': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione, innovazione, multimedialità': 'comunicazione e media',
+    'scienze della comunicazione/editoria e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/giornalismo': 'comunicazione e media',
     'scienze della comunicazione/marketing': 'comunicazione e media',
     'scienze della comunicazione/marketing e comunicazione': 'comunicazione e media',
     'scienze della comunicazione/marketing e pubblicità': 'comunicazione e media',
+    'scienze della comunicazione/media digitali': 'comunicazione e media',
     'scienze della comunicazione/media e comunicazione': 'comunicazione e media',
-    'comunicazione, media e pubblicità': 'comunicazione e media',
-    'comunicazione e nuove tecnologie': 'comunicazione e media',
-    'comunicazione scientifica': 'comunicazione e media',  # a bit of a weird one.
-    "scienze dell'informazione e della comunicazione": 'comunicazione e media',  # a bit of a weird one.
-    "comunicazione/media e spettacolo": 'comunicazione e media',
-    "scienze della comunicazione e media": 'comunicazione e media',
+    'scienze della comunicazione/media e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/media/giornalismo': 'comunicazione e media',
     "scienze della comunicazione/relazioni pubbliche": 'comunicazione e media',
-
-    'scienze della comunicazione/scienze politiche e sociali': 'scienze sociali',
-    'scienze della comunicazione/scienze politiche': 'scienze sociali',
-    'comunicazione interculturale': 'scienze sociali',
-    'comunicazione/scienze sociali': 'scienze sociali',
-    'scienze sociali e della comunicazione': 'scienze sociali',
-    'scienze della comunicazione/scienze sociali': 'scienze sociali',
-    'scienze umane/sociali e della comunicazione': 'scienze sociali',
-    'sociali': 'scienze sociali',
-    'umanistiche e sociali': 'scienze sociali',
-    'scienze delle politiche e dei servizi sociali': 'scienze sociali',
-    'scienze politiche/sociali e internazionali': 'scienze sociali',
-
-    'scienze turistiche': 'comunicazione e media', # unsure about this
+    'scienze della comunicazione/scienze politiche': 'comunicazione e media',
+    'scienze della comunicazione/scienze politiche e sociali': 'comunicazione e media',
 
     "comunicazione e sociologia": "scienze sociali",
     "comunicazione e società": "scienze sociali",
-
-    "sociologia": "scienze sociali",
+    'comunicazione/scienze sociali': 'scienze sociali',
+    'scienze della comunicazione/scienze sociali': 'scienze sociali',
+    'scienze delle politiche e dei servizi sociali': 'scienze sociali',
+    'scienze sociali e della comunicazione': 'scienze sociali',
+    "scienze sociali e psicologia": "scienze sociali",
+    "scienze sociali/umanistiche": "scienze sociali",
     "scienze umane e sociali": "scienze sociali",
     "scienze umane/sociali": "scienze sociali",
-    "scienze sociali/umanistiche": "scienze sociali", # TODO:usure about this
-    "scienze umanistiche e sociali": "scienze sociali", # TODO:usure about this
-    "umanistiche": "scienze sociali", # TODO:unsure about this
-    "scienze sociali e psicologia": "scienze sociali", # TODO:unsure about this
+    'scienze umane/sociali e della comunicazione': 'scienze sociali',
+    "scienze umanistiche e sociali": "scienze sociali",
+    'sociali': 'scienze sociali',
+    "sociologia": "scienze sociali",
+    "umanistiche": "scienze sociali",
+    'umanistiche e sociali': 'scienze sociali',
 
-    "comunicazione, dams   o corsi affini": "dams",  # TODO: unsure about this
-
-    "scienze della moda": 'scienze sociali',  # TODO: *very* unsure about this
 
     # To be removed due to being unacceptable
+    "scienze": "NONE",
+    "scienze e tecnologia": "NONE",
+    "scienze e tecnologie": "NONE",
+    "scienze tecnologiche": "NONE",
+    "tecnologie": "NONE",
+    "tecnologia": "NONE",
+    "informatica umanistica": "NONE",
     'lettere e banchetto': 'NONE',
-
+    "scienze informatiche/fisica": 'NONE',  # It is both 01 and 02.
+    "chimica/fisica/matematica": "NONE",  # Could be 03 (CHIM/02)
+    "chimica/scienze biologiche/fisica": "NONE",  # could be 03 (CHIM/06 or CHIM/02)
+    'scienze biologiche/scienze della terra': 'NONE',  # Between 04 and 05.
+    'scienze naturali e matematiche': 'NONE',  # Between 05 and 01.
+    "studi umanistici": 'NONE',
+    "umanità": "NONE",
+    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "NONE",  # between 10 and CHIM/12
+    "comunicazione, dams   o corsi affini": "NONE",  #
+    "scienze della moda": 'NONE',
+    "scienze dell'informazione e della comunicazione": 'NONE',  # 1 or 14?.
+    'scienze turistiche': 'NONE',  # unsure about this
+    # A bunk between 05 and 06
+    'biologia/medicina': 'NONE',
+    'biotecnologie/medicina': 'NONE',
+    'scienze biologiche e mediche': 'NONE',
+    'scienze biologiche e sanitarie': 'NONE',
+    'scienze biologiche o medicina': 'NONE',
+    'scienze biologiche/mediche': 'NONE',
+    'scienze biologiche/medicina': 'NONE',
+    'scienze biologiche/medicina e chirurgia': 'NONE',
+    'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
+    'biologia o scienze ambientali': 'NONE',  # ??
+    # The following are between 07 and 08.
+    'scienze ambientali o ingegneria ambientale': 'NONE',
+    'scienze ambientali/ingegneria ambientale': 'NONE',
+    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'NONE',
+    # THe two below are between 08 (design) and 10 (DISCIPLINE DELLO SPETTACOLO)
+    "design/arti e spettacolo": 'NONE',
+    'design/arti visive e discipline dello spettacolo': 'NONE',
 }
 
 MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
-    "scienze": "NONE", # unacceptable response
-    "scienze e tecnologia": "NONE", # unacceptable response
-    "scienze e tecnologie": "NONE", # unacceptable response
-    "scienze tecnologiche": "NONE", # unacceptable response
-    "tecnologie": "NONE",  # unacceptable response
-    "tecnologia": "NONE", # unacceptable response
-    "informatica umanistica": "NONE", # unacceptable response
+
     "matematica": "01",
     "informatica": "01",
     "scienze matematiche e informatiche": "01",
     "data science e artificial intelligence": "01",
+
     "fisica": "02",
+
     "chimica": "03",
+    "chimica industriale": "03",
+    "chimica farmaceutica": "03",
+    "chimica fisica": "03",
+    "chimica organica": "03",
+
     "scienze geologiche": "04",
-    "scienze naturali": "04",
-    "biologia": "05",
-    "biotecnologie": "05",
-    "biologia/biotecnologie": "05",
+    "scienze della terra": "04",
+
+    "scienze biologiche": "05",
+    "biologia farmaceutica": "05",
+    "scienze naturali": "05",
+
     "medicina e chirurgia": "06",
     "medicina/chirurgia": "06",
     "scienze infermieristiche": "06",
+    "scienze della salute e medicina": "06",
     "fisioterapia": "06",
-    "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
-    "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
-    "Scienze agrarie e veterinarie": "07",
+
+    "scienze ambientali": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "medicina veterinaria": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "scienze forestali": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "scienze agrarie e veterinarie": "07",
+
     "design": "08",
+    "design e arti": "08",
+    "design/architettura": "08",
     "architettura": "08",
     "ingegneria civile": "08",
     "ingegneria civile/edile": "08",
-    "ingegneria": "09",  # seems quite rare
-    "ingegneria industriale": "09",  # seems quite rare
-    "tecnologia e ingegneria": "09",  # seems quite rare
+    'ingegneria ambientale': '08',
+
+    "ingegneria": "09",
+    "ingegneria industriale": "09",
+    "tecnologia e ingegneria": "09",
     "ingegneria informatica": "09",
     "ingegneria meccanica": "09",
     "ingegneria biomedica": "09",
@@ -514,29 +665,32 @@ MAP_COURSE_TO_SSD = {
     "ingegneria elettronica": "09",
     "ingegneria meccanica/aerospaziale": "09",
     "ingegneria meccanica/aerospaziale/elettronica": "09",
-    "ingegneria gestionale": "09",  # this one I really don't like, but it is like this in the MUR data
+    "ingegneria gestionale": "09",
     "ingegneria gestionale/ingegneria informatica": "09",
+
     "beni culturali": "10",
     "archeologia": "10",
     "lettere": "10",
     "lingue": "10",
-    "scienze umanistiche": "11",  # Could also be others, eg 10
-    "scienze umane": "11",  # Could also be others, eg 10
+    "scienze umanistiche": "10",
+    "scienze umane": "10",
+    "dams": "10",  # DISCIPLINE DELLO SPETTACOLO.
+
     "filosofia": "11",
     "psicologia": "11",
     "storia": "11",
     "scienze dell'educazione": "11",
     "scienze motorie": "11",  # "metodi e didattiche attività sportive"
-    "scienze motorie e dello sport": "11",  # "metodi e didattiche attività sportive"
-    "scienze motorie e sportive": "11",  # "metodi e didattiche attività sportive"
-    "giurisprudenza":  "12",  # - Scienze giuridiche
+
+    "giurisprudenza":  "12",
+
     "economia e management": "13",
     "scienze economiche e statistiche": "13",
+
     "comunicazione e media": "14",
     "scienze politiche e relazioni internazionali": "14",
     "scienze politiche e sociali": "14",
     "scienze sociali": "14",
-    "dams": "14",  # todo not sure about this.
 }
 
 # This second mapping is done by using data from the following link:
