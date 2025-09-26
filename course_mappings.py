@@ -424,6 +424,9 @@ COURSE_MAPPINGS_IT = {
     "scienze della formazione/psicologia": "scienze dell'educazione",
     "scienze umane e della formazione": "scienze dell'educazione",
 
+    "scienze motorie e dello sport": "scienze motorie",
+    "scienze motorie e sportive": "scienze motorie",
+
     #  Area 12 - Scienze giuridiche Area 12 - Law
     "diritto": "giurisprudenza",
 
@@ -612,40 +615,46 @@ COURSE_MAPPINGS_IT = {
 
 MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
+
     "matematica": "01",
     "informatica": "01",
     "scienze matematiche e informatiche": "01",
     "data science e artificial intelligence": "01",
+
     "fisica": "02",
+
     "chimica": "03",
     "chimica industriale": "03",
     "chimica farmaceutica": "03",
     "chimica fisica": "03",
     "chimica organica": "03",
+
     "scienze geologiche": "04",
     "scienze naturali": "04",
-    # "biologia": "05",
-    # "biotecnologie": "05",
-    # "biologia/biotecnologie": "05",
+
     "scienze biologiche": "05",
     "biologia farmaceutica": "05",
+
     "medicina e chirurgia": "06",
     "medicina/chirurgia": "06",
     "scienze infermieristiche": "06",
     "scienze della salute e medicina": "06",
     "fisioterapia": "06",
+
     "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
     "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
     "Scienze agrarie e veterinarie": "07",
+
     "design": "08",
     "design e arti": "08",
     "design/architettura": "08",
     "architettura": "08",
     "ingegneria civile": "08",
     "ingegneria civile/edile": "08",
-    "ingegneria": "09",  # seems quite rare
-    "ingegneria industriale": "09",  # seems quite rare
-    "tecnologia e ingegneria": "09",  # seems quite rare
+
+    "ingegneria": "09",
+    "ingegneria industriale": "09",
+    "tecnologia e ingegneria": "09",
     "ingegneria informatica": "09",
     "ingegneria meccanica": "09",
     "ingegneria biomedica": "09",
@@ -653,8 +662,9 @@ MAP_COURSE_TO_SSD = {
     "ingegneria elettronica": "09",
     "ingegneria meccanica/aerospaziale": "09",
     "ingegneria meccanica/aerospaziale/elettronica": "09",
-    "ingegneria gestionale": "09",  # this one I really don't like, but it is like this in the MUR data
+    "ingegneria gestionale": "09",
     "ingegneria gestionale/ingegneria informatica": "09",
+
     "beni culturali": "10",
     "archeologia": "10",
     "lettere": "10",
@@ -662,16 +672,18 @@ MAP_COURSE_TO_SSD = {
     "scienze umanistiche": "10",
     "scienze umane": "10",
     "dams": "10",  # DISCIPLINE DELLO SPETTACOLO.
+
     "filosofia": "11",
     "psicologia": "11",
     "storia": "11",
     "scienze dell'educazione": "11",
     "scienze motorie": "11",  # "metodi e didattiche attività sportive"
-    "scienze motorie e dello sport": "11",  # "metodi e didattiche attività sportive"
-    "scienze motorie e sportive": "11",  # "metodi e didattiche attività sportive"
-    "giurisprudenza":  "12",  # - Scienze giuridiche
+
+    "giurisprudenza":  "12",
+
     "economia e management": "13",
     "scienze economiche e statistiche": "13",
+
     "comunicazione e media": "14",
     "scienze politiche e relazioni internazionali": "14",
     "scienze politiche e sociali": "14",
