@@ -92,47 +92,75 @@ COURSE_MAPPINGS_IT = {
     "chimica o biologia": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
     "chimica, biologia o biotecnologie": "chimica organica",  # Kept as CHIM/06 but borderline (possibly SSD 05)
 
-    # Area 04 - Scienze della terra
-    "scienze naturali/tecnologiche": "scienze naturali",
-    "scienze della natura": "scienze naturali",
-    'scienze biologiche/scienze della terra': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/scienze naturali': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/scienze ambientali': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
-    'scienze naturali e matematiche': 'scienze naturali',  # todo A bit of a weird one, possibly to remove.
+    # Area 04 - Scienze della terra Area 04 - Earth sciences
+    # GEO/01 PALEONTOLOGIA E PALEOECOLOGIA GEO/01 Paleontology and paleoecology
+    # GEO/02 GEOLOGIA STRATIGRAFICA E SEDIMENTOLOGICA GEO/02 Stratigraphic and sedimentary geology
+    # GEO/03 GEOLOGIA STRUTTURALE GEO/03 Structural geology
+    # GEO/04 GEOGRAFIA FISICA E GEOMORFOLOGIA GEO/04 Physical geography and geomorphology
+    # GEO/05 GEOLOGIA APPLICATA GEO/05 Applied geology
+    # GEO/06 MINERALOGIA GEO/06 Mineralogy
+    # GEO/07 PETROLOGIA E PETROGRAFIA GEO/07 Petrology and petrography
+    # GEO/08 GEOCHIMICA E VULCANOLOGIA GEO/08 Geochemistry and volcanology
+    # GEO/09 GEORISORSE MINERARIE E APPLICAZIONI MINERALOGICO- PETROGRAFICHE PER L'AMBIENTE ED I BENI CULTURALI GEO/09 Mining resources, mineralogic and petrographic applications for the environment and for cultural heritage
+    # GEO/10 GEOFISICA DELLA TERRA SOLIDA GEO/10 Solid Earth geophysics
+    # GEO/11 GEOFISICA APPLICATA GEO/11 Applied geophysics
+    # GEO/12 OCEANOGRAFIA E FISICA DELL'ATMOSFERA GEO/12 Oceanography and physics of the atmosphere
+    # TODO: Nothing in here?
 
-    # Area 05 - Scienze biologiche
-    'biologia o scienze biologiche': 'biologia',
-    'biologia/scienze biologiche': 'biologia',
-    'biotecnologie/biologia': 'biotecnologie',
-    'scienze delle biotecnologie': 'biotecnologie',
-    'biotecnologie/scienze biologiche': 'biologia',
-    'biotecnologie o scienze biologiche': 'biologia',
-    'biologia/biotecnologie': 'biologia',
-    'biologia o biotecnologie': 'biologia',
-    'scienze biologiche/biologia': 'biologia',
-    'scienze biologiche e biotecnologie': 'biologia',
-    'scienze biologiche': 'biologia',
-    'scienze della vita': 'biologia',  # Not sure about this
-    'scienze della vita e biotecnologie': 'biologia',  # Not sure about this
-    'scienze biologiche/scienze della vita': 'biologia',  # Not sure about this
-    'biologia/scienze naturali': 'biologia',  # Not sure about this
-    'scienze naturali/biologia': 'biologia',  # Not sure about this
-    'scienze naturali/biologiche': 'biologia',  # Not sure about this
-    'scienze naturali e biologiche': 'biologia',  # Not sure about this
-    'scienze biologiche/scienze della natura': 'biologia',  # Not sure about this
+    # Area 05 - Scienze biologiche Area 05 - Biology
+    # BIO/01 BOTANICA GENERALE BIO/01 General botany
+    # BIO/02 BOTANICA SISTEMATICA BIO/02 Systematic botany
+    # BIO/03 BOTANICA AMBIENTALE E APPLICATA BIO/03 Environmental and applied botany
+    # BIO/04 FISIOLOGIA VEGETALE BIO/04 Plant physiology
+    # BIO/05 ZOOLOGIA BIO/05 Zoology
+    # BIO/06 ANATOMIA COMPARATA E CITOLOGIA BIO/06 Comparative anatomy and cytology
+    # BIO/07 ECOLOGIA BIO/07 Ecology
+    # BIO/08 ANTROPOLOGIA BIO/08 Anthropology
+    # BIO/09 FISIOLOGIA BIO/09 Physiology
+    # BIO/10 BIOCHIMICA BIO/10 Biochemistry
+    # BIO/11 BIOLOGIA MOLECOLARE BIO/11 Molecular biology
+    # BIO/12 BIOCHIMICA CLINICA E BIOLOGIA MOLECOLARE CLINICA BIO/12 Clinical biochemistry and molecular biology
+    # BIO/13 BIOLOGIA APPLICATA BIO/13 Experimental biology
+    # BIO/14 FARMACOLOGIA BIO/14 Pharmacology
+    # BIO/15 BIOLOGIA FARMACEUTICA BIO/15 Pharmaceutical biology
+    # BIO/16 ANATOMIA UMANA BIO/16 Human anatomy
+    # BIO/17 ISTOLOGIA BIO/17 Histology
+    # BIO/18 GENETICA BIO/18 Genetics
+    # BIO/19 MICROBIOLOGIA GENERALE BIO/19 General microbiology
+    'biologia': 'scienze biologiche',
+    'biologia o biotecnologie': 'scienze biologiche',
+    'biologia o scienze biologiche': 'scienze biologiche',
+    'biologia/biotecnologie': 'scienze biologiche',
+    'biologia/scienze biologiche': 'scienze biologiche',
+    'biologia/scienze biologiche/biotecnologie': 'scienze biologiche',
+    'biologia/scienze naturali': 'scienze biologiche',
 
-    'scienze biologiche/biotecnologie': 'biotecnologie',
-    'biologia/scienze biologiche/biotecnologie': 'biotecnologie',
-    'biologia/biotecnologie/scienze farmaceutiche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina e chirurgia': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/medicina/farmacia': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche e mediche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche e sanitarie': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'biotecnologie/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche o medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'biologia/medicina': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
-    'scienze biologiche/mediche': 'biotecnologie',  # todo A bit of a weird one, possibly to remove.
+    "biotecnologie": "scienze biologiche",
+    'biotecnologie o scienze biologiche': 'scienze biologiche',
+    'biotecnologie/biologia': 'scienze biologiche',
+    'biotecnologie/scienze biologiche': 'scienze biologiche',
+
+    'scienze biologiche e biotecnologie': 'scienze biologiche',
+    'scienze biologiche/biologia': 'scienze biologiche',
+    'scienze biologiche/biotecnologie': 'scienze biologiche',
+    'scienze biologiche/scienze ambientali': 'scienze biologiche',
+    'scienze biologiche/scienze della natura': 'scienze biologiche',
+    'scienze biologiche/scienze della vita': 'scienze biologiche',
+    'scienze biologiche/scienze naturali': 'scienze biologiche',
+    'scienze delle biotecnologie': 'scienze biologiche',
+    'scienze della vita': 'scienze biologiche',
+    'scienze della vita e biotecnologie': 'scienze biologiche',
+
+    "scienze della natura": "scienze biologiche",
+    'scienze naturali e biologiche': 'scienze biologiche',
+    'scienze naturali/biologia': 'scienze biologiche',
+    'scienze naturali/biologiche': 'scienze biologiche',
+    "scienze naturali/tecnologiche": "scienze biologiche",
+
+    # Kept in here things related to BIO/15 (biologia farmaceutica), but kind of borderline
+    # (there is also CHIM/08 chimica farmaceutica and CHIM/09 farmaceutico tecnologico applicativo).
+    'biologia/biotecnologie/scienze farmaceutiche': 'biologia farmaceutica',
+    'scienze biologiche/medicina/farmacia': 'biologia farmaceutica',
 
     # Area 06 - Scienze mediche
     'medicina': 'medicina e chirurgia',
@@ -508,6 +536,17 @@ COURSE_MAPPINGS_IT = {
     "scienze informatiche/fisica": 'NONE',  # It is both 01 and 02.
     "chimica/fisica/matematica": "NONE",  # Could be 03 (CHIM/02)
     "chimica/scienze biologiche/fisica": "NONE",  # could be 03 (CHIM/06 or CHIM/02)
+    'scienze biologiche/scienze della terra': 'NONE',  # Between 04 and 05.
+    'scienze naturali e matematiche': 'NONE',  # Between 05 and 01.
+    # A bunk between 05 and 06
+    'biologia/medicina': 'NONE',
+    'biotecnologie/medicina': 'NONE',
+    'scienze biologiche e mediche': 'NONE',
+    'scienze biologiche e sanitarie': 'NONE',
+    'scienze biologiche o medicina': 'NONE',
+    'scienze biologiche/mediche': 'NONE',
+    'scienze biologiche/medicina': 'NONE',
+    'scienze biologiche/medicina e chirurgia': 'NONE',
 
 }
 
@@ -532,9 +571,11 @@ MAP_COURSE_TO_SSD = {
     "chimica organica": "03",
     "scienze geologiche": "04",
     "scienze naturali": "04",
-    "biologia": "05",
-    "biotecnologie": "05",
-    "biologia/biotecnologie": "05",
+    # "biologia": "05",
+    # "biotecnologie": "05",
+    # "biologia/biotecnologie": "05",
+    "scienze biologiche": "05",
+    "biologia farmaceutica": "05",
     "medicina e chirurgia": "06",
     "medicina/chirurgia": "06",
     "scienze infermieristiche": "06",
