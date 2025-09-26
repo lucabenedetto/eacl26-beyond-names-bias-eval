@@ -386,44 +386,45 @@ COURSE_MAPPINGS_IT = {
 
     'scienze archeologiche': 'archeologia',
 
-    # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
+    #  Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche Area 11
+    #    - History, philosophy, pedagogy and psychology
     "letteratura, filosofia e storia": 'storia',
-    # 11A
     'scienze storiche': 'storia',
-    # 11C
-    'lettere e filosofia': 'filosofia',
-    'lettere/filosofia': 'filosofia',
-    'lettere moderne/filosofia': 'filosofia',
+
     'letteratura e filosofia': 'filosofia',
     'letterature e filosofia': 'filosofia',
+    'lettere e filosofia': 'filosofia',
+    'lettere moderne/filosofia': 'filosofia',
+    'lettere/filosofia': 'filosofia',
     'scienze umane e filosofia': 'filosofia',
-    # 11E
-    'psychology': 'psicologia',
-    'psychologia': 'psicologia',
-    'scienze psicologiche e psicologia sociale': 'psicologia',
-    'scienze psicologiche': 'psicologia',
+
     'psicologia clinica': 'psicologia',
     "psicologia clinica e della salute": 'psicologia',
     "psicologia clinica e di comunità": 'psicologia',
+    'psychology': 'psicologia',
+    'psychologia': 'psicologia',
     "scienze cognitive": "psicologia",  # According to the same data from MUR used for MAP_SSD_TO_STEM
-    #
-    "scienze della formazione primaria": "scienze dell'educazione",
-    "scienze della formazione": "scienze dell'educazione",
+    'scienze psicologiche': 'psicologia',
+    'scienze psicologiche e psicologia sociale': 'psicologia',
+
+    "scienze della comunicazione/scienze della formazione": "scienze dell'educazione",
     "scienze dell'educazione e della formazione": "scienze dell'educazione",
     "scienze dell'educazione/della formazione": "scienze dell'educazione",
-    "scienze della formazione e educazione": "scienze dell'educazione",
-    "scienze della formazione/educazione": "scienze dell'educazione",
-    "scienze della formazione e dell'educazione": "scienze dell'educazione",
-    "scienze della formazione e psicologia": "scienze dell'educazione",
-    "scienze della formazione/psicologia": "scienze dell'educazione",
     "scienze dell'educazione/psicologia": "scienze dell'educazione",
-    "scienze della comunicazione/scienze della formazione": "scienze dell'educazione",
-    "scienze umane e della formazione": "scienze dell'educazione",
-    "scienze della formazione/pedagogia": "scienze dell'educazione",
+    "scienze della formazione": "scienze dell'educazione",
+    "scienze della formazione e dell'educazione": "scienze dell'educazione",
+    "scienze della formazione e educazione": "scienze dell'educazione",
+    "scienze della formazione e psicologia": "scienze dell'educazione",
+    "scienze della formazione primaria": "scienze dell'educazione",
+    "scienze della formazione/educazione": "scienze dell'educazione",
     "scienze della formazione/educazione e psicologia": "scienze dell'educazione",
+    "scienze della formazione/pedagogia": "scienze dell'educazione",
+    "scienze della formazione/psicologia": "scienze dell'educazione",
+    "scienze umane e della formazione": "scienze dell'educazione",
 
-    # Area 12 - Scienze giuridiche
+    #  Area 12 - Scienze giuridiche Area 12 - Law
     "diritto": "giurisprudenza",
+
     # Area 13 - Scienze economiche e statistiche
     'economia e finanza': 'economia e management',
     'economia/finanza': 'economia e management',
