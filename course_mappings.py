@@ -241,12 +241,10 @@ COURSE_MAPPINGS_IT = {
     'design e discipline della moda': 'design e arti',
     'design e moda': 'design e arti',
     'design/arti': 'design e arti',
-    "design/arti e spettacolo": 'design e arti',  # TODO: Here?
     "design/arti e comunicazione": 'design e arti',  # TODO: Here?
     'design/arti visive': 'design e arti',
     'design/arti visive e comunicazione': 'design e arti',
     'design/arti visive e multimedia': 'design e arti',
-    'design/arti visive e discipline dello spettacolo': 'design e arti',  # TODO Here?
     'design/arti visive e discipline multimediali': 'design e arti',  # TODO Here?
     'design/arti visive/comunicazione': 'design e arti',
     'design/comunicazione visiva': 'design e arti',
@@ -283,104 +281,109 @@ COURSE_MAPPINGS_IT = {
     "ingegneria informatica/ingegneria elettronica": "ingegneria informatica",
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
-    'lingue e culture moderne': 'lettere',
-    'lingue e culture': 'lettere',
-    'lingue straniere e culture moderne': 'lettere',
-    'lingue straniere': 'lettere',
-    'letteratura e lingue straniere': 'lettere',
-    'lingue e letterature straniere moderno': 'lettere',
-    'lingue/letterature straniere': 'lettere',
-    'lingue e letterature moderne': 'lettere',
-    'lingua e letterature moderne': 'lettere',
-    'lingua e letterature straniere moderne': 'lettere',
-    'letteratura italiana e classica': 'lettere',
+    # 'lettere' = 'scienze filologico-letterarie'
+    # lettere classiche, moderne, traduzione, lingue, filologia, ...
+    'letteratura': 'lettere',
+    'letteratura comparata': 'lettere',
+    "letteratura e comunicazione": 'lettere',  # todo: is this okay?
+    "letteratura e culture comparate": 'lettere',
+    "letteratura e lingue": 'lettere',
     'letteratura e lingue moderne': 'lettere',
-    'letteratura, lingue e culture moderne': 'lettere',
+    'letteratura e lingue straniere': 'lettere',
+    "letteratura e linguistica": 'lettere',
+    'letteratura italiana': 'lettere',
+    'letteratura italiana e classica': 'lettere',
     'letteratura italiana/studi letterari': 'lettere',
-    'lettere classiche o lingue e letterature straniere': 'lettere',
-    'lettere/lingue e letterature straniere': 'lettere',
+    "letteratura moderna e comparata": 'lettere',
+    'letteratura moderna e contemporanea': 'lettere',
+    'letteratura, lingue e culture moderne': 'lettere',
+    'letteratura, lingue e culture straniere': 'lettere',
+    'letterature comparate': 'lettere',
+    'letterature e lingue straniere': 'lettere',
+    'letterature moderne': 'lettere',
+    'letterature straniere': 'lettere',
+
     'lettere classiche': 'lettere',
     'lettere classiche e moderne': 'lettere',
+    'lettere classiche o lingue e letterature straniere': 'lettere',
+    "lettere classiche/lettere moderne": 'lettere',
+    "lettere classiche/moderne": 'lettere',
+    "lettere e beni culturali": 'lettere',  # todo: is this okay?
+    'lettere moderne': 'lettere',
+    'lettere moderne o lingue e letterature straniere': 'lettere',
+    "lettere moderne/beni culturali": 'lettere',  # todo: is this okay?
+    'lettere moderne/filologia': 'lettere',
+    'lettere moderne/filologia moderna': 'lettere',
     'lettere moderne/lingue e letterature straniere': 'lettere',
+    'lettere moderne/scienze della comunicazione': 'lettere',
+    'lettere moderne/scienze umanistiche': 'lettere',
     'lettere   o lingue': 'lettere',
     'lettere   o lingue e letterature straniere': 'lettere',
-    'lingue, letterature e culture straniere': 'lettere',
-    'lingue, letterature e culture moderne': 'lettere',
-    'lingue e letterature straniere/lingue per la mediazione': 'lettere',
-    'lingue per la mediazione linguistica': 'lettere',
-    'lingue e culture per la comunicazione e la cooperazione internazionale': 'lettere',  # could be Area 14 as well.
-    'lingue e culture per la mediazione': 'lettere',
-    'lingue e culture per la comunicazione': 'lettere',  # possibly "comunicazione" as well.
-    'lettere moderne/scienze della comunicazione': 'lettere',  # possibly "comunicazione" as well.
-    'scienze della comunicazione/lettere e filosofia': 'lettere',  # possibly "comunicazione" as well.
-    'lingue e letterature straniere/mediazione linguistica': 'lettere',
-    'lingue e culture straniere/mediazione linguistica': 'lettere',
-    'lingue, letterature e culture': 'lettere',
-    'lettere moderne o lingue e letterature straniere': 'lettere',
-    'lingue, letterature e culture stranieri': 'lettere',
-    'lettere moderne/filologia': 'lettere', # a bit of a weird one
-    'lettere moderne/filologia moderna': 'lettere',
     'lettere/filologia/letterature e civiltà antiche': 'lettere',
-    'lettere/scienze umanistiche': 'lettere',  # a bit of a weird one
-    'lettere moderne/scienze umanistiche': 'lettere',  # a bit of a weird one
-    'letterature straniere': 'lettere',
-    'lettere moderne': 'lettere',
-    'letteratura moderna e contemporanea': 'lettere',
-    'letterature moderne': 'lettere',
-    'letteratura': 'lettere',
-    'letteratura italiana': 'lettere',
-    'letteratura comparata': 'lettere',
-    'letterature comparate': 'lettere',
-    'lingua e letteratura italiana': 'lettere',
-    'lingue e letterature straniere': 'lettere',
-    'lingua e letterature straniere': 'lettere',
-    'letterature e lingue straniere': 'lettere',
-    'letteratura, lingue e culture straniere': 'lettere',
-    'lingue e letterature straniere moderne': 'lettere',
-    'lingue e culture straniere': 'lettere',
-    'lingua e letteratura inglese': 'lettere',
+    'lettere/lingue e letterature straniere': 'lettere',
+    'lettere/scienze umanistiche': 'lettere',
+
     "lingua e letteratura": 'lettere',
-    "letteratura e lingue": 'lettere',
+    'lingua e letteratura inglese': 'lettere',
+    'lingua e letteratura italiana': 'lettere',
     "lingua e letteratura straniere": 'lettere',
-    "letteratura e linguistica": 'lettere',
-    "linguistica e letteratura": 'lettere',
-    "letteratura moderna e comparata": 'lettere',
     "lingua e letterature comparate": 'lettere',
-    "letteratura e culture comparate": 'lettere',
-    "lingue, letterature e traduzione": 'lettere',
-    "lingue, culture e traduzione": 'lettere',
+    'lingua e letterature moderne': 'lettere',
+    'lingua e letterature straniere': 'lettere',
+    'lingua e letterature straniere moderne': 'lettere',
+    'lingue e culture': 'lettere',
+    'lingue e culture moderne': 'lettere',
+    'lingue e culture straniere': 'lettere',
+    'lingue e culture per la comunicazione': 'lettere',
+    'lingue e culture per la comunicazione e la cooperazione internazionale': 'lettere',
+    'lingue e culture per la mediazione': 'lettere',
+    "lingue e culture per la mediazione linguistica": "lettere",
+    'lingue e culture straniere/mediazione linguistica': 'lettere',
+    'lingue e letterature moderne': 'lettere',
+    'lingue e letterature straniere': 'lettere',
+    'lingue e letterature straniere moderne': 'lettere',
+    'lingue e letterature straniere moderno': 'lettere',
+    'lingue e letterature straniere/lingue per la mediazione': 'lettere',
+    'lingue e letterature straniere/mediazione linguistica': 'lettere',
     "lingue e letterature straniere/traduzione e interpretariato": 'lettere',
-    "letteratura e comunicazione": 'lettere',  # todo: this should be noted, could also be comunicazione
-    "lettere moderne/beni culturali": 'lettere',  # todo: this should be noted
-    "lettere e beni culturali": 'lettere',  # todo: this should be noted
-    "lettere classiche/lettere moderne": 'lettere',  # todo: this should be noted
-    "lettere classiche/moderne": 'lettere',  # todo: this should be noted
+    "lingue e mediazione linguistica": "lettere",
+    'lingue per la mediazione linguistica': 'lettere',
+    'lingue straniere': 'lettere',
+    'lingue straniere e culture moderne': 'lettere',
+    'lingue/letterature straniere': 'lettere',
+    "lingue, culture e traduzione": 'lettere',
+    'lingue, letterature e culture': 'lettere',
+    'lingue, letterature e culture stranieri': 'lettere',
+    'lingue, letterature e culture moderne': 'lettere',
+    'lingue, letterature e culture straniere': 'lettere',
+    "lingue, letterature e traduzione": 'lettere',
 
     'linguistica': 'lettere',
     'linguistica applicata': 'lettere',
+    "linguistica e letteratura": 'lettere',
     'linguistica e letteratura italiana': 'lettere',
     'linguistica e letterature comparate': 'lettere',
     'linguistica italiana': 'lettere',
-    "mediazione linguistica e culturale": "lingue",
-    "mediazione linguistica": "lingue",
-    "lingue e mediazione linguistica": "lingue",
-    "lingue e culture per la mediazione linguistica": "lingue",
-    "studi umanistici": 'lettere',  # TODO: unsure about this
 
-    'conservazione dei beni culturali': 'beni culturali',
-    "arte e cultura": 'beni culturali',
-    "arti e umanità": "beni culturali",
-    "arti": "beni culturali",
+    "mediazione linguistica e culturale": "lettere",
+    "mediazione linguistica": "lettere",
+
+    'scienze della comunicazione/lettere e filosofia': 'lettere',  # possibly "comunicazione" as well.
+
+    # beni culturali = scienze storico artistiche
     "arte": "beni culturali",
-    "arte e umanità": "beni culturali",
+    "arte e cultura": 'beni culturali',
     "arte e umanistiche": "beni culturali",
+    "arte e umanità": "beni culturali",
     "arte/umanità": "beni culturali",
-    "umanità": "beni culturali",  # TODO: ??
-    "storia dell'arte": "beni culturali",
+    "arti": "beni culturali",
+    "arti e umanità": "beni culturali",
     "beni culturali/conservazione e restauro": "beni culturali",
-    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "beni culturali",
-    "conservazione e restauro dei beni culturali": "beni culturali",
     "beni culturali/storia dell'arte": "beni culturali",
+    'conservazione dei beni culturali': 'beni culturali',
+    "conservazione e restauro dei beni culturali": "beni culturali",
+    "storia dell'arte": "beni culturali",
+
     'scienze archeologiche': 'archeologia',
 
     # Area 11 - Scienze storiche, filosofiche, pedagogiche e psicologiche
@@ -552,6 +555,12 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/medicina e chirurgia': 'NONE',
     'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
     'biologia o scienze ambientali': 'NONE',  # ??
+    # THe two below are between 08 (design) and 10 (DISCIPLINE DELLO SPETTACOLO)
+    "design/arti e spettacolo": 'design e arti',
+    'design/arti visive e discipline dello spettacolo': 'design e arti',
+    "studi umanistici": 'NONE',  # Troppo generico
+    "umanità": "NONE",  # TODO: ??
+    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "NONE", # between 10 and CHIM/12
 
 }
 
@@ -611,8 +620,8 @@ MAP_COURSE_TO_SSD = {
     "archeologia": "10",
     "lettere": "10",
     "lingue": "10",
-    "scienze umanistiche": "11",  # Could also be others, eg 10
-    "scienze umane": "11",  # Could also be others, eg 10
+    "scienze umanistiche": "10",
+    "scienze umane": "10",
     "filosofia": "11",
     "psicologia": "11",
     "storia": "11",
