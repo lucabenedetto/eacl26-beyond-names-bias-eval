@@ -630,10 +630,11 @@ MAP_COURSE_TO_SSD = {
     "chimica organica": "03",
 
     "scienze geologiche": "04",
-    "scienze naturali": "04",
+    "scienze della terra": "04",
 
     "scienze biologiche": "05",
     "biologia farmaceutica": "05",
+    "scienze naturali": "05",
 
     "medicina e chirurgia": "06",
     "medicina/chirurgia": "06",
