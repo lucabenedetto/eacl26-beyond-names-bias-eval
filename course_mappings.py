@@ -45,12 +45,12 @@ COURSE_MAPPINGS_IT = {
     'scienze informatiche/informatica': 'informatica',
     "tecnologie dell'informazione": 'informatica',
 
-    'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
-    'scienze dei dati': 'data science e artificial intelligence',
+    'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'informatica/data science': 'data science e artificial intelligence',
-    'scienze informatiche/data science': 'data science e artificial intelligence',
+    'scienze dei dati': 'data science e artificial intelligence',
     'scienze informatiche e data science': 'data science e artificial intelligence',
+    'scienze informatiche/data science': 'data science e artificial intelligence',
 
     # Area 02 - Scienze fisiche
     "scienze matematiche e fisiche": "fisica",  # this should be noted.
