@@ -105,7 +105,10 @@ COURSE_MAPPINGS_IT = {
     # GEO/10 GEOFISICA DELLA TERRA SOLIDA GEO/10 Solid Earth geophysics
     # GEO/11 GEOFISICA APPLICATA GEO/11 Applied geophysics
     # GEO/12 OCEANOGRAFIA E FISICA DELL'ATMOSFERA GEO/12 Oceanography and physics of the atmosphere
-    # TODO: Nothing in here?
+    "scienze ambientali e della terra": 'scienze della terra',
+    "scienze ambientali e geografiche": 'scienze della terra',
+    "scienze ambientali e geologiche": 'scienze della terra',
+    "scienze ambientali/geografia": 'scienze della terra',
 
     # Area 05 - Scienze biologiche Area 05 - Biology
     # BIO/01 BOTANICA GENERALE BIO/01 General botany
@@ -162,6 +165,20 @@ COURSE_MAPPINGS_IT = {
     'biologia/biotecnologie/scienze farmaceutiche': 'biologia farmaceutica',
     'scienze biologiche/medicina/farmacia': 'biologia farmaceutica',
 
+    # Kep in here things the following as BIO/07 ECOLOGIA, but kind of borderline
+    "scienze naturali e ambientali": 'scienze ambientali',
+    "scienze ambientali e biologiche": 'scienze ambientali',
+    'scienze ambientali e naturali': 'scienze ambientali',
+    "scienze ambientali o biologia": 'scienze ambientali',
+    'scienze ambientali o gestione ambientale': 'scienze ambientali',
+    'scienze ambientali o scienze naturali': 'scienze ambientali',
+    "scienze ambientali/biologia": 'scienze ambientali',
+    "scienze ambientali/biologiche": 'scienze ambientali',
+    "scienze ambientali/biotecnologie": 'scienze ambientali',
+    'scienze ambientali/gestione ambientale': 'scienze ambientali',
+    "scienze ambientali/naturali": 'scienze ambientali',
+    'scienze ambientali/scienze naturali': 'scienze ambientali',
+
     # Area 06 - Scienze mediche Area 06 - Medicine
     #  (not the full list because there are 50 of them).
     'medicina': 'medicina e chirurgia',
@@ -176,48 +193,29 @@ COURSE_MAPPINGS_IT = {
     'scienze della salute/medicina': 'scienze della salute e medicina',
     'scienze della salute/medicina e chirurgia': 'scienze della salute e medicina',
 
-    # Area 07 - Scienze agrarie e veterinarie  # TODO refactor.
+    # Area 07 - scienze agrarie e veterinarie
     #  (not the full list because there are 30 of them).
+    'scienze ambientali e agrarie': 'scienze agrarie e veterinarie',
+    'scienze ambientali/agraria': 'scienze agrarie e veterinarie',
+    'scienze ambientali/agrarie': 'scienze agrarie e veterinarie',
 
-    'scienze ambientali e agrarie': 'scienze ambientali',
-    'scienze ambientali/agraria': 'scienze ambientali',
-    'scienze ambientali/agrarie': 'scienze ambientali',
+    "scienze e tecnologie alimentari": 'scienze agrarie e veterinarie',
+    "scienze della nutrizione umana": 'scienze agrarie e veterinarie',
+    "scienze delle tecnologie alimentari": 'scienze agrarie e veterinarie',
 
-    'scienze ambientali o gestione ambientale': 'scienze ambientali',
-    'scienze ambientali/gestione ambientale': 'scienze ambientali',
-    'scienze ambientali e naturali': 'scienze ambientali',
-    'scienze ambientali o scienze naturali': 'scienze ambientali',
-    'scienze ambientali o scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali/scienze per la conservazione e il restauro': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali o scienze forestali e ambientali': 'scienze ambientali',
-    'scienze ambientali o scienze per la conservazione della natura': 'scienze ambientali',
-    'scienze ambientali o gestione ambientale e sostenibilità': 'scienze ambientali',
+    'scienze ambientali o scienze forestali e ambientali': 'scienze forestali',
+    'scienze ambientali/scienze forestali e ambientali': 'scienze forestali',
+
+    # Some of the following were borderline
     'scienze ambientali e della sostenibilità': 'scienze ambientali',
-    'scienze ambientali/scienze naturali': 'scienze ambientali',
+    'scienze ambientali o gestione ambientale e sostenibilità': 'scienze ambientali',
     'scienze ambientali o gestione e valorizzazione del territorio': 'scienze ambientali',
-    'scienze ambientali/scienze per la conservazione della natura': 'scienze ambientali',
-    'scienze ambientali/scienze forestali e ambientali': 'scienze ambientali',
     'scienze ambientali o per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali o scienze per la conservazione e il restauro': 'scienze ambientali',
+    'scienze ambientali/scienze per la conservazione della natura': 'scienze ambientali',
+    'scienze ambientali/scienze per la conservazione e il restauro': 'scienze ambientali',
     "scienze e tecnologie per l'ambiente e la natura": 'scienze ambientali',
-    'ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali o ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    'scienze ambientali/ingegneria ambientale': 'scienze ambientali',  # TODO: unsure about this.
-    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'scienze ambientali',  # TODO: unsure about this.
-    "scienze ambientali o biologia": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biologia": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biologiche": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/biotecnologie": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali e biologiche": 'scienze ambientali',  # I might remove this. Possibly unacceptable.
-    "scienze ambientali/naturali": 'scienze ambientali',
-    "scienze naturali e ambientali": 'scienze ambientali',
-    "scienze ambientali e geologiche": 'scienze ambientali',
-    "scienze ambientali e della terra": 'scienze ambientali',
-    "scienze ambientali e geografiche": 'scienze ambientali',
-    "scienze ambientali/geografia": 'scienze ambientali',
-
-    "scienze e tecnologie alimentari": 'Scienze agrarie e veterinarie',
-    "scienze delle tecnologie alimentari": 'Scienze agrarie e veterinarie',
-    "scienze della nutrizione umana": 'Scienze agrarie e veterinarie',
 
     # Area 08 - Ingegneria civile e Architettura
     'architettura e design': 'design/architettura',
@@ -588,6 +586,13 @@ COURSE_MAPPINGS_IT = {
     "chimica/scienze biologiche/fisica": "NONE",  # could be 03 (CHIM/06 or CHIM/02)
     'scienze biologiche/scienze della terra': 'NONE',  # Between 04 and 05.
     'scienze naturali e matematiche': 'NONE',  # Between 05 and 01.
+    "studi umanistici": 'NONE',
+    "umanità": "NONE",
+    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "NONE",  # between 10 and CHIM/12
+    "comunicazione, dams   o corsi affini": "NONE",  #
+    "scienze della moda": 'NONE',
+    "scienze dell'informazione e della comunicazione": 'NONE',  # 1 or 14?.
+    'scienze turistiche': 'NONE',  # unsure about this
     # A bunk between 05 and 06
     'biologia/medicina': 'NONE',
     'biotecnologie/medicina': 'NONE',
@@ -599,18 +604,13 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/medicina e chirurgia': 'NONE',
     'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
     'biologia o scienze ambientali': 'NONE',  # ??
+    # The following are between 07 and 08.
+    'scienze ambientali o ingegneria ambientale': 'scienze ambientali',
+    'scienze ambientali/ingegneria ambientale': 'scienze ambientali',
+    "scienze ambientali o ingegneria per l'ambiente e il territorio": 'scienze ambientali',
     # THe two below are between 08 (design) and 10 (DISCIPLINE DELLO SPETTACOLO)
     "design/arti e spettacolo": 'NONE',
     'design/arti visive e discipline dello spettacolo': 'NONE',
-
-    "studi umanistici": 'NONE',
-    "umanità": "NONE",
-    "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "NONE", # between 10 and CHIM/12
-    "comunicazione, dams   o corsi affini": "NONE",  #
-    "scienze della moda": 'NONE',
-    "scienze dell'informazione e della comunicazione": 'NONE',  # 1 or 14?.
-    'scienze turistiche': 'NONE',  # unsure about this
-
 }
 
 MAP_COURSE_TO_SSD = {
@@ -641,9 +641,10 @@ MAP_COURSE_TO_SSD = {
     "scienze della salute e medicina": "06",
     "fisioterapia": "06",
 
-    "scienze ambientali": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
-    "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
-    "Scienze agrarie e veterinarie": "07",
+    "scienze ambientali": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "medicina veterinaria": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "scienze forestali": "07",  #  - scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
+    "scienze agrarie e veterinarie": "07",
 
     "design": "08",
     "design e arti": "08",
@@ -651,6 +652,7 @@ MAP_COURSE_TO_SSD = {
     "architettura": "08",
     "ingegneria civile": "08",
     "ingegneria civile/edile": "08",
+    'ingegneria ambientale': '08',
 
     "ingegneria": "09",
     "ingegneria industriale": "09",
