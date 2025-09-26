@@ -3,38 +3,47 @@
 
 COURSE_MAPPINGS_IT = {
     # Area 01 - Scienze matematiche e informatiche
-    "scienze statistiche": "matematica",
+    # MAT/01 LOGICA MATEMATICA MAT/01 Mathematical logic
+    # MAT/02 ALGEBRA MAT/02 Algebra
+    # MAT/03 GEOMETRIA MAT/03 Geometry
+    # MAT/04 MATEMATICHE COMPLEMENTARI MAT/04 Mathematics education and history of mathematics
+    # MAT/05 ANALISI MATEMATICA MAT/05 Mathematical analysis
+    # MAT/06 PROBABILITÀ E STATISTICA MATEMATICA MAT/06 Probability and statistics
+    # MAT/07 FISICA MATEMATICA MAT/07 Mathematical physics
+    # MAT/08 ANALISI NUMERICA MAT/08 Numerical analysis
+    # MAT/09 RICERCA OPERATIVA MAT/09 Operational research
+    # INF/01 INFORMATICA INF/01 Informatics
     "scienze matematiche": "matematica",
+    "scienze statistiche": "matematica",
     "statistica": "matematica",
 
+    "informaticà e tecnologia dell'informazione": 'informatica',
+    "informatica e tecnologie dell'informazione": 'informatica',
+    "informatica e tecnologie digitali": 'informatica',
+    "informatica/scienze dell'informazione": 'informatica',
+    'informatica/scienze e tecnologie informatiche': 'informatica',
+    "informatica/scienze informatiche": 'informatica',
     'scienze e tecnologie informatiche': 'informatica',
-    'scienze informatiche e tecnologia': 'informatica',
+    "scienze dell'informazione": 'informatica',
+    "scienze dell'informazione e informatica": 'informatica',
+    "scienze dell'informazione/informatica e tecnologie digitali": 'informatica',
+    'scienze informatiche': 'informatica',
+    'scienze informatiche e computing': 'informatica',
+    'scienze informatiche e comunicazione digitale': 'informatica',  # kept in here as on the same line of "Mathematics education and history of mathematics"
     'scienze informatiche e informatica': 'informatica',
     'scienze informatiche e matematica': 'informatica',
-    'scienze informatiche/matematica': 'informatica',
     'scienze informatiche e matematiche': 'informatica',
     'scienze informatiche e statistica': 'informatica',
     'scienze informatiche e statistiche': 'informatica',
-    'scienze informatiche/matematiche': 'informatica',
+    'scienze informatiche e tecnologia': 'informatica',
+    'scienze informatiche e tecnologiche': 'informatica',
+    "scienze informatiche e tecnologia dell'informazione": 'informatica',
     'scienze informatiche e tecnologie digitali': 'informatica',
     "scienze informatiche e tecnologie dell'informazione": 'informatica',
-    "informatica e tecnologie dell'informazione": 'informatica',
-    'scienze informatiche e tecnologiche': 'informatica',
+    'scienze informatiche/matematica': 'informatica',
+    'scienze informatiche/matematiche': 'informatica',
     'scienze informatiche/informatica': 'informatica',
-    'scienze informatiche e comunicazione digitale': 'informatica',
-    'informatica/scienze e tecnologie informatiche': 'informatica',
-    'scienze informatiche': 'informatica',
-    'scienze informatiche e computing': 'informatica',
-    "scienze dell'informazione": 'informatica',
-    "informatica/scienze informatiche": 'informatica',
-    "informatica/scienze dell'informazione": 'informatica',
-    "scienze dell'informazione e informatica": 'informatica',
-    "scienze dell'informazione/informatica e tecnologie digitali": 'informatica',
-    "informatica e tecnologie digitali": 'informatica',  # a bit of a weird one.
-    "tecnologie dell'informazione": 'informatica',  # a bit of a weird one.
-    "scienze informatiche e tecnologia dell'informazione": 'informatica',  # a bit of a weird one.
-    "informaticà e tecnologia dell'informazione": 'informatica',  # a bit of a weird one.
-    "scienze informatiche/fisica": 'informatica',  # TODO a bit of a weird one.
+    "tecnologie dell'informazione": 'informatica',
 
     'data science e intelligenza artificiale': 'data science e artificial intelligence',
     'data science': 'data science e artificial intelligence',
@@ -470,6 +479,7 @@ COURSE_MAPPINGS_IT = {
 
     # To be removed due to being unacceptable
     'lettere e banchetto': 'NONE',
+    "scienze informatiche/fisica": 'informatica',  # It is both 01 and 02.
 
 }
 
