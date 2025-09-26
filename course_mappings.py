@@ -176,11 +176,13 @@ COURSE_MAPPINGS_IT = {
     'scienze della salute/medicina': 'scienze della salute e medicina',
     'scienze della salute/medicina e chirurgia': 'scienze della salute e medicina',
 
-    # Area 07 - Scienze agrarie e veterinarie
-    'biologia o scienze ambientali': 'scienze ambientali',
+    # Area 07 - Scienze agrarie e veterinarie  # TODO refactor.
+    #  (not the full list because there are 30 of them).
+
     'scienze ambientali e agrarie': 'scienze ambientali',
-    'scienze ambientali/agrarie': 'scienze ambientali',
     'scienze ambientali/agraria': 'scienze ambientali',
+    'scienze ambientali/agrarie': 'scienze ambientali',
+
     'scienze ambientali o gestione ambientale': 'scienze ambientali',
     'scienze ambientali/gestione ambientale': 'scienze ambientali',
     'scienze ambientali e naturali': 'scienze ambientali',
@@ -218,55 +220,55 @@ COURSE_MAPPINGS_IT = {
     "scienze della nutrizione umana": 'Scienze agrarie e veterinarie',
 
     # Area 08 - Ingegneria civile e Architettura
-    'design e arti visive': 'design',
-    'design/arti visive': 'design',
-    'design/arti visive e multimedia': 'design',
-    'design/arti visive e discipline dello spettacolo': 'design',  # TODO This is a *very* strange one, possibly to remove
-    'design/arti visive e discipline multimediali': 'design',  # TODO This is a *very* strange one, possibly to remove
-    'design/arti': 'design',
-    'design/moda e arti visive': 'design',
-    'design/moda/arti visive': 'design',
-    'design e discipline della moda': 'design',
-    'design e comunicazione/design e discipline della moda': 'design',
-    'design/architettura/moda': 'design',
-    'design/arti visive e comunicazione': 'design',
-    'design/arti visive/comunicazione': 'design',
-    'design/comunicazione visiva': 'design',
-    'design e moda': 'design',
-    'design della moda e arti visive': 'design',
-    'design/moda/architettura': 'design',
-    'design/architettura': 'design',
-    'design/architettura e urbanistica': 'design',
-    'architettura e design': 'design',
-    'architettura/design': 'design',
+    'architettura e design': 'design/architettura',
+    'architettura/design': 'design/architettura',
+    "design e architettura": 'design/architettura',
+    'design/architettura e urbanistica': 'design/architettura',
+    'design/architettura/moda': 'design/architettura',
+    'design/moda/architettura': 'design/architettura',
+
+    'arte e design': 'design e arti',
+    'arti e design': 'design e arti',
+    'design della comunicazione': 'design e arti',
+    'design della moda e arti visive': 'design e arti',
+    'design della moda': 'design e arti',
     'design e arti': 'design',
-    'arti e design': 'design',
-    'arte e design': 'design',
-    'design della comunicazione': 'design',
-    'design e comunicazione': 'design',
-    'design e comunicazione visiva': 'design',
-    "design del prodotto e dell'innovazione": 'design',
-    "design del prodotto e dell'evento": 'design',
+    "design e arti applicate": "design e arti",
+    'design e arti visive': 'design e arti',
+    'design e comunicazione': 'design e arti',
+    'design e comunicazione visiva': 'design e arti',
+    'design e comunicazione/design e discipline della moda': 'design e arti',
+    'design e discipline della moda': 'design e arti',
+    'design e moda': 'design e arti',
+    'design/arti': 'design e arti',
+    "design/arti e spettacolo": 'design e arti',  # TODO: Here?
+    "design/arti e comunicazione": 'design e arti',  # TODO: Here?
+    'design/arti visive': 'design e arti',
+    'design/arti visive e comunicazione': 'design e arti',
+    'design/arti visive e multimedia': 'design e arti',
+    'design/arti visive e discipline dello spettacolo': 'design e arti',  # TODO Here?
+    'design/arti visive e discipline multimediali': 'design e arti',  # TODO Here?
+    'design/arti visive/comunicazione': 'design e arti',
+    'design/comunicazione visiva': 'design e arti',
+    'design/moda e arti visive': 'design e arti',
+    'design/moda/arti visive': 'design e arti',
+
+    "design e innovazione": 'design',
     "design del prodotto": 'design',
+    "design del prodotto e dell'evento": 'design',
+    "design del prodotto e dell'innovazione": 'design',
+    "design del prodotto e della comunicazione": 'design',
+    "design del prodotto e della forma": 'design',
+    "design del prodotto e della moda": 'design',
     "design del prodotto industriale": 'design',
     "design del prodotto o design industriale": 'design',
     "design del prodotto o design della comunicazione": 'design',
-    "design del prodotto e della forma": 'design',
-    "design del prodotto e della comunicazione": 'design',
-    "design del prodotto e della moda": 'design',
     "design industriale": 'design',
-    'design della moda': 'design',
-    "design e arti applicate": "design",
-    "design e innovazione": 'design',
-    "design/arti e spettacolo": 'design',  # Probably not here.
-    "design/arti e comunicazione": 'design',  # Probably not here.
 
-    "architettura/ingegneria edile-architettura": 'architettura',
     'architettura**': 'architettura',
-
-    "scienze dell'architettura": "architettura",
-    "design e architettura": 'architettura',
     "architettura e urbanistica": 'architettura',
+    "architettura/ingegneria edile-architettura": 'architettura',
+    "scienze dell'architettura": "architettura",
 
     # Area 09 - Ingegneria industriale e dell'informazione
     "scienze biomediche": "ingegneria biomedica",  # is this ok?
@@ -549,6 +551,7 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/medicina': 'NONE',
     'scienze biologiche/medicina e chirurgia': 'NONE',
     'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
+    'biologia o scienze ambientali': 'NONE',  # ??
 
 }
 
@@ -587,6 +590,8 @@ MAP_COURSE_TO_SSD = {
     "medicina veterinaria": "07",  #  - Scienze agrarie e veterinarie",    # Scienze e tecnologie forestali ed ambientali		Forestry	No
     "Scienze agrarie e veterinarie": "07",
     "design": "08",
+    "design e arti": "08",
+    "design/architettura": "08",
     "architettura": "08",
     "ingegneria civile": "08",
     "ingegneria civile/edile": "08",
