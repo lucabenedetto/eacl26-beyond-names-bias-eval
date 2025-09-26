@@ -271,16 +271,16 @@ COURSE_MAPPINGS_IT = {
     "scienze dell'architettura": "architettura",
 
     # Area 09 - Ingegneria industriale e dell'informazione
-    "scienze biomediche": "ingegneria biomedica",  # is this ok?
+    "scienze biomediche": "ingegneria biomedica",  # TODO: is this ok?
     "ingegneria informática": "ingegneria informatica",
-    "ingegneria informatica/informatica": "ingegneria informatica",  # TODO: this should be noted.
-    "ingegneria informatica/ingegneria dell'informazione": "ingegneria informatica",
-    "ingegneria informatica/ingegneria dell'informazione/informatica": "ingegneria informatica",
+    "ingegneria informatica e automatica": "ingegneria informatica",
+    "ingegneria informatica/informatica": "ingegneria informatica",
     "ingegneria informatica/informatica/ingegneria dell'informazione": "ingegneria informatica",
     "ingegneria informatica/ingegneria dell'automazione": "ingegneria informatica",
-    "ingegneria informatica/ingegneria elettronica": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'informazione": "ingegneria informatica",
+    "ingegneria informatica/ingegneria dell'informazione/informatica": "ingegneria informatica",
     "ingegneria informatica/ingegneria elettrica": "ingegneria informatica",
-    "ingegneria informatica e automatica": "ingegneria informatica",
+    "ingegneria informatica/ingegneria elettronica": "ingegneria informatica",
 
     # Area 10 - Scienze dell'antichità, filologico-letterarie e storico-artistiche
     'lingue e culture moderne': 'lettere',
