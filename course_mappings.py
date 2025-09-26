@@ -369,6 +369,8 @@ COURSE_MAPPINGS_IT = {
     "mediazione linguistica": "lettere",
 
     'scienze della comunicazione/lettere e filosofia': 'lettere',  # possibly "comunicazione" as well.
+    'scienze della mediazione linguistica': 'lettere',  # todo here?
+    'comunicazione interculturale': 'lettere',  # todo here?
 
     # beni culturali = scienze storico artistiche
     "arte": "beni culturali",
@@ -425,7 +427,26 @@ COURSE_MAPPINGS_IT = {
     #  Area 12 - Scienze giuridiche Area 12 - Law
     "diritto": "giurisprudenza",
 
-    # Area 13 - Scienze economiche e statistiche
+    # Area 13 - Scienze economiche e statistiche Area 13 - Economics and statistics
+    # SECS-P/01 ECONOMIA POLITICA SECS-P/01 Economics
+    # SECS P/02 POLITICA ECONOMICA SECS-P/02 Economic policy
+    # SECS-P/03 SCIENZA DELLE FINANZE SECS-P/03 Public economics
+    # SECS-P/04 STORIA DEL PENSIERO ECONOMICO SECS-P/04 History of economic thought
+    # SECS-P/05 ECONOMETRIA SECS-P/05 Econometrics
+    # SECS-P/06 ECONOMIA APPLICATA SECS-P/06 Applied economics
+    # SECS-P/07 ECONOMIA AZIENDALE SECS-P/07 Business administration and Management
+    # SECS-P/08 ECONOMIA E GESTIONE DELLE IMPRESE SECS-P/08 Management
+    # SECS-P/09 FINANZA AZIENDALE SECS-P/09 Finance
+    # SECS-P/10 ORGANIZZAZIONE AZIENDALE SECS-P/10 Organization studies
+    # SECS-P/11 ECONOMIA DEGLI INTERMEDIARI FINANZIARI SECS-P/11 Financial Markets and Institutions
+    # SECS-P/12 STORIA ECONOMICA SECS-P/12 Economic history
+    # SECS-P/13 SCIENZE MERCEOLOGICHE SECS-P/13 Commodity science
+    # SECS-S/01 STATISTICA SECS-S/01 Statistics
+    # SECS-S/02 STATISTICA PER LA RICERCA SPERIMENTALE E TECNOLOGICA SECS-S/02 Statistics for experimental and technological research
+    # SECS-S/03 STATISTICA ECONOMICA SECS-S/03 Economic statistics
+    # SECS-S/04 DEMOGRAFIA SECS-S/04 Demography
+    # SECS-S/05 STATISTICA SOCIALE SECS-S/05 Social statistics
+    # SECS-S/06 METODI MATEMATICI DELL'ECONOMIA E DELLE SCIENZE ATTUARIALI E FINANZIARIE SECS-S/06 Mathematical methods of economy, finance and actuarial sciences
     'economia': 'economia e management',
     'economia aziendale': 'economia e management',
     "economia aziendale/management": "economia e management",
@@ -454,6 +475,8 @@ COURSE_MAPPINGS_IT = {
     'management e marketing': 'economia e management',
     'management internazionale': 'economia e management',
 
+    "scienze della comunicazione/comunicazione d'impresa": "economia e management",  # is this Okay?
+
     "scienze dell'economia": "economia e management",
     "scienze dell'economia e della gestione": 'economia e management',
 
@@ -466,83 +489,96 @@ COURSE_MAPPINGS_IT = {
     'scienze economiche/aziendali': 'economia e management',
     "scienze economiche/gestionali": "economia e management",
 
-    # Area 14 - Scienze politiche e sociali
-    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche/delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    # Area 14 - Scienze politiche e sociali Area 14 - Political and social sciences
+    # SPS/01 FILOSOFIA POLITICA SPS/01 Political philosophy
+    # SPS/02 STORIA DELLE DOTTRINE POLITICHE SPS/02 History of political thought
+    # SPS/03 STORIA DELLE ISTITUZIONI POLITICHE SPS/03 History of political institutions
+    # SPS/04 SCIENZA POLITICA SPS/04 Political science
+    # SPS/05 STORIA E ISTITUZIONI DELLE AMERICHE SPS/05 American history and institutions
+    # SPS/06 STORIA DELLE RELAZIONI INTERNAZIONALI SPS/06 History of international relations
+    # SPS/07 SOCIOLOGIA GENERALE SPS/07 General sociology
+    # SPS/08 SOCIOLOGIA DEI PROCESSI CULTURALI E COMUNICATIVI SPS/08 Sociology of culture and communication
+    # SPS/09 SOCIOLOGIA DEI PROCESSI ECONOMICI E DEL LAVORO SPS/09 Economic sociology and sociology of work and organisations
+    # SPS/10 SOCIOLOGIA DELL'AMBIENTE E DEL TERRITORIO SPS/10 Urban and environmental sociology
+    # SPS/11 SOCIOLOGIA DEI FENOMENI POLITICI SPS/11 Political sociology
+    # SPS/12 SOCIOLOGIA GIURIDICA, DELLA DEVIANZA E MUTAMENTO SOCIALE SPS/12 Sociology of law, deviance and social change
+    # SPS/13 STORIA E ISTITUZIONI DELL'AFRICA SPS/13 African history and institutions
+    # SPS/14 STORIA E ISTITUZIONI DELL'ASIA SPS/14 Asian history and institutions
+    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
+    'scienze politiche': 'scienze politiche e relazioni internazionali',
+    'scienze politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'scienze politiche/internazionali e dello sviluppo sostenibile': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
+    'scienze politiche/relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze politiche/relazioni internazionali e studi europei': 'scienze politiche e relazioni internazionali',
     'scienze politiche/relazioni internazionali/scienze sociali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche': 'scienze politiche e relazioni internazionali',
-    'relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze internazionali e diplomatiche': 'scienze politiche e relazioni internazionali',
-    'scienze internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze politiche/relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze politiche/sociali e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
-    'scienze della mediazione linguistica': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
-    'scienze politiche/internazionali e dello sviluppo sostenibile': 'scienze politiche e relazioni internazionali',  # there are related things in "lettere"
+    'scienze politiche/sociali e internazionali': 'scienze politiche e relazioni internazionali',
 
-    "scienze della comunicazione/comunicazione d'impresa": "comunicazione e media",  # could be Area 13 too
-    'comunicazione e media digitali': 'comunicazione e media',
-    'comunicazione digitale': 'comunicazione e media',
     'comunicazione': 'comunicazione e media',
     'comunicazione e giornalismo': 'comunicazione e media',
-    'scienze della comunicazione/media/giornalismo': 'comunicazione e media',
-    'comunicazione e tecniche giornalistiche': 'comunicazione e media',
-    'comunicazione e relazioni pubbliche': 'comunicazione e media',
-    'scienze della comunicazione': 'comunicazione e media',
-    'comunicazione e marketing digitale': 'comunicazione e media',
     'comunicazione e marketing': 'comunicazione e media',
+    'comunicazione e marketing digitale': 'comunicazione e media',
+    'comunicazione e media digitali': 'comunicazione e media',
+    'comunicazione e nuove tecnologie': 'comunicazione e media',
+    'comunicazione e relazioni pubbliche': 'comunicazione e media',
+    'comunicazione e tecniche giornalistiche': 'comunicazione e media',
+    'comunicazione digitale': 'comunicazione e media',
+    'comunicazione scientifica': 'comunicazione e media',  # a bit of a weird one.
     'comunicazione, innovazione, multimedialità': 'comunicazione e media',
-    'scienze della comunicazione/comunicazione, innovazione, multimedialità': 'comunicazione e media',
-    'scienze della comunicazione/comunicazione digitale': 'comunicazione e media',
-    'scienze della comunicazione/giornalismo': 'comunicazione e media',
-    'scienze della comunicazione/media e giornalismo': 'comunicazione e media',
+    'comunicazione, media e pubblicità': 'comunicazione e media',
+    "comunicazione/media digitali": 'comunicazione e media',
+    "comunicazione/media e spettacolo": 'comunicazione e media',
+
+    'scienze della comunicazione': 'comunicazione e media',
+    "scienze della comunicazione e media": 'comunicazione e media',
     'scienze della comunicazione e media digitali': 'comunicazione e media',
-    'scienze della comunicazione/editoria e giornalismo': 'comunicazione e media',
     'scienze della comunicazione/comunicazione': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione digitale': 'comunicazione e media',
+    'scienze della comunicazione/comunicazione, innovazione, multimedialità': 'comunicazione e media',
+    'scienze della comunicazione/editoria e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/giornalismo': 'comunicazione e media',
     'scienze della comunicazione/marketing': 'comunicazione e media',
     'scienze della comunicazione/marketing e comunicazione': 'comunicazione e media',
     'scienze della comunicazione/marketing e pubblicità': 'comunicazione e media',
+    'scienze della comunicazione/media digitali': 'comunicazione e media',
     'scienze della comunicazione/media e comunicazione': 'comunicazione e media',
-    'comunicazione, media e pubblicità': 'comunicazione e media',
-    'comunicazione e nuove tecnologie': 'comunicazione e media',
-    'comunicazione scientifica': 'comunicazione e media',  # a bit of a weird one.
-    "scienze dell'informazione e della comunicazione": 'comunicazione e media',  # a bit of a weird one.
-    "comunicazione/media e spettacolo": 'comunicazione e media',
-    "scienze della comunicazione e media": 'comunicazione e media',
+    'scienze della comunicazione/media e giornalismo': 'comunicazione e media',
+    'scienze della comunicazione/media/giornalismo': 'comunicazione e media',
     "scienze della comunicazione/relazioni pubbliche": 'comunicazione e media',
-
-    'scienze della comunicazione/scienze politiche e sociali': 'scienze sociali',
-    'scienze della comunicazione/scienze politiche': 'scienze sociali',
-    'comunicazione interculturale': 'scienze sociali',
-    'comunicazione/scienze sociali': 'scienze sociali',
-    'scienze sociali e della comunicazione': 'scienze sociali',
-    'scienze della comunicazione/scienze sociali': 'scienze sociali',
-    'scienze umane/sociali e della comunicazione': 'scienze sociali',
-    'sociali': 'scienze sociali',
-    'umanistiche e sociali': 'scienze sociali',
-    'scienze delle politiche e dei servizi sociali': 'scienze sociali',
-    'scienze politiche/sociali e internazionali': 'scienze sociali',
-
-    'scienze turistiche': 'comunicazione e media', # unsure about this
+    'scienze della comunicazione/scienze politiche': 'comunicazione e media',
+    'scienze della comunicazione/scienze politiche e sociali': 'comunicazione e media',
 
     "comunicazione e sociologia": "scienze sociali",
     "comunicazione e società": "scienze sociali",
-
-    "sociologia": "scienze sociali",
+    'comunicazione/scienze sociali': 'scienze sociali',
+    'scienze della comunicazione/scienze sociali': 'scienze sociali',
+    'scienze delle politiche e dei servizi sociali': 'scienze sociali',
+    'scienze sociali e della comunicazione': 'scienze sociali',
+    "scienze sociali e psicologia": "scienze sociali",
+    "scienze sociali/umanistiche": "scienze sociali",
     "scienze umane e sociali": "scienze sociali",
     "scienze umane/sociali": "scienze sociali",
-    "scienze sociali/umanistiche": "scienze sociali", # TODO:usure about this
-    "scienze umanistiche e sociali": "scienze sociali", # TODO:usure about this
-    "umanistiche": "scienze sociali", # TODO:unsure about this
-    "scienze sociali e psicologia": "scienze sociali", # TODO:unsure about this
+    'scienze umane/sociali e della comunicazione': 'scienze sociali',
+    "scienze umanistiche e sociali": "scienze sociali",
+    'sociali': 'scienze sociali',
+    "sociologia": "scienze sociali",
+    "umanistiche": "scienze sociali",
+    'umanistiche e sociali': 'scienze sociali',
 
-    "comunicazione, dams   o corsi affini": "dams",  # TODO: unsure about this
-
-    "scienze della moda": 'scienze sociali',  # TODO: *very* unsure about this
 
     # To be removed due to being unacceptable
+    "scienze": "NONE",
+    "scienze e tecnologia": "NONE",
+    "scienze e tecnologie": "NONE",
+    "scienze tecnologiche": "NONE",
+    "tecnologie": "NONE",
+    "tecnologia": "NONE",
+    "informatica umanistica": "NONE",
     'lettere e banchetto': 'NONE',
     "scienze informatiche/fisica": 'NONE',  # It is both 01 and 02.
     "chimica/fisica/matematica": "NONE",  # Could be 03 (CHIM/02)
@@ -561,23 +597,21 @@ COURSE_MAPPINGS_IT = {
     'scienze biologiche/scienze della salute': 'NONE',  # Between 05 and 06.
     'biologia o scienze ambientali': 'NONE',  # ??
     # THe two below are between 08 (design) and 10 (DISCIPLINE DELLO SPETTACOLO)
-    "design/arti e spettacolo": 'design e arti',
-    'design/arti visive e discipline dello spettacolo': 'design e arti',
-    "studi umanistici": 'NONE',  # Troppo generico
-    "umanità": "NONE",  # TODO: ??
+    "design/arti e spettacolo": 'NONE',
+    'design/arti visive e discipline dello spettacolo': 'NONE',
+
+    "studi umanistici": 'NONE',
+    "umanità": "NONE",
     "scienze e tecnologie per la conservazione e il restauro dei beni culturali": "NONE", # between 10 and CHIM/12
+    "comunicazione, dams   o corsi affini": "NONE",  #
+    "scienze della moda": 'NONE',
+    "scienze dell'informazione e della comunicazione": 'NONE',  # 1 or 14?.
+    'scienze turistiche': 'NONE',  # unsure about this
 
 }
 
 MAP_COURSE_TO_SSD = {
     "NONE": "NONE",
-    "scienze": "NONE", # unacceptable response
-    "scienze e tecnologia": "NONE", # unacceptable response
-    "scienze e tecnologie": "NONE", # unacceptable response
-    "scienze tecnologiche": "NONE", # unacceptable response
-    "tecnologie": "NONE",  # unacceptable response
-    "tecnologia": "NONE", # unacceptable response
-    "informatica umanistica": "NONE", # unacceptable response
     "matematica": "01",
     "informatica": "01",
     "scienze matematiche e informatiche": "01",
@@ -627,6 +661,7 @@ MAP_COURSE_TO_SSD = {
     "lingue": "10",
     "scienze umanistiche": "10",
     "scienze umane": "10",
+    "dams": "10",  # DISCIPLINE DELLO SPETTACOLO.
     "filosofia": "11",
     "psicologia": "11",
     "storia": "11",
@@ -641,7 +676,6 @@ MAP_COURSE_TO_SSD = {
     "scienze politiche e relazioni internazionali": "14",
     "scienze politiche e sociali": "14",
     "scienze sociali": "14",
-    "dams": "14",  # todo not sure about this.
 }
 
 # This second mapping is done by using data from the following link:
