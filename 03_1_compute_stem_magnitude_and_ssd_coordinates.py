@@ -30,7 +30,7 @@ from constants import (
     USER_AS_STUDENT, LLM_AS_STUDENT,
     CONFIG_NO_NAME, CONFIG_W_NAMES,
     C_MODEL, C_STUDY_GROUP, C_TEMPERATURE, C_RECS, C_LANGUAGE, C_PROMPT_TYPE, C_PROMPT_PARAM, C_STEM_MAGNITUDE,
-    C_LIST_SSD,
+    C_LIST_SSD, THIRD_PERSON_AS_STUDENT,
 )
 
 
@@ -62,6 +62,7 @@ def main(
             for prompt_type in list_prompt_types:
                 for prompt_params in list_prompt_params:
                     for temp in list_temperatures:
+                        print(f"[INFO] Doing configuration: {model}, {lang}, {prompt_type}, {prompt_params}, {temp}")
                         # Get the recommendations for the given model and prompt and iterate over them.
                         # TODO: I might actually make a method for this.
                         folder_path = os.path.join('data', 'processed_output', f'{prompt_type}', f'{lang}')
@@ -119,7 +120,7 @@ def main(
 
 LIST_MODELS = MODELS_LIST
 LIST_LANG = [IT]
-LIST_PROMPT_TYPES = [USER_AS_STUDENT, LLM_AS_STUDENT]
+LIST_PROMPT_TYPES = [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]
 LIST_PROMPT_PARAMS = [CONFIG_NO_NAME, CONFIG_W_NAMES]
 LIST_TEMPERATURES = [0.0, 0.3, 0.6]
 if __name__ == '__main__':
