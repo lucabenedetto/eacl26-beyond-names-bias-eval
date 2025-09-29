@@ -78,46 +78,6 @@ def print_recommendations_from_borders(df_2d_coord, n_bins=10):
     print("Bottom:", bottom[C_RECS].value_counts())
 
 
-# Removed as of 2025 05 13
-# def scatter_plot_with_marginal_hist_plt(
-#         df_with_2d_coordinates,
-#         title='scatter plot with marginal histograms',
-#         output_file=None,
-# ) -> None:
-#     """
-#     Generate a scatter plot with marginal histograms for the given coordinates grouped by type.
-#     """
-#     coordinates = {sg: get_pca_coordinates_by_study_group(df_with_2d_coordinates, sg) for sg in STUDY_GROUPS}
-
-#     fig = plt.figure(figsize=(10, 10))
-#     gs = fig.add_gridspec(3, 3)
-#     # Create the scatter plot
-#     ax_scatter = fig.add_subplot(gs[1:, :-1])
-#     for key, value in coordinates.items():
-#         ax_scatter.scatter([x[0] for x in value], [x[1] for x in value], label=key, alpha=0.5, color=COLOUR_BY_GROUP[key])
-#     ax_scatter.legend()
-#     ax_scatter.grid(True)
-#     # Create the x-axis histograms
-#     ax_histx = fig.add_subplot(gs[0, :-1])
-#     for key, value in coordinates.items():
-#         ax_histx.hist([x[0] for x in value], bins=30, alpha=0.5, color=COLOUR_BY_GROUP[key])
-#     ax_histx.set_xticks([])
-#     # Create the y-axis histograms
-#     ax_histy = fig.add_subplot(gs[1:, -1])
-#     for key, value in coordinates.items():
-#         ax_histy.hist([x[1] for x in value], bins=30, orientation='horizontal', alpha=0.5, color=COLOUR_BY_GROUP[key])
-#     ax_histy.set_yticks([])
-
-#     # Add a title
-#     plt.suptitle(title)  # , y=0.95)
-#     plt.tight_layout()
-#     if output_file:
-#         plt.savefig(output_file)
-#         plt.close()
-#     else:
-#         plt.show()
-
-
 # TODO fix params
 def scatter_plot_with_marginal_distributions_sns(
         df_with_2d_coordinates,
@@ -130,37 +90,6 @@ def scatter_plot_with_marginal_distributions_sns(
         plt.close()
     else:
         plt.show()
-
-
-
-# Removed as of 2025 05 13
-# def joint_plot_by_class(
-#         df,
-#         class_column,
-#         x_column,
-#         y_column,
-#         title='joint plot by class',
-#         output_file=None,
-# ):
-#     x_min, x_max, y_min, y_max = get_x_y_min_max(df)
-#     for study_group in ['model', 'f', 'm', 'x']:
-#         sns.jointplot(
-#             data=df[df[C_STUDY_GROUP]==study_group],
-#             x=x_column,
-#             y=y_column,
-#             hue=class_column,
-#             kind='kde',
-#             fill=True,
-#             palette=PALETTES_BY_GROUP[study_group],
-#             joint_kws={'alpha': 0.7},
-#             xlim=(x_min-2, x_max+2), ylim=(y_min-2, y_max+2),
-#         )
-#         if output_file:
-#             new_output_file = output_file.replace('.png', f'_{study_group}.png') # TODO change this to work with pdf too
-#             plt.savefig(new_output_file)
-#             plt.close()
-#         else:
-#             plt.show()
 
 
 def plot_hexbin_by_class(
@@ -253,14 +182,6 @@ def confusion_matrix_distribution_distance(
 
 
 def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which_model_and_params):
-    # Removed as of 2025 05 13
-    # print("scatter_plot_with_marginal_hist_plt")
-    # scatter_plot_with_marginal_hist_plt(
-    #     df,
-    #     output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__scatter_with_marginals.png'),
-    # )
-    # print_recommendations_from_corners(df, n_bins=5)
-    # print_recommendations_from_borders(df, n_bins=15)
 
     print("EMD between distribution of PCA reduced s.s.d. coordinates.")
     confusion_matrix_distribution_distance(
@@ -286,16 +207,6 @@ def run_analysis_pca_reduced_ssd_coordinates(df, output_folder, which_pca, which
         C_PCA_1,
         output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__hexbin_by_class.png'),
     )
-
-    # Removed as of 2025 05 13
-    # print("joint_plot_by_class")
-    # joint_plot_by_class(
-    #     df,
-    #     C_STUDY_GROUP,
-    #     C_PCA_0,
-    #     C_PCA_1,
-    #     output_file=os.path.join(output_folder, f'{which_pca}__{which_model_and_params}__joint_plot_by_class.png'),
-    # )
 
 
 def run_complete_analysis_pca_reduced_ssd_coordinates(df, WHICH_PCA, OUTPUT_FOLDER):
