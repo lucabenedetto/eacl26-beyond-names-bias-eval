@@ -9,6 +9,7 @@ from constants import (
     GEMINI_2_5_FLASH_LITE,
     CLAUDE_3_5_HAIKU,
     CLAUDE_3_5_SONNET,
+    CLAUDE_4_SONNET,
 )
 
 REGEX_PATTERNS = {
@@ -51,4 +52,7 @@ REGEX_PATTERNS = {
     CLAUDE_3_5_SONNET: [
         r'•\s(.+)',  # Pattern for bullet-point list (with •) -- almost same as GPT_3_5
     ],
+    CLAUDE_4_SONNET: [
+        r'\*\*(.*?)\*\*',  # same as the above, but without the ":".
+    ]
 }

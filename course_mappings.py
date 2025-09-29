@@ -506,6 +506,7 @@ COURSE_MAPPINGS_IT = {
     # SPS/13 STORIA E ISTITUZIONI DELL'AFRICA SPS/13 African history and institutions
     # SPS/14 STORIA E ISTITUZIONI DELL'ASIA SPS/14 Asian history and institutions
     'relazioni internazionali': 'scienze politiche e relazioni internazionali',
+    'relazioni internazionali e studi europei': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e delle relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze delle politiche e relazioni internazionali': 'scienze politiche e relazioni internazionali',
     'scienze internazionali': 'scienze politiche e relazioni internazionali',
