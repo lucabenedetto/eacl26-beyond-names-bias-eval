@@ -3,7 +3,7 @@ import pandas as pd
 
 from constants import (
     IT, FR, EN,
-    GPT_3_5, GPT_4o_MINI, GPT_4o,
+    GPT_3_5, GPT_4o_MINI, GPT_4o, GPT_4_1_NANO, GPT_4_1_MINI,
     CLAUDE_3_5_SONNET, CLAUDE_3_5_HAIKU, CLAUDE_4_SONNET,
     GEMINI_1_5_FLASH_8B, GEMINI_1_5_FLASH, GEMINI_2_5_FLASH_LITE,
     USER_AS_STUDENT, LLM_AS_STUDENT,
@@ -48,6 +48,7 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
             else:
                 parsed_response = ['NONE'] * n_courses
 
+        # The square brackets are needed to later convert this into a pd.DataFrame.
         dict_new_row = {f'rec_{idx}': [item] for idx, item in enumerate(parsed_response)}
 
         # parse_llm_response only performs parsing, w/o mapping to the different known categories, which is done below.
@@ -56,12 +57,12 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
         dict_new_row.update({f'clean_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
 
         # Map from the smaller set of courses the different groups (e.g. "gruppo scientifico disciplinare" for IT).
-        new_parsed_response = [MAP_COURSE_TO_SSD[course] for course in new_parsed_response]
-        dict_new_row.update({f'ssd_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
+        parsed_response_ssd = [MAP_COURSE_TO_SSD[course] for course in new_parsed_response]
+        dict_new_row.update({f'ssd_rec_{idx}': [item] for idx, item in enumerate(parsed_response_ssd)})
 
         # Map from the GSD to STEM vs. non-STEM (available for Italian on the MUR website).
-        new_parsed_response = [MAP_SSD_TO_STEM[course] for course in new_parsed_response]
-        dict_new_row.update({f'is_stem_rec_{idx}': [item] for idx, item in enumerate(new_parsed_response)})
+        parsed_response_stem = [MAP_SSD_TO_STEM[course] for course in parsed_response_ssd]
+        dict_new_row.update({f'is_stem_rec_{idx}': [item] for idx, item in enumerate(parsed_response_stem)})
 
         # This can only happen if df['n_uni_courses'].nunique() != 1:
         if len(parsed_response) != n_courses:
@@ -108,16 +109,18 @@ def main(model, language, prompt_type, prompt_params_file, temperature=0.0):
 if __name__ == '__main__':
     # Params to set:
     LANGUAGE = IT
-    MODEL = GEMINI_1_5_FLASH_8B
+    MODEL = CLAUDE_4_SONNET
 
+    # Example code, to run all the configurations for the chosen model.
     for PROMPT_PARAMS_FILE in [CONFIG_W_NAMES, CONFIG_NO_NAME]:
-        for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+        for PROMPT_TYPE in [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]:
             for TEMPERATURE in [0.0, 0.3, 0.6]:
                 print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
                 main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE)
 
-    # PROMPT_PARAMS_FILE = 'with_names'
-    # PROMPT_TYPE = LLM_AS_STUDENT
-    # TEMPERATURE = 0.6
+    # Example code, to run a single configuration of the chosen model.
+    # PROMPT_PARAMS_FILE = CONFIG_W_NAMES
+    # PROMPT_TYPE = USER_AS_STUDENT
+    # TEMPERATURE = 0.0
     # print(f"[INFO] Doing Model {MODEL} | Language {IT} | Temperature {TEMPERATURE} | Prompt type {PROMPT_TYPE} | Prompt params file {PROMPT_PARAMS_FILE}.")
     # main(MODEL, LANGUAGE, PROMPT_TYPE, PROMPT_PARAMS_FILE, temperature=TEMPERATURE)
