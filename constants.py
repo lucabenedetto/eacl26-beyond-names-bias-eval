@@ -12,6 +12,7 @@ THIRD_PERSON_AS_STUDENT = 'third_as_student'
 
 CONFIG_NO_NAME = 'no_name'
 CONFIG_W_NAMES = 'with_names'
+CONFIG_AGGREGATE = 'aggregate'
 CONFIG_NO_NAME_W_PRONOUNS = 'no_name_with_pronouns'
 
 # Names, adjectives and nouns for the different languages
