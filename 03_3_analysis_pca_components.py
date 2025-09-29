@@ -68,7 +68,7 @@ def plot_pca_explained_variance(model_owner, output_filename=None):
 
 
 if __name__ == '__main__':
-    RUN_DATE = '2025_04_02_also_w_names'
+    RUN_DATE = '2025_09_29_for_paper'
 
     plot_pca_components(model_owner='aggregate', output_filename=f'figures/{RUN_DATE}/pca_components_aggregate.png')
     plot_pca_explained_variance(model_owner='aggregate', output_filename=f'figures/{RUN_DATE}/pca_explained_variance_aggregate.png')

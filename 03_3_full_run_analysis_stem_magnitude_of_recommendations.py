@@ -14,6 +14,7 @@ from constants import (
     MODELS_LIST,
     USER_AS_STUDENT, 
     LLM_AS_STUDENT,
+    THIRD_PERSON_AS_STUDENT,
     CONFIG_W_NAMES,
     CONFIG_NO_NAME,
 )
@@ -81,23 +82,6 @@ def plot_histogram_by_class(
         plt.show()
 
 
-# method for making a violinplot of the STEM magnitudes.
-# def violinplot_stem_magnitude_by_study_group(
-#         df,
-#         class_column,
-#         x_column,
-#         title='violinplot STEM magnitude by class',
-#         output_file=None,
-# ):
-#     # TODO: add title.
-#     sns.violinplot(data=df, x=x_column, y=class_column, palette=COLOUR_BY_GROUP, hue=class_column)
-#     if output_file:
-#         plt.savefig(output_file)
-#         plt.close()
-#     else:
-#         plt.show()
-
-
 # method for computing the EMD between the distribution of STEM magnitudes of the recommendations for different groups and plotting a conf mat.
 def compute_stem_magnitude_distribution_distance(
         df,
@@ -145,11 +129,6 @@ def compute_stem_magnitude_distribution_distance(
 
 
 def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
-    # print("Doing violinplot distribution of STEM magnitude by study group.")
-    # violinplot_stem_magnitude_by_study_group(
-    #     df, C_STUDY_GROUP, C_STEM_MAGNITUDE,
-    #     output_file=os.path.join(output_folder, f'{which_model_and_params}__violinplot_stem_magnitude_by_class.png'),
-    # )
 
     print("Doing histogram of the distribution of STEM magnitude by study group.")
     plot_histogram_by_class(
@@ -165,6 +144,13 @@ def run_analysis_stem_magnitude(df, output_folder, which_model_and_params):
 
 
 def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
+    # Create the folder if it doesn't exist
+    if not os.path.exists(OUTPUT_FOLDER):
+        os.makedirs(OUTPUT_FOLDER)
+        print(f"Folder '{OUTPUT_FOLDER}' created.")
+    else:
+        print(f"Folder '{OUTPUT_FOLDER}' already exists.")
+
     # analysis on the aggregate dataframe
     run_analysis_stem_magnitude(df, OUTPUT_FOLDER, 'aggregate')
 
@@ -176,9 +162,9 @@ def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
     for temperature in [0.0, 0.3, 0.6]:
         local_df = df[df['temperature'] == temperature]
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_temp_{temperature}')
-    for temperatures in [[0.0, 0.3], [0.3, 0.6]]:
-        local_df = df[df['temperature'].isin(temperatures)]
-        run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
+    # for temperatures in [[0.0, 0.3], [0.3, 0.6]]:
+    #     local_df = df[df['temperature'].isin(temperatures)]
+    #     run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_temp_{temperatures[0]}_{temperatures[1]}')
 
     # analysis on different temperature values and different models
     for model_owner, list_models in MODELS_BY_OWNER.items():
@@ -193,13 +179,13 @@ def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, model)
 
     # analysis on the different prompt types
-    for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+    for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]:
         local_df = df[df['prompt_type'] == prompt_type]
         run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'aggregate_{prompt_type}')
 
     # analysis on the different prompt types and families of models
     for model_owner, list_models in MODELS_BY_OWNER.items():
-        for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT]:
+        for prompt_type in [USER_AS_STUDENT, LLM_AS_STUDENT, THIRD_PERSON_AS_STUDENT]:
             local_df = df[df['model'].isin(list_models)]
             local_df = local_df[local_df['prompt_type'] == prompt_type]
             run_analysis_stem_magnitude(local_df, OUTPUT_FOLDER, f'{model_owner}_{prompt_type}')
@@ -208,7 +194,7 @@ def run_complete_analysis_stem_magnitude(df, OUTPUT_FOLDER):
 if __name__ == '__main__':
     df = pd.read_csv(os.path.join('data', 'processed_output', 'stem_magnitude_ssd_coordinates_recs.csv'))
 
-    RUN_DATE = '2025_05_for_paper'
+    RUN_DATE = "2025_09_29_for_paper"
     # OUTPUT_FOLDER = os.path.join('figures', RUN_DATE, 'analysis_stem_magnitude')
 
     print("Doing both with and without names")
