@@ -6,12 +6,12 @@ set the desired parameters in the `01_main_perform_recs.py` script and run it.
 
 For instance, you should set (in `main` in `01_main_perform_recs.py`):
 ```python
-    LANGUAGE = IT
-    MODEL = GPT_4o_MINI
-    N_RUNS_PER_PROMPT = 10
-    TEMPERATURE = 0.0                    # in [0.0, 0.3, 0.6]
-    PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
-    PROMPT_TYPE = USER_AS_STUDENT        # For experiments with the "user as student" type of prompts.
+LANGUAGE = IT
+MODEL = GPT_4o_MINI
+N_RUNS_PER_PROMPT = 10
+TEMPERATURE = 0.0                    # in [0.0, 0.3, 0.6]
+PROMPT_PARAMS_FILE = CONFIG_NO_NAME  # For experiments without names
+PROMPT_TYPE = USER_AS_STUDENT        # For experiments with the "user as student" type of prompts.
 ```
 The code produces one output file:
 ```
