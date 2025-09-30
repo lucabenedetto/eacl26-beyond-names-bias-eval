@@ -2,9 +2,9 @@
 
 ## How to use
 To run the experiments with the models and configuration parameters already defined in this repo, it is sufficient to 
-set the desired parameters in the `01_main_perform_recs.py` script and run it.
-
-For instance, you should set (in `main` in `01_main_perform_recs.py`):
+set the desired parameters in the scripts and run them in the order specified below (and indicated with the ordering in the file names).
+Each script should be updated to run on the desired model.
+For instance, for `01_main_perform_recs.py`, you should set (in `main`):
 ```python
 LANGUAGE = IT
 MODEL = GPT_4o_MINI
