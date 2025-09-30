@@ -21,6 +21,9 @@ with the responses from the LLM.
 
 Please note that the code takes the API keys from environment variables, using `os.environ.get(key_name)`, thus you 
 should do like `export OPENAI_KEY=<you-API-key>` (for the model you want to use) before running the script.
+Currently, the code manages the following keys: `OPENAI_KEY`, `ANTHROPIC_KEY`, `GOOGLE_AI_KEY`.
+Which one to pick is chosen depending on the model name; if you add new models, you should also update the 
+`get_api_key_from_model` method in `utils_keys.py` as needed.
 
 ## Repo structure
 ```
