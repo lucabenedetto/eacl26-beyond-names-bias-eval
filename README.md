@@ -56,13 +56,13 @@ bias_in_edu_llms
 │
 ├── course_mappings.py            # For merging different wordings of the same course.
 │
-├── prompts_friend_as_student.py  # List of prompt templates.
-├── prompts_llm_as_student.py     # List of prompt templates.
-├── prompts_user_as_student.py    # List of prompt templates.
+├── prompts_llm_as_student.py     # List of prompt templates for the first person setting.
+├── prompts_user_as_student.py    # List of prompt templates for the second person setting.
+├── prompts_third_as_student.py   # List of prompt templates for the third person setting.
 │
 ├── regex_patterns.py             # Regex used to parse the LLM responses.
 │
-├── utils.py
+├── utils.py                      # Misc. utils methods.
 │
 ├── utils_anthropic.py            # Code to call the Anthropic API.
 ├── utils_google.py               # Code to call the Google AI API.
