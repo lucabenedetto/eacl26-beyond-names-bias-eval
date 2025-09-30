@@ -36,13 +36,21 @@ bias_in_edu_llms
 │   ├── output/           # The LLM responses.
 │   └── procesed_output/  # The LLM responses, after parsing them.
 │
-├── figures/
+├── figures/  # Figures created with the analysis scripts are stored here.
 │
 ├── 00_script_prepare_params_files_for_experiments_with_names.py
 │
 ├── 01_main_perform_recs.py       # Perform course recommendations with LLMs.
 │
 ├── 02_parse_responses.py         # Collect the recommended courses.
+│
+├── 03_1_compute_stem_magnitude_and_ssd_coordinates.py          # Takes the (parsed recommendations and computes the STEM Magnitude and SSD Coordinates of the recommendations.
+├── 03_2_pca_reduction_ssd_coordinates.py                       # Reduces the SSD Coordinates with PCA.
+├── 03_2_tsne_reduction_ssd_coordinates.py                      # Reduces the SSD Coordinates with t-SNE (not used in the paper).
+├── 03_3_analysis_pca_components.py                             # Performs the analysis of the PCA model trained in 03_2_pca_reduction_ssd_coordinates.py
+├── 03_3_compute_max_emd.py                                     # Computes the maximum EMD (Earth Mover's Distance) that might be observed in the data if all the points were at max_x, max_y and min_x, min_y in the PCA reduced space.
+├── 03_3_full_run_analysis_pca_reduced_ssd_coordinates.py       # Runs all the analysis whose results are shown in the paper (SSD Coordinates).
+├── 03_3_full_run_analysis_stem_magnitude_of_recommendations.py # Runs all the analysis whose results are shown in the paper (STEM Magnitude).
 │
 ├── constants.py                  # Definition of parameters, models, etc.
 │
