@@ -91,18 +91,18 @@ CLAUDE_4_SONNET = 'claude_4_sonnet'
 CLAUDE_3_5_SONNET = 'claude_3_5_sonnet'
 CLAUDE_3_5_HAIKU = 'claude_3_5_haiku'
 ANTHROPIC_MODEL_TO_API_NAME = {
-    CLAUDE_4_SONNET: 'claude-sonnet-4-20250514',
-    CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
     CLAUDE_3_5_HAIKU: 'claude-3-5-haiku-20241022',
+    CLAUDE_3_5_SONNET : 'claude-3-5-sonnet-20241022',
+    CLAUDE_4_SONNET: 'claude-sonnet-4-20250514',
 }
 
 GEMINI_2_5_FLASH_LITE = 'gemini_2_5_flash_lite'
 GEMINI_1_5_FLASH = 'gemini_1_5'
 GEMINI_1_5_FLASH_8B = 'gemini_1_5_8b'
 GOOGLE_MODEL_TO_API_NAME = {
-    GEMINI_2_5_FLASH_LITE: 'gemini-2.5-flash-lite',
-    GEMINI_1_5_FLASH: 'gemini-1.5-flash',
     GEMINI_1_5_FLASH_8B: 'gemini-1.5-flash-8b',
+    GEMINI_1_5_FLASH: 'gemini-1.5-flash',
+    GEMINI_2_5_FLASH_LITE: 'gemini-2.5-flash-lite',
 }
 
 # These are the models evaluated in the experiments for the ARR paper (target EMNLP).
