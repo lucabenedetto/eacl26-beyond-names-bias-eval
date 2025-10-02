@@ -43,7 +43,7 @@ def plot_histogram_by_class(
 
     # When I have all the study groups
     if n_study_groups == len(STUDY_GROUPS):
-        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 8))
+        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 5))
         study_groups = [[STUDY_GROUPS[0], STUDY_GROUPS[1]], [STUDY_GROUPS[2], STUDY_GROUPS[3]]]
         
         for i in range(2):
@@ -60,7 +60,7 @@ def plot_histogram_by_class(
                 ax[i][j].legend()
     # For when I have only two study groups (with names, F and M).
     elif n_study_groups == 2:
-        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 4))
+        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 3))
         study_groups = [sg for sg in STUDY_GROUPS if sg in df[class_column].unique()]
         for i in range(2):
             ax[i].hist(
