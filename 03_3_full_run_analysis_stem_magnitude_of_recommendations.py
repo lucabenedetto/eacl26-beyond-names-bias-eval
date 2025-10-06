@@ -58,6 +58,8 @@ def plot_histogram_by_class(
                 # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
                 ax[i][j].grid(axis='both')
                 ax[i][j].legend()
+        ax[1][0].set_xlabel('STEM Magnitude')
+        ax[1][1].set_xlabel('STEM Magnitude')
     # For when I have only two study groups (with names, F and M).
     elif n_study_groups == 2:
         fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 3))
