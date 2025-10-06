@@ -111,7 +111,7 @@ def compute_stem_magnitude_distribution_distance(
     # print('Confusion matrix')
     # print(conf_mat)
 
-    fig, ax = plt.subplots(figsize=(6, 6))
+    fig, ax = plt.subplots(figsize=(4, 4))
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
     ax.set_xticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups])
