@@ -7,7 +7,7 @@ import pickle
 import matplotlib.pyplot as plt
 
 from constants import MODELS_BY_OWNER
-from course_mappings import LIST_SSD, MAP_SSD_TO_STEM
+from course_mappings import LIST_SSD, MAP_SSD_TO_STEM, LIST_SSD_EN
 
 
 def plot_pca_components(model_owner, output_filename=None):
@@ -35,11 +35,12 @@ def plot_pca_components(model_owner, output_filename=None):
     ax.barh(y_positions - bar_width / 2, pca_model.components_[0], height=bar_width, label="PCA 0", hatch=hatch)
     ax.barh(y_positions + bar_width / 2, pca_model.components_[1], height=bar_width, label="PCA 1", hatch=hatch)
     ax.set_yticks(y_positions)
-    ax.set_yticklabels([x if len(x) < 20 else x[:18]+'...' for x in LIST_SSD])
+    ax.set_yticklabels([x if len(x) < 20 else x[:18]+'...' for x in LIST_SSD_EN])
     # ax.set_xlabel("Values")
     ax.set_title(f"PCA components ({model_owner})")
     ax.legend()
     ax.grid(axis='both')
+    plt.tight_layout()
     if output_filename is None:
         plt.show()
     else:

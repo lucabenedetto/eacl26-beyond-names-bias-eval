@@ -43,7 +43,7 @@ def plot_histogram_by_class(
 
     # When I have all the study groups
     if n_study_groups == len(STUDY_GROUPS):
-        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 8))
+        fig, ax = plt.subplots(2, 2, sharex=True, sharey=True, figsize=(8, 5))
         study_groups = [[STUDY_GROUPS[0], STUDY_GROUPS[1]], [STUDY_GROUPS[2], STUDY_GROUPS[3]]]
         
         for i in range(2):
@@ -58,9 +58,11 @@ def plot_histogram_by_class(
                 # ax[i][j].set_title(f'{title} - {study_groups[i][j]}')
                 ax[i][j].grid(axis='both')
                 ax[i][j].legend()
+        ax[1][0].set_xlabel('STEM Magnitude')
+        ax[1][1].set_xlabel('STEM Magnitude')
     # For when I have only two study groups (with names, F and M).
     elif n_study_groups == 2:
-        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 4))
+        fig, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(8, 3))
         study_groups = [sg for sg in STUDY_GROUPS if sg in df[class_column].unique()]
         for i in range(2):
             ax[i].hist(
@@ -109,7 +111,7 @@ def compute_stem_magnitude_distribution_distance(
     # print('Confusion matrix')
     # print(conf_mat)
 
-    fig, ax = plt.subplots(figsize=(6, 6))
+    fig, ax = plt.subplots(figsize=(4, 4))
     im = ax.imshow(conf_mat, cmap='Reds', vmax=vmax)
     # Show all ticks and label them with the respective list entries
     ax.set_xticks(range(len(reordered_study_groups)), labels=[x.title() for x in reordered_study_groups])

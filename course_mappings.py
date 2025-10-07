@@ -730,3 +730,20 @@ LIST_SSD = [
     "S. economiche e statistiche",  # Area 13
     "S. politiche e sociali",  # Area 14
 ]
+
+LIST_SSD_EN = [
+    "Math and Computer Science",        # Area 01
+    "Physics",                          # Area 02
+    "Chemistry",                        # Area 03
+    "Earth Science",                    # Area 04
+    "Biology",                          # Area 05
+    "Medicine",                         # Area 06
+    "Agriculture and Veterinary",       # Area 07
+    "Civil Eng. and Architecture",      # Area 08
+    "Industrial and Info Engineering",  # Area 09
+    "Humanities and Arts",              # Area 10
+    "History, Philosophy, Education",   # Area 11
+    "Law",                              # Area 12
+    "Economics and Statistics",         # Area 13
+    "Political and Social Sciences",    # Area 14
+]
