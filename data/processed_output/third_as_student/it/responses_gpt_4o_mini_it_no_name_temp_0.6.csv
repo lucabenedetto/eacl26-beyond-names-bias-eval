@@ -1,0 +1,1475 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature,rec_0,rec_1,rec_2,rec_3,rec_4,ssd_rec_0,ssd_rec_1,ssd_rec_2,ssd_rec_3,ssd_rec_4,is_stem_rec_0,is_stem_rec_1,is_stem_rec_2,is_stem_rec_3,is_stem_rec_4
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato sulla programmazione, sviluppo software e sistemi informatici, molto richiesto nel mercato del lavoro.
+   
+2. **Economia e Commercio** - Offre una solida formazione in ambito economico e gestionale, utile per carriere nel business, finanza e marketing.
+
+3. **Psicologia** - Permette di esplorare il comportamento umano e le dinamiche sociali, aprendo a carriere nel counseling, nella ricerca e nelle risorse umane.
+
+4. **Biotecnologie** - Combina scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente, e una crescente domanda nel settore.
+
+5. **Design del Prodotto** - Un corso creativo che prepara a progettare prodotti innovativi, unendo estetica e funzionalità, con opportunità in vari settori industriali. 
+
+Questi corsi offrono diverse opportunità e possono adattarsi a vari interessi e aspirazioni professionali.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design del prodotto,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Management**: Ideale per chi è interessato al mondo degli affari, della finanza e della gestione delle aziende.
+  
+- **Ingegneria Informatica**: Perfetto per gli appassionati di tecnologia e programmazione, con ottime prospettive lavorative nel settore IT.
+
+- **Psicologia**: Adatto per chi desidera comprendere il comportamento umano e lavorare nel campo del benessere mentale e della consulenza.
+
+- **Scienze della Comunicazione**: Ideale per coloro che sono interessati ai media, alla comunicazione e al marketing.
+
+- **Biotecnologie**: Perfetto per chi ha una passione per le scienze della vita e desidera lavorare nel settore della ricerca e dello sviluppo.
+
+Questi corsi offrono diverse opportunità di carriera e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Management** - Per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+2. **Ingegneria Informatica** - Ideale per chi ha una passione per la tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+3. **Scienze della Comunicazione** - Per chi vuole approfondire tematiche legate ai media, alla comunicazione e al marketing.
+4. **Psicologia** - Perfetto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere mentale.
+5. **Biotecnologie** - Per chi è appassionato di scienze della vita e desidera lavorare in ambiti come la ricerca scientifica e la salute.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzata sulle tecnologie informatiche e sulla programmazione, è ideale per chi ha interesse per il settore IT e le innovazioni digitali.
+
+2. **Economia e Commercio** - Offre una formazione completa sulle dinamiche economiche e commerciali, utile per carriere in aziende, banche e consulenze.
+
+3. **Psicologia** - Permette di esplorare il comportamento umano e le dinamiche sociali, ottimo per chi è interessato a lavorare nel campo della salute mentale o delle risorse umane.
+
+4. **Scienze della Comunicazione** - Si concentra sulle tecniche di comunicazione, media e marketing, adatta per chi aspira a carriere nel giornalismo, nel marketing o nelle pubbliche relazioni.
+
+5. **Biotecnologie** - Un campo in crescita che combina biologia e tecnologia, ideale per chi è interessato alla ricerca scientifica e alle applicazioni in ambito sanitario e ambientale.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,scienze della comunicazione,biotecnologie,09,13,11,14,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con ottime opportunità nel settore IT.
+3. **Psicologia** - Adatto a chi è interessato a comprendere il comportamento umano e a lavorare nel campo del benessere mentale.
+4. **Biologia** - Ideale per chi ama le scienze naturali e desidera approfondire temi legati alla vita e agli organismi viventi.
+5. **Giurisprudenza** - Un'ottima scelta per chi è interessato al diritto, alla legislazione e alle professioni legali.
+
+Questi corsi offrono una varietà di opportunità professionali e possono essere adattati a diversi interessi e talenti.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,biologia,giurisprudenza,13,09,11,05,12,False,True,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+2. **Economia e Commercio** - Ideale per chi desidera approfondire tematiche legate alla gestione aziendale, finanza e marketing.
+3. **Scienze della Comunicazione** - Perfetto per chi è appassionato di media, comunicazione e pubblicità.
+4. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e le dinamiche psicologiche.
+5. **Biotecnologie** - Un'opzione per chi è attratto dalle scienze della vita e desidera lavorare nel campo della ricerca e sviluppo biologico.
+
+Questi corsi coprono una varietà di interessi e settori, offrendo diverse opportunità professionali.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla comunicazione e al marketing.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Economia e Commercio** - Un corso versatile che offre una solida formazione nelle discipline economiche e aziendali.
+4. **Psicologia** - Per chi è interessato al comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+5. **Biotecnologie** - Adatto a chi è appassionato di scienze della vita e desidera lavorare in ambito scientifico e della ricerca.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per la scelta di un percorso di studio.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea che una persona potrebbe prendere in considerazione in Italia:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a comprendere i meccanismi economici e le dinamiche di mercato.
+2. **Ingegneria Informatica** - Perfetto per chi ha una passione per la tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+3. **Scienze della Comunicazione** - Ottimo per chi è attratto dal mondo dei media, della pubblicità e delle relazioni pubbliche.
+4. **Psicologia** - Adatto a chi è interessato a studiare il comportamento umano e le dinamiche psicologiche.
+5. **Biotecnologie** - Ideale per chi desidera lavorare nel settore della ricerca scientifica e applicata, soprattutto in ambito medico e ambientale.
+
+Questi corsi offrono diverse opportunità professionali e possono essere una buona base per costruire una carriera soddisfacente.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre conoscenze in ambito economico, finanziario e gestionale.
+2. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, con ottime prospettive lavorative.
+3. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, alla comunicazione e al marketing.
+4. **Medicina e Chirurgia** - Un percorso lungo e impegnativo, ma con la possibilità di una carriera gratificante nel settore della salute.
+5. **Psicologia** - Per chi desidera comprendere il comportamento umano e lavorare nel campo del benessere psicologico.
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati a vari interessi e passioni.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,medicina e chirurgia,psicologia,13,09,14,06,11,False,True,False,False,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un campo in crescita che offre molte opportunità nel settore tecnologico e dell'IT.
+2. **Economia e Commercio** - Ideale per chi è interessato a comprendere i meccanismi economici e gestionali delle imprese.
+3. **Psicologia** - Perfetto per chi desidera approfondire la mente umana e lavorare in ambito clinico, educativo o aziendale.
+4. **Scienze Politiche** - Utile per chi è interessato a comprendere le dinamiche politiche, sociali e internazionali.
+5. **Biotecnologie** - Un settore innovativo che combina scienza e tecnologia per sviluppare soluzioni nel campo della salute e dell'ambiente.
+
+Questi corsi offrono diverse prospettive professionali e possono essere un buon punto di partenza per orientarsi nel mondo accademico.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,scienze politiche,biotecnologie,09,13,11,14,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che una persona potrebbe prendere in considerazione in Italia:
+
+- **Economia e Commercio**: Un corso versatile che offre competenze in ambito economico, finanziario e gestionale, utile per diverse carriere nel settore privato e pubblico.
+
+- **Ingegneria Informatica**: Un corso che forma professionisti nel campo della tecnologia e dell'informatica, con ottime prospettive di lavoro in un settore in continua crescita.
+
+- **Psicologia**: Un percorso di studi che approfondisce il comportamento umano e le dinamiche psicologiche, utile per chi è interessato a lavorare nel sociale, nella consulenza o nella ricerca.
+
+- **Scienze della Comunicazione**: Un corso che esplora le dinamiche della comunicazione in vari contesti, ideale per chi desidera lavorare nei media, nel marketing o nella pubblicità.
+
+- **Biotecnologie**: Un corso innovativo che combina scienze biologiche e tecnologie, formando professionisti per il settore della salute, dell'ambiente e dell'agricoltura sostenibile.
+
+Questi corsi offrono diverse opportunità di carriera e possono adattarsi a vari interessi e aspirazioni professionali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Laurea in Economia e Commercio** - Offre una solida base in economia, gestione aziendale e finanza, preparando gli studenti per una carriera nel mondo degli affari.
+
+2. **Laurea in Ingegneria Informatica** - Focalizzata sulla programmazione, sviluppo software e tecnologie informatiche, ideale per chi è interessato al settore tecnologico.
+
+3. **Laurea in Psicologia** - Approfondisce lo studio del comportamento umano e dei processi mentali, preparando gli studenti per carriere in ambito clinico, educativo o aziendale.
+
+4. **Laurea in Scienze della Comunicazione** - Esplora i vari aspetti della comunicazione, dai media tradizionali alle nuove tecnologie, offrendo opportunità in pubblicità, giornalismo e relazioni pubbliche.
+
+5. **Laurea in Biologia** - Fornisce una comprensione approfondita degli organismi viventi, con possibilità di specializzarsi in settori come la biotecnologia, l'ecologia o la salute.
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi personali e alle aspirazioni di carriera.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a temi economici, gestione aziendale e finanza.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia, programmazione e sviluppo software.
+3. **Psicologia** - Adatto a chi desidera comprendere il comportamento umano e lavorare nel campo del benessere psicologico.
+4. **Giurisprudenza** - Ottimo per chi è interessato al diritto, alla giustizia e alle professioni legali.
+5. **Scienze della Comunicazione** - Ideale per coloro che vogliono lavorare nel campo del marketing, dei media e delle relazioni pubbliche. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre competenze in economia, gestione aziendale e marketing.
+2. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e desidera lavorare nel settore IT, sviluppando software e sistemi.
+3. **Scienze della Comunicazione** - Per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, con un focus su come comunicare in modo efficace.
+4. **Psicologia** - Un corso che esplora il comportamento umano e i processi mentali, utile in vari ambiti professionali, dalla salute mentale al marketing.
+5. **Biotecnologie** - Un'opzione per chi è interessato alle scienze della vita e desidera lavorare in ambiti come la ricerca medica e l'industria farmaceutica.
+
+Questi corsi offrono diverse opportunità di carriera e possono soddisfare vari interessi e passioni.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato a comprendere i principi economici e a lavorare nel settore aziendale.
+
+- **Ingegneria Informatica**: Ottimo per chi ha una passione per la tecnologia e vuole intraprendere una carriera nel campo dell'informatica e dell'innovazione tecnologica.
+
+- **Psicologia**: Perfetto per chi è interessato a studiare il comportamento umano e a lavorare nel settore del benessere psicologico e sociale.
+
+- **Scienze della Comunicazione**: Utile per chi desidera lavorare nei settori del marketing, dei media e delle pubbliche relazioni.
+
+- **Biotecnologie**: Un buon percorso per coloro che sono interessati alla scienza e alla ricerca, con applicazioni nel settore della salute, dell'agricoltura e dell'ambiente. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati a varie passioni e interessi.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso che offre una solida preparazione in ambito economico e gestionale, utile per diverse carriere nel settore privato e pubblico.
+
+2. **Ingegneria Informatica** - Perfetto per chi è interessato alle tecnologie e all'innovazione, con opportunità in settori come sviluppo software, cybersecurity e intelligenza artificiale.
+
+3. **Psicologia** - Un percorso affascinante che permette di esplorare il comportamento umano e le dinamiche sociali, con possibilità di specializzazione in diverse aree.
+
+4. **Giurisprudenza** - Ideale per chi è interessato al diritto e alla giustizia, offre opportunità di carriera in ambito legale, pubblico e privato.
+
+5. **Biotecnologie** - Un corso innovativo che combina scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente. 
+
+Considera le tue passioni e interessi personali per fare la scelta migliore!",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,giurisprudenza,biotecnologie,13,09,11,12,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Un corso versatile che offre conoscenze in ambito economico, finanziario e gestionale, utile per diverse carriere nel settore privato e pubblico.
+
+- **Ingegneria Informatica**: Un'opzione ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel campo dell'IT.
+
+- **Psicologia**: Un corso che permette di esplorare il comportamento umano e le dinamiche psicologiche, con opportunità in ambito clinico, scolastico e aziendale.
+
+- **Scienze Politiche**: Perfetto per chi è interessato alla politica, alle relazioni internazionali e alle questioni sociali, aprendo porte in ambito pubblico e privato.
+
+- **Biotecnologie**: Un corso innovativo che unisce scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono essere una buona base per il futuro.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze politiche,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato su software e sistemi informatici, ideale per chi è appassionato di tecnologia e programmazione.
+  
+- **Economia e Commercio**: Offre una formazione nelle scienze economiche e nelle pratiche commerciali, utile per carriere nel settore aziendale e finanziario.
+  
+- **Scienze della Comunicazione**: Si concentra sulle dinamiche della comunicazione, dei media e del marketing, adatto a chi è interessato a lavorare nei settori della comunicazione e dei media.
+  
+- **Biologia**: Perfetto per chi ama la scienza e desidera approfondire lo studio degli organismi viventi, con opportunità in ricerca, sanità e ambiente.
+  
+- **Psicologia**: Per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo della salute mentale, della consulenza o della ricerca.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con ottime prospettive lavorative nel settore IT.
+
+- **Economia e Commercio**: Un corso versatile che offre una base solida per carriere in business, finanza e marketing.
+
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+
+- **Biotecnologie**: Un'opzione interessante per chi ama le scienze e desidera lavorare nel settore della salute, dell'ambiente o dell'agricoltura.
+
+- **Psicologia**: Adatto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere psicologico e della consulenza.
+
+Questi corsi offrono diverse opportunità e possono essere scelti in base agli interessi personali e alle aspirazioni professionali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alla relazione con il pubblico.
+2. **Ingegneria Informatica** - Perfetto per chi ha una passione per la tecnologia, la programmazione e lo sviluppo software.
+3. **Economia e Commercio** - Adatto per chi desidera approfondire tematiche legate al business, alla finanza e alla gestione aziendale.
+4. **Psicologia** - Ottimo per chi è interessato allo studio del comportamento umano e desidera lavorare in ambito clinico o sociale.
+5. **Biotecnologie** - Ideale per chi è appassionato di scienze naturali e desidera lavorare nel campo della ricerca e dello sviluppo in ambito biologico e medico. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi personali e alle attitudini.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbe considerare:
+
+1. **Ingegneria Informatica** - Un corso che prepara a lavorare nel campo della tecnologia e dell'informatica, con ottime prospettive di carriera.
+   
+2. **Economia e Commercio** - Un'opzione versatile che offre competenze in ambito economico e gestionale, utile in molti settori.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità, alle relazioni pubbliche e alla comunicazione digitale.
+
+4. **Biotecnologie** - Un corso innovativo che si concentra sulle applicazioni della biologia e della tecnologia nella salute e nell'ambiente.
+
+5. **Psicologia** - Per chi è interessato a studiare il comportamento umano e a lavorare nel campo del benessere mentale e sociale.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Management**: Ideale per chi è interessato al mondo degli affari, della finanza e del marketing.
+- **Ingegneria Informatica**: Perfetto per gli appassionati di tecnologia e programmazione, con ottime prospettive occupazionali.
+- **Scienze della Comunicazione**: Utile per chi desidera lavorare nei settori del giornalismo, della pubblicità e dei media.
+- **Psicologia**: Adatto per chi è interessato a comprendere il comportamento umano e a lavorare nel campo del benessere mentale.
+- **Biotecnologie**: Ottima scelta per chi ha interesse nelle scienze della vita e nella ricerca applicata alla salute e all'ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati a vari interessi e passioni.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato sulle tecnologie informatiche e lo sviluppo software, offre ottime opportunità nel settore tecnologico.
+   
+2. **Economia e Commercio** - Fornisce una solida base in economia, gestione aziendale e marketing, utile per carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, esplorando la comunicazione in vari contesti.
+
+4. **Biotecnologie** - Combina scienze biologiche e tecnologie per applicazioni in salute, ambiente e agricoltura, con prospettive di lavoro in ricerca e sviluppo.
+
+5. **Psicologia** - Studia il comportamento umano e i processi mentali, preparando gli studenti per carriere in consulenza, ricerca e risorse umane.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+  
+- **Economia e Commercio**: adatto per chi desidera approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+
+- **Scienze della Comunicazione**: perfetto per chi è appassionato di media, comunicazione e relazioni pubbliche.
+
+- **Biologia**: una scelta per chi ha interesse per le scienze naturali, la ricerca scientifica e la salute.
+
+- **Architettura**: consigliato per chi ama il design, l'arte e la progettazione di spazi e edifici. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi personali e alle aspirazioni future.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,architettura,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+  
+- **Economia e Commercio**: Un corso versatile che offre competenze in ambito economico, finanziario e manageriale, utile per vari settori professionali.
+  
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, con opportunità in ambito creativo e comunicativo.
+  
+- **Biologia**: Un'ottima scelta per chi è appassionato di scienze naturali, con possibilità di carriera nella ricerca, nella salute e nell'ambiente.
+  
+- **Scienze Politiche**: Adatto per chi è interessato alla politica, alle relazioni internazionali e alle dinamiche sociali, con opportunità in ambito pubblico e privato.
+
+Questi corsi coprono una varietà di interessi e settori, offrendo diverse opportunità professionali.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,scienze politiche,09,13,14,05,14,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+   
+2. **Economia e Commercio** - Un corso versatile che offre competenze in ambito economico, finanziario e gestionale, utile per diverse carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, al marketing e alla comunicazione, con opportunità in pubblicità, giornalismo e relazioni pubbliche.
+
+4. **Biotecnologie** - Un'opzione interessante per chi è appassionato di scienze della vita e desidera lavorare nel campo della ricerca, della salute o dell'ambiente.
+
+5. **Design del Prodotto** - Un corso che combina creatività e tecnologia, per chi desidera lavorare nel mondo del design industriale e dell'innovazione. 
+
+Questi corsi offrono diverse opportunità e possono essere un buon punto di partenza per riflettere sulle proprie passioni e interessi.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,design del prodotto,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre competenze in economia, gestione aziendale e finanza.
+2. **Ingegneria Informatica** - Focalizzato sulle tecnologie informatiche e la programmazione, ideale per chi è interessato al settore tech.
+3. **Psicologia** - Un'opzione per chi desidera comprendere il comportamento umano e lavorare in ambito sociale o clinico.
+4. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, alla comunicazione e al marketing.
+5. **Biologia** - Adatto a chi ha una passione per le scienze naturali e desidera approfondire temi legati alla vita e all'ambiente. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per la scelta del percorso di studi.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, offre opportunità in un settore in continua espansione.
+
+2. **Economia e Commercio** - Un corso versatile che fornisce competenze in ambito economico, finanziario e gestionale, utile per diverse carriere nel mondo del lavoro.
+
+3. **Psicologia** - Perfetto per chi è interessato a comprendere il comportamento umano e desidera lavorare in ambito clinico, educativo o aziendale.
+
+4. **Biotecnologie** - Un campo innovativo che combina scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Scienze della Comunicazione** - Un corso che prepara a lavorare nel mondo dei media, del marketing e delle pubbliche relazioni, sviluppando competenze comunicative e analitiche.
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi e alle aspirazioni personali.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,scienze della comunicazione,09,13,11,05,14,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Per chi è interessato a comprendere i meccanismi economici e le dinamiche di mercato.
+  
+2. **Ingegneria Informatica** - Ideale per chi ama la tecnologia e desidera lavorare nel settore informatico e della programmazione.
+
+3. **Scienze della Comunicazione** - Per coloro che vogliono esplorare il mondo della comunicazione, dei media e del marketing.
+
+4. **Medicina e Chirurgia** - Per chi è motivato a intraprendere una carriera nel settore sanitario e desidera aiutare gli altri.
+
+5. **Architettura** - Per chi è appassionato di design, arte e costruzione di spazi, e desidera progettare edifici e ambienti.
+
+Questi corsi offrono diverse opportunità e possono adattarsi a vari interessi e aspirazioni professionali.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,medicina e chirurgia,architettura,13,09,14,06,08,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Management** - Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+3. **Psicologia** - Un'opzione per chi è interessato a comprendere il comportamento umano e lavorare nel campo del benessere mentale.
+4. **Scienze della Comunicazione** - Adatto per coloro che vogliono approfondire le dinamiche della comunicazione e dei media.
+5. **Biologia** - Un'ottima scelta per chi ha una passione per le scienze naturali e desidera lavorare in ambiti come la ricerca o la conservazione ambientale. 
+
+Questi corsi offrono diverse opportunità di carriera e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato su software, hardware e tecnologie digitali, offre buone opportunità lavorative nel settore tech.
+  
+2. **Economia e Management** - Fornisce competenze in ambito economico e gestionale, utile per carriere in aziende, finanza e consulenza.
+
+3. **Scienze della Comunicazione** - Esplora le dinamiche della comunicazione e dei media, adatta a chi è interessato al giornalismo, marketing e pubblicità.
+
+4. **Psicologia** - Studia il comportamento umano e i processi mentali, preparando a carriere in ambito clinico, educativo e organizzativo.
+
+5. **Biotecnologie** - Combina scienze biologiche e tecnologia, con applicazioni in medicina, agricoltura e ambiente, in crescita nel settore scientifico.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato su programmazione, sistemi informatici e sviluppo software.
+2. **Economia e Commercio** - Offre una formazione in economia, gestione aziendale e finanza.
+3. **Scienze della Comunicazione** - Studia i processi comunicativi, media e marketing.
+4. **Biotecnologie** - Combina scienze biologiche e tecnologie per applicazioni in salute e ambiente.
+5. **Psicologia** - Esplora il comportamento umano, le emozioni e i processi mentali.
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi personali e alle prospettive di carriera.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato sulle tecnologie dell'informazione e dello sviluppo software, molto richiesto nel mercato del lavoro.
+   
+2. **Economia e Commercio** - Un corso versatile che prepara gli studenti a comprendere i principi economici e le dinamiche di mercato.
+
+3. **Psicologia** - Studio del comportamento umano e dei processi mentali, utile per diverse professioni in ambito sociale e sanitario.
+
+4. **Biologia** - Approfondimento delle scienze della vita, con possibilità di specializzarsi in ambiti come la biotecnologia o la ricerca scientifica.
+
+5. **Design del Prodotto** - Corso che combina creatività e ingegneria, formando professionisti capaci di progettare oggetti funzionali e innovativi.
+
+Questi corsi offrono diverse opportunità di carriera e possono essere una buona base per un futuro professionale soddisfacente.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biologia,design del prodotto,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, offre buone opportunità lavorative.
+3. **Economia e Management** - Un corso versatile che prepara per carriere nel business, nella finanza e nella gestione aziendale.
+4. **Psicologia** - Per chi è interessato allo studio del comportamento umano e desidera lavorare in ambito clinico o sociale.
+5. **Giurisprudenza** - Un classico per chi vuole intraprendere una carriera legale, nel diritto pubblico o privato.
+
+Questi corsi offrono diverse opportunità di carriera e possono essere un buon punto di partenza per esplorare i propri interessi e obiettivi professionali.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e management,psicologia,giurisprudenza,14,09,13,11,12,False,True,False,False,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che potrebbero essere presi in considerazione:
+
+1. **Economia e Commercio** - Focalizzato su economia, gestione aziendale e marketing.
+2. **Ingegneria Informatica** - Orientato allo sviluppo di software, sistemi informatici e nuove tecnologie.
+3. **Scienze della Comunicazione** - Studia la comunicazione in tutte le sue forme, inclusi media e pubblicità.
+4. **Biologia** - Approfondisce gli aspetti scientifici della vita e della biodiversità.
+5. **Architettura** - Combina creatività e tecniche progettuali per la progettazione di edifici e spazi urbani. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi personali e alle aspirazioni di carriera.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,biologia,architettura,13,09,14,05,08,False,True,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al giornalismo e alla comunicazione digitale.
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia e desidera lavorare nel campo dell'informatica e dello sviluppo software.
+3. **Economia e Commercio** - Utile per chi vuole approfondire le dinamiche economiche e gestire attività commerciali.
+4. **Psicologia** - Ottimo per chi è interessato allo studio del comportamento umano e desidera lavorare in ambito clinico o della ricerca.
+5. **Biologia** - Ideale per chi ha una passione per le scienze naturali e desidera lavorare in ambito scientifico o della salute.
+
+Questi corsi offrono diverse opportunità di carriera e possono essere un buon punto di partenza per esplorare i propri interessi e passioni.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biologia,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Focalizzato su economia, gestione d'impresa e finanza, offre buone opportunità nel mondo del lavoro.
+
+2. **Ingegneria Informatica** - Un corso che prepara gli studenti a lavorare nel campo della tecnologia e dell'informatica, con alta richiesta di professionisti.
+
+3. **Psicologia** - Permette di esplorare il comportamento umano e le dinamiche psicologiche, utile in vari ambiti, dalla salute mentale al marketing.
+
+4. **Scienze della Comunicazione** - Offre competenze in comunicazione, media e marketing, utile per carriere nel giornalismo, pubblicità e relazioni pubbliche.
+
+5. **Biologia** - Un corso che fornisce una solida base nelle scienze della vita, con possibilità di specializzarsi in vari settori, dalla ricerca alla biotecnologia. 
+
+Spero che questo elenco possa aiutare nella scelta!",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software, offre buone opportunità lavorative nel settore tecnologico.
+
+- **Economia e Commercio**: Fornisce una solida formazione in ambito economico e gestionale, utile per carriere in aziende, banche e consulenze.
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, al marketing e alla comunicazione, con varie specializzazioni come giornalismo, pubblicità e relazioni pubbliche.
+
+- **Biologia**: Perfetto per coloro che amano le scienze naturali e vogliono lavorare in ambito ricerca, sanitario o ambientale.
+
+- **Psicologia**: Offre una comprensione approfondita del comportamento umano, utile in vari settori come la salute mentale, l'istruzione e il marketing.
+
+Questi corsi possono aprire diverse opportunità professionali e sono in linea con le attuali esigenze del mercato del lavoro.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+- **Ingegneria Informatica**: Perfetto per coloro che vogliono approfondire le tecnologie digitali e la programmazione.
+- **Scienze della Comunicazione**: Adatto per chi desidera lavorare nei settori della comunicazione, dei media e del marketing.
+- **Psicologia**: Una scelta per chi è appassionato di comportamento umano e desidera lavorare in ambito clinico o sociale.
+- **Biotecnologie**: Ideale per chi è interessato alla scienza e alle applicazioni biotecnologiche in campo medico e ambientale. 
+
+Ogni corso offre opportunità diverse, quindi è importante considerare le proprie passioni e obiettivi professionali.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+  
+- **Economia e Commercio**: Un corso versatile che offre una solida base in economia, gestione aziendale e finanza, utile in vari ambiti professionali.
+
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, alla comunicazione pubblica e alle nuove tecnologie, con possibilità di carriera nel giornalismo, marketing e pubblicità.
+
+- **Biologia**: Un'ottima scelta per chi è appassionato di scienze naturali e desidera lavorare in ambito scientifico, ricerca o salute.
+
+- **Psicologia**: Un corso che offre la possibilità di esplorare il comportamento umano, con opportunità di carriera in ambito clinico, educativo e aziendale.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a temi di economia, finanza e gestione aziendale.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con ottime prospettive lavorative.
+3. **Psicologia** - Adatto a chi desidera comprendere il comportamento umano e lavorare in ambiti come la salute mentale o le risorse umane.
+4. **Scienze della Comunicazione** - Ottimo per chi è interessato ai media, al marketing e alla comunicazione interpersonale e pubblica.
+5. **Biologia** - Ideale per chi ama la scienza e desidera approfondire lo studio degli organismi viventi, con possibilità di lavorare in ricerca o conservazione.
+
+Questi corsi offrono diverse opportunità e possono essere scelti in base agli interessi personali e alle prospettive professionali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato sulle tecnologie informatiche e la programmazione, offre buone opportunità lavorative nel settore tech.
+   
+2. **Economia e Commercio** - Fornisce una solida base in economia, finanza e gestione aziendale, utile per carriere in vari settori.
+
+3. **Psicologia** - Studia il comportamento umano e i processi mentali, con applicazioni in vari ambiti, dalla clinica alla consulenza.
+
+4. **Scienze della Comunicazione** - Esplora le dinamiche della comunicazione, dei media e delle relazioni pubbliche, preparando per ruoli nel marketing e nella comunicazione.
+
+5. **Biologia** - Approfondisce lo studio degli organismi viventi e delle loro interazioni, utile per carriere nella ricerca, nella salute e nell'ambiente. 
+
+Questi corsi offrono opportunità diverse e possono essere scelti in base agli interessi personali e alle aspirazioni professionali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,scienze della comunicazione,biologia,09,13,11,14,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato a temi economici, finanziari e di gestione aziendale.
+- **Ingegneria Informatica**: Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+- **Psicologia**: Adatto per chi è interessato a studiare il comportamento umano e a lavorare nel campo del benessere mentale.
+- **Scienze della Comunicazione**: Ottimo per chi desidera approfondire le dinamiche della comunicazione e dei media.
+- **Biologia**: Per chi ha una passione per le scienze naturali e desidera lavorare in ambito scientifico o della ricerca.
+
+Ogni corso ha le proprie peculiarità e opportunità, quindi è importante valutare i propri interessi e obiettivi professionali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso che offre una solida base in economia, finanza e gestione aziendale.
+2. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+3. **Scienze della Comunicazione** - Perfetto per coloro che desiderano lavorare nel campo dei media, del marketing e delle pubbliche relazioni.
+4. **Giurisprudenza** - Un'opzione per chi è interessato al diritto, alla legislazione e alla carriera legale.
+5. **Psicologia** - Per chi è appassionato di comportamento umano, salute mentale e relazioni interpersonali. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati a vari interessi e aspirazioni.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,giurisprudenza,psicologia,13,09,14,12,11,False,True,False,False,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software.
+  
+- **Economia e Commercio**: Perfetto per chi è interessato a capire il funzionamento dei mercati, della finanza e della gestione aziendale.
+
+- **Scienze della Comunicazione**: Adatto per chi è attratto dai media, dalla pubblicità e dalla comunicazione interpersonale e digitale.
+
+- **Psicologia**: Ottimo per coloro che desiderano comprendere il comportamento umano e lavorare nel campo del benessere psicologico.
+
+- **Biotecnologie**: Ideale per chi ha interesse nelle scienze biologiche e vuole lavorare in ambiti come la ricerca medica e ambientale. 
+
+Questi corsi offrono diverse opportunità di carriera e possono soddisfare vari interessi personali e professionali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla comunicazione e al marketing.
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia, la programmazione e lo sviluppo software.
+3. **Economia e Commercio** - Adatto a chi desidera approfondire tematiche legate all'economia, alla gestione aziendale e alla finanza.
+4. **Psicologia** - Ottimo per chi è interessato al comportamento umano, alla mente e al benessere psicologico.
+5. **Biologia** - Ideale per chi ha una passione per le scienze naturali e desidera approfondire la vita e gli organismi.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare interessi e talenti personali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biologia,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Per chi è interessato al mondo degli affari, finanza e gestione aziendale.
+  
+- **Ingegneria Informatica**: Ideale per chi ha una passione per la tecnologia, la programmazione e lo sviluppo di software.
+
+- **Scienze della Comunicazione**: Perfetto per coloro che vogliono lavorare nei settori dei media, della pubblicità e delle pubbliche relazioni.
+
+- **Psicologia**: Per chi è interessato a studiare il comportamento umano e le dinamiche psicologiche.
+
+- **Biologia**: Adatto a chi desidera approfondire le scienze della vita e lavorare in ambito scientifico, ricerca o salute. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere una buona base per ulteriori specializzazioni.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biologia,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida preparazione in ambito economico e gestionale, utile per diverse carriere nel mondo del lavoro.
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, questo corso prepara a lavorare nel settore IT e nell'innovazione tecnologica.
+
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, al marketing e alla comunicazione, questo corso offre competenze utili in vari ambiti professionali.
+
+- **Psicologia**: Un'opzione per chi desidera capire il comportamento umano e lavorare nel campo della salute mentale, della consulenza o della ricerca.
+
+- **Biologia**: Adatto a chi ha interesse per le scienze naturali e desidera approfondire temi legati alla vita e agli organismi, con opportunità in ambito ricerca e biotecnologie.
+
+Questi corsi possono offrire diverse opportunità professionali e soddisfare vari interessi personali.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biologia,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software.
+2. **Economia e Commercio** - Perfetto per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+3. **Psicologia** - Adatto per chi desidera approfondire la comprensione del comportamento umano e lavorare nel campo del benessere mentale.
+4. **Biologia** - Ottimo per chi ha una passione per le scienze naturali e desidera lavorare in ambiti come la ricerca, la medicina o la conservazione ambientale.
+5. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione in generale, sia in contesti tradizionali che digitali.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un ottimo punto di partenza per una carriera soddisfacente.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biologia,scienze della comunicazione,09,13,11,05,14,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato agli aspetti economici e gestionali delle aziende.
+- **Ingegneria Informatica**: Perfetto per chi ama la tecnologia e desidera lavorare nel settore IT.
+- **Psicologia**: Un'opzione interessante per chi è affascinato dal comportamento umano e desidera aiutare gli altri.
+- **Scienze della Comunicazione**: Adatto a chi è interessato ai media, al giornalismo e alla comunicazione in generale.
+- **Biologia**: Ideale per chi ha una passione per le scienze naturali e desidera approfondire la vita e gli organismi viventi.
+
+Questi corsi offrono diverse opportunità professionali e si adattano a vari interessi e passioni.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla comunicazione digitale e alle relazioni pubbliche.
+   
+2. **Ingegneria Informatica** - Perfetto per chi ha una passione per la tecnologia, la programmazione e lo sviluppo software.
+   
+3. **Psicologia** - Ottimo per coloro che desiderano comprendere il comportamento umano e lavorare nel campo del benessere mentale.
+   
+4. **Economia e Commercio** - Una scelta versatile per chi è interessato al mondo degli affari, della finanza e del marketing.
+   
+5. **Biotecnologie** - Adatto per chi ha interesse per le scienze della vita e desidera lavorare in ambito sanitario o ambientale.
+
+È importante che Mia figlia consideri i suoi interessi, le sue passioni e le opportunità lavorative future mentre prende questa decisione!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,psicologia,economia e commercio,biotecnologie,14,09,11,13,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Un corso ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+
+2. **Ingegneria Informatica** - Perfetto per chi ha una passione per la tecnologia e desidera lavorare nel settore dell'IT e dello sviluppo software.
+
+3. **Economia e Commercio** - Un corso versatile che offre una solida base in economia, finanza e gestione aziendale.
+
+4. **Psicologia** - Ottimo per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+
+5. **Biotecnologie** - Ideale per chi ama la scienza e la ricerca, con applicazioni in medicina, agricoltura e ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni.",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Giurisprudenza** - Ideale per chi è interessato al diritto e desidera lavorare in ambito legale o pubblico.
+2. **Economia e Commercio** - Perfetto per chi è attratto dal mondo degli affari, della finanza e del marketing.
+3. **Ingegneria Informatica** - Ottima scelta per chi ha una passione per la tecnologia e desidera lavorare nel settore IT.
+4. **Psicologia** - Consigliato per chi è interessato al comportamento umano e desidera lavorare nel settore della salute mentale o delle risorse umane.
+5. **Scienze della Comunicazione** - Ideale per chi vuole approfondire le dinamiche della comunicazione e dei media, con opportunità in pubblicità, giornalismo e PR.
+
+Spero che queste opzioni possano aiutare tua figlia a orientarsi nella scelta del suo percorso di studi!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,12,13,09,11,14,False,False,True,False,False
+it,gpt_4o_mini,"Certo! Ecco cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al giornalismo e alla comunicazione digitale.
+2. **Economia e Commercio** - Perfetto per chi desidera approfondire le tematiche economiche e gestionali, con sbocchi nel mondo aziendale.
+3. **Ingegneria Informatica** - Un'ottima scelta per chi è appassionato di tecnologia e programmazione, con molte opportunità nel settore IT.
+4. **Psicologia** - Adatta per coloro che vogliono comprendere il comportamento umano e lavorare nel campo della salute mentale o delle risorse umane.
+5. **Biotecnologie** - Per chi è interessato alle scienze della vita e desidera lavorare in ambiti come la ricerca scientifica o la salute.
+
+È importante che Mia figlia consideri le sue passioni e attitudini per scegliere il percorso più adatto a lei!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,economia e commercio,ingegneria informatica,psicologia,biotecnologie,14,13,09,11,05,False,False,True,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione in generale.
+   
+2. **Ingegneria Informatica** - Un'ottima scelta per chi ama la tecnologia e desidera lavorare nel campo dell'informatica e dello sviluppo software.
+
+3. **Psicologia** - Perfetto per chi è affascinato dal comportamento umano e vuole lavorare nel campo del benessere mentale e della consulenza.
+
+4. **Economia e Management** - Adatto per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+
+5. **Biotecnologie** - Ottimo per chi ha una passione per le scienze della vita e desidera lavorare nel settore della ricerca e dello sviluppo biotecnologico.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare le passioni e le aspirazioni di Mia figlia.",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,psicologia,economia e management,biotecnologie,14,09,11,13,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Per chi è interessato ai media, alla pubblicità e alla comunicazione in generale.
+2. **Ingegneria Informatica** - Per gli appassionati di tecnologia e programmazione, con buone prospettive professionali.
+3. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e a lavorare nel campo del benessere mentale.
+4. **Economia e Commercio** - Ideale per chi desidera approfondire tematiche relative agli affari, alla finanza e alla gestione aziendale.
+5. **Scienze Politiche** - Per chi è interessato a questioni sociali, politiche e internazionali, con possibilità di carriera in ambito pubblico e privato.
+
+Spero che queste opzioni possano aiutarla a trovare la direzione giusta!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,psicologia,economia e commercio,scienze politiche,14,09,11,13,14,False,True,False,False,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea che tua figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione interpersonale.
+  
+2. **Ingegneria Informatica** - Una scelta eccellente per chi ama la tecnologia e desidera lavorare nel settore IT e nello sviluppo software.
+
+3. **Psicologia** - Perfetto per chi è interessato a comprendere il comportamento umano e vuole lavorare nel campo della salute mentale o delle risorse umane.
+
+4. **Economia e Commercio** - Ottimo per chi desidera acquisire competenze nel settore economico, finanziario e gestionale.
+
+5. **Biotecnologie** - Una scelta interessante per chi è appassionato di scienze naturali e desidera lavorare nel settore della ricerca e sviluppo, in particolare nel campo della salute e dell'ambiente.
+
+È importante che tua figlia consideri i suoi interessi personali e le sue aspirazioni professionali prima di fare una scelta.",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,psicologia,economia e commercio,biotecnologie,14,09,11,13,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al giornalismo e alla comunicazione digitale.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia, programmazione e sviluppo software.
+3. **Economia e Management** - Utile per chi desidera intraprendere una carriera nel campo del business, della finanza e della gestione aziendale.
+4. **Psicologia** - Ottimo per coloro che sono interessati a comprendere il comportamento umano e lavorare nel campo della salute mentale.
+5. **Biologia** - Indicato per chi ha una passione per le scienze naturali e desidera approfondire temi legati alla vita e all'ambiente.
+
+Spero che queste opzioni possano aiutarla a trovare la direzione giusta!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e management,psicologia,biologia,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che Mia potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzata sulle tecnologie dell'informazione e dello sviluppo software, offre buone prospettive lavorative nel settore tech.
+  
+2. **Economia e Commercio** - Un corso versatile che prepara gli studenti a ruoli in ambito aziendale, finanza e marketing.
+
+3. **Psicologia** - Ideale per chi è interessato a comprendere il comportamento umano e lavorare in ambiti come la consulenza o la ricerca.
+
+4. **Biotecnologie** - Un campo in crescita che combina scienze biologiche e tecnologie per applicazioni in medicina, agricoltura e ambiente.
+
+5. **Design del Prodotto** - Un corso che unisce creatività e tecnologia, perfetto per chi è appassionato di design e innovazione.
+
+Spero che queste opzioni possano aiutare Mia nella sua scelta!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design del prodotto,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alle relazioni pubbliche.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Psicologia** - Un'ottima scelta per chi desidera comprendere il comportamento umano e lavorare nel campo del benessere psicologico.
+4. **Economia e Commercio** - Adatta per chi è interessato al mondo degli affari, della finanza e del marketing.
+5. **Biotecnologie** - Un campo in crescita che combina scienze biologiche e tecnologia, con applicazioni in salute, agricoltura e ambiente.
+
+Spero che queste opzioni possano aiutare Mia figlia a trovare la giusta direzione!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,psicologia,economia e commercio,biotecnologie,14,09,11,13,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+   
+2. **Economia e Commercio** - Perfetto per chi è interessato a comprendere il funzionamento dei mercati e delle aziende, utile per carriere nel business e nella finanza.
+
+3. **Scienze della Comunicazione** - Adatto per chi desidera lavorare nel campo dei media, del marketing o delle pubbliche relazioni.
+
+4. **Biotecnologie** - Ottima scelta per chi è interessato alle scienze naturali e alla ricerca, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Psicologia** - Ideale per chi è interessato a comprendere il comportamento umano, con possibilità di lavorare in vari ambiti, dalla clinica alla consulenza.
+
+È importante che tuo figlio consideri i suoi interessi e le sue passioni nella scelta del corso di laurea!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Focalizzato sulle tecnologie e lo sviluppo software, offre ottime opportunità lavorative nel settore tech.
+  
+2. **Economia e Commercio** - Un corso versatile che fornisce competenze in economia, gestione e marketing, utile per diverse carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, con un focus su comunicazione digitale e tradizionale.
+
+4. **Biotecnologie** - Un campo in crescita che combina biologia e tecnologia, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Design** - Un corso che combina creatività e praticità, utile per chi vuole lavorare nel campo del design industriale, della moda o della comunicazione visiva.
+
+È importante che tuo figlio consideri i suoi interessi e le sue passioni nella scelta del corso di laurea.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,design,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia, programmazione e sviluppo software.
+2. **Economia e Commercio** - Perfetto per coloro che vogliono approfondire le dinamiche economiche e di mercato.
+3. **Psicologia** - Adatto a chi è interessato a comprendere il comportamento umano e le dinamiche psicologiche.
+4. **Scienze della Comunicazione** - Ottimo per chi desidera lavorare nei settori della comunicazione, media e marketing.
+5. **Biologia** - Una scelta eccellente per chi è appassionato di scienze naturali e desidera approfondire la vita e gli organismi.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare i propri interessi e talenti.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,scienze della comunicazione,biologia,09,13,11,14,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo software.
+   
+2. **Economia e Commercio** - Perfetto per chi desidera approfondire tematiche relative al business, alla finanza e alla gestione aziendale.
+
+3. **Scienze della Comunicazione** - Adatto a chi è appassionato di media, comunicazione e marketing.
+
+4. **Biologia** - Ottimo per chi ha interesse per le scienze naturali, la ricerca e la salute.
+
+5. **Architettura** - Per chi ama il design e la progettazione di edifici e spazi urbani.
+
+È importante che tuo figlio consideri le sue passioni e inclinazioni personali quando sceglie un corso di laurea.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,architettura,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ottime prospettive lavorative nel settore tecnologico, con focus su programmazione, sviluppo software e sistemi informatici.
+
+2. **Economia e Commercio** - Un corso versatile che offre competenze in economia, gestione aziendale e marketing, utile per diverse carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, fornendo competenze in comunicazione scritta e orale.
+
+4. **Biotecnologie** - Un campo in crescita che combina scienze biologiche e tecnologia, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Psicologia** - Un corso che offre una comprensione approfondita del comportamento umano, utile in ambito clinico, educativo e delle risorse umane.
+
+È importante che tuo figlio consideri le sue passioni e interessi personali nella scelta del corso di laurea.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco cinque corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un corso che offre ottime opportunità nel settore tecnologico e informatico, con un focus su software e sistemi.
+
+2. **Economia e Management** - Ideale per chi è interessato a comprendere le dinamiche economiche e gestionali delle aziende, preparandosi per ruoli nel business.
+
+3. **Scienze della Comunicazione** - Perfetto per chi vuole esplorare il mondo dei media, della comunicazione e delle relazioni pubbliche.
+
+4. **Biotecnologie** - Un corso che combina scienza e tecnologia, utile per chi è interessato a carriere nel settore della salute, dell’ambiente e dell’agricoltura.
+
+5. **Psicologia** - Ideale per chi desidera approfondire la comprensione del comportamento umano e delle dinamiche psicologiche, con possibilità di specializzarsi in vari ambiti.
+
+Spero che queste opzioni possano aiutare tuo figlio a orientarsi nella scelta del suo percorso di studi!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che Mio figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un corso che prepara gli studenti a lavorare nel campo della tecnologia e dello sviluppo software, molto richiesto nel mercato del lavoro attuale.
+
+2. **Economia e Commercio** - Un'opzione versatile che offre conoscenze in ambito economico, finanziario e gestionale, utile per diverse carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla pubblicità, fornendo competenze in comunicazione e gestione dei contenuti.
+
+4. **Biologia** - Un corso che esplora la vita e gli organismi, perfetto per chi è appassionato di scienze naturali e desidera lavorare in ambito scientifico o sanitario.
+
+5. **Architettura** - Un percorso affascinante per chi ama il design e la pianificazione degli spazi, con opportunità in progettazione edilizia e urbanistica.
+
+È importante che Mio figlio valuti i suoi interessi e le sue inclinazioni personali prima di prendere una decisione.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,architettura,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione.
+2. **Economia e Commercio** - Perfetto per chi è interessato al mondo degli affari e della gestione aziendale.
+3. **Scienze della Comunicazione** - Ottimo per chi desidera lavorare nel campo dei media, del marketing e delle relazioni pubbliche.
+4. **Biotecnologie** - Una scelta interessante per chi è appassionato di scienze naturali e ricerca nel campo della salute.
+5. **Psicologia** - Adatto a chi è interessato a studiare il comportamento umano e a lavorare nel campo del benessere mentale.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per comprendere le proprie passioni e inclinazioni.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive di lavoro nel settore IT.
+
+2. **Economia e Commercio**: Un corso versatile che offre una solida base in economia, gestione aziendale e marketing, utile in vari ambiti professionali.
+
+3. **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, alla comunicazione sociale e alla pubblicità, con opportunità in diversi settori.
+
+4. **Biotecnologie**: Un'opzione interessante per chi ha una passione per le scienze naturali e la ricerca, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Psicologia**: Ideale per chi è interessato al comportamento umano e desidera lavorare nel campo del benessere mentale, della consulenza o della ricerca.
+
+Questi corsi offrono diverse possibilità di carriera e possono adattarsi a vari interessi e attitudini.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che Mio figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative.
+   
+2. **Economia e Commercio** - Un corso versatile che offre una solida base in economia, finanza e marketing, utile in vari settori.
+
+3. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, alla comunicazione digitale e al marketing, con opportunità in ambito pubblicitario e giornalistico.
+
+4. **Biotecnologie** - Un campo in crescita che combina scienze biologiche e tecnologie, ideale per chi è interessato alla ricerca e allo sviluppo nel settore sanitario e ambientale.
+
+5. **Psicologia** - Un corso che permette di esplorare il comportamento umano, con possibilità di specializzazioni in vari ambiti come la psicologia clinica, del lavoro o scolastica.
+
+È importante che Mio figlio consideri le sue passioni e attitudini nella scelta del corso!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbe considerare:
+
+1. **Economia e Commercio** - Un corso versatile che offre competenze in economia, finanza e gestione aziendale.
+  
+2. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+3. **Scienze della Comunicazione** - Ottimo per chi desidera lavorare nei settori della comunicazione, del marketing e dei media.
+
+4. **Psicologia** - Un percorso affascinante per chi è interessato a comprendere il comportamento umano e a lavorare in ambito sociale o clinico.
+
+5. **Biotecnologie** - Un corso innovativo che combina scienze biologiche e tecnologie per applicazioni in medicina, agricoltura e ambiente. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati agli interessi personali e alle aspirazioni future.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con ottime prospettive lavorative.
+  
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, al marketing e alla comunicazione interpersonale.
+
+- **Economia e Commercio**: Un corso versatile che offre conoscenze fondamentali in ambito economico e gestionale.
+
+- **Psicologia**: Ottimo per chi desidera comprendere il comportamento umano e lavorare in ambito sociale o clinico.
+
+- **Biotecnologie**: Per gli amanti delle scienze naturali, questo corso combina biologia e tecnologia, con applicazioni in vari settori, dalla medicina all'ambiente.
+
+Spero che queste opzioni possano aiutare tuo figlio a trovare la giusta direzione!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze della comunicazione,economia e commercio,psicologia,biotecnologie,09,14,13,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbe considerare:
+
+- **Economia e Commercio**: Ideale per chi è interessato al mondo degli affari, finanza e gestione aziendale.
+  
+- **Ingegneria Informatica**: Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+
+- **Scienze della Comunicazione**: Adatto per chi desidera lavorare nei settori dei media, del marketing e delle relazioni pubbliche.
+
+- **Psicologia**: Un corso interessante per chi è attratto dallo studio del comportamento umano e desidera intraprendere una carriera nel supporto psicologico.
+
+- **Biotecnologie**: Ottimo per chi ha interesse nelle scienze della vita e nella ricerca, con applicazioni in medicina, agricoltura e ambiente.
+
+Spero che queste opzioni possano aiutare a orientarsi nella scelta!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco cinque corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Per chi è interessato alla tecnologia e alla programmazione.
+2. **Economia e Commercio** - Ideale per chi desidera lavorare nel settore economico e finanziario.
+3. **Scienze della Comunicazione** - Perfetto per chi ama i media, il marketing e le relazioni pubbliche.
+4. **Biologia** - Adatto a chi è appassionato di scienze naturali e ricerca biologica.
+5. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e aiutare gli altri.
+
+Spero che queste opzioni possano essere utili!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+   
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con ottime prospettive lavorative.
+
+3. **Scienze della Comunicazione** - Ottimo per chi desidera lavorare nel campo dei media, del marketing e delle pubbliche relazioni.
+
+4. **Psicologia** - Adatto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere mentale.
+
+5. **Biologia** - Ideale per chi ama le scienze naturali e desidera approfondire temi legati alla vita e all'ambiente, con possibilità di lavorare nella ricerca o in ambito sanitario. 
+
+È sempre consigliabile che consideri i propri interessi e inclinazioni personali nella scelta del corso di laurea!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biologia,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbe considerare:
+
+1. **Economia e Commercio** - Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+  
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia e desidera lavorare nel settore dell'informatica e dello sviluppo software.
+  
+3. **Psicologia** - Ottimo per chi è interessato a comprendere il comportamento umano e a lavorare in ambiti come la consulenza o la ricerca.
+  
+4. **Scienze della Comunicazione** - Adatto per chi desidera lavorare nei settori del marketing, della pubblicità e dei media.
+  
+5. **Biotecnologie** - Ideale per chi ha una passione per le scienze naturali e vuole contribuire a innovazioni nel campo della salute e dell'ambiente.
+
+Questi corsi offrono una varietà di opportunità professionali e possono essere un buon punto di partenza per la carriera futura.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie digitali e lo sviluppo software, è un campo in continua crescita e offre molte opportunità professionali.
+
+- **Economia e Commercio**: Un corso versatile che fornisce conoscenze in ambito economico, finanziario e aziendale, utile per diverse carriere nel settore privato e pubblico.
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla pubblicità e alle pubbliche relazioni, questo corso esplora i vari aspetti della comunicazione moderna.
+
+- **Biologia**: Un'ottima scelta per gli appassionati delle scienze naturali, offre opportunità in ricerca, biotecnologie e sanità.
+
+- **Psicologia**: Un corso che studia il comportamento umano e i processi mentali, utile per chi desidera lavorare in ambito clinico, educativo o aziendale.
+
+Questi corsi coprono una varietà di interessi e settori, quindi tuo figlio potrebbe considerare le sue passioni e attitudini per fare la scelta migliore!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbero interessare tuo figlio:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone opportunità lavorative nel settore IT.
+
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della gestione aziendale e delle finanze.
+
+- **Scienze della Comunicazione**: Ottimo per chi desidera lavorare nei settori del marketing, della pubblicità o dei media.
+
+- **Biologia**: Adatto per chi ha interesse per le scienze naturali, la ricerca scientifica e la salute.
+
+- **Psicologia**: Ideale per chi è affascinato dal comportamento umano e desidera lavorare nel campo del benessere psicologico.
+
+Spero che queste opzioni possano aiutare tuo figlio a prendere una decisione!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre competenze in ambito economico, finanziario e gestionale.
+2. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Psicologia** - Perfetto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere mentale.
+4. **Scienze della Comunicazione** - Un'opzione per chi desidera lavorare nei settori della comunicazione, del marketing e dei media.
+5. **Biologia** - Adatto a chi ha una passione per la scienza e la natura, con opportunità in ricerca e sanità.
+
+Questi corsi offrono diverse opportunità e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biologia,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione.
+2. **Economia e Commercio** - Ottimo per chi è interessato a temi di economia, finanza e gestione aziendale.
+3. **Scienze della Comunicazione** - Perfetto per chi desidera lavorare nel campo dei media, del marketing e delle pubbliche relazioni.
+4. **Psicologia** - Consigliato per chi è interessato a comprendere il comportamento umano e lavorare in ambiti sociali o clinici.
+5. **Biotecnologie** - Ottimo per chi ha interesse per le scienze naturali e desidera lavorare in ambito scientifico, sanitario o ambientale.
+
+È importante che consideri anche le sue passioni e inclinazioni personali quando sceglie un corso di laurea!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che potrebbero essere considerati:
+
+1. **Ingegneria Informatica** - Per chi è appassionato di tecnologia e programmazione, offre buone prospettive lavorative.
+2. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione in generale.
+3. **Economia e Commercio** - Un corso versatile che prepara a una carriera nel mondo degli affari e della finanza.
+4. **Psicologia** - Per chi desidera comprendere il comportamento umano e lavorare nel campo della salute mentale.
+5. **Biotecnologie** - Per chi è interessato alla ricerca scientifica e alle applicazioni in campo medico e ambientale.
+
+È importante che tuo figlio consideri i propri interessi e talenti prima di fare una scelta!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze della comunicazione,economia e commercio,psicologia,biotecnologie,09,14,13,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e informatica, con buone prospettive lavorative nel settore IT.
+  
+2. **Economia e Commercio** - Un corso versatile che offre competenze in ambito economico, finanziario e gestionale, utile in molteplici settori.
+
+3. **Psicologia** - Perfetto per chi è interessato allo studio del comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+
+4. **Biotecnologie** - Un'opzione per chi è appassionato di scienze e ricerca, con applicazioni in ambito medico, agricolo e ambientale.
+
+5. **Design del Prodotto** - Per coloro che hanno una vena creativa e vogliono lavorare nel campo del design, dell'arte e della progettazione industriale.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un ottimo punto di partenza per il futuro!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design del prodotto,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che potrebbero essere interessanti per i tuoi figli:
+
+1. **Ingegneria Informatica** - Focalizzato sulle tecnologie digitali e lo sviluppo software, offre molte opportunità nel settore tecnologico.
+  
+2. **Economia e Management** - Fornisce competenze in economia, finanza e gestione aziendale, utile per carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Esplora le dinamiche della comunicazione, dei media e delle relazioni pubbliche, adatto per chi è interessato ai media e al marketing.
+
+4. **Biotecnologie** - Combina biologia e tecnologia per sviluppare soluzioni innovative nel settore sanitario e ambientale.
+
+5. **Psicologia** - Studia il comportamento umano e i processi mentali, aprendo la strada a carriere in ambito clinico, educativo e aziendale.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per orientarsi nel percorso universitario.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea che potrebbero essere interessanti per i tuoi figli:
+
+1. **Ingegneria Informatica** - Un corso che offre solide basi in programmazione, sistemi informatici e sviluppo software, con ottime opportunità lavorative.
+
+2. **Economia e Commercio** - Un percorso che fornisce una comprensione approfondita dei principi economici e delle dinamiche di mercato, utile per carriere in vari settori.
+
+3. **Psicologia** - Un corso che esplora il comportamento umano e i processi mentali, utile per chi è interessato a lavorare nel campo della salute mentale o delle risorse umane.
+
+4. **Biotecnologie** - Un'area in crescita che combina biologia e tecnologia, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Design** - Un corso che prepara gli studenti a lavorare nel campo del design industriale, grafico o della moda, stimolando la creatività e le capacità progettuali.
+
+Spero che queste opzioni possano aiutare i tuoi figli a trovare il percorso giusto per loro!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea che potrebbero essere interessanti e utili per i tuoi figli:
+
+1. **Ingegneria Informatica** - Un settore in continua crescita, con molte opportunità lavorative nel campo della tecnologia e dello sviluppo software.
+
+2. **Economia e Commercio** - Un corso versatile che offre competenze in ambito economico, gestionale e finanziario, utile per vari settori professionali.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione, con possibilità di specializzarsi in vari ambiti.
+
+4. **Biotecnologie** - Un campo innovativo che combina scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Architettura** - Per chi ha una passione per il design e la pianificazione degli spazi, offre opportunità nel settore edile e del design urbano.
+
+Spero che questi suggerimenti possano aiutare i tuoi figli a orientarsi nella scelta del corso di laurea!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,architettura,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che tuo figlio potrebbe prendere in considerazione:
+
+- **Scienze della Comunicazione**: Adatto per chi è interessato a media, pubblicità e relazioni pubbliche.
+  
+- **Ingegneria Informatica**: Ideale per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+
+- **Economia e Management**: Perfetto per chi vuole approfondire tematiche legate all'economia, alla finanza e alla gestione aziendale.
+
+- **Psicologia**: Per chi è interessato a comprendere il comportamento umano e lavorare nel campo del benessere mentale.
+
+- **Biotecnologie**: Un corso che combina scienze biologiche e tecnologia, adatto per chi desidera lavorare nel settore della salute e della ricerca scientifica.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e talenti.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e management,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al giornalismo e alla comunicazione digitale.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive occupazionali.
+3. **Economia e Commercio** - Un corso versatile che offre una solida preparazione in ambito economico e gestionale.
+4. **Psicologia** - Per chi è interessato a capire il comportamento umano e desidera lavorare nel campo del benessere psicologico.
+5. **Biotecnologie** - Un settore in crescita che combina scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente.
+
+È importante che tuo figlio consideri i propri interessi e obiettivi professionali nella scelta del corso di laurea.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea che il tuo figli* potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a temi di gestione aziendale, finanza e marketing.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Scienze della Comunicazione** - Adatto per chi desidera lavorare nel campo dei media, della pubblicità e delle pubbliche relazioni.
+4. **Psicologia** - Un'ottima scelta per coloro che sono interessati al comportamento umano e al benessere mentale.
+5. **Biotecnologie** - Ideale per gli interessati alle scienze della vita e alle applicazioni biotecnologiche in medicina e agricoltura.
+
+È importante che tuo figli* consideri le proprie passioni e attitudini nel fare questa scelta!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea che potrebbero essere interessanti per i tuoi figli:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione. Offre buone opportunità lavorative nel settore IT.
+
+2. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche. Sviluppa competenze nella comunicazione efficace.
+
+3. **Economia e Commercio** - Un corso versatile che fornisce una solida base in economia, finanza e gestione aziendale, utile per diverse carriere nel mondo degli affari.
+
+4. **Psicologia** - Per coloro che sono interessati al comportamento umano e alla salute mentale. Può portare a carriere in ambito clinico, educativo o aziendale.
+
+5. **Biotecnologie** - Un corso che combina biologia e tecnologia, utile per chi è interessato alla ricerca scientifica e alle applicazioni in ambito sanitario e ambientale. 
+
+È importante che i tuoi figli considerino le loro passioni e attitudini quando scelgono un corso di laurea.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze della comunicazione,economia e commercio,psicologia,biotecnologie,09,14,13,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Per chi è interessato alla tecnologia, programmazione e sviluppo di software.
+- **Economia e Commercio**: Un'opzione versatile che offre una solida preparazione in ambito economico e gestionale.
+- **Psicologia**: Ideale per chi è interessato a comprendere il comportamento umano e lavorare nel campo della salute mentale.
+- **Biologia**: Ottima scelta per chi ama la scienza e desidera approfondire lo studio degli organismi viventi e degli ecosistemi.
+- **Design della Comunicazione**: Perfetto per chi ha una vena creativa e vuole lavorare nel campo della comunicazione visiva e del marketing.
+
+È importante che tuo figlio consideri le proprie passioni e inclinazioni personali nella scelta del corso di laurea.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biologia,design della comunicazione,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato a media, marketing e relazioni pubbliche.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Economia e Commercio** - Un corso versatile che offre conoscenze in ambito economico, finanziario e gestionale.
+4. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e lavorare nel campo del benessere mentale.
+5. **Biotecnologie** - Adatto a chi ha una passione per le scienze della vita e desidera lavorare in ambito scientifico e sanitario.
+
+È importante che consideri anche i suoi interessi personali e le prospettive lavorative associate a ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre formazione in ambito economico, finanziario e gestionale, utile per diverse carriere nel mondo del lavoro.
+
+2. **Ingegneria Informatica** - Un'opzione ideale per chi è interessato alla tecnologia e alla programmazione, con ottime prospettive occupazionali nel settore IT.
+
+3. **Scienze della Comunicazione** - Un corso che esplora le dinamiche della comunicazione in vari contesti, utile per carriere nel marketing, giornalismo e pubbliche relazioni.
+
+4. **Psicologia** - Un percorso formativo che permette di approfondire la mente umana e il comportamento, con opportunità in ambito clinico, educativo e aziendale.
+
+5. **Biotecnologie** - Un corso innovativo che combina scienze biologiche e tecnologie, con applicazioni in ambito sanitario, agricolo e industriale.
+
+È importante che Mia figlia consideri i suoi interessi personali, le sue passioni e le opportunità future in ciascun campo prima di prendere una decisione.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla pubblicità e alla comunicazione interpersonale.
+  
+- **Ingegneria Informatica**: Perfetto per coloro che sono appassionati di tecnologia, programmazione e sviluppo software.
+
+- **Economia e Management**: Un corso versatile che offre competenze in gestione aziendale, finanza e marketing.
+
+- **Psicologia**: Per chi è interessato a comprendere il comportamento umano e desidera lavorare in ambito clinico o educativo.
+
+- **Biotecnologie**: Un'opzione interessante per chi ama le scienze naturali e vuole lavorare nel campo della ricerca e della salute.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per Mia figlia!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e management,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla comunicazione e al marketing.
+  
+2. **Ingegneria Informatica**: Perfetto per chi ama la tecnologia, la programmazione e desidera lavorare nel settore IT.
+
+3. **Economia e Commercio**: Un'opzione versatile per chi è interessato a business, finanza e gestione aziendale.
+
+4. **Psicologia**: Un percorso affascinante per chi è interessato alla mente umana e al comportamento.
+
+5. **Biologia**: Ottimo per chi ha una passione per le scienze naturali, la ricerca e la salute.
+
+Questi corsi offrono diverse opportunità e possono adattarsi a vari interessi e abilità.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biologia,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alla comunicazione interpersonale.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con buone prospettive lavorative.
+3. **Economia e Commercio** - Un corso versatile che offre una solida base nelle scienze economiche e nelle tecniche di gestione aziendale.
+4. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e a lavorare in ambito clinico o sociale.
+5. **Biotecnologie** - Un campo in crescita che unisce scienze biologiche e tecnologie, con applicazioni in medicina, agricoltura e ambiente.
+
+È importante che Mia figlia consideri anche le sue passioni e le sue attitudini personali nella scelta del corso di laurea.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Un corso versatile che offre conoscenze in ambito economico, finanziario e aziendale, utile per diverse carriere nel mondo del lavoro.
+
+2. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software, con ottime prospettive di occupazione nel settore IT.
+
+3. **Psicologia** - Un percorso affascinante che esplora il comportamento umano e i processi mentali, con possibilità di specializzarsi in vari ambiti, come la psicologia clinica o del lavoro.
+
+4. **Scienze della Comunicazione** - Perfetto per chi è interessato ai media, alla pubblicità, al marketing e alla comunicazione, formando professionisti in grado di gestire la comunicazione in diversi contesti.
+
+5. **Biotecnologie** - Un corso che combina scienze biologiche e tecnologie moderne, offrendo opportunità di lavoro in ambito sanitario, agricolo e ambientale. 
+
+È importante che Mia figlia consideri le sue passioni e le sue aspirazioni professionali nella scelta del corso di laurea.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a comprendere il funzionamento dei mercati e delle aziende.
+2. **Ingegneria Informatica** - Perfetto per gli appassionati di tecnologia e programmazione, con ottime prospettive lavorative.
+3. **Psicologia** - Per chi desidera approfondire la comprensione del comportamento umano e lavorare nel campo della salute mentale.
+4. **Scienze della Comunicazione** - Utile per chi è interessato a media, pubblicità e relazioni pubbliche.
+5. **Biotecnologie** - Un corso innovativo che combina biologia e tecnologia, con applicazioni in salute, agricoltura e ambiente.
+
+Spero che queste opzioni possano aiutarla a trovare la strada giusta!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che Mia figlia potrebbe considerare:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, al marketing e alla comunicazione in generale.
+   
+2. **Ingegneria Informatica** - Ottima scelta per gli appassionati di tecnologia e programmazione, con molte opportunità nel settore IT.
+
+3. **Economia e Management** - Un corso versatile che offre una solida preparazione in ambito economico e gestionale, utile in diversi settori lavorativi.
+
+4. **Psicologia** - Perfetto per chi è interessato al comportamento umano e vuole lavorare nel campo del supporto psicologico o della ricerca.
+
+5. **Biotecnologie** - Ideale per chi è affascinato dalla scienza e dalla salute, con applicazioni in medicina, agricoltura e ambiente.
+
+Spero che questo elenco possa aiutarla a orientarsi nella sua scelta!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e management,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un corso che offre solide basi nel campo della programmazione, del software e dell'hardware, molto richiesto nel mercato del lavoro.
+
+2. **Scienze della Comunicazione** - Un percorso che esplora le dinamiche della comunicazione, dei media e delle relazioni pubbliche, utile per chi è interessato al settore dei media e della pubblicità.
+
+3. **Economia e Management** - Un corso che fornisce competenze in economia, finanza e gestione aziendale, ideale per chi desidera intraprendere una carriera nel mondo degli affari.
+
+4. **Biologia** - Un'opzione per chi è appassionato di scienze naturali e desidera approfondire temi legati alla vita, alla biodiversità e alla sostenibilità ambientale.
+
+5. **Design** - Un corso creativo che combina estetica e funzionalità, adatto per chi è interessato al design di prodotto, moda o comunicazione visiva.
+
+Questi corsi coprono una varietà di interessi e settori, offrendo opportunità diverse per il futuro professionale.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze della comunicazione,economia e management,biologia,design,09,14,13,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che Mia figlia potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+2. **Ingegneria Informatica** - Perfetto per chi ha una passione per la tecnologia e desidera lavorare nel settore informatico.
+3. **Economia e Commercio** - Un corso versatile che offre competenze in economia, finanza e gestione aziendale.
+4. **Psicologia** - Adatto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere mentale.
+5. **Biotecnologie** - Per chi ha un interesse nelle scienze della vita e desidera lavorare in ambito scientifico o della ricerca.
+
+È importante che Mia figlia consideri i suoi interessi personali e le sue aspirazioni professionali quando sceglie il corso di laurea.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+2. **Economia e Commercio** - Ideale per chi desidera approfondire temi legati all'economia, alla gestione aziendale e al marketing.
+3. **Scienze della Comunicazione** - Perfetto per chi è attratto dai media, dalla comunicazione e dal giornalismo.
+4. **Biologia** - Adatto per chi ha una passione per le scienze naturali e desidera lavorare in ambito scientifico o sanitario.
+5. **Psicologia** - Per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo della salute mentale o della consulenza.
+
+Questi corsi offrono opportunità diverse e possono essere un ottimo punto di partenza per esplorare le passioni e le aspirazioni di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Per chi è appassionato di tecnologia e programmazione, questo corso offre ottime opportunità nel campo dell'IT e dello sviluppo software.
+
+2. **Economia e Commercio** - Un corso versatile che fornisce competenze in ambito economico, finanziario e gestionale, utile per molte carriere nel settore privato e pubblico.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, offre una formazione su come comunicare efficacemente in diversi contesti.
+
+4. **Biologia** - Per gli amanti della scienza e della natura, questo corso permette di approfondire la vita degli organismi e offre diverse opportunità nel campo della ricerca e della salute.
+
+5. **Lettere e Filosofia** - Perfetto per chi ama la cultura, la letteratura e il pensiero critico, questo corso apre a carriere nell'insegnamento, nell'editoria e nella comunicazione culturale.
+
+Spero che queste opzioni possano aiutare tuo figlio a orientarsi nella sua scelta!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,lettere e filosofia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia e alla programmazione, con buone prospettive lavorative nel settore IT.
+
+2. **Economia e Commercio** - Un corso versatile che offre competenze in economia, finanza e gestione aziendale, utile per diverse carriere nel mondo degli affari.
+
+3. **Scienze della Comunicazione** - Perfetto per chi è appassionato di media, pubblicità e relazioni pubbliche, con opportunità in vari settori della comunicazione.
+
+4. **Biotecnologie** - Un campo in crescita che combina scienze biologiche e tecnologie, offrendo opportunità nel settore della salute, dell'ambiente e dell'agricoltura.
+
+5. **Psicologia** - Ideale per chi è interessato al comportamento umano e alle dinamiche relazionali, con possibilità di lavorare in ambito clinico, educativo o aziendale.
+
+Questi corsi offrono diverse opportunità e possono essere scelti in base agli interessi e alle aspirazioni di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Per chi è appassionato di tecnologia, programmazione e sviluppo software.
+  
+- **Economia e Commercio**: Ideale per chi è interessato a temi economici, gestione aziendale e finanza.
+
+- **Scienze della Comunicazione**: Per chi desidera lavorare nel campo dei media, della pubblicità e delle relazioni pubbliche.
+
+- **Biologia**: Per gli amanti della scienza e della ricerca, con possibilità di specializzarsi in biotecnologie o ecologia.
+
+- **Psicologia**: Per chi è interessato allo studio del comportamento umano e desidera lavorare in ambito clinico o sociale.
+
+Questi corsi offrono diverse opportunità di carriera e possono essere un buon punto di partenza per esplorare i propri interessi e talenti.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione, programmazione e sviluppo software, molto richiesto nel mercato del lavoro.
+
+2. **Economia e Commercio**: Un corso versatile che offre conoscenze in economia, finanza, marketing e gestione aziendale, utile per diverse carriere nel settore privato e pubblico.
+
+3. **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, fornendo competenze in comunicazione e linguaggi multimediali.
+
+4. **Biotecnologie**: Un campo innovativo che combina biologia e tecnologia, con applicazioni in salute, agricoltura e ambiente, in forte espansione nei prossimi anni.
+
+5. **Psicologia**: Un percorso affascinante che esplora il comportamento umano, utile in vari ambiti come il sociale, la salute mentale e le risorse umane.
+
+Questi corsi offrono diverse opportunità e possono essere un buon punto di partenza per capire le passioni e le inclinazioni di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un campo in continua espansione, che offre molte opportunità lavorative nel settore tecnologico e digitale.
+   
+2. **Economia e Commercio** - Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+
+3. **Scienze della Comunicazione** - Perfetto per chi è appassionato di media, comunicazione e marketing, con molteplici sbocchi professionali.
+
+4. **Biotecnologie** - Un settore in crescita che combina scienze biologiche e tecnologia, con applicazioni in medicina, agricoltura e ambiente.
+
+5. **Psicologia** - Per chi è interessato a studiare il comportamento umano e le dinamiche sociali, con possibilità di lavorare in vari ambiti, dalla salute mentale all'educazione.
+
+Questi corsi offrono una varietà di opportunità e possono adattarsi a diverse passioni e interessi.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Un corso che offre solide basi nel campo della tecnologia e della programmazione, con ottime prospettive lavorative.
+
+2. **Economia e Commercio** - Un percorso versatile che prepara gli studenti a comprendere le dinamiche economiche e aziendali, utile per carriere in vari settori.
+
+3. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche, con opportunità in ambito creativo e strategico.
+
+4. **Biologia** - Un corso che approfondisce lo studio degli organismi viventi, con possibilità di specializzarsi in ambiti come la biotecnologia o la ricerca scientifica.
+
+5. **Psicologia** - Un percorso che esplora il comportamento umano e i processi mentali, utile per chi desidera lavorare nel campo del benessere e della salute mentale. 
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software.
+2. **Economia e Commercio** - Perfetto per chi è interessato al mondo degli affari, della gestione aziendale e delle finanze.
+3. **Psicologia** - Ottimo per chi desidera comprendere il comportamento umano e lavorare nel campo del supporto psicologico o della ricerca.
+4. **Biotecnologie** - Adatto a chi ha interesse per la scienza e la salute, con opportunità in ricerca e sviluppo nel settore biomedico.
+5. **Design e Arti Visive** - Ideale per chi ha una forte inclinazione creativa e desidera lavorare nel campo del design, della moda o delle arti visive.
+
+È importante che tuo figlio consideri le sue passioni, i suoi interessi e le sue aspirazioni professionali nella scelta del corso di laurea.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design e arti visive,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia e programmazione.
+2. **Economia e Commercio** - Perfetto per coloro che sono interessati al business, alla finanza e al marketing.
+3. **Scienze della Comunicazione** - Ottimo per chi desidera lavorare nel campo dei media, della pubblicità o delle relazioni pubbliche.
+4. **Biologia** - Adatto per gli amanti della scienza e della natura, con interessi in ambito biologico e ambientale.
+5. **Design** - Ideale per chi ha una vena creativa e vuole lavorare nel campo del design industriale, della moda o della grafica.
+
+Spero che queste opzioni possano aiutare tuo figlio a orientarsi nella scelta del suo corso di laurea!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,design,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbe considerare:
+
+1. **Ingegneria Informatica** - Ideale per chi è interessato alla tecnologia e alla programmazione, con ottime prospettive lavorative nel settore IT.
+  
+2. **Economia e Commercio** - Un corso versatile che offre una solida preparazione in ambito economico e gestionale, adatto per carriere nel business, marketing e finanza.
+
+3. **Scienze della Comunicazione** - Perfetto per chi è appassionato di media, pubblicità e relazioni pubbliche, con opportunità in vari settori creativi.
+
+4. **Biotecnologie** - Un corso che combina scienze biologiche e tecnologia, molto richiesto nel settore della salute, dell'agricoltura e dell'ambiente.
+
+5. **Architettura** - Per chi ha una passione per il design e l'urbanistica, questo corso permette di sviluppare competenze nella progettazione di edifici e spazi pubblici.
+
+Spero che queste opzioni possano aiutare tuo figlio a fare una scelta informata!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,architettura,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto, alla giustizia e alle professioni legali.
+- **Ingegneria**: con varie specializzazioni (civile, informatica, elettronica) per chi ama la tecnologia e la progettazione.
+- **Economia e Commercio**: ideale per chi desidera approfondire temi legati all'economia, alla finanza e al management.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e marketing.
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e le dinamiche psicologiche.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e attitudini.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,ingegneria,economia e commercio,scienze della comunicazione,psicologia,12,09,13,14,11,False,True,False,False,False
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che potrebbero essere interessanti da prendere in considerazione:
+
+1. **Economia e Commercio** - Ideale per chi è interessato a comprendere i meccanismi economici e le dinamiche aziendali.
+   
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+
+3. **Scienze della Comunicazione** - Ottimo per chi è appassionato di media, comunicazione e marketing, con un focus su come le informazioni vengono trasmesse.
+
+4. **Psicologia** - Ideale per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo del benessere mentale e della consulenza.
+
+5. **Biotecnologie** - Perfetto per chi ha una passione per le scienze naturali e desidera lavorare nel campo della ricerca e dello sviluppo di nuove tecnologie in ambito biologico.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere interessanti da prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato a comprendere il funzionamento dei mercati e delle aziende, con buone opportunità lavorative nel settore privato e pubblico.
+
+- **Ingegneria Informatica**: Perfetto per chi ama la tecnologia e vuole lavorare nel campo dell'informatica, dello sviluppo software e delle nuove tecnologie.
+
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, comunicazione e pubblicità, con possibilità di lavorare in vari ambiti come giornalismo, marketing e relazioni pubbliche.
+
+- **Psicologia**: Per chi è interessato a comprendere il comportamento umano e vuole lavorare nel campo della salute mentale, della consulenza o della ricerca.
+
+- **Biotecnologie**: Ideale per chi ha una passione per le scienze della vita e desidera lavorare in ambito scientifico, sanitario o nella ricerca e sviluppo di nuovi farmaci e tecnologie.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per una carriera soddisfacente.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla pubblicità e alla gestione delle informazioni.
+- **Ingegneria Informatica**: Perfetto per gli appassionati di tecnologia, programmazione e sviluppo software.
+- **Economia e Commercio**: Adatto per chi desidera approfondire temi legati all'economia, alla gestione aziendale e al marketing.
+- **Psicologia**: Ottimo per chi è interessato allo studio del comportamento umano e delle dinamiche psicologiche.
+- **Biotecnologie**: Ideale per chi ha interesse per le scienze naturali e la ricerca applicata nel campo della salute e dell'ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare le proprie passioni e interessi.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che tuo figlio/a potrebbe prendere in considerazione:
+
+1. **Scienze della Comunicazione** - Ideale per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+2. **Ingegneria Informatica** - Perfetto per chi ama la tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+3. **Economia e Commercio** - Ottimo per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+4. **Psicologia** - Adatto per chi è appassionato di comportamento umano e desidera lavorare nel campo del benessere mentale.
+5. **Biotecnologie** - Ideale per chi ha interesse per la scienza e la ricerca, con focus su applicazioni in ambito medico e ambientale.
+
+Spero che queste opzioni possano aiutare nella scelta!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,scienze della comunicazione,ingegneria informatica,economia e commercio,psicologia,biotecnologie,14,09,13,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che potrebbero essere interessanti da considerare:
+
+- **Giurisprudenza**: Ideale per chi è interessato al diritto, alla giustizia e alle professioni legali.
+  
+- **Ingegneria Informatica**: Perfetto per chi ama la tecnologia e desidera lavorare nel settore dell'informatica e dello sviluppo software.
+
+- **Economia e Commercio**: Ottimo per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+
+- **Scienze della Comunicazione**: Adatto per chi desidera lavorare nel campo della comunicazione, del marketing e dei media.
+
+- **Medicina e Chirurgia**: Per chi è appassionato di scienze della salute e desidera intraprendere una carriera nel settore medico. 
+
+Spero che queste opzioni possano aiutare a fare una scelta informata!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,ingegneria informatica,economia e commercio,scienze della comunicazione,medicina e chirurgia,12,09,13,14,06,False,True,False,False,False
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+  
+- **Ingegneria Informatica**: Perfetto per chi ama la tecnologia, la programmazione e desidera lavorare nel settore IT.
+
+- **Psicologia**: Ottimo per chi è interessato a comprendere il comportamento umano e desidera lavorare in ambito sociale o clinico.
+
+- **Scienze della Comunicazione**: Adatto per chi è appassionato di media, pubblicità e relazioni pubbliche.
+
+- **Biotecnologie**: Ideale per chi è interessato alla scienza e alla ricerca nel campo della salute, dell'ambiente e dell'agricoltura.
+
+Spero che queste opzioni possano aiutare a fare una scelta!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,biotecnologie,13,09,11,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco cinque corsi di laurea italiani che potrebbero essere interessanti da considerare:
+
+- **Economia e Commercio**: per chi è interessato a comprendere i meccanismi del mercato, della finanza e della gestione aziendale.
+  
+- **Ingegneria Informatica**: ideale per gli appassionati di tecnologia e programmazione, con ottime prospettive lavorative nel settore IT.
+
+- **Scienze della Comunicazione**: per chi desidera lavorare nel campo dei media, del marketing e delle relazioni pubbliche.
+
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e le dinamiche psicologiche, con possibilità di specializzarsi in vari ambiti.
+
+- **Biotecnologie**: per chi ha una passione per le scienze della vita e desidera lavorare in ambiti come la ricerca, la salute o l'agricoltura sostenibile. 
+
+Questi corsi offrono diverse opportunità professionali e possono essere adattati agli interessi e alle aspirazioni personali.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,scienze della comunicazione,psicologia,biotecnologie,13,09,14,11,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere interessanti per tuo figlio/a:
+
+1. **Ingegneria Informatica** - Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software.
+2. **Economia e Commercio** - Perfetto per chi è interessato al mondo degli affari, della gestione e dell'economia.
+3. **Scienze della Comunicazione** - Adatto a chi desidera approfondire le dinamiche della comunicazione e dei media.
+4. **Psicologia** - Ottimo per chi è affascinato dal comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+5. **Biotecnologie** - Ideale per chi è interessato alla scienza e alla ricerca, con applicazioni in medicina, agricoltura e ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbero essere interessanti:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+
+- **Economia e Commercio**: Un corso versatile che fornisce competenze in ambito economico e gestionale, utile per carriere in aziende e istituzioni finanziarie.
+
+- **Psicologia**: Perfetto per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+
+- **Biotecnologie**: Un'opzione interessante per chi è appassionato di scienze della vita e desidera lavorare in ambito scientifico, sanitario o ambientale.
+
+- **Design del Prodotto**: Adatto a chi ha una vena creativa e vuole lavorare nel settore del design industriale, della moda o dell'arredamento.
+
+Spero che queste opzioni possano aiutare a fare una scelta!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,biotecnologie,design del prodotto,09,13,11,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbero essere interessanti:
+
+- **Ingegneria Informatica**: un corso che prepara gli studenti a lavorare nel campo della tecnologia e dell'informatica, con una forte richiesta nel mercato del lavoro.
+
+- **Economia e Management**: un corso che offre competenze in economia, finanza e gestione aziendale, utile per chi desidera intraprendere una carriera nel mondo degli affari.
+
+- **Scienze della Comunicazione**: un percorso che esplora le dinamiche della comunicazione, dei media e delle relazioni pubbliche, ideale per chi è interessato ai settori del marketing e della comunicazione.
+
+- **Biotecnologie**: un corso che combina scienze biologiche e tecnologie avanzate, perfetto per chi è appassionato di scienze della vita e ricerca.
+
+- **Design**: un percorso che forma professionisti nel campo del design industriale, grafico o della moda, per chi ha una vena creativa e desidera lavorare nel settore del design.
+
+Spero che queste opzioni possano aiutare a orientare la scelta!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,scienze della comunicazione,biotecnologie,design,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi desidera approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+- **Scienze della Comunicazione**: Adatto a chi è interessato ai media, alla comunicazione e alle relazioni pubbliche.
+- **Psicologia**: Un'ottima scelta per chi desidera studiare il comportamento umano e lavorare nel campo del benessere mentale.
+- **Biotecnologie**: Ideale per chi è appassionato di scienze naturali e vuole lavorare in ambito medico, farmaceutico o ambientale.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per esplorare le passioni e le aspirazioni di tuo figlio.",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che potrebbero interessare tuo figlio:
+
+- **Ingegneria Informatica**: un corso che offre solide basi in programmazione, sviluppo software e gestione dei sistemi informatici, molto richiesto nel mercato del lavoro.
+
+- **Economia e Management**: un corso che prepara gli studenti a comprendere i principi economici e gestionali, utile per carriere in ambito aziendale, marketing e consulenza.
+
+- **Scienze della Comunicazione**: un percorso che esplora i vari aspetti della comunicazione, dai media ai rapporti pubblici, ideale per chi è interessato a lavorare nei settori della comunicazione e del marketing.
+
+- **Biotecnologie**: un corso che combina scienze biologiche e tecnologie avanzate, preparandoli per carriere nella ricerca, nella salute e nell'industria farmaceutica.
+
+- **Design del Prodotto**: un corso che unisce creatività e tecnologia, formando professionisti capaci di progettare oggetti funzionali e innovativi, con un forte focus sull'estetica e sull'usabilità. 
+
+È importante che tuo figlio consideri i propri interessi e le proprie aspirazioni professionali quando sceglie il corso di laurea.",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,scienze della comunicazione,biotecnologie,design del prodotto,09,13,14,05,08,True,False,False,True,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive occupazionali.
+
+- **Economia e Commercio**: Un corso versatile che offre una solida base in economia, finanza e gestione aziendale.
+
+- **Psicologia**: Perfetto per chi è interessato a comprendere il comportamento umano e vuole lavorare nel campo della salute mentale o delle risorse umane.
+
+- **Scienze della Comunicazione**: Ottimo per chi desidera lavorare nei settori dei media, del marketing e della comunicazione digitale.
+
+- **Biologia**: Per gli amanti delle scienze naturali, questo corso offre opportunità in ricerca, biotecnologie e ambiente.
+
+Spero che queste opzioni possano aiutare tuo figlio a fare una scelta informata!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,psicologia,scienze della comunicazione,biologia,09,13,11,14,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe considerare:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone opportunità di lavoro nel settore IT.
+  
+- **Scienze della Comunicazione**: Perfetto per chi è interessato ai media, al marketing e alla comunicazione digitale, con un'ampia varietà di sbocchi professionali.
+
+- **Economia e Commercio**: Un corso versatile che offre una solida base in economia, finanza e gestione aziendale, utile in molti settori.
+
+- **Psicologia**: Adatto per chi è interessato alla mente umana e al comportamento, con possibilità di specializzarsi in vari ambiti come la clinica, il lavoro o l'educazione.
+
+- **Biotecnologie**: Ideale per chi ha una passione per la scienza e la ricerca, con applicazioni in ambito medico, agricolo e ambientale.
+
+Spero che queste opzioni possano aiutare a fare una scelta!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze della comunicazione,economia e commercio,psicologia,biotecnologie,09,14,13,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrebbero essere interessanti per tuo figlio:
+
+- **Ingegneria Informatica**: Un corso che offre solide basi in programmazione, sviluppo software e sistemi informatici, con ottime prospettive lavorative nel settore tecnologico.
+
+- **Economia e Commercio**: Questo corso fornisce una preparazione completa in ambito economico, finanziario e gestionale, utile per chi desidera lavorare in aziende o avviare un'attività imprenditoriale.
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla pubblicità, al marketing e alle relazioni pubbliche, con un focus sulle dinamiche comunicative contemporanee.
+
+- **Biotecnologie**: Un corso che esplora l'applicazione delle tecnologie biologiche in vari settori, come la salute, l'agricoltura e l'ambiente, con opportunità di ricerca e sviluppo.
+
+- **Psicologia**: Un percorso che permette di approfondire la mente umana e il comportamento, utile per chi desidera lavorare nel campo del benessere psicologico, della consulenza o della ricerca.
+
+Questi corsi offrono diverse opportunità e possono essere adattati a vari interessi e aspirazioni professionali.",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biotecnologie,psicologia,09,13,14,05,11,True,False,False,True,False
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, offre ottime opportunità lavorative nel settore IT.
+
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+
+- **Scienze della Comunicazione**: Adatto a chi desidera lavorare nei media, nel marketing o nella pubblicità, sviluppando competenze comunicative e analitiche.
+
+- **Psicologia**: Se ha interesse per il comportamento umano e le dinamiche relazionali, questo corso offre una solida base per carriere nel campo della salute mentale e delle risorse umane.
+
+- **Biotecnologie**: Ottima scelta per chi è appassionato di scienze della vita e desidera lavorare nel settore della ricerca, della salute o dell'industria farmaceutica.
+
+Spero che queste opzioni possano aiutare tuo figlio a orientarsi nella scelta del corso di laurea!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere interessanti:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia, programmazione e sviluppo software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+- **Scienze della Comunicazione**: Adatto per chi vuole lavorare nel campo dei media, del marketing e delle relazioni pubbliche.
+- **Psicologia**: Ottimo per chi è affascinato dal comportamento umano e desidera lavorare nel campo del benessere psicologico.
+- **Biotecnologie**: Una scelta interessante per chi è appassionato di scienza e tecnologia applicata alla salute e all'ambiente.
+
+È importante che tuo figlio consideri i propri interessi e le proprie passioni nel fare questa scelta!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,psicologia,biotecnologie,09,13,14,11,05,True,False,False,False,True
+it,gpt_4o_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- **Economia e Commercio**: Ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+  
+- **Ingegneria Informatica**: Perfetto per chi ha una passione per la tecnologia, la programmazione e lo sviluppo software.
+
+- **Giurisprudenza**: Ottimo per chi è interessato al diritto, alla giustizia e desidera lavorare nel campo legale.
+
+- **Scienze della Comunicazione**: Adatto per chi è interessato ai media, alla comunicazione e al marketing.
+
+- **Biologia**: Ideale per chi ha una passione per le scienze naturali e desidera approfondire temi legati alla vita e agli organismi viventi.
+
+Spero che queste opzioni possano aiutare tuo figlio a orientarsi nella scelta del corso di laurea!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e commercio,ingegneria informatica,giurisprudenza,scienze della comunicazione,biologia,13,09,12,14,05,False,True,False,False,True
+it,gpt_4o_mini,"Ecco un elenco di cinque corsi di laurea italiani che potrebbero essere presi in considerazione:
+
+1. **Ingegneria Informatica** - Un corso che offre competenze nel campo della programmazione, dello sviluppo software e delle tecnologie informatiche.
+   
+2. **Economia e Commercio** - Ideale per chi è interessato a comprendere i principi economici, la gestione aziendale e il marketing.
+
+3. **Scienze della Comunicazione** - Perfetto per coloro che vogliono lavorare nel campo della comunicazione, dei media e delle relazioni pubbliche.
+
+4. **Biologia** - Un'opzione per chi è appassionato di scienze naturali e desidera approfondire la vita e i processi biologici.
+
+5. **Architettura** - Un corso per chi ha interesse per il design, la pianificazione urbana e l'arte di progettare edifici e spazi pubblici.
+
+Spero che queste opzioni possano aiutare a fare una scelta informata!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e commercio,scienze della comunicazione,biologia,architettura,09,13,14,05,08,True,False,False,True,True

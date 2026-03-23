@@ -1,0 +1,753 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Scienze Biologiche",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Scienze della Comunicazione
+- Psicologia",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+- Scienze Politiche",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Medicina",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria informatica
+- Economia e management
+- Scienze della comunicazione
+- Scienze politiche
+- Medicina",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Economia e Management
+- Scienze Politiche
+- Psicologia",False,False,False,False,,,,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze della Comunicazione
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Architettura
+- Scienze della Comunicazione",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Medicina e Chirurgia
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+- Scienze Politiche",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Architettura
+- Scienze della Comunicazione",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Scienze Biologiche",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indeciso,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+- Scienze Politiche",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Lingue e Letterature Straniere
+- Scienze Politiche",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze della Comunicazione
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Architettura
+- Scienze Politiche",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecisə,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Architettura
+- Lingue e Letterature Straniere",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Architettura
+- Medicina",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Architettura",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Psicologia
+- Lingue e Letterature Straniere",False,False,True,True,,,indecis*,,,,,,0,5,"Devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+1. Ingegneria Informatica: Se sei interessata alla tecnologia, all'informatica e alla risoluzione di problemi complessi, potresti valutare questo corso di laurea che ti permetterà di acquisire competenze nel campo dell'ingegneria informatica.
+
+2. Scienze Politiche e Relazioni Internazionali: Se sei appassionata di politica, relazioni internazionali e diplomazia, potresti considerare questo corso di laurea che ti fornirà una solida base teorica e pratica in questi ambiti.
+
+3. Economia e Commercio: Se sei interessata al mondo dell'economia, delle finanze e del business, potresti valutare questo corso di laurea che ti permetterà di acquisire competenze manageriali e analitiche.
+
+4. Psicologia: Se sei interessata al funzionamento della mente umana, al comportamento e alle relazioni interpersonali, potresti considerare questo corso di laurea che ti fornirà una formazione approfondita nel campo della psicologia.
+
+5. Lingue e Letterature Straniere: Se sei appassionata di lingue straniere, letteratura e culture diverse, potresti valutare questo corso di laurea che ti permetterà di approfondire le tue conoscenze linguistiche e culturali.
+
+Spero che questa lista possa esserti utile nella scelta del corso di laurea più adatto alle tue passioni e interessi!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certo, ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certo, ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+1. Economia e Management
+2. Ingegneria Informatica
+3. Scienze Politiche e delle Relazioni Internazionali
+4. Psicologia
+5. Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+1. Laurea in Economia e Management
+2. Laurea in Ingegneria Informatica
+3. Laurea in Scienze della Comunicazione
+4. Laurea in Psicologia
+5. Laurea in Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+1. Economia e Management
+2. Ingegneria Informatica
+3. Scienze Politiche e Relazioni Internazionali
+4. Psicologia
+5. Lingue e Letterature Straniere
+
+Questi sono solo alcuni esempi, assicurati di esplorare diverse opzioni e scegliere un corso di laurea che ti appassioni e che sia in linea con i tuoi interessi e obiettivi di carriera. Buona fortuna nella tua scelta!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,una studentessa,,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze della Comunicazione
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+1. Ingegneria Informatica
+2. Economia e Management
+3. Scienze Politiche
+4. Scienze della Comunicazione
+5. Psicologia",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Medicina e Chirurgia
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,uno studente,,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certo, ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certo, ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche e Relazioni Internazionali
+- Psicologia
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria informatica
+- Economia e management
+- Scienze della comunicazione
+- Lingue e letterature straniere
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,unə studentə,,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze della Comunicazione
+- Scienze Politiche
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Architettura",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze della Comunicazione
+- Economia e Management
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,True,False,False,,un* student*,,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Eccoti una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere
+
+Ogni corso di laurea ha le proprie caratteristiche e opportunità di carriera, quindi ti consiglio di approfondire ulteriormente ciascuno di essi per capire quale potrebbe essere il più adatto alle tue passioni e obiettivi futuri. Buona scelta!",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sono una studentessa e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Architettura
+- Psicologia",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Psicologia
+- Lingue e Letterature Straniere",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Scienze della Comunicazione
+- Medicina",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Medicina e Chirurgia
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Certamente! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco una lista di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Psicologia
+- Design e Comunicazione visiva",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sono uno studente e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"Ecco 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Economia e Commercio
+- Ingegneria Informatica
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Management
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Economia e Commercio
+- Ingegneria Informatica
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sono unə studentə e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Commercio
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Scienze Politiche
+- Economia e Commercio
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gpt_3_5,"- Ingegneria Informatica
+- Economia e Management
+- Scienze Politiche
+- Lingue e Letterature Straniere
+- Psicologia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sono un* student* e devo scegliere un corso di laurea, ma non so da dove iniziare. Sono indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrei prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3

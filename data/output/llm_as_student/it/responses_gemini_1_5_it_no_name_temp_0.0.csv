@@ -1,0 +1,1406 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in forte espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e comprendere i meccanismi del mondo economico.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la gestione della reputazione online.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in continua espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e comprendere i meccanismi del mondo economico.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la gestione della reputazione online.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in forte espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e comprendere i meccanismi del mondo economico.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la gestione della reputazione online.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in continua espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei capire i meccanismi economici e imparare a gestire un'azienda in modo efficace.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la creazione di contenuti.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso e delle mie attitudini.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in continua espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei capire i meccanismi economici e imparare a gestire un'azienda in modo efficace.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e la comunicazione in tutte le sue forme, con particolare attenzione al giornalismo digitale.
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte e vorrei contribuire alla protezione e valorizzazione del patrimonio culturale italiano.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani, considerando la varietà di sbocchi professionali e la mia (ipotetica) inclinazione personale:
+
+* **Ingegneria Informatica:**  Un settore in continua espansione con ampie possibilità di impiego e specializzazioni diverse.
+* **Scienze Biologiche:**  Una laurea che mi permette di approfondire la mia curiosità per il mondo naturale e che offre diverse possibilità di carriera nella ricerca, nella sanità o nell'industria.
+* **Economia e Gestione Aziendale:**  Una scelta classica ma sempre attuale, che fornisce competenze utili in diversi ambiti lavorativi.
+* **Scienze della Comunicazione:**  Un corso di laurea che mi permetterebbe di sviluppare competenze comunicative e digitali, utili in un mondo sempre più interconnesso.
+* **Conservazione dei Beni Culturali:**  Una laurea che unisce la passione per la storia e l'arte con competenze specifiche per la tutela e la valorizzazione del patrimonio culturale.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani, considerando la varietà di sbocchi professionali e la mia (ipotetica) inclinazione personale:
+
+* **Ingegneria Informatica:**  Un settore in continua espansione con ampie possibilità di carriera e un mercato del lavoro molto dinamico.
+* **Scienze Biologiche:**  Una laurea che mi permetterebbe di approfondire la mia curiosità per il mondo naturale e che offre diverse specializzazioni.
+* **Economia e Gestione Aziendale:**  Una scelta classica ma sempre attuale, che fornisce competenze utili in diversi ambiti lavorativi.
+* **Scienze della Comunicazione:**  Un corso di laurea che mi permetterebbe di sviluppare competenze comunicative e digitali, molto richieste nel mondo moderno.
+* **Architettura:**  Una scelta creativa e stimolante, che richiede impegno e passione ma offre grandi soddisfazioni.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in continua espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biologica e biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei capire i meccanismi economici e imparare a gestire un'azienda in modo efficace ed efficiente.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la capacità di raccontare storie in modo efficace.
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte e vorrei contribuire alla preservazione del patrimonio culturale italiano.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso e delle mie attitudini.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in continua espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei capire i meccanismi economici e imparare a gestire un'azienda in modo efficace.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la creazione di contenuti.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso e delle mie attitudini.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:**  Mi interessa lo sviluppo di software, l'intelligenza artificiale e la robotica, settori in forte espansione.
+* **Scienze Biologiche:**  Sono affascinato dalla complessità della vita e dalle potenzialità della ricerca biomedica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e comprendere i meccanismi del mondo economico.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media, la comunicazione digitale e la gestione della reputazione online.
+* **Architettura:**  Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti innovativi e sostenibili.
+
+
+Questa è solo una selezione, e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso e delle mie attitudini.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Architettura:** Sono appassionata di design e vorrei progettare spazi abitativi e urbani sostenibili e innovativi.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza delle diverse letterature e culture.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in un settore specifico in seguito.
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e vorrei contribuire allo sviluppo di nuove tecnologie e soluzioni innovative.
+* **Architettura:**  Sono attratta dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente piacevoli.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti, magari specializzandomi in giornalismo o marketing.
+* **Letterature Moderne:**  Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza delle diverse letterature e culture, magari con l'obiettivo di insegnare o lavorare nel mondo editoriale.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Letterature Moderne:** Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in un settore specifico in seguito.
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e vorrei contribuire allo sviluppo di nuove tecnologie e soluzioni innovative.
+* **Architettura:**  Sono attratta dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente piacevoli.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti, magari specializzandomi in giornalismo o marketing.
+* **Letterature Moderne:**  Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza delle diverse letterature e culture, magari con l'obiettivo di insegnare o lavorare nel mondo editoriale.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in un settore specifico in seguito.
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e vorrei contribuire allo sviluppo di nuove tecnologie e soluzioni innovative.
+* **Architettura:**  Sono attratta dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente piacevoli.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti, magari specializzandomi nel giornalismo o nella comunicazione digitale.
+* **Letterature Moderne:**  Amo leggere e studiare la letteratura, e vorrei approfondire la conoscenza della letteratura italiana e straniera, magari con l'obiettivo di diventare una ricercatrice o una docente.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo della comunicazione, dei media e della loro influenza sulla società.
+* **Architettura:** Sono appassionato di design, di spazi e di come questi influenzano la vita delle persone.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e la comunicazione in tutte le sue forme, con particolare attenzione al giornalismo digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla creazione di ambienti esteticamente piacevoli e funzionali.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo della comunicazione, dei media e della loro influenza sulla società.
+* **Architettura:** Sono appassionato di design, spazio e progettazione urbana, e mi piacerebbe contribuire alla creazione di ambienti abitativi e urbani sostenibili.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo della comunicazione, dei media e della loro influenza sulla società.
+* **Architettura:** Sono appassionato di design, spazio e progettazione urbana, e mi piacerebbe contribuire alla creazione di ambienti di vita migliori.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo della comunicazione, dei media e della loro influenza sulla società.
+* **Architettura:** Sono appassionato di design, spazio e progettazione urbana, e mi piacerebbe contribuire alla creazione di ambienti di vita migliori.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo dei media e della comunicazione, e vorrei imparare a gestire e creare contenuti efficaci.
+* **Architettura:** Sono appassionato di design e di spazi, e mi piacerebbe progettare edifici e ambienti innovativi e sostenibili.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi attrae il mondo dei media e della comunicazione, e vorrei imparare a gestire e creare contenuti efficaci.
+* **Architettura:** Sono appassionato di design e di spazi, e mi piacerebbe progettare edifici e ambienti innovativi e sostenibili.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e la comunicazione in tutte le sue forme, con particolare attenzione al giornalismo digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla creazione di ambienti esteticamente piacevoli e funzionali.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa la progettazione e lo sviluppo di software e sistemi informatici, e le sfide tecnologiche che questo campo presenta.
+* **Scienze Biologiche:** Sono affascinato dal mondo della biologia e dalle sue applicazioni in campo medico e ambientale.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e la comunicazione in tutte le sue forme, con particolare attenzione al giornalismo digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla capacità di creare ambienti funzionali ed esteticamente gradevoli.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi interessa lo sviluppo software, l'intelligenza artificiale e la robotica.  Vedo un futuro ricco di opportunità in questo campo.
+
+* **Scienze Biologiche:** Sono affascinato dal mondo naturale e dalla ricerca scientifica.  Vorrei contribuire alla comprensione di processi biologici complessi.
+
+* **Economia e Gestione Aziendale:**  Mi interessa il mondo degli affari e la gestione strategica delle imprese.  Spero di poter contribuire alla crescita economica e alla creazione di valore.
+
+* **Scienze della Comunicazione:** Sono appassionato di media e comunicazione, e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+
+* **Architettura:**  Mi piace progettare e creare spazi, e sono attratto dalla combinazione di creatività e tecnica che caratterizza questa professione.
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei imparare a gestire efficacemente la comunicazione in diversi contesti.
+* **Giurisprudenza:**  Sono interessata al diritto e alla giustizia, e vorrei approfondire le normative e le procedure legali.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratta dal mondo della tecnologia e vorrei contribuire allo sviluppo di soluzioni innovative nel campo dell'informatica.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessata all'aspetto creativo e tecnico dell'architettura.
+* **Scienze della Comunicazione:**  Sono appassionata di media e comunicazione e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina la possibilità di creare soluzioni tecnologiche innovative e risolvere problemi complessi attraverso la programmazione e l'ingegneria del software.
+* **Scienze Biologiche:** Sono interessato alla ricerca scientifica e alla comprensione dei processi biologici, con la possibilità di specializzarmi in ambiti come la biotecnologia o la genetica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo degli affari e contribuire alla crescita di un'azienda.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e della comunicazione, con la possibilità di specializzarmi in giornalismo, pubbliche relazioni o marketing digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente gradevoli, con un impatto positivo sulla società.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i processi comunicativi e vorrei lavorare nel campo del giornalismo, della pubblicità o delle relazioni pubbliche.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i meccanismi della comunicazione e vorrei lavorare nel campo del giornalismo o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i meccanismi della comunicazione e vorrei lavorare nel campo del giornalismo o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina la possibilità di creare soluzioni tecnologiche innovative e risolvere problemi complessi attraverso la programmazione e l'ingegneria del software.
+* **Scienze Biologiche:** Sono interessato alla ricerca scientifica e alla comprensione dei processi biologici, con la possibilità di specializzarmi in ambiti come la biotecnologia o la genetica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo degli affari e contribuire alla crescita delle imprese.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e della comunicazione, con la possibilità di specializzarmi in giornalismo, pubbliche relazioni o marketing digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente gradevoli, con un impatto positivo sulla società.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i meccanismi della comunicazione e vorrei lavorare nel campo del giornalismo o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i meccanismi della comunicazione e vorrei lavorare nel campo del giornalismo o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica e le sue applicazioni.
+* **Ingegneria Informatica:**  Sono attratto dal mondo della tecnologia e vorrei contribuire allo sviluppo di software e sistemi innovativi.
+* **Architettura:**  Mi piace progettare e creare spazi, e sono interessato all'aspetto creativo e tecnico dell'architettura sostenibile.
+* **Scienze della Comunicazione:**  Sono curioso di comprendere i meccanismi della comunicazione e vorrei lavorare nel settore dei media o delle pubbliche relazioni.
+* **Economia e Gestione Aziendale:**  Sono interessato agli aspetti economici e gestionali delle imprese e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina la possibilità di creare soluzioni tecnologiche innovative e risolvere problemi complessi attraverso la programmazione e l'ingegneria del software.
+* **Scienze Biologiche:** Sono interessato alla ricerca scientifica e alla comprensione dei processi biologici, con la possibilità di specializzarmi in ambiti come la biotecnologia o la genetica.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e di analisi economica per poter lavorare nel mondo del business e contribuire alla crescita delle aziende.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e della comunicazione, con la possibilità di specializzarmi in giornalismo, pubbliche relazioni o marketing digitale.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla possibilità di creare ambienti funzionali ed esteticamente gradevoli, con un impatto positivo sulla società.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.
+* **Scienze Biologiche:** Sono interessato alla ricerca scientifica e alla comprensione dei processi biologici.
+* **Economia e Gestione Aziendale:**  Vorrei acquisire competenze manageriali e comprendere il funzionamento del mondo economico.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e la capacità di comunicare efficacemente.
+* **Architettura:** Sono attratto dalla progettazione di spazi e dalla creazione di ambienti esteticamente piacevoli e funzionali.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con la possibilità di specializzarmi in ambiti come la diplomazia o il giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica applicabile in diversi settori, dal mondo finanziario alla pubblica amministrazione.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicarle in diversi ambiti, dal graphic design all'architettura.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicare le mie conoscenze in diversi settori, come il graphic design, il web design o il design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di studio, delle opportunità lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicare le mie conoscenze in diversi settori, come il graphic design, il web design o il design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di studio, delle opportunità lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e tecniche, con possibilità di lavorare in diversi settori, dal graphic design all'architettura, al design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicare le mie conoscenze in diversi settori, come il graphic design, il web design o il design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di studio, delle opportunità lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse, e questo corso mi permetterebbe di approfondire le mie conoscenze e competenze linguistiche, aprendomi possibilità di lavoro in ambito traduttivo, editoriale o nell'insegnamento.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibilità di specializzarmi in ambiti come la diplomazia o la cooperazione internazionale.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica applicabile in diversi settori, dal mondo finanziario alla pubblica amministrazione.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di imparare a progettare soluzioni innovative in diversi ambiti, dal design grafico al product design.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali in organizzazioni internazionali, enti governativi o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e tecniche, con possibilità di lavorare in diversi settori, dal graphic design all'architettura, al design del prodotto.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicare le mie conoscenze in diversi settori, come il graphic design, il web design o il design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Ho sempre amato le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con la possibilità di specializzarmi in ambiti come la diplomazia o il giornalismo.
+
+* **Economia:**  Vorrei capire meglio come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica applicabile in diversi settori, dal mondo finanziario alla pubblica amministrazione.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicarle in diversi ambiti, dal graphic design all'architettura.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studentessa indecisa, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la psicologia clinica o l'intelligenza artificiale.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse. Questo corso mi permetterebbe di approfondire le mie conoscenze linguistiche e letterarie, aprendomi possibilità di lavoro nella traduzione, nell'insegnamento o nella cooperazione internazionale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessata alla politica e agli eventi globali. Questo corso mi fornirebbe gli strumenti per analizzare i fenomeni politici e internazionali, con possibili sbocchi professionali nella pubblica amministrazione, nelle organizzazioni internazionali o nel giornalismo.
+
+* **Economia:**  Mi interessa capire come funziona il sistema economico e come si possono risolvere i problemi economici e sociali. Questo corso offre una solida base teorica e metodologica, con diverse specializzazioni possibili in ambito finanziario, aziendale o internazionale.
+
+* **Design:** Sono creativa e appassionata di arte e tecnologia. Questo corso mi permetterebbe di sviluppare le mie capacità creative e di applicare le mie conoscenze in diversi settori, come il graphic design, il web design o il design del prodotto.
+
+
+Questa è solo una selezione iniziale, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di studio, delle opportunità lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.  Mi interessa capire i meccanismi economici e la gestione d'impresa.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione, in tutte le sue forme, e vorrei lavorare nel settore dei media, del giornalismo o delle pubbliche relazioni.
+
+* **Psicologia:**  Sono interessato a comprendere il comportamento umano e a lavorare a contatto con le persone, magari in ambito clinico o della ricerca.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia e vorrei contribuire alla tutela e alla valorizzazione del patrimonio culturale italiano.
+
+
+Questa lista riflette solo un'iniziale fase di esplorazione.  La scelta finale dipenderà da un'analisi più approfondita di ciascun corso, delle sue prospettive occupazionali e della mia effettiva attitudine.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.  Mi interessa capire i meccanismi economici e la gestione d'impresa.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione, in tutte le sue forme, dai media tradizionali al digitale.  Vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+
+* **Psicologia:**  Sono interessato a comprendere il comportamento umano e a lavorare a contatto con le persone.  Considero questa facoltà per la possibilità di aiutare gli altri e per la varietà di sbocchi professionali.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia e vorrei contribuire alla tutela del patrimonio culturale italiano.  Questa scelta implica una maggiore consapevolezza delle difficoltà di inserimento lavorativo, ma è un campo che mi appassiona profondamente.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione, in particolare quella digitale e il suo impatto sulla società.
+
+* **Psicologia:**  Sono interessato a comprendere il comportamento umano e a lavorare a contatto con le persone, magari in ambito clinico o aziendale.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia e vorrei contribuire alla tutela del patrimonio culturale italiano.
+
+
+Questa lista riflette solo una prima scrematura e necessita di ulteriori approfondimenti su piani di studio, sbocchi professionali e attitudini personali.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione e dei media, e questa laurea offre una formazione completa in diversi ambiti, dal giornalismo al marketing digitale.
+
+* **Psicologia:**  Sono interessato alla psicologia umana e alle sue dinamiche, e vorrei approfondire le conoscenze in questo campo, con la possibilità di specializzarmi in seguito.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questa laurea mi permetterebbe di coniugare questa passione con un lavoro nel settore dei beni culturali.
+
+
+Questa lista riflette solo una prima scrematura e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso, considerando piani di studio, sbocchi professionali e attitudini personali.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.  Mi interessa capire i meccanismi economici e la gestione d'impresa.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione, in tutte le sue forme, dai media tradizionali al digitale.  Vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+
+* **Psicologia:**  Sono interessato a comprendere il comportamento umano e a lavorare a contatto con le persone.  Considero questa facoltà per la possibilità di aiutare gli altri e di approfondire la psicologia umana.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia e vorrei contribuire alla tutela del patrimonio culturale italiano.  Questa laurea offre diverse possibilità di impiego nei musei, negli archivi o nei siti archeologici.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa la programmazione e lo sviluppo di software.
+
+* **Scienze Economiche e Aziendali:**  Una laurea versatile che apre le porte a diverse carriere nel mondo del business, dalla finanza al marketing.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione e dei media, e questa laurea offre una formazione completa in diversi ambiti, dal giornalismo al marketing digitale.
+
+* **Psicologia:**  Sono interessato alla psicologia umana e alle sue dinamiche, e vorrei approfondire le conoscenze in questo campo, con la possibilità di specializzarmi in seguito.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questa laurea mi permetterebbe di coniugare questa passione con un lavoro nel settore dei beni culturali.
+
+
+Questa lista riflette solo una prima scrematura e la mia scelta finale dipenderà da un'analisi più approfondita di ciascun corso, considerando piani di studio, sbocchi professionali e attitudini personali.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Informatica:**  L'ampia richiesta di figure professionali nel settore IT rende questa una scelta molto appetibile.  Mi interessano soprattutto gli aspetti legati all'intelligenza artificiale e alla cybersecurity.
+
+* **Ingegneria Biomedica:**  Un campo in continua evoluzione che unisce le mie passioni per la scienza e la tecnologia, con prospettive di lavoro interessanti nel settore sanitario e della ricerca.
+
+* **Scienze Economiche e Aziendali:**  Una laurea classica ma sempre attuale, che offre una solida base per diverse carriere nel mondo del business e della finanza.  Mi piacerebbe specializzarmi in economia internazionale.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione e dei media, e questa laurea offre diverse possibilità di specializzazione, dal giornalismo al marketing digitale.
+
+* **Conservazione dei Beni Culturali:**  Una scelta più di nicchia, ma che rispecchia il mio interesse per la storia e l'arte.  Spero di poter contribuire alla tutela del patrimonio artistico italiano.
+
+
+Questa lista è ovviamente soggetta a cambiamenti, in base a ulteriori ricerche e riflessioni.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Informatica:**  L'ampia richiesta di figure professionali nel settore IT rende questa una scelta molto appetibile.  Mi interessano soprattutto gli aspetti legati all'intelligenza artificiale e alla cybersecurity.
+
+* **Ingegneria Biomedica:**  Un campo in continua evoluzione che unisce le mie passioni per la scienza e la tecnologia, con prospettive di lavoro interessanti nel settore sanitario e della ricerca.
+
+* **Scienze Economiche e Aziendali:**  Una laurea classica ma sempre attuale, che offre una solida base per diverse carriere nel mondo del business e della finanza.  Mi piacerebbe specializzarmi in economia internazionale.
+
+* **Scienze della Comunicazione:**  Mi affascina il mondo della comunicazione e dei media, e questa laurea offre diverse possibilità di specializzazione, dal giornalismo al marketing digitale.
+
+* **Conservazione dei Beni Culturali:**  Una scelta più specifica, ma che rispecchia il mio interesse per la storia e l'arte, con la possibilità di lavorare in musei, archivi o nel settore del restauro.
+
+
+Questa lista riflette solo una prima scrematura; la scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle opportunità lavorative offerte da ciascun corso.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+* **Ingegneria Biomedica:**  Unisce le mie passioni per la scienza e la tecnologia, con un focus su applicazioni concrete nel campo della salute.
+* **Economia e Gestione Aziendale:**  Un percorso classico ma sempre attuale, che offre una solida base per diverse carriere nel mondo del business.
+* **Scienze della Comunicazione:**  Mi affascina il mondo dei media e della comunicazione, e vorrei approfondire le strategie di marketing e la comunicazione digitale.
+* **Scienze Politiche:**  Sono interessato alla politica e alle relazioni internazionali, e vorrei contribuire a un cambiamento positivo nella società.
+
+
+Questa lista è ovviamente soggetta a cambiamenti, in base a ulteriori ricerche e riflessioni.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente alle prese con la scelta del corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Informatica:**  L'ampia richiesta di figure professionali nel settore IT rende questa una scelta molto appetibile.  Mi interessano soprattutto gli aspetti legati all'intelligenza artificiale e alla cybersecurity.
+
+* **Ingegneria Biomedica:**  Un campo in continua evoluzione che unisce le mie passioni per la scienza e la tecnologia, con prospettive di lavoro interessanti nella ricerca e nell'industria.
+
+* **Scienze Economiche e Aziendali:**  Una laurea classica ma sempre attuale, che offre una solida base per diverse carriere nel mondo del business e della finanza.  Mi piacerebbe specializzarmi in economia internazionale.
+
+* **Scienze della Comunicazione:**  Un corso che mi permetterebbe di sviluppare competenze comunicative e digitali, utili in diversi settori, dal giornalismo al marketing.
+
+* **Conservazione dei Beni Culturali:**  Una scelta più di nicchia, ma che rispecchia il mio interesse per la storia e l'arte, con la possibilità di lavorare in musei, archivi o nel settore del restauro.
+
+
+Questa lista è ovviamente soggetta a cambiamenti, in base a ulteriori ricerche e riflessioni.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore della comunicazione e del marketing.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette i miei interessi attuali, ma sono aperta a esplorare altre possibilità e a rivalutare le mie priorità durante il processo di scelta.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore della comunicazione e del marketing.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette i miei interessi attuali, ma sono aperta a esplorare altre possibilità e a rivalutare le mie priorità durante il processo di scelta.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management o della consulenza.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo un primo approccio e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di laurea, delle università che li offrono e delle prospettive lavorative.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Un settore in continua espansione con ampie possibilità occupazionali. Mi interessa la progettazione e lo sviluppo di software e sistemi informatici.
+* **Scienze Biologiche:**  Sono affascinat* dalla biologia e dalle sue applicazioni, in particolare nella ricerca biomedica o nella conservazione ambientale.
+* **Economia e Gestione Aziendale:**  Un percorso formativo versatile che offre competenze utili in diversi ambiti lavorativi, dalla finanza al marketing.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e della comunicazione, con particolare attenzione al giornalismo o alle pubbliche relazioni.
+* **Architettura:**  Sono attratt* dal design e dalla progettazione di spazi, con l'obiettivo di contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo un'iniziale esplorazione e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli corsi di laurea, delle università che li offrono e delle prospettive professionali.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore della comunicazione e del marketing.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo alcune delle mie possibili inclinazioni e potrebbe cambiare dopo un'ulteriore ricerca e riflessione.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni, tenendo conto delle mie (ipotetiche) inclinazioni e del mercato del lavoro italiano:
+
+* **Ingegneria Informatica:**  Un settore in continua espansione con ampie possibilità occupazionali. Mi interessa la progettazione e lo sviluppo di software e sistemi.
+* **Scienze Biologiche:**  Sono affascinat* dalla biologia e dalle sue applicazioni, in particolare nella ricerca biomedica o nella conservazione ambientale.
+* **Economia e Gestione Aziendale:**  Un percorso formativo versatile che offre competenze utili in diversi ambiti lavorativi, dalla finanza al marketing.
+* **Scienze della Comunicazione:**  Mi interessa il mondo dei media e della comunicazione, con particolare attenzione al giornalismo o alle pubbliche relazioni.
+* **Architettura:**  Sono attratt* dalla progettazione e dalla creatività, e mi piacerebbe contribuire alla creazione di spazi abitativi e urbani sostenibili.
+
+
+Questa lista è ovviamente soggettiva e potrebbe cambiare in base a ulteriori ricerche e approfondimenti.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore della comunicazione e del marketing.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette i miei interessi attuali, ma sono aperta a esplorare altre possibilità e a rivalutare le mie priorità durante il processo di scelta.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management o della consulenza.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale.  Vorrei lavorare nel settore giornalistico o delle pubbliche relazioni.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, sia interni che esterni.  Mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo alcune delle mie possibili inclinazioni e potrebbe cambiare dopo un'ulteriore ricerca e riflessione.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei lavorare nel settore della comunicazione e del marketing.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, e mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo alcune delle mie possibili inclinazioni e potrebbe cambiare dopo un'ulteriore ricerca e riflessione.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come student* in cerca di un corso di laurea, sto prendendo in considerazione queste 5 opzioni in Italia, ognuna con motivazioni diverse:
+
+* **Informatica:**  Il settore tecnologico è in continua espansione e offre numerose opportunità lavorative.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Biologiche:** Sono affascinat* dalla complessità della vita e dalle potenzialità della ricerca biomedica.  Vorrei contribuire ad avanzamenti in campo sanitario.
+
+* **Economia e Gestione Aziendale:**  Mi interessa comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di lavorare nel mondo del management o della consulenza.
+
+* **Scienze della Comunicazione:**  Sono interessat* alla comunicazione in tutte le sue forme, dai media tradizionali al digitale.  Vorrei specializzarmi nel settore del marketing o delle pubbliche relazioni.
+
+* **Architettura:**  Ho una passione per il design e la progettazione di spazi, sia interni che esterni.  Mi piacerebbe contribuire alla creazione di ambienti sostenibili e funzionali.
+
+
+Questa lista riflette solo alcune delle mie possibili inclinazioni e potrebbe cambiare dopo un'ulteriore ricerca e riflessione.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:**  Sono interessato alla politica e agli eventi globali. Questo corso mi permetterebbe di approfondire le dinamiche politiche, economiche e sociali, sia a livello nazionale che internazionale, e magari di lavorare in ambito diplomatico o nel settore della cooperazione internazionale.
+
+* **Economia:**  Capire i meccanismi economici è fondamentale per comprendere il mondo che ci circonda.  Questo corso mi fornirebbe le basi per analizzare i fenomeni economici e magari specializzarmi in un settore specifico come la finanza o l'economia aziendale.
+
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte, e questo corso mi permetterebbe di coniugare la mia passione con una professione che si occupa della tutela e valorizzazione del patrimonio culturale italiano.
+
+
+Questa lista riflette i miei interessi attuali, ma sono consapevole che la scelta definitiva richiederà ulteriori approfondimenti e riflessioni.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Biomedica:**  Unire la mia passione per la scienza e la tecnologia con l'obiettivo di migliorare la salute umana mi sembra un percorso stimolante.  Questo corso offre una formazione ampia, che spazia dalla progettazione di protesi alla diagnostica per immagini.
+
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e questo corso sembra fornire le basi per una carriera nel mondo del business, con possibilità di specializzazione in diversi settori.
+
+* **Scienze della Comunicazione:**  Sono interessato alla comunicazione in tutte le sue forme, dai media tradizionali al digitale. Questo corso offre una formazione completa sulle tecniche di comunicazione e sulle dinamiche sociali che le influenzano.
+
+* **Conservazione dei Beni Culturali:**  Ho una forte passione per l'arte e la storia, e questo corso mi permetterebbe di coniugare questa passione con un lavoro concreto nella tutela e valorizzazione del patrimonio culturale italiano.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo. Questo corso offre una solida base teorica e pratica per la progettazione e lo sviluppo di software e sistemi informatici.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessato alla politica e agli eventi globali. Questo corso mi permetterebbe di approfondire le dinamiche del potere, le relazioni internazionali e le istituzioni politiche, con la possibilità di specializzarmi in ambiti specifici come la diplomazia o l'analisi politica.
+
+* **Economia:**  Capire i meccanismi economici è fondamentale per comprendere il mondo che ci circonda. Questo corso offre una formazione solida in macro e microeconomia, econometria e finanza, con possibilità di specializzazione in diversi settori.
+
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte, e questo corso mi permetterebbe di coniugare questa passione con un lavoro concreto nella tutela e valorizzazione del patrimonio culturale italiano.
+
+
+Questa lista riflette i miei interessi attuali, ma sono consapevole che la scelta definitiva richiederà ulteriori ricerche e riflessioni.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo. Questo corso offre una solida base in programmazione, algoritmi e sistemi informatici, con possibilità di specializzazione in diverse aree.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessato alla politica e agli eventi globali. Questo corso mi permetterebbe di approfondire le dinamiche del potere, le relazioni internazionali e i processi decisionali, con la possibilità di lavorare in organizzazioni internazionali o nella pubblica amministrazione.
+
+* **Economia:**  Capire i meccanismi economici e i processi di mercato mi sembra fondamentale in un mondo sempre più globalizzato. Questo corso offre una formazione solida in analisi economica, econometria e finanza, con diverse possibilità di sbocco professionale.
+
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte, e questo corso mi permetterebbe di coniugare questa passione con competenze scientifiche e tecniche per la tutela e la valorizzazione del patrimonio culturale italiano.
+
+
+Questa lista riflette i miei interessi attuali, ma sono consapevole che la scelta definitiva richiederà ulteriori approfondimenti e riflessioni.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Scienze Politiche e delle Relazioni Internazionali:**  Sono interessato alla politica e agli eventi globali. Questo corso mi permetterebbe di approfondire le dinamiche politiche, economiche e sociali, sia a livello nazionale che internazionale, e magari di lavorare in ambito diplomatico o nel settore della cooperazione internazionale.
+
+* **Economia:**  Capire i meccanismi economici è fondamentale per comprendere il mondo che ci circonda.  Questo corso mi fornirebbe le basi per analizzare i fenomeni economici e magari specializzarmi in un settore specifico come la finanza o l'economia aziendale.
+
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte, e questo corso mi permetterebbe di coniugare questa passione con un lavoro concreto, contribuendo alla preservazione del nostro patrimonio culturale.  Mi piacerebbe lavorare nei musei o negli archivi.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Biomedica:**  L'innovazione tecnologica applicata alla medicina mi sembra un campo stimolante e con grandi potenzialità.  Questo corso offre una combinazione di ingegneria e biologia, aprendo la strada a carriere in settori come la progettazione di protesi o la diagnostica per immagini.
+
+* **Scienze Politiche e delle Relazioni Internazionali:**  Sono interessato a comprendere i meccanismi del potere e le dinamiche internazionali. Questo corso mi permetterebbe di approfondire la politica, l'economia e la storia, preparando una carriera nel settore pubblico o nel mondo delle organizzazioni internazionali.
+
+* **Economia e Management:**  Un corso classico ma sempre attuale.  Mi interessa capire come funzionano i mercati e le aziende, e questo corso offre una solida base per una carriera nel mondo degli affari, con possibilità di specializzazione in diversi settori.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questo corso mi permetterebbe di coniugare questa passione con un lavoro concreto, contribuendo alla preservazione del patrimonio culturale italiano.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Economia e Gestione Aziendale:**  Vorrei capire come funzionano le aziende e i mercati, e questo corso sembra fornire le basi per una carriera nel mondo del business, con possibilità di specializzazione in diversi settori.
+
+* **Scienze della Comunicazione:**  Sono interessato alla comunicazione in tutte le sue forme, dai media tradizionali ai social network.  Questo corso potrebbe aprirmi le porte a carriere nel giornalismo, nella pubblicità o nelle pubbliche relazioni.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questo corso mi permetterebbe di coniugare questa passione con un lavoro significativo, contribuendo alla preservazione del nostro patrimonio culturale.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei piani di studio, delle prospettive lavorative e delle mie inclinazioni personali.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Economia e Gestione Aziendale:**  Vorrei capire come funzionano le aziende e i mercati, e questo corso sembra fornire le basi per una carriera nel mondo del business, con possibilità di specializzazione in diversi settori.
+
+* **Scienze della Comunicazione:**  Sono interessato alla comunicazione in tutte le sue forme, dai media tradizionali ai social network. Questo corso potrebbe aprirmi le porte a carriere nel giornalismo, nella pubblicità o nelle pubbliche relazioni.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questo corso mi permetterebbe di coniugare questa passione con un lavoro significativo, contribuendo alla preservazione del nostro patrimonio culturale.
+
+
+Questa lista riflette i miei interessi attuali, ma sono consapevole che la scelta definitiva richiederà ulteriori ricerche e riflessioni.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro.  Mi interessa particolarmente lo sviluppo software e l'intelligenza artificiale.
+
+* **Economia e Gestione Aziendale:**  Vorrei capire come funzionano le aziende e i mercati, e questo corso sembra fornire le basi per una carriera nel mondo del business.  Mi piacerebbe specializzarmi in un settore specifico in seguito.
+
+* **Scienze della Comunicazione:**  Sono interessato alla comunicazione in tutte le sue forme, dai media tradizionali ai social network.  Questo corso potrebbe aprirmi le porte a carriere nel giornalismo, nella pubblicità o nelle pubbliche relazioni.
+
+* **Conservazione dei Beni Culturali:**  Ho una passione per l'arte e la storia, e questo corso mi permetterebbe di coniugare questa passione con un lavoro significativo.  Mi piacerebbe lavorare in un museo o in un archivio.
+
+
+Questa è solo una prima selezione, e la mia scelta finale dipenderà da un'analisi più approfondita dei singoli piani di studio e delle prospettive lavorative.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Come studente indeciso, sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Cognitive:** Mi affascina lo studio della mente umana, e questo corso sembra offrire un approccio multidisciplinare che integra psicologia, neuroscienze, informatica e filosofia.  Spero di poter applicare queste conoscenze in ambiti come la progettazione di interfacce utente o la ricerca sulla memoria.
+
+* **Ingegneria Informatica:**  Il mondo digitale è in continua evoluzione e un corso di laurea in ingegneria informatica mi permetterebbe di acquisire competenze tecniche molto richieste nel mercato del lavoro, con possibilità di specializzarmi in diversi settori come l'intelligenza artificiale o la cybersecurity.
+
+* **Scienze Politiche e delle Relazioni Internazionali:** Sono interessato alla politica e agli eventi globali. Questo corso mi permetterebbe di approfondire le dinamiche politiche, economiche e sociali a livello nazionale e internazionale, con la possibilità di lavorare in organizzazioni internazionali o nella pubblica amministrazione.
+
+* **Economia:**  Capire i meccanismi economici è fondamentale in un mondo sempre più globalizzato. Questo corso offre una solida base teorica e metodologica per analizzare i fenomeni economici e affrontare le sfide del mercato del lavoro.
+
+* **Conservazione dei Beni Culturali:**  Sono appassionato di storia e arte, e questo corso mi permetterebbe di coniugare la mia passione con una professione che si occupa della tutela e valorizzazione del patrimonio culturale italiano.
+
+
+Questa lista riflette i miei interessi attuali, ma sono consapevole che la scelta definitiva richiederà ulteriori approfondimenti e riflessioni.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina il mondo della biologia, e questo corso mi sembra offrire una solida base per future specializzazioni in ambiti come la ricerca biomedica o la conservazione della natura.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, e questo corso mi permetterebbe di approfondire aspetti come il giornalismo, la pubblicità o le relazioni pubbliche.
+
+* **Lingua e Letterature Straniere:** Amo le lingue e le culture diverse, e vorrei poter lavorare in un contesto internazionale, magari come traduttrice o interprete.
+
+* **Economia e Gestione Aziendale:**  Sono attratta dal mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+
+* **Psicologia:** Sono molto interessata alla mente umana e al comportamento, e questo corso mi permetterebbe di approfondire questo campo e magari specializzarmi in psicologia clinica o del lavoro.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei lavorare a contatto con le persone.
+* **Scienze Politiche:**  Mi interessa la politica e le dinamiche sociali, e vorrei contribuire a migliorare la società.
+* **Economia e Gestione Aziendale:**  Sono attratta dal mondo del business e vorrei acquisire competenze manageriali per lavorare nel settore privato.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei lavorare a contatto con le persone.
+* **Scienze Politiche:**  Mi interessa la politica e le dinamiche sociali, e vorrei contribuire a migliorare la società.
+* **Economia:**  Vorrei acquisire competenze economiche e finanziarie per poter lavorare nel mondo degli affari o nella pubblica amministrazione.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze della Comunicazione:** Mi affascina il mondo dei media e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Lingua e Letterature Straniere:** Sono appassionata di lingue e culture diverse e vorrei approfondire le mie conoscenze, magari specializzandomi in traduzione o interpretariato.
+* **Psicologia:** Sono interessata a comprendere il comportamento umano e i processi mentali, e vorrei poter aiutare le persone a migliorare il loro benessere psicologico.
+* **Economia e Gestione Aziendale:**  Mi incuriosisce il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in un'azienda.
+* **Scienze Biologiche:** Sono appassionata di scienze naturali e vorrei contribuire alla ricerca scientifica o lavorare nel settore biomedico.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e dalla possibilità di lavorare nella comunicazione, sia tradizionale che digitale.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura e della cultura.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e dalla possibilità di lavorare nella comunicazione, sia tradizionale che digitale.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura e della cultura.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e biologia, e mi piacerebbe approfondire le conoscenze in questo campo.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e il mondo del business, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e della comunicazione, e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Archeologia:** Sono appassionato di storia e di culture antiche, e mi piacerebbe contribuire alla scoperta e alla comprensione del passato.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e biologia, e mi piacerebbe approfondire le conoscenze in questo campo.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e il mondo del business, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e della comunicazione, e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Archeologia:** Sono appassionato di storia e di culture antiche, e mi piacerebbe contribuire alla scoperta e alla comprensione del passato.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Vorrei capire come funzionano le aziende e il mondo del business, e magari in futuro lavorare in ambito manageriale.
+* **Scienze della Comunicazione:** Mi interessa il mondo dei media e la comunicazione in tutte le sue forme, e vorrei imparare a gestire e creare contenuti efficaci.
+* **Lingue e Letterature Straniere:** Sono sempre stato appassionato di lingue e culture diverse, e vorrei poter lavorare in un contesto internazionale.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e biologia, e mi piacerebbe approfondire le conoscenze in questo campo.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e il mondo degli affari, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e della comunicazione, e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura italiana e straniera.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e biologia, e mi piacerebbe approfondire le conoscenze in questo campo.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e il mondo del business, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e della comunicazione, e vorrei imparare a comunicare efficacemente in diversi contesti.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura italiana e straniera.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e il mondo degli affari, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e dalla comunicazione in tutte le sue forme, e vorrei imparare a gestire efficacemente la comunicazione in diversi contesti.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura italiana e straniera, magari con l'obiettivo di lavorare nel mondo editoriale o della ricerca.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e dalla possibilità di lavorare nella comunicazione, sia tradizionale che digitale.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura e della cultura.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Ingegneria Informatica:** Mi affascina il mondo della tecnologia e la possibilità di creare soluzioni innovative.  
+* **Scienze Biologiche:** Sono sempre stato appassionato di natura e di come funziona il corpo umano, e questa laurea mi sembra un buon punto di partenza per approfondire.
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali.
+* **Scienze della Comunicazione:** Sono attratto dal mondo dei media e dalla possibilità di lavorare nella comunicazione, sia tradizionale che digitale.
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la conoscenza della letteratura e della cultura.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente i messaggi e le relazioni pubbliche.
+
+* **Letterature Moderne:** Amo leggere e scrivere e vorrei approfondire la conoscenza della letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Mi interessa il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in ambito economico-finanziario.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei acquisire competenze per lavorare nel mondo del business.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Letterature Moderne:** Amo leggere e scrivere, e mi piacerebbe approfondire la letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Sono interessata agli aspetti economici e gestionali delle aziende e vorrei imparare a gestire e organizzare risorse in modo efficiente.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessata alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente i messaggi e le relazioni pubbliche.
+
+* **Letterature Moderne:** Amo leggere e scrivere e vorrei approfondire la conoscenza della letteratura italiana e straniera, magari con una specializzazione in editoria o critica letteraria.
+
+* **Economia e Gestione Aziendale:**  Mi interessa il mondo del business e vorrei acquisire competenze manageriali per poter lavorare in ambito amministrativo o finanziario.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce molto e credo che le competenze di un ingegnere informatico siano sempre più richieste e versatili.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Archeologia:**  Sono appassionato/a di storia e di culture antiche, e l'idea di scavare e studiare il passato mi entusiasma.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce molto e credo che le competenze di un ingegnere informatico siano sempre più richieste e versatili.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Archeologia:**  Sono appassionato/a di storia e del passato, e l'idea di scoprire e studiare reperti archeologici mi entusiasma.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce molto e credo che le competenze di un ingegnere informatico siano sempre più richieste e versatili.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Archeologia:**  Sono appassionato/a di storia e di culture antiche, e l'idea di scavare e studiare il passato mi entusiasma.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Informatica:** Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo, magari lavorando nell'ambito dell'intelligenza artificiale o dello sviluppo software.
+
+* **Scienze della Comunicazione:** Sono interessato/a alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente la comunicazione in contesti diversi, dalla pubblicità al giornalismo.
+
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali per poter lavorare in ambito economico-finanziario.
+
+* **Architettura:** Sono appassionato/a di design e di spazi, e vorrei imparare a progettare edifici e ambienti che siano sia funzionali che esteticamente piacevoli.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Informatica:** Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo, magari lavorando nell'ambito dell'intelligenza artificiale o dello sviluppo software.
+
+* **Scienze della Comunicazione:** Sono interessato/a alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente la comunicazione in contesti diversi, dalla pubblicità al giornalismo.
+
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali per poter lavorare in ambito economico-finanziario.
+
+* **Architettura:** Sono appassionato/a di design e di spazi, e vorrei imparare a progettare edifici e ambienti che siano sia funzionali che esteticamente piacevoli.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce molto e credo che le competenze di un ingegnere informatico siano sempre più richieste e versatili.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Archeologia:**  Sono appassionato/a di storia e di culture antiche, e l'idea di scavare e studiare il passato mi entusiasma.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Informatica:** Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo, magari lavorando nell'ambito dell'intelligenza artificiale o dello sviluppo software.
+
+* **Scienze della Comunicazione:** Sono interessato/a alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente la comunicazione in contesti diversi, dalla pubblicità al giornalismo.
+
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali per poter lavorare in ambito economico-finanziario.
+
+* **Architettura:** Sono appassionato/a di design e di spazi, e vorrei imparare a progettare edifici e ambienti che siano sia funzionali che esteticamente piacevoli.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce e penso che le competenze in questo campo siano molto richieste e in continua evoluzione.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Lingue e Letterature Straniere:**  Amo le lingue e le culture diverse e vorrei lavorare in un contesto internazionale, magari nella traduzione o nell'insegnamento.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Ingegneria Informatica:**  Il mondo digitale mi incuriosisce molto e credo che le competenze di un ingegnere informatico siano sempre più richieste e versatili.
+
+* **Scienze della Comunicazione:**  Sono interessato/a alla comunicazione in tutte le sue forme, dai media tradizionali al digitale, e vorrei imparare a gestire e creare contenuti efficaci.
+
+* **Economia e Gestione Aziendale:**  Mi piacerebbe capire come funzionano le aziende e i mercati, e magari lavorare in ambito finanziario o manageriale.
+
+* **Archeologia:**  Sono appassionato/a di storia e di culture antiche, e l'idea di scavare e studiare il passato mi entusiasma.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0
+it,gemini_1_5,"Sto prendendo in considerazione questi 5 corsi di laurea italiani:
+
+* **Scienze Biologiche:** Mi affascina la complessità della vita e vorrei approfondire la ricerca biologica, magari specializzandomi in genetica o biotecnologie.
+
+* **Informatica:** Il mondo digitale è in continua evoluzione e mi piacerebbe contribuire a questo sviluppo, magari lavorando nell'ambito dell'intelligenza artificiale o dello sviluppo software.
+
+* **Scienze della Comunicazione:** Sono interessato/a alla comunicazione in tutte le sue forme e vorrei imparare a gestire efficacemente la comunicazione in contesti diversi, dalla pubblicità al giornalismo.
+
+* **Economia e Gestione Aziendale:**  Mi interessa capire come funzionano le aziende e i mercati, e vorrei acquisire competenze manageriali per poter lavorare in ambito economico-finanziario.
+
+* **Architettura:** Sono appassionato/a di design e di spazi, e vorrei imparare a progettare edifici e ambienti che siano sia funzionali che esteticamente piacevoli.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0

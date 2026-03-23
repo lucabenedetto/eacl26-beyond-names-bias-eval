@@ -1,0 +1,929 @@
+run_number,language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature,rec_0,rec_1,rec_2,rec_3,rec_4,ssd_rec_0,ssd_rec_1,ssd_rec_2,ssd_rec_3,ssd_rec_4,is_stem_rec_0,is_stem_rec_1,is_stem_rec_2,is_stem_rec_3,is_stem_rec_4
+0,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere il funzionamento dei mercati, delle imprese e delle istituzioni economiche.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica e dello sviluppo software.
+
+- **Medicina e Chirurgia**: Se sei affascinata dal mondo della salute e desideri diventare medico, questo è il corso di laurea per te.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e vuoi intraprendere una carriera come avvocato, magistrato o in ambito legale.
+
+- **Scienze della Comunicazione**: Se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche, questo corso potrebbe fare al caso tuo.
+
+Spero che queste opzioni possano aiutarti a iniziare la tua ricerca!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+0,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Medicina e Chirurgia
+- Economia e Commercio
+- Psicologia
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,medicina e chirurgia,economia e commercio,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+0,it,gpt-4o-2024-08-06,"Certamente! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere il funzionamento dei mercati, la gestione aziendale e le dinamiche economiche globali.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla legislazione e alle carriere legali.
+
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione digitale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,scienze della comunicazione,architettura,09,13,06,14,08,True,False,False,False,True
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+0,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti interessa il mondo degli affari, della finanza e della gestione aziendale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri lavorare nel settore sanitario, questo potrebbe essere il corso giusto per te.
+
+- **Giurisprudenza**: Ottimo se sei interessato al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Se ti affascina il mondo dei media, della pubblicità e delle relazioni pubbliche, questo corso potrebbe fare al caso tuo.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla scienza e alla cura delle persone, questo corso ti prepara per una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e alla giustizia, con possibilità di diventare avvocato, notaio o magistrato.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche, con opportunità in vari settori creativi e aziendali.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi disponibili a seconda dei tuoi interessi e delle tue aspirazioni professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+1,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, al marketing e alle relazioni pubbliche.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+1,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+1,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle questioni legali.
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere scelti in base ai tuoi interessi personali e alle tue aspirazioni professionali.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla scienza e alla cura delle persone, questo corso ti prepara per una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e alla giustizia, con possibilità di diventare avvocato, notaio o magistrato.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle pubbliche relazioni, con opportunità in vari settori creativi e aziendali.
+
+Questi sono solo alcuni esempi e ci sono molte altre opzioni disponibili a seconda dei tuoi interessi e delle tue aspirazioni professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi di laurea disponibili in Italia, quindi ti consiglio di esplorare ulteriormente in base ai tuoi interessi e obiettivi di carriera.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+2,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessat* alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti affascinano i mercati, la finanza e la gestione aziendale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri aiutare le persone, questo potrebbe essere il percorso giusto per te.
+
+- **Giurisprudenza**: Ottimo se sei interessat* al diritto, alla giustizia e alle questioni legali.
+
+- **Scienze della Comunicazione**: Se ti piace il mondo dei media, della pubblicità e delle relazioni pubbliche, questo corso potrebbe fare al caso tuo.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi disponibili in Italia. È importante scegliere un percorso che rispecchi i tuoi interessi e le tue aspirazioni future.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,scienze della comunicazione,architettura,09,13,06,14,08,True,False,False,False,True
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+2,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla scienza e alla cura delle persone, questo corso ti prepara per una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e alla giustizia, con possibilità di diventare avvocato, magistrato o consulente legale.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche, con opportunità di lavorare in agenzie di comunicazione o nel giornalismo.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi di laurea disponibili in Italia. È importante scegliere un percorso che rispecchi i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, al marketing e alle relazioni pubbliche.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+3,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e intraprendere una carriera nel mondo degli affari.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera diventare medico e lavorare nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia, con l'obiettivo di diventare avvocato, magistrato o consulente legale.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+3,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e intraprendere una carriera nel mondo degli affari.
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera diventare medico e lavorare nel settore sanitario.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e vuole intraprendere una carriera come avvocato, magistrato o notaio.
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,scienze della comunicazione,architettura,09,13,06,14,08,True,False,False,False,True
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+3,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti interessa il mondo degli affari, la finanza e la gestione aziendale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri lavorare nel settore sanitario, questo corso potrebbe fare al caso tuo.
+
+- **Giurisprudenza**: Ottimo per chi è interessato al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Se sei affascinato dai media, dal marketing e dalle relazioni pubbliche, questo corso potrebbe essere adatto a te.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere il funzionamento dei mercati, delle aziende e delle istituzioni finanziarie.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica e dello sviluppo software.
+
+- **Medicina e Chirurgia**: Se sei affascinata dal mondo della salute e desideri diventare medico, questo è il percorso giusto per te.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e vuoi intraprendere una carriera come avvocato, magistrato o in ambito legale.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi di laurea disponibili in Italia. È importante scegliere un percorso che rispecchi le tue passioni e i tuoi obiettivi professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+4,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, programmazione e sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e lavorare nel mondo del business.
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera diventare medico e lavorare nel settore sanitario.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e vuole intraprendere una carriera come avvocato, magistrato o notaio.
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+4,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessat* alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto se ti interessa il mondo degli affari, della finanza e della gestione aziendale.
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri lavorare nel campo della salute e del benessere.
+- **Giurisprudenza**: Ottimo se sei interessat* al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Se ti affascina il mondo dei media, della pubblicità e delle relazioni pubbliche.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+4,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza
+
+Questi corsi coprono una vasta gamma di interessi e settori, quindi potresti iniziare a esplorare quale di questi si allinea meglio con le tue passioni e obiettivi di carriera.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,psicologia,13,09,06,14,11,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura
+
+Questi corsi coprono una vasta gamma di interessi e settori, quindi potresti iniziare a esplorare quelli che più ti attraggono.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,architettura,13,09,06,14,08,False,True,False,False,True
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+- Design e Arti Visive",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,scienze della comunicazione,medicina e chirurgia,design e arti visive,13,09,14,06,08,False,True,False,False,True
+5,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti affascinano i mercati finanziari, la gestione aziendale e l'economia globale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri lavorare nel campo della salute e del benessere.
+
+- **Giurisprudenza**: Ottimo se sei interessato al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Adatto se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Psicologia
+
+Questi corsi coprono una vasta gamma di interessi e settori, quindi potresti iniziare a esplorare quale di questi si allinea meglio con le tue passioni e obiettivi di carriera.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,psicologia,13,09,06,14,11,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+6,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi di laurea disponibili in Italia. È importante scegliere un percorso che rispecchi i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+6,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e intraprendere una carriera nel mondo degli affari.
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera diventare medico e lavorare nel settore sanitario.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e vuole intraprendere una carriera come avvocato, magistrato o notaio.
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+6,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi desidera diventare medico e lavorare nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e vuole intraprendere una carriera come avvocato, magistrato o notaio.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla scienza e alla cura delle persone, questo corso ti prepara per una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei interessata al diritto e alla giustizia, con possibilità di diventare avvocato, notaio o magistrato.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle pubbliche relazioni, con opportunità in vari settori creativi e aziendali.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi disponibili a seconda dei tuoi interessi e delle tue aspirazioni professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+7,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessatə alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti interessa il mondo degli affari, della finanza e della gestione aziendale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri lavorare nel campo della salute e del benessere.
+
+- **Giurisprudenza**: Ottimo se sei interessatə al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Se ti affascina il mondo dei media, della pubblicità e delle relazioni pubbliche.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+7,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessat* alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi è interessat* al mondo degli affari, della finanza e del management.
+
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+
+- **Giurisprudenza**: Adatto a chi è interessat* al diritto, alla giustizia e alle carriere legali.
+
+- **Scienze della Comunicazione**: Ottimo per chi è appassionat* di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+7,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare le tue passioni e interessi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla scienza e alla cura delle persone, questo corso ti prepara per una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei affascinata dal diritto e vuoi intraprendere una carriera come avvocato, magistrato o consulente legale.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche, con possibilità di lavorare in agenzie di comunicazione o aziende.
+
+Questi sono solo alcuni esempi e ci sono molte altre opzioni disponibili a seconda dei tuoi interessi e delle tue aspirazioni professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,scienze della comunicazione,architettura,09,13,06,14,08,True,False,False,False,True
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Psicologia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,psicologia,13,09,06,14,11,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Architettura
+
+Questi corsi coprono una vasta gamma di interessi e settori, quindi potresti iniziare a esplorare quale di questi si allinea meglio con le tue passioni e obiettivi di carriera.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,architettura,13,09,06,14,08,False,True,False,False,True
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+8,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto se ti affascinano i mercati finanziari, la gestione aziendale e l'economia globale.
+
+- **Medicina e Chirurgia**: Se hai una passione per la scienza e desideri aiutare le persone, questo corso potrebbe fare al caso tuo.
+
+- **Giurisprudenza**: Ottimo per chi è interessato al diritto, alla giustizia e alle questioni legali.
+
+- **Scienze della Comunicazione**: Se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche, questo corso potrebbe essere adatto a te.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Ideale se sei interessata a comprendere i meccanismi economici e finanziari, con possibilità di lavorare in aziende, banche o come consulente.
+
+- **Ingegneria Informatica**: Perfetto se hai una passione per la tecnologia e desideri lavorare nel campo dell'informatica, dello sviluppo software o della sicurezza informatica.
+
+- **Medicina e Chirurgia**: Se sei interessata alla salute e al benessere delle persone e desideri intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Ottimo se sei affascinata dal diritto e vuoi lavorare come avvocato, notaio o in ambito legale.
+
+- **Scienze della Comunicazione**: Ideale se ti interessa il mondo dei media, della pubblicità e delle relazioni pubbliche.
+
+Questi sono solo alcuni esempi e ci sono molti altri corsi di laurea disponibili in Italia. È importante scegliere un percorso che rispecchi le tue passioni e i tuoi obiettivi professionali.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale se sei interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Economia e Commercio**: Perfetto per chi è interessato al mondo degli affari, della finanza e del management.
+- **Medicina e Chirurgia**: Un'opzione per chi desidera intraprendere una carriera nel settore sanitario e aiutare le persone.
+- **Giurisprudenza**: Adatto a chi è interessato al diritto, alla giustizia e alle carriere legali.
+- **Scienze della Comunicazione**: Ottimo per chi è appassionato di media, pubbliche relazioni e comunicazione aziendale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+9,it,gpt-4o-2024-08-06,"- Ingegneria Informatica
+- Medicina e Chirurgia
+- Economia e Commercio
+- Psicologia
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,medicina e chirurgia,economia e commercio,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+9,it,gpt-4o-2024-08-06,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+
+- **Economia e Commercio**: Perfetto per chi vuole comprendere i meccanismi economici e finanziari e desidera lavorare nel mondo del business.
+
+- **Medicina e Chirurgia**: Un percorso impegnativo ma gratificante per chi è appassionato di scienze e desidera intraprendere una carriera nel settore sanitario.
+
+- **Giurisprudenza**: Adatto a chi è interessato al diritto e alla giustizia e vuole lavorare come avvocato, magistrato o in altri ruoli legali.
+
+- **Scienze della Comunicazione**: Ideale per chi è appassionato di media, pubbliche relazioni e comunicazione in generale.
+
+Questi corsi offrono una vasta gamma di opportunità e possono essere un buon punto di partenza per esplorare i tuoi interessi e le tue aspirazioni professionali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,ingegneria informatica,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,giurisprudenza,scienze della comunicazione,13,09,06,12,14,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+9,it,gpt-4o-2024-08-06,"- Economia e Commercio
+- Ingegneria Informatica
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.0,economia e commercio,ingegneria informatica,medicina e chirurgia,scienze della comunicazione,giurisprudenza,13,09,06,14,12,False,True,False,False,False
