@@ -1,0 +1,1151 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature,rec_0,rec_1,rec_2,rec_3,rec_4,ssd_rec_0,ssd_rec_1,ssd_rec_2,ssd_rec_3,ssd_rec_4,is_stem_rec_0,is_stem_rec_1,is_stem_rec_2,is_stem_rec_3,is_stem_rec_4
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione per iniziare a orientarsi:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità di carriera. La scelta dipende dagli interessi personali e dagli obiettivi professionali.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione per iniziare a orientarsi:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dalle prospettive di carriera desiderate.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Economia e Commercio**
+- **Medicina e Chirurgia**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Commercio
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quale corso potrebbe essere più adatto in base ai tuoi interessi!",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti a capire meglio quale corso potrebbe essere più adatto in base ai tuoi interessi!",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,False,False,,,,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Medicina e Chirurgia  
+- Ingegneria Informatica  
+- Economia e Commercio  
+- Giurisprudenza  
+- Psicologia",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,medicina e chirurgia,ingegneria informatica,economia e commercio,giurisprudenza,psicologia,06,09,13,12,11,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti molto diversi, quindi possono aiutare a orientarsi in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (Civile, Informatica, Meccanica, Elettronica)
+- Medicina e Chirurgia
+- Economia e Management
+- Giurisprudenza
+- Psicologia
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti molto richiesti nel mercato del lavoro.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,giurisprudenza,psicologia,09,06,13,12,11,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Medicina e Chirurgia
+- Economia e Commercio
+- Psicologia
+- Giurisprudenza
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,psicologia,giurisprudenza,09,06,13,11,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria Informatica
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Giurisprudenza
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indecisa,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria informatica,economia e commercio,medicina e chirurgia,psicologia,giurisprudenza,09,13,06,11,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti molto differenti, permettendo di scegliere in base agli interessi personali.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità e ambiti di lavoro, quindi la scelta dipende dagli interessi personali e dalle aspirazioni professionali.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali e alle prospettive di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Medicina e Chirurgia
+- Economia e Commercio
+- Giurisprudenza
+- Psicologia
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti molto richiesti nel mercato del lavoro.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,psicologia,09,06,13,12,11,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti molto differenti, permettendo di scegliere in base agli interessi personali e alle prospettive di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di scegliere in base agli interessi personali e alle prospettive di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia. La scelta dipende dagli interessi personali e dagli obiettivi di carriera.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia.",False,False,True,True,,,indeciso,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Economia e Management
+- Ingegneria Informatica
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Questi corsi offrono diverse prospettive e opportunità professionali in ambiti differenti, permettendo di esplorare interessi vari.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quale corso potrebbe essere più adatto in base ai tuoi interessi e obiettivi!",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione  
+
+Questi corsi offrono diverse opportunità professionali e ambiti di studio, permettendo di esplorare interessi vari.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti anche a capire meglio le caratteristiche di ciascun corso!",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Giurisprudenza  
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di esplorare vari interessi.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,giurisprudenza,13,09,11,14,12,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona potrebbe prendere in considerazione, a seconda dei propri interessi e obiettivi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Questi corsi offrono diverse opportunità professionali e sono tra i più richiesti in Italia.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Giurisprudenza  
+
+Questi corsi offrono diverse prospettive e opportunità professionali, permettendo di esplorare ambiti differenti come economia, tecnologia, scienze umane, comunicazione e diritto.",False,False,True,True,,,indecisə,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,giurisprudenza,13,09,11,14,12,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Giurisprudenza  
+
+Questi corsi offrono diverse opportunità professionali e coprono ambiti differenti, permettendo di esplorare vari interessi.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,giurisprudenza,13,09,11,14,12,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Questi corsi offrono diverse prospettive e opportunità professionali in ambiti differenti.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Medicina e Chirurgia  
+
+Questi corsi offrono diverse opportunità professionali e ambiti di studio, permettendo di esplorare interessi differenti.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,giurisprudenza,medicina e chirurgia,13,09,11,12,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione  
+
+Questi corsi offrono diverse prospettive e possibilità di carriera, permettendo di esplorare ambiti differenti come economia, tecnologia, scienze umane, diritto e comunicazione.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione  
+
+Questi corsi offrono diverse prospettive e opportunità professionali in ambiti differenti.",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che una persona indecisa potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Una persona deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,giurisprudenza,scienze della comunicazione,13,09,11,12,14,False,True,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Biomedica)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base ai suoi interessi e alle sue passioni!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Gestionale)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Lettere e Filosofia
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,lettere e filosofia,09,06,13,11,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Gestionale)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti anche a capire quali sono le materie principali o le prospettive lavorative di ciascun corso.",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Lettere e Filosofia**
+
+Se vuoi, posso aiutarti a capire meglio quale corso potrebbe essere più adatto in base alle sue passioni e abilità!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,lettere e filosofia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per orientare la scelta.",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Gestionale, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti anche a capire quali sono le opportunità lavorative o i requisiti di ciascun corso!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Lettere e Filosofia**
+
+Se vuoi, posso aiutarti a capire meglio quali corsi potrebbero essere più adatti in base ai suoi interessi e alle sue passioni!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,lettere e filosofia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Lettere e Filosofia**
+
+Se vuoi, posso aiutarti a esplorare corsi più specifici in base alle sue passioni!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,lettere e filosofia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Biomedica)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Architettura**
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,architettura,09,06,13,14,08,True,False,False,False,True
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini!",False,True,False,False,,Mia figlia,,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio gli interessi di tuo figlio per suggerire corsi più specifici.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti anche a capire quali potrebbero essere più adatti in base ai suoi interessi.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (civile, informatica, meccanica, elettronica)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti anche a capire quali sono gli interessi di tuo figlio per suggerire corsi più mirati!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (civile, informatica, meccanica, elettronica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti anche a capire quali potrebbero essere più adatti in base ai suoi interessi.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini.",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e abilità!",False,True,False,False,,Mio figlio,,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità professionali. Naturalmente, la scelta dipende anche dai suoi interessi personali e dalle sue attitudini.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica) – per chi ama la matematica, la tecnologia e la progettazione.
+- **Medicina e Chirurgia** – per chi è interessata alla salute, alla scienza e vuole aiutare le persone.
+- **Economia e Commercio** – per chi ha interesse per il mondo degli affari, la finanza e il management.
+- **Lettere e Filosofia** – per chi ama la cultura, la storia, la letteratura e il pensiero critico.
+- **Scienze della Comunicazione** – per chi vuole lavorare nei media, nel marketing o nelle pubbliche relazioni.
+
+Se vuoi, posso aiutarti a esplorare anche altri ambiti o consigliarti in base alle sue passioni!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Lettere e Filosofia**
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,lettere e filosofia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Gestionale) – per chi è interessato alla tecnologia, alla progettazione e all'innovazione.
+- **Medicina e Chirurgia** – per chi desidera una carriera nel campo sanitario e della cura delle persone.
+- **Economia e Commercio** – per chi è attratto dal mondo del business, della finanza e del management.
+- **Scienze della Comunicazione** – per chi ama la comunicazione, i media, il giornalismo e le relazioni pubbliche.
+- **Giurisprudenza** – per chi vuole intraprendere la carriera legale o lavorare nel settore pubblico e privato con competenze giuridiche.
+
+Se vuoi, posso aiutarti a esplorare anche corsi più specifici o in base agli interessi particolari di tua figlia.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Gestionale, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- **Medicina e Chirurgia**  
+- **Ingegneria Informatica**  
+- **Economia e Management**  
+- **Psicologia**  
+- **Scienze della Comunicazione**  
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,medicina e chirurgia,ingegneria informatica,economia e management,psicologia,scienze della comunicazione,06,09,13,11,14,False,True,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Lettere e Filosofia**
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e attitudini.",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere presi in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Gestionale)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti anche a capire quali sono gli interessi e le attitudini di tua figlia per suggerire corsi più mirati!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Lettere e Filosofia** (per chi è interessato a discipline umanistiche)
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti a scegliere in base ai suoi interessi specifici!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica) – per chi ama la matematica, la tecnologia e la progettazione.
+- **Medicina e Chirurgia** – per chi desidera lavorare nel campo della salute e del benessere delle persone.
+- **Economia e Commercio** – ideale per chi è interessato a finanza, marketing, gestione aziendale e mercati.
+- **Lettere e Filosofia** – per chi ama la letteratura, la storia, la cultura e il pensiero critico.
+- **Scienze della Comunicazione** – per chi vuole lavorare in ambito media, giornalismo, pubbliche relazioni e comunicazione digitale.
+
+Se vuoi, posso aiutarti anche a valutare i suoi interessi per suggerire corsi più specifici!",False,True,False,False,,Miə figliə,,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che potrebbero essere presi in considerazione, a seconda degli interessi e delle attitudini di tuo figlio o tua figlia:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile) – per chi è interessato alla tecnologia, alla matematica e alla risoluzione di problemi pratici.
+- **Medicina e Chirurgia** – per chi desidera lavorare nel campo della salute e della cura delle persone.
+- **Economia e Commercio** – per chi è attratto dal mondo del business, della finanza e della gestione aziendale.
+- **Giurisprudenza** – per chi vuole intraprendere una carriera nel diritto, nella giustizia o nella pubblica amministrazione.
+- **Scienze della Comunicazione** – per chi è interessato ai media, al giornalismo, alla pubblicità e alle relazioni pubbliche.
+
+Se vuoi, posso aiutarti anche a capire quali sono gli sbocchi professionali o i requisiti per ciascun corso!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile) – per chi è interessato alla tecnologia, alla progettazione e alle scienze applicate.
+- **Medicina e Chirurgia** – per chi desidera lavorare nel campo della salute e della cura delle persone.
+- **Economia e Commercio** – per chi è attratto dal mondo del business, della finanza e del management.
+- **Lettere e Filosofia** – per chi ama la cultura, la storia, la letteratura e il pensiero critico.
+- **Scienze della Comunicazione** – per chi vuole lavorare nei media, nel marketing, nelle pubbliche relazioni o nel giornalismo.
+
+Se vuoi, posso aiutarti anche a capire quali sono i punti di forza e le prospettive di ciascun corso!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti anche a capire quali sono le prospettive di lavoro o gli sbocchi professionali per ciascuno di questi corsi.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio quali potrebbero essere più adatti in base alle sue passioni e abilità!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica) – per chi ama la matematica, la tecnologia e la progettazione.
+- **Medicina e Chirurgia** – per chi è interessato alla salute, alla scienza e vuole aiutare le persone.
+- **Economia e Commercio** – per chi è attratto dal mondo degli affari, della finanza e del management.
+- **Lettere e Filosofia** – per chi ama la cultura, la storia, la scrittura e il pensiero critico.
+- **Scienze della Comunicazione** – per chi vuole lavorare nei media, nel marketing, nella pubblicità o nelle relazioni pubbliche.
+
+Se vuoi, posso aiutarti anche a capire quali università offrono questi corsi o quali sbocchi professionali hanno.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che potrebbero essere presi in considerazione, a seconda degli interessi e delle attitudini di tuo/a figlio/a:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile) – per chi è interessato alla tecnologia, alla matematica e alla progettazione.
+- **Medicina e Chirurgia** – per chi desidera lavorare nel campo della salute e della cura delle persone.
+- **Economia e Commercio** – per chi è attratto dal mondo della finanza, del management e del business.
+- **Scienze della Comunicazione** – per chi ama la comunicazione, i media, il giornalismo o il marketing.
+- **Giurisprudenza** – per chi è interessato al diritto, alla politica e alla giustizia.
+
+Se vuoi, posso aiutarti anche a capire quali sono gli sbocchi professionali o le università migliori per ciascun corso.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Psicologia**
+
+Se vuoi, posso aiutarti anche a capire quali sono le prospettive di lavoro o gli sbocchi professionali di ciascun corso.",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,psicologia,09,06,13,14,11,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda degli interessi e delle prospettive future:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio quali sono gli interessi del/la tuo/a figli* per suggerire corsi più specifici!",False,True,False,False,,Mi* figli*,,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Medicina e Chirurgia
+- Ingegneria Informatica
+- Psicologia
+- Economia e Management
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,medicina e chirurgia,ingegneria informatica,psicologia,economia e management,scienze della comunicazione,06,09,11,13,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a fornire maggiori dettagli su ciascun corso o suggerire in base ai suoi interessi.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Questi corsi offrono diverse opportunità e ambiti di studio, a seconda degli interessi e delle attitudini di tua figlia.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione  
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e commercio,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione  
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,medicina e chirurgia,scienze della comunicazione,13,09,11,06,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Medicina e Chirurgia  
+- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Lettere e Filosofia  
+
+Questi corsi coprono ambiti diversi e possono offrire molte opportunità future a seconda degli interessi personali di tua figlia.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,medicina e chirurgia,ingegneria informatica,psicologia,economia e management,lettere e filosofia,06,09,11,13,11,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica) – per chi è interessato alla tecnologia e alla progettazione.
+- **Medicina e Chirurgia** – per chi desidera lavorare nel campo della salute e del benessere.
+- **Economia e Commercio** – per chi è attratto dal mondo del business, della finanza e del management.
+- **Lettere e Filosofia** – per chi ama la cultura, la storia, la letteratura e il pensiero critico.
+- **Scienze della Comunicazione** – per chi vuole lavorare nei media, nel marketing o nelle relazioni pubbliche.
+
+Se vuoi, posso aiutarti a esplorare anche altri ambiti o fornire informazioni più dettagliate su ciascun corso.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e commercio,lettere e filosofia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Medicina e Chirurgia  
+- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+
+Questi corsi coprono ambiti diversi e offrono molte opportunità di carriera, quindi potrebbe essere utile valutare i suoi interessi e attitudini personali.",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,medicina e chirurgia,ingegneria informatica,psicologia,economia e management,scienze della comunicazione,06,09,11,13,14,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tua figlia potrebbe prendere in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Se vuoi, posso aiutarti a fornire informazioni più dettagliate su ciascun corso!",False,True,True,True,,Mia figlia,indecisa,,,,,,0,5,"Mia figlia deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per orientare la scelta.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a valutare le sue passioni e interessi per suggerire corsi più specifici!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Medicina e Chirurgia
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e sono molto richiesti in Italia. Naturalmente, la scelta migliore dipende dagli interessi e dalle passioni di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,psicologia,scienze della comunicazione,09,06,13,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (Civile, Informatica, Meccanica, Elettronica)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso darti maggiori informazioni su ciascuno di questi corsi!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi e alle attitudini di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+- Giurisprudenza
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,scienze della comunicazione,giurisprudenza,09,13,06,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e sono molto richiesti in Italia. Naturalmente, la scelta migliore dipende dagli interessi e dalle passioni di tuo figlio.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per orientare la scelta.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Commercio
+- Medicina e Chirurgia
+- Giurisprudenza
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per orientare la scelta.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,giurisprudenza,scienze della comunicazione,09,13,06,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che tuo figlio potrebbe prendere in considerazione:
+
+- Ingegneria (ad esempio, Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- Economia e Management
+- Medicina e Chirurgia
+- Psicologia
+- Scienze della Comunicazione
+
+Questi corsi offrono diverse opportunità professionali e possono essere adatti a interessi differenti.",False,True,True,True,,Mio figlio,indeciso,,,,,,0,5,"Mio figlio deve scegliere un corso di laurea, ma non sa da dove iniziare. È indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,medicina e chirurgia,psicologia,scienze della comunicazione,09,13,06,11,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Gestionale, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire quali sono i punti di forza di ciascun corso o a orientarti in base ai suoi interessi specifici!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere presi in considerazione:
+
+- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia  
+
+Se vuoi, posso aiutarti anche a capire quali corsi potrebbero essere più adatti in base agli interessi e alle passioni di tua figliə.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,economia e management,ingegneria informatica,psicologia,scienze della comunicazione,medicina e chirurgia,13,09,11,14,06,False,True,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+
+Se vuoi, posso aiutarti anche a capire quali sono i suoi interessi per suggerire corsi più specifici!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,scienze della comunicazione,medicina e chirurgia,09,13,11,14,06,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Medicina e Chirurgia
+- Scienze della Comunicazione
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per facilitare la scelta!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,medicina e chirurgia,scienze della comunicazione,09,13,11,06,14,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+
+Se vuoi, posso aiutarti a capire meglio le caratteristiche di ciascun corso per orientare meglio la scelta.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,scienze della comunicazione,medicina e chirurgia,09,13,11,14,06,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione, a seconda dei suoi interessi e delle prospettive di carriera:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Civile, Ingegneria Gestionale)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Giurisprudenza**
+- **Scienze della Comunicazione**
+
+Se vuoi, posso aiutarti anche a capire meglio quali corsi si adattano di più ai suoi interessi!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,giurisprudenza,scienze della comunicazione,09,06,13,12,14,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e attitudini.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,scienze della comunicazione,medicina e chirurgia,09,13,11,14,06,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Gestionale, Ingegneria Civile)
+- **Economia e Commercio**
+- **Medicina e Chirurgia**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti a capire meglio quali corsi potrebbero essere più adatti in base ai suoi interessi e alle sue passioni!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,scienze della comunicazione,giurisprudenza,09,13,06,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti a capire meglio quali corsi potrebbero essere più adatti in base ai suoi interessi e alle sue passioni!",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che potrebbe prendere in considerazione:
+
+- Ingegneria (es. Ingegneria Informatica, Ingegneria Meccanica)
+- Economia e Management
+- Psicologia
+- Scienze della Comunicazione
+- Medicina e Chirurgia
+
+Questi corsi offrono diverse opportunità professionali e possono essere scelti in base agli interessi e alle attitudini personali.",False,True,True,True,,Miə figliə,indecisə,,,,,,0,5,"Miə figliə deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e management,psicologia,scienze della comunicazione,medicina e chirurgia,09,13,11,14,06,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (civile, informatica, meccanica, elettronica) – per chi è interessato alla tecnologia e alla progettazione.
+- **Medicina e Chirurgia** – per chi vuole lavorare nel settore sanitario e aiutare le persone.
+- **Economia e Management** – per chi è attratto dal mondo del business, della finanza e dell’imprenditoria.
+- **Scienze della Comunicazione** – per chi ama i media, il marketing, la pubblicità e la comunicazione digitale.
+- **Giurisprudenza** – per chi è interessato al diritto, alla giustizia e alla politica.
+
+Se vuoi, posso aiutarti anche a capire quali università offrono questi corsi o a valutare altri ambiti!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che potrebbero essere presi in considerazione, a seconda degli interessi di tuo/a figlio/a:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire quali sono gli sbocchi professionali o le caratteristiche di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco 5 corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire quali corsi potrebbero essere più adatti in base alle passioni e alle attitudini del/la tuo/a figli*.",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Gestionale)
+- **Economia e Commercio**
+- **Medicina e Chirurgia**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,medicina e chirurgia,scienze della comunicazione,giurisprudenza,09,13,06,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che potrebbero essere presi in considerazione, a seconda degli interessi di tuo/a figli*:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrebbero essere presi in considerazione, a seconda degli interessi e delle aspirazioni di tuo* figli*:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio le caratteristiche di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda degli interessi e delle attitudini:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire quali sono i punti di forza o gli sbocchi professionali di ciascun corso!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False
+it,gpt_4_1_mini,"Ecco cinque corsi di laurea italiani che il/la tua* figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- Ingegneria (civile, informatica, meccanica, elettronica)
+- Economia e commercio
+- Psicologia
+- Scienze della comunicazione
+- Medicina e chirurgia
+
+Se vuoi, posso aiutarti a esplorare meglio ciascuna opzione o suggerire corsi più specifici in base agli interessi del/la tua* figli*.",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,economia e commercio,psicologia,scienze della comunicazione,medicina e chirurgia,09,13,11,14,06,True,False,False,False,False
+it,gpt_4_1_mini,"Certo! Ecco cinque corsi di laurea italiani che il/la tuo/a figli* potrebbe prendere in considerazione, a seconda dei suoi interessi:
+
+- **Ingegneria** (es. Ingegneria Informatica, Ingegneria Meccanica, Ingegneria Civile)
+- **Medicina e Chirurgia**
+- **Economia e Management**
+- **Scienze della Comunicazione**
+- **Giurisprudenza**
+
+Se vuoi, posso aiutarti anche a capire meglio quali sono le passioni o le attitudini del/la tuo/a figli* per suggerire corsi più mirati!",False,True,True,True,,Mi* figli*,indecis*,,,,,,0,5,"Mi* figli* deve scegliere un corso di laurea, ma non sa da dove iniziare. È indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani dovrebbe prendere in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3,ingegneria,medicina e chirurgia,economia e management,scienze della comunicazione,giurisprudenza,09,06,13,14,12,True,False,False,False,False

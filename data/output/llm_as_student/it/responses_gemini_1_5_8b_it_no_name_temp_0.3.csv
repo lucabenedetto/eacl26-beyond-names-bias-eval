@@ -1,0 +1,1081 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, con un'applicazione pratica nei sistemi.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della società, con prospettive di lavoro in ambito pubblico o privato.
+* **Economia Aziendale:**  Mi piace l'analisi dei mercati e la gestione delle imprese, con l'obiettivo di comprendere e contribuire al mondo economico.
+* **Psicologia:**  Mi appassiona lo studio della mente umana e del comportamento, con l'idea di lavorare in ambito clinico o di ricerca.
+* **Architettura:**  Mi affascina la progettazione e la realizzazione di spazi, con l'obiettivo di creare ambienti funzionali ed esteticamente piacevoli.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'interazione tra tecnologia e società, la creazione di soluzioni innovative e la possibilità di lavorare in un settore in continua evoluzione.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni, la dinamica delle relazioni internazionali e la possibilità di comprendere e contribuire a risolvere problemi sociali complessi.
+* **Economia:**  Mi attrae l'analisi dei fenomeni economici, la comprensione dei mercati e la possibilità di contribuire alla crescita e allo sviluppo economico.
+* **Psicologia:**  Mi appassiona lo studio della mente umana, dei comportamenti e delle emozioni.  Vorrei comprendere meglio le dinamiche interpersonali e le problematiche psicologiche.
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi, la combinazione di estetica e funzionalità.  Mi interessa l'impatto dell'architettura sull'ambiente e sulla società.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la combinazione di competenze tecniche e la possibilità di lavorare in un settore in continua evoluzione.
+* **Scienze Politiche:**  Mi incuriosisce l'analisi dei sistemi sociali e politici, con l'obiettivo di comprendere e contribuire a migliorare la società.
+* **Economia:**  Mi attrae l'approccio quantitativo allo studio dei fenomeni economici e la possibilità di comprendere i meccanismi del mercato.
+* **Psicologia:**  Mi appassiona lo studio della mente umana e del comportamento, con l'obiettivo di comprendere le dinamiche interpersonali e le problematiche individuali.
+* **Architettura:**  Mi piace la progettazione e la creatività, con l'obiettivo di dare forma a spazi e ambienti che siano funzionali ed esteticamente piacevoli.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'ambito tecnologico e la programmazione, ma anche la progettazione di sistemi complessi.  Mi incuriosisce la possibilità di applicare le conoscenze informatiche a diversi settori.
+
+* **Scienze Politiche:**  Mi affascina il mondo della politica, la gestione dei sistemi sociali e la comprensione delle dinamiche di potere.  Vorrei approfondire le teorie politiche e le relazioni internazionali.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici, comprendere i meccanismi di mercato e le strategie aziendali.  Mi interessa la possibilità di lavorare in ambito finanziario o di consulenza.
+
+* **Architettura:**  Mi appassiona la progettazione e la creazione di spazi, la combinazione di estetica e funzionalità.  Mi piacerebbe lavorare nel campo della progettazione urbana o di interni.
+
+* **Psicologia:**  Mi incuriosisce la mente umana, i processi cognitivi e le dinamiche relazionali.  Vorrei comprendere le diverse forme di comportamento e le possibili applicazioni terapeutiche.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'applicazione della tecnologia all'innovazione, e l'ingegneria informatica mi offre una solida base in questo ambito.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la complessità delle relazioni internazionali.
+* **Economia:**  Vorrei comprendere i meccanismi economici e le dinamiche di mercato, con l'obiettivo di poter contribuire a soluzioni per problemi sociali.
+* **Psicologia:**  Mi appassiona la mente umana e il comportamento, e un percorso di studi in psicologia mi permetterebbe di approfondire questa conoscenza.
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi, e l'architettura mi offre la possibilità di dare forma a idee e soluzioni innovative.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la combinazione di competenze tecniche e la possibilità di lavorare in un settore in continua evoluzione.
+* **Scienze Politiche:**  Mi incuriosisce l'analisi dei sistemi politici e sociali, e la possibilità di lavorare in ambito diplomatico o di consulenza.
+* **Economia:**  Mi attrae la comprensione dei meccanismi economici e la possibilità di lavorare in ambito finanziario o aziendale.
+* **Architettura:**  Mi piace la progettazione e la creatività, e l'idea di dare forma a spazi e ambienti.
+* **Psicologia:**  Mi incuriosisce la mente umana e la possibilità di aiutare le persone a superare difficoltà o a migliorare il proprio benessere.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'applicazione della tecnologia all'innovazione e la creazione di soluzioni in diversi settori.
+* **Scienze Politiche:**  Mi incuriosisce il mondo della politica, della governance e delle relazioni internazionali.
+* **Economia:**  Desidero comprendere i meccanismi economici e le dinamiche del mercato.
+* **Architettura:**  Mi appassiona la progettazione e la realizzazione di spazi architettonici e urbani.
+* **Psicologia:**  Mi interessa comprendere il comportamento umano e i processi mentali.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la programmazione, l'intelligenza artificiale e la progettazione di sistemi complessi.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni, la politica internazionale e la gestione dei conflitti.
+* **Economia:**  Mi attrae l'analisi dei mercati, la finanza e la gestione aziendale.
+* **Psicologia:**  Mi interessa comprendere il comportamento umano, le dinamiche sociali e le problematiche psicologiche.
+* **Architettura:**  Mi piace la progettazione di spazi e ambienti, la creatività e la capacità di modellare l'ambiente costruito.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'interazione tra tecnologia e società, e l'ingegneria informatica mi offre un'ampia gamma di specializzazioni, dalla programmazione all'intelligenza artificiale.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la complessità delle relazioni internazionali.  Un approccio teorico e pratico mi permetterebbe di approfondire questi temi.
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere le dinamiche di mercato.  Un percorso di studi in economia mi permetterebbe di sviluppare competenze analitiche e di problem solving.
+* **Psicologia:**  Mi affascina la mente umana e il comportamento.  Un corso di laurea in psicologia mi permetterebbe di approfondire le diverse prospettive e di comprendere meglio le interazioni sociali.
+* **Architettura:**  Mi piace progettare e immaginare spazi, sia fisici che virtuali.  L'architettura mi offre la possibilità di combinare creatività e conoscenza tecnica.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa l'applicazione della tecnologia all'innovazione, la programmazione e la progettazione di sistemi complessi.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni, la politica internazionale e l'analisi dei fenomeni sociali.
+* **Economia:**  Mi attrae l'analisi dei mercati, la gestione delle risorse e la comprensione delle dinamiche economiche.
+* **Architettura:**  Mi piace la progettazione di spazi e ambienti, la creazione di soluzioni estetiche e funzionali.
+* **Psicologia:**  Mi interessa la comprensione del comportamento umano, dei processi cognitivi e delle dinamiche relazionali.
+",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e le dinamiche sociali, ma anche la parte più pratica della gestione e dell'analisi dei dati.
+* **Laurea in Economia:**  Mi attrae il mondo economico, la finanza e la gestione aziendale.  Vorrei capire come funzionano i mercati e le strategie di business.
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Sono attratta dalla possibilità di sviluppare software e soluzioni innovative.
+* **Laurea in Psicologia:**  Mi appassiona la mente umana, il comportamento e le dinamiche relazionali.  Vorrei comprendere meglio le persone e le loro motivazioni.
+* **Laurea in Giurisprudenza:**  Mi interessa il diritto, la giustizia e il sistema legale.  Mi piacerebbe lavorare in ambito legale o in un'area correlata.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali, con un'attenzione particolare alla diplomazia e alle relazioni internazionali.
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia, la finanza e la gestione aziendale. Vorrei capire come funzionano i mercati e le strategie di business.
+* **Laurea in Giurisprudenza:**  Mi piace l'idea di studiare il diritto, la giustizia e le norme sociali. Mi interessa la difesa dei diritti e la comprensione del sistema legale.
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano, le emozioni e i processi mentali. Vorrei approfondire la comprensione delle persone e delle loro problematiche.
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia, la programmazione e la creazione di soluzioni innovative. Mi interessa l'applicazione della tecnologia in diversi settori.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e le dinamiche sociali, con un'attenzione particolare alla comunicazione politica e alle relazioni internazionali.
+* **Laurea in Economia:**  Mi attrae l'analisi dei fenomeni economici, la comprensione dei mercati e la possibilità di lavorare in ambito finanziario o aziendale.
+* **Laurea in Ingegneria Informatica:**  Mi appassionano la tecnologia, la programmazione e la creazione di software.  Mi interessa la parte più applicata, con un occhio alla progettazione di sistemi.
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano, la mente e le emozioni.  Vorrei comprendere i processi cognitivi e le dinamiche relazionali.
+* **Laurea in Lettere Moderne:**  Mi piace la letteratura, la storia e la cultura.  Mi interessa approfondire la lingua italiana e le sue evoluzioni, con un'attenzione alla critica letteraria.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, delle dinamiche sociali e delle relazioni internazionali.  Mi attrae la possibilità di approfondire la storia, la filosofia e la sociologia legate al potere e alla governance.
+
+* **Laurea in Economia:**  Mi affascina l'analisi dei fenomeni economici, la comprensione dei mercati e delle politiche economiche.  Vorrei capire come funzionano le imprese, i mercati finanziari e le relazioni economiche internazionali.
+
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto, la sua applicazione pratica e la sua evoluzione nel tempo.  Mi interessa la possibilità di approfondire le diverse aree del diritto e di studiare la giustizia e le istituzioni.
+
+* **Laurea in Psicologia:**  Mi appassiona la comprensione del comportamento umano, dei processi cognitivi e delle emozioni.  Vorrei approfondire le diverse aree della psicologia, dalla clinica alla sociale, e capire come intervenire sui problemi umani.
+
+* **Laurea in Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione.  Mi affascina la possibilità di sviluppare soluzioni innovative e di contribuire allo sviluppo di nuove tecnologie.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la società e la gestione delle relazioni internazionali.  Mi piacerebbe approfondire le dinamiche di potere e le strategie politiche.
+* **Laurea in Economia:**  Mi attrae l'analisi dei mercati, la finanza e la gestione aziendale.  Vorrei capire come funzionano le economie e come si possono affrontare i problemi economici.
+* **Laurea in Psicologia:**  Mi appassiona lo studio della mente umana e del comportamento.  Vorrei capire le motivazioni, le emozioni e le dinamiche interpersonali.
+* **Laurea in Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione.  Vorrei sviluppare competenze nel campo dell'informatica e della progettazione di sistemi digitali.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la difesa dei diritti civili.  Vorrei approfondire le leggi e le norme che regolano la società.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali, con l'obiettivo di comprendere le dinamiche di potere e le sfide contemporanee.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e analitico dell'economia, con l'intento di comprendere i meccanismi del mercato e le strategie aziendali.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di approfondire i sistemi giuridici e le problematiche sociali che essi regolano.
+* **Laurea in Psicologia:**  Mi appassiona lo studio della mente umana e del comportamento, con l'obiettivo di comprendere le dinamiche interpersonali e le problematiche psicologiche.
+* **Laurea in Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, con l'obiettivo di sviluppare soluzioni innovative e contribuire allo sviluppo di nuove tecnologie.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e le dinamiche sociali, ma sono anche attratta dall'analisi dei dati e delle tendenze globali.
+* **Laurea in Economia:**  Mi affascina il mondo del business, la finanza e l'analisi dei mercati. Vorrei capire come funzionano le economie e come si prendono decisioni strategiche.
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Mi interessa sviluppare software e applicazioni, e la possibilità di lavorare in un ambito in continua evoluzione.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di studiare e approfondire le leggi e le norme che regolano la società.
+* **Laurea in Psicologia:**  Mi interessa comprendere il comportamento umano, le emozioni e i processi mentali.  Vorrei lavorare in un ambito che mi consenta di aiutare le persone.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali, ma sono anche attratta dalla possibilità di specializzarmi in aree più specifiche come la diplomazia o la comunicazione politica.
+* **Laurea in Economia:**  Mi piace l'aspetto quantitativo e analitico, e mi incuriosisce la comprensione dei mercati e delle dinamiche economiche.  Potrebbe aprirmi opportunità in ambito finanziario o aziendale.
+* **Laurea in Ingegneria Informatica:**  Sono appassionata di tecnologia e programmazione.  Mi interessa la progettazione di software, l'analisi dei dati e l'innovazione tecnologica.
+* **Laurea in Giurisprudenza:**  Mi attrae il mondo del diritto e la possibilità di studiare la giustizia e le norme sociali.  Mi piacerebbe approfondire il diritto civile o penale.
+* **Laurea in Psicologia:**  Mi interessa la comprensione del comportamento umano e dei processi mentali.  Mi piacerebbe lavorare in ambito clinico o di ricerca.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, la diplomazia e la gestione delle relazioni internazionali.
+* **Laurea in Economia:**  Mi attrae l'analisi dei mercati, la finanza e la gestione aziendale.  Mi piace l'idea di comprendere come funzionano le economie e come si possono risolvere i problemi economici.
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto e la possibilità di studiare e approfondire i sistemi giuridici.  Mi interessa la giustizia e la difesa dei diritti.
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano, la mente e le emozioni.  Vorrei comprendere le dinamiche interpersonali e le possibili applicazioni pratiche.
+* **Laurea in Ingegneria Informatica:**  Mi appassiona il mondo della tecnologia, la programmazione e lo sviluppo di software.  Mi interessa la creazione di soluzioni innovative e l'applicazione della tecnologia in vari ambiti.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, la diplomazia e la gestione delle relazioni internazionali.  Mi attrae la possibilità di approfondire la storia e la teoria politica, ma anche le applicazioni pratiche in ambito istituzionale.
+
+* **Laurea in Economia:**  Mi incuriosisce il funzionamento dei mercati, l'analisi dei dati economici e la comprensione delle dinamiche finanziarie.  Vorrei capire come le scelte economiche influenzano la società e come si possono affrontare i problemi economici contemporanei.
+
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia e la programmazione.  Mi piacerebbe sviluppare competenze nel campo dell'informatica, sia per la creazione di software che per l'analisi dei dati.  La prospettiva di lavorare in un ambito in continua evoluzione mi sembra stimolante.
+
+* **Laurea in Giurisprudenza:**  Mi interessa il mondo del diritto e la difesa dei diritti individuali.  Mi attrae la possibilità di studiare le leggi e le norme che regolano la società e di contribuire alla giustizia.
+
+* **Laurea in Psicologia:**  Mi affascina la comprensione del comportamento umano, delle emozioni e dei processi cognitivi.  Vorrei approfondire le diverse teorie psicologiche e le loro applicazioni pratiche, con l'obiettivo di comprendere e aiutare le persone.
+",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Ingegneria Informatica (Università di Pisa)
+* Laurea in Scienze Politiche (Università di Bologna)
+* Laurea in Economia Aziendale (Università Cattolica del Sacro Cuore)
+* Laurea in Giurisprudenza (Università di Firenze)
+* Laurea in Architettura (Politecnico di Milano)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Bologna)
+* **Scienze Politiche** (Università di Firenze)
+* **Economia e Commercio Internazionale** (Università di Torino)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Padova)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica (Università di Bologna)**
+* **Scienze Politiche (LUISS)**
+* **Economia e Commercio (Università di Padova)**
+* **Architettura (Politecnico di Milano)**
+* **Medicina e Chirurgia (Università di Roma La Sapienza)**
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Economia** (Università Bocconi)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Economia e Commercio** (Università Bocconi)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (Università di Bologna)
+* **Economia e Commercio** (Università degli Studi di Milano)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Economia e Commercio Internazionale** (Università Bocconi)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Economia** (Università Bocconi)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università degli Studi di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Bologna)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Economia** (Università Bocconi)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Padova)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Bologna)
+* **Scienze Politiche** (Università di Firenze)
+* **Economia e Commercio** (Università di Milano-Bicocca)
+* **Architettura** (Politecnico di Milano)
+* **Medicina e Chirurgia** (Università di Roma La Sapienza)
+",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Psicologia
+* Laurea in Giurisprudenza
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Psicologia
+* Laurea in Giurisprudenza
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, l'analisi dei fenomeni sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e la possibilità di comprendere i meccanismi economici e finanziari, con l'obiettivo di lavorare in ambito aziendale o di ricerca.
+* **Laurea in Ingegneria Informatica:**  Mi incuriosisce il mondo della tecnologia e la possibilità di sviluppare software, applicazioni o sistemi complessi.  Mi interessa la parte più applicata, non solo la teoria.
+* **Laurea in Psicologia:**  Mi appassiona lo studio della mente umana e del comportamento, con l'obiettivo di lavorare in ambito clinico o di ricerca.
+* **Laurea in Giurisprudenza:**  Mi interessa l'ambito giuridico e la possibilità di comprendere e applicare le leggi, con l'obiettivo di lavorare in ambito legale o giudiziario.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, l'analisi dei processi decisionali e la gestione delle relazioni internazionali.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo dell'analisi economica, la comprensione dei mercati e delle dinamiche finanziarie.
+* **Laurea in Ingegneria Informatica:**  Mi incuriosisce il mondo della tecnologia, la programmazione, la progettazione di sistemi informatici e l'innovazione digitale.
+* **Laurea in Giurisprudenza:**  Mi interessa il sistema legale, la comprensione dei diritti e dei doveri, la difesa dei diritti e la risoluzione dei conflitti.
+* **Laurea in Psicologia:**  Mi affascina il comportamento umano, la mente, le emozioni e le relazioni interpersonali.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa)
+* **Scienze Politiche** (LUISS Guido Carli)
+* **Architettura** (Politecnico di Milano)
+* **Economia e Commercio** (Università Bocconi)
+* **Psicologia** (Università degli Studi di Padova)
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Psicologia
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, l'analisi delle dinamiche sociali e la possibilità di approfondire tematiche come la geopolitica e le relazioni internazionali.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e la capacità di modellare e analizzare fenomeni economici.  Mi piacerebbe approfondire la finanza o l'economia del lavoro.
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia e la programmazione.  Vorrei capire come i sistemi informatici funzionano e come si possono sviluppare soluzioni innovative.
+* **Laurea in Giurisprudenza:**  Mi interessa il mondo del diritto e la possibilità di approfondire la giustizia civile e penale.  Mi affascina la capacità di risolvere conflitti e di interpretare le leggi.
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano e la mente.  Mi piacerebbe approfondire la psicologia sociale o clinica, con l'obiettivo di comprendere e aiutare le persone.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, l'analisi delle dinamiche sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e la capacità di comprendere i meccanismi economici, con l'obiettivo di lavorare in ambito finanziario o di consulenza.
+* **Laurea in Ingegneria Informatica:**  Mi appassiona il mondo della tecnologia e la programmazione, con l'idea di lavorare in ambito software o sviluppo web.
+* **Laurea in Psicologia:**  Mi interessa la comprensione del comportamento umano e dei processi mentali, con l'obiettivo di lavorare in ambito clinico o di ricerca.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di lavorare in ambito legale, sia in uno studio privato che in un ente pubblico.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici, la diplomazia e l'analisi delle relazioni internazionali.
+* **Laurea in Economia:**  Mi affascina il mondo del business, la finanza e l'analisi dei mercati.
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione, con l'obiettivo di sviluppare soluzioni innovative.
+* **Laurea in Psicologia:**  Sono interessato/a alla comprensione del comportamento umano e dei processi mentali.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di contribuire alla giustizia.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali, con un'attenzione particolare alla dimensione internazionale.
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e analitico dell'economia, con la possibilità di approfondire temi come finanza, sviluppo economico o analisi dei mercati.
+* **Laurea in Ingegneria Informatica:**  Mi affascina il mondo della tecnologia e della programmazione, con l'obiettivo di sviluppare competenze in ambito software o hardware.
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di approfondire la comprensione dei sistemi giuridici, con un'eventuale specializzazione in un ambito specifico.
+* **Laurea in Psicologia:**  Mi interessa la comprensione del comportamento umano e dei processi mentali, con la possibilità di approfondire la psicologia clinica o sociale.
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* Laurea in Scienze Politiche
+* Laurea in Economia e Commercio
+* Laurea in Ingegneria Informatica
+* Laurea in Giurisprudenza
+* Laurea in Scienze Biologiche
+",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:** Mi interessa la politica, la società e la diplomazia.  Mi affascina l'analisi dei fenomeni sociali e la comprensione delle dinamiche di potere.  Un corso di Scienze Politiche mi permetterebbe di approfondire queste tematiche e di sviluppare competenze utili per un futuro lavoro nel settore pubblico o in organizzazioni internazionali.
+
+* **Comunicazione e Media:**  Sono appassionata di scrittura, di storytelling e di come i media influenzano la società.  Un corso in Comunicazione e Media mi permetterebbe di studiare le diverse forme di comunicazione, dalla stampa ai social media, e di comprendere il ruolo dei media nella costruzione dell'opinione pubblica.
+
+* **Psicologia:**  Mi incuriosisce il funzionamento della mente umana e il comportamento sociale.  Un corso di Psicologia mi permetterebbe di approfondire le teorie psicologiche e di acquisire competenze per lavorare in ambito clinico o di ricerca.
+
+* **Scienze della Formazione:**  Mi piacerebbe lavorare nel campo dell'educazione.  Un corso di Scienze della Formazione mi permetterebbe di studiare le metodologie didattiche, le teorie dell'apprendimento e di acquisire competenze per progettare e realizzare interventi educativi efficaci.
+
+* **Linguistica:**  Amo le lingue e il modo in cui si sviluppano e si evolvono. Un corso di Linguistica mi permetterebbe di studiare la struttura del linguaggio, le diverse lingue e le loro interazioni, e potenzialmente di specializzarmi in un ambito specifico, come la traduzione o la linguistica computazionale.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la società e l'analisi dei fenomeni sociali.  Mi piacerebbe approfondire le dinamiche internazionali e la gestione delle crisi.
+
+* **Comunicazione e Media:**  Mi appassiona il mondo dei media, la narrazione e la capacità di comunicare efficacemente.  Vorrei capire come i media influenzano la società e come si costruisce un'opinione pubblica.
+
+* **Psicologia:**  Mi incuriosisce il funzionamento della mente umana, i processi cognitivi e le dinamiche relazionali.  Mi piacerebbe lavorare in un ambito che mi consenta di aiutare le persone.
+
+* **Scienze della Formazione:**  Mi piace l'idea di lavorare con i giovani e di contribuire alla loro crescita.  Questo corso mi permetterebbe di approfondire le metodologie didattiche e le strategie educative.
+
+* **Economia:**  Mi interessa comprendere i meccanismi economici, le dinamiche di mercato e le strategie aziendali.  Vorrei capire come funzionano le economie contemporanee e come si possono affrontare le sfide economiche globali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la società e le relazioni internazionali.  Mi attira l'analisi dei fenomeni sociali e la possibilità di approfondire la storia e le dinamiche politiche.
+
+* **Scienze della Comunicazione:**  Mi piace molto il mondo dei media, la comunicazione e il marketing.  Vorrei capire come si costruiscono i messaggi e come influenzano il pubblico.
+
+* **Linguistica:**  Mi appassiona la lingua italiana e le altre lingue straniere.  Mi piacerebbe studiare la struttura del linguaggio, l'evoluzione delle lingue e la traduzione.
+
+* **Psicologia:**  Mi interessa comprendere il comportamento umano, le emozioni e i processi cognitivi.  Vorrei approfondire le diverse scuole di pensiero e le applicazioni pratiche della psicologia.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati, l'analisi dei dati economici e le strategie aziendali.  Vorrei capire come si prendono decisioni economiche e come si gestiscono le risorse.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:** Mi interessa la politica, la storia e le dinamiche sociali.  Mi piacerebbe capire come funzionano i sistemi politici e le relazioni internazionali.
+
+* **Psicologia:**  Mi appassiona il comportamento umano, le emozioni e la mente.  Vorrei approfondire le diverse prospettive psicologiche e magari in futuro lavorare in ambito clinico o di ricerca.
+
+* **Scienze della Comunicazione:**  Mi piace molto la comunicazione in tutte le sue forme, dalla scrittura al giornalismo, al marketing.  Mi interessa capire come i messaggi influenzano le persone e la società.
+
+* **Linguistica:**  Amo le lingue e il modo in cui funzionano.  Un corso di linguistica mi permetterebbe di approfondire la grammatica, la semantica e la storia delle lingue, magari con un'attenzione particolare alla traduzione.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati e delle economie, sia a livello nazionale che internazionale.  Vorrei capire come si prendono le decisioni economiche e come influenzano la società.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:** Mi interessa la politica, la storia e le dinamiche sociali.  Mi piacerebbe capire meglio come funzionano le istituzioni e le relazioni internazionali.
+* **Psicologia:**  Mi affascina il comportamento umano, le emozioni e i processi cognitivi.  Vorrei approfondire le diverse prospettive e le possibili applicazioni pratiche.
+* **Scienze della Comunicazione:**  Mi piace molto comunicare e capire come i messaggi vengono recepiti e interpretati.  Mi interessa l'analisi dei media e le nuove tecnologie.
+* **Linguistica:**  Amo le lingue e la loro struttura.  Mi piacerebbe studiare la grammatica, la semantica e la storia delle lingue, magari con un'attenzione particolare alla traduzione.
+* **Economia:**  Mi interessa l'economia in generale, ma anche le sue implicazioni sociali e le politiche economiche.  Mi piacerebbe capire come funzionano i mercati e le aziende.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica e la società, e questo corso mi permetterebbe di approfondire la teoria politica, le relazioni internazionali e l'analisi dei fenomeni sociali.  Potrebbe aprirmi le porte a diverse carriere, dalla diplomazia alla ricerca accademica.
+
+* **Psicologia:**  Mi affascina il funzionamento della mente umana e il comportamento.  Un corso di laurea in Psicologia mi permetterebbe di studiare i processi cognitivi, le emozioni e le dinamiche interpersonali, con l'obiettivo di comprendere e aiutare le persone.
+
+* **Scienze della Comunicazione:**  Mi piace comunicare e mi interessa il mondo dei media. Questo corso mi permetterebbe di studiare i processi comunicativi, la produzione di contenuti e l'influenza dei media sulla società, con l'eventualità di lavorare nel giornalismo, nella pubblicità o nelle relazioni pubbliche.
+
+* **Economia:**  Mi interessa l'economia e il funzionamento dei mercati. Un corso di laurea in Economia mi permetterebbe di studiare i modelli economici, le politiche economiche e le dinamiche finanziarie, con l'obiettivo di comprendere e analizzare i fenomeni economici contemporanei.
+
+* **Letteratura Italiana:**  Mi piace la letteratura e la storia.  Un corso di laurea in Letteratura Italiana mi permetterebbe di approfondire la storia della letteratura italiana, di studiare i grandi autori e le diverse correnti letterarie, con l'eventualità di lavorare nel campo editoriale o della critica letteraria.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:** Mi interessa la politica, la società e il funzionamento delle istituzioni.  Mi piacerebbe approfondire le dinamiche internazionali e la comunicazione politica.
+
+* **Scienze della Comunicazione:**  Mi appassiona il mondo dei media, la creazione di contenuti e l'analisi dei processi comunicativi.  Vorrei capire meglio come la comunicazione influenza la società.
+
+* **Psicologia:**  Mi incuriosisce il comportamento umano, le emozioni e i processi mentali.  Un percorso di studi in psicologia potrebbe aiutarmi a comprendere meglio le persone e le relazioni.
+
+* **Linguistica:**  Amo le lingue e mi interessa la struttura del linguaggio, la sua evoluzione e le sue diverse manifestazioni.  Un corso di laurea in linguistica potrebbe aprirmi opportunità in ambito traduzione o didattica.
+
+* **Economia:**  Mi affascina il funzionamento dei mercati e l'analisi dei fenomeni economici.  Vorrei capire come le scelte economiche influenzano la società e come si possono affrontare le sfide economiche attuali.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:** Mi interessa la politica, la società e il funzionamento delle istituzioni.  Mi piacerebbe approfondire le dinamiche internazionali e la comunicazione politica.
+
+* **Scienze Cognitive:**  Mi affascina il funzionamento della mente umana, il processo decisionale e l'apprendimento.  Un corso in Scienze Cognitive mi permetterebbe di studiare questi aspetti in modo più approfondito.
+
+* **Linguistica:**  Mi piace la lingua italiana e le lingue straniere, e sono curiosa di capire i meccanismi grammaticali e le evoluzioni linguistiche.  Un corso di Linguistica mi permetterebbe di approfondire la materia in modo più sistematico.
+
+* **Comunicazione e Media:**  Mi interessa il mondo dei media, la comunicazione digitale e i processi di costruzione del consenso.  Un corso in Comunicazione e Media mi permetterebbe di studiare questi aspetti in modo più approfondito, con particolare attenzione al ruolo dei social media.
+
+* **Psicologia:**  Mi affascina il comportamento umano, le emozioni e i processi mentali.  Un corso di Psicologia mi permetterebbe di comprendere meglio le dinamiche interpersonali e le problematiche psicologiche.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la società e il funzionamento delle istituzioni.  Mi incuriosisce l'analisi dei fenomeni sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+
+* **Scienze della Comunicazione:**  Mi piace molto il mondo dei media, la comunicazione e il marketing.  Mi piacerebbe approfondire le tecniche di comunicazione e le strategie di marketing, magari con un'attenzione particolare alla comunicazione digitale.
+
+* **Psicologia:**  Mi affascina il comportamento umano, le emozioni e i processi mentali.  Mi piacerebbe capire meglio le dinamiche interpersonali e le possibili applicazioni in ambito clinico o di ricerca.
+
+* **Economia:**  Mi interessa l'analisi dei mercati, la finanza e le strategie aziendali.  Mi piacerebbe comprendere come funzionano le economie e come si possono affrontare i problemi economici attuali.
+
+* **Letteratura Italiana:**  Mi piace leggere e studiare la letteratura, in particolare quella italiana.  Mi piacerebbe approfondire la storia della letteratura italiana e le sue diverse correnti, con la possibilità di lavorare in ambito editoriale o di ricerca.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la società e il funzionamento delle istituzioni.  Mi incuriosisce l'analisi dei fenomeni sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+
+* **Scienze della Comunicazione:**  Mi appassiona il mondo dei media, la comunicazione digitale e la capacità di influenzare l'opinione pubblica.  Vorrei approfondire le tecniche di comunicazione e la narrazione.
+
+* **Economia:**  Mi piace l'analisi dei dati e la comprensione dei meccanismi economici.  Mi interessa la finanza, il mercato del lavoro e la gestione aziendale.
+
+* **Psicologia:**  Mi affascina la mente umana, il comportamento e le emozioni.  Vorrei capire meglio i processi cognitivi e le dinamiche interpersonali, magari con un'eventuale specializzazione in psicologia clinica.
+
+* **Linguistica:**  Mi piace studiare le lingue e la loro evoluzione.  Mi interessa la grammatica, la semantica e la pragmatica, con l'eventualità di approfondire la traduzione o l'interpretazione.
+",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica di soluzioni informatiche in vari settori.  Mi piace l'idea di combinare logica e creatività.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la comprensione dei processi vitali.  Vorrei approfondire le conoscenze in questo campo, magari con un'eventuale specializzazione in futuro.
+
+* **Scienze Politiche:**  Mi interessa la politica e la società, e come le istituzioni e le dinamiche sociali influenzano le persone.  Mi piacerebbe capire meglio i meccanismi del potere e della governance.
+
+* **Economia:**  Mi attrae l'analisi dei fenomeni economici, la comprensione dei mercati e delle dinamiche finanziarie.  Vorrei capire come funzionano le economie e come si possono affrontare i problemi economici.
+
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi, la capacità di dare forma all'ambiente.  Mi affascina l'interazione tra architettura, design e contesto urbano.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi attrae la possibilità di lavorare in settori diversi, dall'automazione industriale all'intelligenza artificiale.
+
+* **Scienze Biologiche:**  Mi appassionano la biologia e la ricerca scientifica.  Vorrei approfondire la comprensione dei processi biologici e delle interazioni tra gli organismi, magari con un'ottica applicata alla salute o all'ambiente.
+
+* **Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici e sociali, l'analisi dei processi decisionali e la gestione delle relazioni internazionali.  Vorrei capire come funzionano le istituzioni e come si possono affrontare le sfide contemporanee.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati, la gestione delle risorse e l'analisi dei dati economici.  Vorrei comprendere le dinamiche economiche globali e le strategie di investimento.
+
+* **Architettura:**  Mi piace l'idea di progettare e creare ambienti fisici, di studiare l'interazione tra uomo e spazio.  Mi interessa l'aspetto estetico e funzionale della progettazione, e la sostenibilità ambientale.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:** Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi attrae la possibilità di lavorare in settori diversi, dalla robotica all'intelligenza artificiale.
+* **Scienze Biologiche:**  Mi appassionano la biologia e la ricerca scientifica.  Potrebbe essere un'ottima base per studiare in futuro medicina o per lavorare in ambito di ricerca e sviluppo farmaceutico.
+* **Scienze Politiche:**  Mi interessa la politica e la società, e vorrei capire meglio i meccanismi che governano le istituzioni e le relazioni internazionali.  Potrebbe aprirmi le porte a carriere nel settore pubblico o nel giornalismo.
+* **Economia:**  Mi affascina l'analisi dei mercati e delle dinamiche economiche.  Vorrei comprendere come funzionano le aziende e i sistemi finanziari, con l'obiettivo di lavorare in ambito aziendale o finanziario.
+* **Architettura:**  Mi piace la progettazione e la creatività.  L'architettura mi permette di dare forma a spazi e ambienti, contribuendo al miglioramento della vita delle persone.  Mi incuriosisce il connubio tra estetica e funzionalità.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica di soluzioni informatiche in vari settori.  Mi incuriosisce l'aspetto progettuale e la possibilità di specializzarmi in aree come l'intelligenza artificiale o il cloud computing.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la comprensione dei processi vitali.  Mi piacerebbe approfondire la ricerca scientifica e la possibilità di lavorare in un laboratorio.  Potrebbe aprirmi la strada verso un dottorato di ricerca.
+
+* **Scienze Politiche:**  Mi interessa l'analisi dei fenomeni sociali e politici.  Vorrei comprendere le dinamiche di potere e le diverse ideologie, con l'obiettivo di contribuire a un mondo più giusto e sostenibile.  Mi piace l'idea di studiare storia e filosofia in relazione alla politica.
+
+* **Economia:**  Mi attrae l'analisi dei mercati e delle dinamiche economiche.  Mi piacerebbe comprendere come funzionano le imprese e i sistemi finanziari, con l'obiettivo di poter contribuire a migliorare la gestione delle risorse.  Mi incuriosisce l'aspetto quantitativo e la possibilità di lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Architettura:**  Mi piace disegnare e progettare, e mi affascina l'idea di creare ambienti fisici che siano funzionali ed esteticamente piacevoli.  Mi interessa l'interazione tra architettura, urbanistica e sostenibilità ambientale.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:** Mi interessa la tecnologia e la programmazione, ma anche la progettazione di sistemi complessi.  L'ingegneria informatica sembra unire questi aspetti in modo stimolante.
+
+* **Scienze Politiche:**  Mi attrae la comprensione dei processi sociali e politici, e l'analisi critica delle dinamiche di potere.  Vorrei approfondire la teoria politica e la storia delle istituzioni.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati e l'analisi dei fenomeni economici.  Mi piacerebbe capire come le scelte individuali influenzano l'economia globale.
+
+* **Scienze Ambientali:**  Sono molto interessato alla sostenibilità e alla protezione dell'ambiente.  Un corso di laurea in Scienze Ambientali mi permetterebbe di approfondire le problematiche ecologiche e le soluzioni possibili.
+
+* **Linguistica:**  Mi piace la lingua e la comunicazione.  Un corso di laurea in Linguistica mi permetterebbe di studiare la struttura e l'evoluzione delle lingue, e le diverse forme di comunicazione.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica di soluzioni informatiche a problemi reali.  Mi attrae la possibilità di specializzarmi in diverse aree, come l'intelligenza artificiale o il software.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la comprensione dei processi vitali.  Mi piacerebbe approfondire la ricerca scientifica e la possibilità di lavorare in un laboratorio.
+
+* **Scienze Politiche:**  Mi interessa la politica e la società, e come le istituzioni e le dinamiche sociali influenzano le persone.  Mi piacerebbe comprendere a fondo i meccanismi del potere e le sfide contemporanee.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati e delle economie, sia a livello locale che globale.  Mi interessa capire come le scelte economiche influenzano la società e come si possono risolvere i problemi economici.
+
+* **Architettura:**  Mi piace l'idea di progettare e creare spazi fisici che siano funzionali ed esteticamente piacevoli.  Mi interessa l'interazione tra architettura e ambiente, e la possibilità di lavorare su progetti innovativi.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi incuriosisce l'aspetto progettuale e la possibilità di lavorare in settori diversi.
+
+* **Scienze Biologiche:**  Mi appassiona la biologia e la ricerca scientifica, in particolare la comprensione dei processi vitali e la possibilità di contribuire a sviluppare nuove conoscenze.
+
+* **Scienze Politiche:**  Mi interessa la politica, la società e le relazioni internazionali.  Vorrei approfondire le dinamiche sociali e le strategie politiche.
+
+* **Economia Aziendale:**  Mi attrae il mondo del business e l'analisi dei mercati.  Mi piacerebbe capire come funzionano le aziende e come si prendono decisioni strategiche.
+
+* **Architettura:**  Mi piace l'aspetto creativo e progettuale, la capacità di dare forma allo spazio e di risolvere problemi architettonici.  Mi interessa la progettazione di edifici sostenibili e innovativi.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Mi piacerebbe capire come si progettano e sviluppano sistemi complessi.
+* **Scienze Biologiche:**  Mi appassiona la biologia molecolare e la genetica.  Vorrei approfondire la ricerca scientifica in questo campo e capire meglio i processi vitali.
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della politica.  Vorrei capire come si prendono le decisioni e come si gestiscono i conflitti.
+* **Economia e Commercio Internazionale:**  Mi interessa il mondo del business e la globalizzazione.  Vorrei capire come funzionano i mercati internazionali e come si sviluppano le strategie aziendali.
+* **Architettura:**  Mi piace l'aspetto creativo e progettuale.  Mi affascina la progettazione di spazi e ambienti, sia urbani che architettonici.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi attrae la possibilità di lavorare su progetti innovativi e di contribuire a sviluppare soluzioni tecnologiche.
+
+* **Scienze Biologiche:**  Mi affascina la complessità del mondo biologico, dalla biochimica alla genetica.  Vorrei approfondire le conoscenze in questo campo e magari in futuro intraprendere un percorso di ricerca.
+
+* **Scienze Politiche:**  Mi interessa comprendere i meccanismi che governano la società e le dinamiche politiche.  Mi piacerebbe lavorare nel settore pubblico o in organizzazioni internazionali.
+
+* **Economia e Commercio Internazionale:**  Mi incuriosisce il mondo del business e l'interazione tra le diverse economie globali.  Vorrei capire come funzionano i mercati e come le aziende si relazionano a livello internazionale.
+
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi.  Mi affascina l'idea di poter dare forma a edifici e ambienti che siano funzionali ed esteticamente piacevoli.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi piacerebbe capire meglio come funzionano i software e le reti, e magari specializzarmi in un ambito specifico come l'intelligenza artificiale o il cloud computing.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la comprensione dei processi vitali.  Mi piacerebbe approfondire la ricerca scientifica in questo campo, magari con una specializzazione in genetica o biotecnologie.
+
+* **Scienze Politiche:**  Mi interessa la politica e la società.  Vorrei capire meglio come funzionano le istituzioni, le dinamiche di potere e le relazioni internazionali.  Potrebbe essere un percorso per una carriera nel giornalismo o nella politica.
+
+* **Economia:**  Mi piace analizzare i dati e comprendere i meccanismi economici.  Mi interessa capire come funzionano i mercati, le aziende e le politiche economiche.  Un percorso in economia potrebbe aprirmi le porte a una carriera in finanza o in consulenza.
+
+* **Architettura:**  Mi piace la progettazione e la creatività.  L'architettura mi permette di unire queste due passioni, progettando spazi e ambienti che siano funzionali ed esteticamente piacevoli.  Mi interessa la sostenibilità e l'innovazione nel campo dell'architettura.
+",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi attrae la possibilità di lavorare in settori diversi, dalla robotica all'intelligenza artificiale.
+
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della politica.  Vorrei capire meglio le relazioni internazionali e le sfide del mondo contemporaneo.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere i meccanismi di mercato.  Mi interessa la finanza e la gestione aziendale, con un'attenzione particolare alla sostenibilità.
+
+* **Architettura:**  Mi affascina la progettazione e la creazione di spazi.  Vorrei approfondire la storia dell'architettura e le sue connessioni con l'ambiente e la società.
+
+* **Scienze Biologiche:**  Mi appassiona la biologia e la ricerca scientifica.  Mi interessa approfondire la comprensione dei processi vitali e la possibilità di contribuire a soluzioni per problemi globali come la salute pubblica.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la comprensione dei sistemi politici e la possibilità di approfondire la storia e le dinamiche internazionali.  Mi attrae la varietà di specializzazioni che spesso sono offerte.
+
+* **Economia:**  Mi incuriosisce l'analisi dei mercati e delle dinamiche economiche, sia a livello micro che macro.  Vorrei capire come funzionano le economie e come si possono affrontare le sfide attuali.
+
+* **Ingegneria Informatica:**  Mi affascina il mondo della tecnologia e la possibilità di sviluppare soluzioni innovative.  Mi piacerebbe approfondire la programmazione e l'ingegneria del software.
+
+* **Scienze Biologiche:**  Mi interessa la comprensione del mondo naturale e la possibilità di studiare la vita in tutte le sue forme.  Mi piacerebbe approfondire la biologia molecolare o la biologia marina.
+
+* **Letteratura Italiana:**  Mi piace la letteratura e la storia italiana, e mi piacerebbe approfondire la critica letteraria e la cultura italiana nel suo complesso.  Potrebbe essere un percorso più umanistico, ma mi interessa la connessione tra letteratura e società.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi incuriosisce l'aspetto progettuale e la possibilità di lavorare in settori diversi.
+
+* **Scienze Politiche:**  Mi affascina il mondo della politica e della società.  Vorrei comprendere le dinamiche sociali e i processi decisionali, con l'obiettivo di lavorare in un contesto istituzionale o di analisi strategica.
+
+* **Economia:**  Mi piace analizzare i dati e comprendere i meccanismi economici.  Mi interessa la finanza, il mercato e la gestione aziendale, con l'obiettivo di lavorare nel settore finanziario o in un'azienda.
+
+* **Psicologia:**  Mi incuriosisce il comportamento umano e le dinamiche relazionali.  Mi piacerebbe approfondire le diverse prospettive psicologiche e lavorare in ambito clinico o di consulenza.
+
+* **Architettura:**  Mi piace progettare e creare.  L'architettura mi permette di unire la creatività con la conoscenza tecnica e la comprensione dello spazio, con l'obiettivo di progettare edifici e spazi urbani.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi piacerebbe approfondire le tematiche legate all'intelligenza artificiale e al machine learning.
+
+* **Scienze Politiche:**  Mi incuriosisce il mondo della politica e della società.  Vorrei capire meglio i meccanismi che governano le relazioni internazionali e le dinamiche sociali.
+
+* **Economia:**  Mi attrae l'analisi dei mercati e delle strategie aziendali.  Mi piacerebbe capire come funzionano le economie e come si possono affrontare le sfide economiche contemporanee.
+
+* **Architettura:**  Mi piace la progettazione e la creatività.  Mi affascina l'idea di progettare spazi e ambienti che siano funzionali ed esteticamente piacevoli.
+
+* **Psicologia:**  Mi interessa comprendere il comportamento umano e le dinamiche relazionali.  Vorrei approfondire le diverse prospettive psicologiche e le loro applicazioni pratiche.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più applicata dell'informatica, come la progettazione di sistemi complessi.  Mi incuriosisce l'aspetto innovativo e la possibilità di lavorare in settori diversi.
+
+* **Scienze Politiche:**  Mi affascina il mondo della politica, la gestione delle relazioni internazionali e la comprensione dei processi sociali.  Vorrei approfondire la teoria politica e le sue applicazioni pratiche.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere le dinamiche di mercato.  Mi interessa la parte quantitativa e la possibilità di lavorare in ambito finanziario o aziendale.
+
+* **Psicologia:**  Mi appassiona la mente umana, il comportamento e le emozioni.  Vorrei capire meglio i meccanismi che guidano le scelte e le azioni delle persone, e forse in futuro lavorare in ambito clinico o di ricerca.
+
+* **Architettura:**  Mi piace la progettazione e la creatività, e l'idea di dare forma a spazi e ambienti.  Mi interessa l'aspetto estetico e funzionale della progettazione, e la possibilità di lavorare in un settore in continua evoluzione.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la progettazione e l'applicazione di sistemi complessi.  L'ingegneria informatica sembra unire queste mie passioni.
+
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della società.  Vorrei capire meglio le relazioni di potere e le sfide politiche contemporanee.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere le scelte dei consumatori e delle aziende.  Un corso di laurea in Economia mi permetterebbe di approfondire queste tematiche.
+
+* **Psicologia:**  Mi affascina il comportamento umano e i processi mentali.  Vorrei comprendere le motivazioni e le emozioni che guidano le persone.
+
+* **Scienze Ambientali:**  Sono sensibile alle questioni ambientali e mi piacerebbe contribuire a trovare soluzioni sostenibili.  Un corso in Scienze Ambientali mi permetterebbe di approfondire le problematiche ecologiche e le strategie di tutela del pianeta.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica e la società, e questo corso mi permetterebbe di approfondire le dinamiche politiche, le istituzioni e le relazioni internazionali.  Mi piacerebbe capire meglio come funzionano i sistemi politici e come si prendono le decisioni.
+
+* **Economia:**  Mi affascina il mondo economico, la gestione delle risorse e l'analisi dei mercati.  Vorrei capire come funzionano le economie, le cause delle crisi e come si può migliorare il benessere sociale.
+
+* **Ingegneria Informatica:**  Sono appassionato di tecnologia e informatica.  Questo corso mi permetterebbe di approfondire la programmazione, l'intelligenza artificiale e lo sviluppo di software, con l'obiettivo di creare soluzioni innovative.
+
+* **Scienze Biologiche:**  Mi interessa la biologia, la salute e la ricerca scientifica.  Questo corso mi permetterebbe di studiare la vita a diversi livelli, dalla cellula all'ecosistema, e di approfondire le problematiche attuali come la sostenibilità ambientale e le malattie.
+
+* **Letteratura Italiana:**  Mi piace leggere e scrivere, e la letteratura italiana mi offre un'opportunità per approfondire la storia, la cultura e la società italiana attraverso le opere letterarie.  Mi piacerebbe anche poter approfondire la critica letteraria.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica delle soluzioni informatiche in vari settori.  Mi incuriosisce l'aspetto progettuale e la possibilità di specializzarmi in aree come l'intelligenza artificiale o il machine learning.
+
+* **Scienze Politiche:**  Mi affascina il mondo della politica, l'analisi delle relazioni internazionali e la comprensione dei processi decisionali.  Vorrei approfondire le dinamiche sociali e la gestione dei conflitti.
+
+* **Economia:**  Mi piace comprendere i meccanismi economici, le tendenze del mercato e le strategie aziendali.  Un corso di laurea in Economia mi permetterebbe di approfondire le tematiche economiche e finanziarie.
+
+* **Psicologia:**  Mi interessa la comprensione del comportamento umano, dei processi cognitivi e delle dinamiche relazionali.  Un percorso in Psicologia mi permetterebbe di studiare le diverse prospettive e le possibili applicazioni pratiche.
+
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi, la combinazione di estetica e funzionalità.  Un corso di laurea in Architettura mi permetterebbe di approfondire le tecniche di progettazione e la storia dell'architettura.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più applicata dell'informatica, come la progettazione di sistemi complessi.  Mi piace l'idea di poter combinare competenze tecniche con la risoluzione di problemi concreti.
+
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della politica.  Vorrei capire meglio i processi decisionali e le relazioni di potere, con un occhio anche alle sfide globali.
+
+* **Economia:**  Mi attrae l'analisi dei fenomeni economici, la comprensione dei mercati e la gestione delle risorse.  Mi piacerebbe approfondire le teorie economiche e le loro applicazioni pratiche.
+
+* **Scienze Biologiche:**  Mi appassiona la biologia e la ricerca scientifica.  Vorrei approfondire la comprensione dei processi vitali e delle interazioni tra gli organismi, con un occhio anche alle applicazioni mediche.
+
+* **Letteratura Italiana:**  Mi piace la letteratura e la storia.  Un corso di laurea in Letteratura Italiana mi permetterebbe di approfondire la cultura italiana e di sviluppare capacità di analisi critica e di scrittura.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, e l'ingegneria informatica sembra unire bene queste due passioni.  Mi incuriosisce la possibilità di sviluppare software e sistemi complessi.
+
+* **Scienze Politiche:**  Mi attrae il mondo della politica e della società.  Vorrei capire meglio i meccanismi che governano le relazioni tra individui e istituzioni.  Potrebbe aprirmi opportunità in ambito pubblico o di consulenza.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere come funzionano i mercati.  Un corso di Economia mi permetterebbe di approfondire le tematiche economiche e finanziarie, con prospettive di lavoro nel settore.
+
+* **Psicologia:**  Mi affascina la mente umana e il comportamento.  Un corso di laurea in Psicologia mi permetterebbe di studiare le diverse forme di pensiero e di comportamento, con potenziali sbocchi in ambito clinico o di ricerca.
+
+* **Architettura:**  Mi piace l'estetica e la progettazione.  L'architettura mi sembra un campo affascinante che unisce creatività e conoscenza tecnica.  Mi interessa la progettazione di spazi e ambienti.
+",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'aspetto progettuale.  Mi incuriosisce l'applicazione dell'informatica a diversi settori, come l'ingegneria civile o quella meccanica.  Un corso di laurea in Ingegneria Informatica potrebbe permettermi di esplorare queste intersezioni.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la possibilità di studiare processi vitali, la biodiversità e la salute.  Un corso di laurea in Scienze Biologiche potrebbe aprirmi la strada a ricerche scientifiche o a professioni correlate.
+
+* **Scienze Politiche:**  Mi interessa il funzionamento delle istituzioni, la politica e la società.  Un corso di laurea in Scienze Politiche potrebbe darmi gli strumenti per comprendere le dinamiche sociali e politiche e per affrontare i problemi contemporanei.
+
+* **Economia:**  Mi piace l'analisi dei dati e la comprensione dei meccanismi economici.  Un corso di laurea in Economia potrebbe fornirmi le competenze per comprendere il mercato, le strategie aziendali e le politiche economiche.
+
+* **Architettura:**  Mi piace la progettazione e la creazione di spazi, la capacità di dare forma all'ambiente.  Un corso di laurea in Architettura potrebbe permettermi di sviluppare le mie capacità creative e di contribuire alla progettazione di spazi urbani e architettonici.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica.  Mi piacerebbe approfondire l'ingegneria del software e la progettazione di sistemi complessi.
+* **Scienze Biologiche:**  Mi attrae la biologia in generale, con un'attenzione particolare alla biologia molecolare e alla genetica.  Potrebbe aprirmi la strada a studi più approfonditi in futuro, magari in ambito medico o di ricerca.
+* **Scienze Ambientali:**  Mi preoccupa il futuro del pianeta e mi piacerebbe contribuire a trovare soluzioni sostenibili.  Questo corso mi permetterebbe di studiare l'interazione tra uomo e ambiente e le problematiche ambientali attuali.
+* **Psicologia:**  Mi interessa comprendere il comportamento umano e le dinamiche sociali.  Mi piacerebbe approfondire la psicologia cognitiva e le sue applicazioni pratiche, magari in ambito lavorativo o di supporto psicologico.
+* **Architettura:**  Mi piace disegnare e progettare, e mi affascina l'idea di creare ambienti e spazi che siano funzionali ed esteticamente piacevoli.  Mi interessa la progettazione di edifici sostenibili e l'integrazione con l'ambiente circostante.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica.  Mi incuriosisce l'applicazione delle tecnologie all'ingegneria in generale.
+
+* **Scienze Biologiche:**  Mi piace molto la biologia, la chimica e la comprensione dei processi vitali.  Mi piacerebbe approfondire la ricerca in questo campo, magari con un'ottica applicata alla salute o all'ambiente.
+
+* **Scienze Politiche:**  Mi appassiona la politica, la società e la comprensione dei meccanismi che governano le relazioni umane a livello collettivo.  Mi piacerebbe capire come funzionano le istituzioni e come si prendono le decisioni.
+
+* **Economia e Commercio:**  Mi interessa il mondo del business, la gestione delle risorse e la comprensione dei mercati.  Mi piacerebbe capire come funzionano le aziende e come si creano valore e profitto.
+
+* **Architettura:**  Mi piace l'estetica, la progettazione e la capacità di trasformare lo spazio.  Mi incuriosisce la progettazione di edifici e ambienti che siano sia funzionali che belli.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica, quindi la progettazione e l'architettura dei sistemi.  Mi piacerebbe capire come funzionano i sistemi complessi e come si possono migliorare.
+
+* **Scienze Biologiche:**  Mi affascina la biologia, la comprensione dei processi vitali e la ricerca scientifica.  Mi interessa la possibilità di approfondire le tematiche ambientali e la conservazione della biodiversità.
+
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni, la politica e la società.  Vorrei capire come si prendono le decisioni, come si gestiscono i conflitti e come si possono migliorare le politiche pubbliche.
+
+* **Architettura:**  Mi piace l'idea di progettare spazi, ambienti e città.  Mi interessa la progettazione sostenibile e l'integrazione tra architettura e contesto urbano.
+
+* **Economia:**  Mi interessa la comprensione dei meccanismi economici, la gestione delle risorse e la creazione di valore.  Mi piacerebbe approfondire la finanza e l'analisi dei mercati.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, e l'ingegneria informatica sembra un'ottima combinazione di teoria e pratica.  Mi incuriosisce l'aspetto progettuale e la possibilità di lavorare in settori diversi, come l'intelligenza artificiale o il software.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la ricerca scientifica.  Vorrei approfondire la comprensione dei processi biologici e, magari, in futuro, lavorare in un ambito di ricerca o di sviluppo farmaceutico.
+
+* **Scienze Politiche:**  Mi interessa la politica e la società.  Un corso di Scienze Politiche mi permetterebbe di studiare le dinamiche sociali, le istituzioni e le relazioni internazionali, con l'obiettivo di comprendere meglio il mondo che mi circonda.
+
+* **Economia:**  Mi attrae l'analisi dei mercati e delle dinamiche economiche.  Un corso di Economia mi permetterebbe di comprendere i meccanismi che regolano l'economia e, potenzialmente, di lavorare in un ambito finanziario o di consulenza.
+
+* **Linguistica:**  Mi piace molto la lingua italiana e le lingue in generale.  Un corso di Linguistica mi permetterebbe di approfondire la struttura e la storia delle lingue, e forse in futuro di lavorare come traduttore o interprete, oppure in un ambito di ricerca linguistica.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica.  Mi attrae la possibilità di lavorare su progetti complessi e innovativi.
+
+* **Scienze Politiche:**  Mi incuriosisce il funzionamento delle istituzioni e la dinamica della politica, sia a livello nazionale che internazionale.  Vorrei capire meglio come si prendono le decisioni e come si gestiscono i conflitti.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e capire come funzionano i mercati.  Mi interessa la parte quantitativa, ma anche la comprensione delle dinamiche sociali ed etiche legate all'economia.
+
+* **Psicologia:**  Mi affascina il comportamento umano, le emozioni e i processi mentali.  Vorrei capire meglio le motivazioni delle persone e come si sviluppano le relazioni.
+
+* **Architettura:**  Mi piace la progettazione e la creatività, e mi interessa come si progettano gli spazi e gli ambienti che ci circondano.  Mi affascina l'interazione tra architettura e contesto sociale.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più applicata dell'informatica, come la progettazione di sistemi complessi.  Mi piacerebbe capire come funziona il mondo digitale a livello più profondo.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la ricerca scientifica.  Mi incuriosisce l'interazione tra gli esseri viven e l'ambiente, e la possibilità di contribuire a risolvere problemi scientifici.
+
+* **Scienze Politiche:**  Mi interessa la società e il funzionamento delle istituzioni.  Vorrei approfondire le dinamiche politiche, le relazioni internazionali e la gestione dei conflitti.
+
+* **Architettura:**  Mi piace l'idea di progettare spazi e ambienti, di dare forma all'ambiente costruito.  Mi interessa la progettazione sostenibile e l'integrazione con l'ambiente circostante.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati e delle economie.  Vorrei capire come si prendono decisioni economiche, come si gestiscono le risorse e come si affrontano i problemi economici globali.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica, come l'architettura dei computer e le reti.  Mi piacerebbe capire come funzionano i sistemi complessi e come si possono progettare soluzioni innovative.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la ricerca scientifica.  Mi piacerebbe approfondire la comprensione dei processi biologici, magari con un'inclinazione verso la biologia molecolare o la genetica.
+
+* **Scienze Ambientali:**  Sono molto interessato ai problemi ambientali e alle possibili soluzioni sostenibili.  Un corso di Scienze Ambientali mi permetterebbe di approfondire le tematiche ecologiche e di studiare le interazioni tra uomo e ambiente.
+
+* **Economia:**  Mi piace analizzare i fenomeni economici e comprendere come funzionano i mercati.  Un corso di Economia mi permetterebbe di studiare le dinamiche economiche, la finanza e le politiche economiche.
+
+* **Psicologia:**  Mi interessa comprendere il comportamento umano e i processi mentali.  Un corso di Psicologia mi permetterebbe di approfondire le diverse prospettive psicologiche e di studiare le problematiche legate alla mente e al comportamento.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""sistemistica"" dell'informatica.  Mi incuriosisce l'applicazione dell'informatica a problemi reali, come la progettazione di sistemi complessi.
+
+* **Scienze Biologiche:**  Mi piace la biologia e la comprensione dei processi vitali.  Un percorso in Scienze Biologiche potrebbe aprirmi la strada a studi più approfonditi in ambito medico o ambientale.
+
+* **Scienze Politiche:**  Mi interessa la politica, la società e le dinamiche di potere.  Un corso di Scienze Politiche mi permetterebbe di approfondire le teorie politiche e le relazioni internazionali.
+
+* **Economia:**  Mi attrae l'analisi dei mercati, delle risorse e delle decisioni economiche.  Un percorso in Economia potrebbe aprirmi la strada a posizioni nel settore finanziario o in ambito di analisi di mercato.
+
+* **Architettura:**  Mi piace l'aspetto creativo e progettuale, e l'idea di dare forma all'ambiente.  Un corso di Architettura mi permetterebbe di studiare l'interazione tra uomo e spazio, e di sviluppare un approccio progettuale.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica:**  Mi interessa la tecnologia e la programmazione, ma anche l'applicazione pratica dei sistemi informatici.  Mi piacerebbe approfondire l'ingegneria del software e la progettazione di sistemi complessi.
+
+* **Scienze Biologiche:**  Mi affascina la biologia e la ricerca scientifica, in particolare l'interazione tra organismi e l'ambiente.  Potrebbe aprirmi la strada a studi più specifici in futuro, come la biotecnologia o la conservazione.
+
+* **Scienze Politiche:**  Mi interessa la politica e la società, l'analisi dei processi decisionali e le dinamiche di potere.  Vorrei comprendere meglio come funzionano le istituzioni e le relazioni internazionali.
+
+* **Economia:**  Mi incuriosisce il funzionamento dei mercati e l'analisi dei fenomeni economici.  Mi piacerebbe capire come si prendono decisioni economiche e come si gestiscono le risorse.
+
+* **Architettura:**  Mi piace la progettazione e la creatività, e l'idea di dare forma a spazi e ambienti mi affascina.  Mi interessa la progettazione sostenibile e l'integrazione con l'ambiente circostante.
+",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e la società, e mi piacerebbe capire come funzionano i sistemi politici.  Mi attrae l'idea di poter lavorare in ambito diplomatico, o in organizzazioni internazionali.
+
+* **Laurea in Economia:**  Mi piace l'analisi dei dati e la comprensione dei meccanismi economici.  Sono curiosa di capire come funzionano i mercati e come si prendono decisioni economiche.  Un'eventuale carriera in finanza o analisi di mercato mi affascina.
+
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di studiare la giustizia e le leggi.  Mi piacerebbe lavorare in ambito legale, magari come avvocato o in un'organizzazione che si occupa di diritti umani.
+
+* **Laurea in Psicologia:**  Mi appassiona la mente umana e il comportamento.  Mi piacerebbe capire le motivazioni e le emozioni delle persone e, in futuro, lavorare in ambito psicologico, magari come psicoterapeuta o in un'azienda che si occupa di risorse umane.
+
+* **Laurea in Lingue e Letterature Straniere (con specializzazione in Inglese):**  Amo le lingue e la letteratura.  Mi piacerebbe lavorare in un'azienda internazionale, o come traduttrice/interprete.  Mi interessa anche l'aspetto culturale legato alle lingue straniere.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e le relazioni internazionali.  Mi attrae l'analisi dei fenomeni sociali e la possibilità di approfondire le dinamiche di potere.
+
+* **Laurea in Economia:**  Mi piace l'aspetto quantitativo e la comprensione dei meccanismi economici.  Mi incuriosisce la possibilità di analizzare i mercati e le strategie aziendali.
+
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto e la capacità di risolvere problemi complessi.  Mi piacerebbe approfondire le diverse aree del diritto, come il diritto civile o penale.
+
+* **Laurea in Lingue e Culture Moderne, indirizzo Linguistico:**  Amo le lingue e le culture diverse.  Mi interessa la traduzione, l'interpretazione e la comprensione delle sfumature culturali.
+
+* **Laurea in Psicologia:**  Mi appassiona la comprensione del comportamento umano e dei processi cognitivi.  Mi piacerebbe approfondire le diverse aree della psicologia, come la psicologia clinica o la psicologia sociale.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe capire meglio come funzionano le istituzioni e le dinamiche di potere.  Sono attratta dalla possibilità di approfondire l'analisi dei fenomeni sociali contemporanei.
+
+* **Laurea in Economia:**  Mi appassiona l'aspetto quantitativo e analitico.  Mi piacerebbe comprendere i meccanismi economici, le dinamiche di mercato e le strategie aziendali.  Mi incuriosisce la possibilità di applicare modelli matematici e statistici per risolvere problemi economici.
+
+* **Laurea in Giurisprudenza:**  Mi attrae l'aspetto logico e argomentativo del ragionamento giuridico.  Mi piacerebbe approfondire le norme e le leggi, e comprendere come si applicano nella società.  Mi interessa la possibilità di studiare la storia del diritto e le diverse tradizioni giuridiche.
+
+* **Laurea in Psicologia:**  Mi affascina il comportamento umano e le dinamiche relazionali.  Mi piacerebbe comprendere i processi cognitivi, le emozioni e i meccanismi che guidano le azioni individuali e di gruppo.  Mi incuriosisce la possibilità di applicare le conoscenze psicologiche in contesti diversi.
+
+* **Laurea in Lingue e Culture Moderne (con specializzazione in Lingua e Letteratura Inglese):**  Amo le lingue e la letteratura.  Mi piacerebbe approfondire la lingua inglese e la cultura anglosassone.  Mi interessa la possibilità di studiare la letteratura inglese nel suo contesto storico e culturale, e di sviluppare competenze comunicative in inglese.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e la società, e vorrei approfondire le dinamiche internazionali e le relazioni tra i paesi.  Mi affascina l'analisi dei fenomeni sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+
+* **Laurea in Economia:**  Mi piace l'aspetto quantitativo e analitico, e mi incuriosisce la comprensione dei mercati e delle dinamiche economiche.  Vorrei capire come funzionano le aziende e il ruolo dell'economia nella società moderna.  Mi piacerebbe lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Laurea in Giurisprudenza:**  Mi attrae il mondo del diritto e la possibilità di studiare e applicare le leggi.  Mi interessa la giustizia sociale e la difesa dei diritti umani.  Vorrei lavorare come avvocato o in un'organizzazione non governativa.
+
+* **Laurea in Psicologia:**  Mi appassiona la comprensione del comportamento umano e dei processi mentali.  Vorrei approfondire le diverse teorie psicologiche e le applicazioni pratiche in ambito clinico o di ricerca.  Mi piacerebbe lavorare con le persone e aiutarle a superare le difficoltà.
+
+* **Laurea in Lingue e Letterature Straniere (inglese e spagnolo):**  Amo le lingue e la cultura.  Mi interessa la traduzione, l'interpretazione o il lavoro in un'azienda internazionale.  Vorrei approfondire la letteratura e la storia dei paesi di lingua inglese e spagnola.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e le dinamiche sociali, ma anche la parte più ""tecnica"" della gestione delle istituzioni.  Mi piacerebbe capire meglio come funzionano i processi decisionali e le relazioni internazionali.
+
+* **Laurea in Economia:**  Mi attrae l'analisi dei dati, la comprensione dei mercati e delle dinamiche economiche.  Mi piace l'idea di studiare come le scelte economiche influenzano la società e di poter applicare le conoscenze acquisite in un contesto lavorativo.
+
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto, la logica e la capacità di analisi critica.  Mi piacerebbe approfondire le diverse aree del diritto e comprendere come si applica la legge nella società contemporanea.
+
+* **Laurea in Psicologia:**  Mi incuriosisce il funzionamento della mente umana, le emozioni e i comportamenti.  Mi piacerebbe capire le diverse problematiche psicologiche e le possibili strategie di intervento.
+
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia e la programmazione.  Mi piacerebbe sviluppare competenze nel campo dell'informatica e contribuire alla creazione di nuove soluzioni tecnologiche.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei fenomeni sociali.  Mi affascina l'idea di comprendere le dinamiche di potere e le relazioni internazionali.  Sono attratta dalla possibilità di specializzarmi in aree come la diplomazia o la comunicazione politica.
+
+* **Laurea in Economia:**  Mi piace l'idea di studiare i meccanismi economici, le dinamiche di mercato e le strategie aziendali.  Mi incuriosisce la possibilità di comprendere come funzionano le economie e come si possono affrontare le sfide economiche contemporanee.  Potrei essere interessata a specializzarmi in finanza o in economia del lavoro.
+
+* **Laurea in Giurisprudenza:**  Mi piace l'idea di studiare il diritto e la giustizia, di approfondire i principi etici e di comprendere come si applicano le leggi nella società.  Mi interessa la possibilità di lavorare in ambito legale, ma anche di contribuire a migliorare la società attraverso la conoscenza del diritto.
+
+* **Laurea in Lingue e Letterature Straniere (con specializzazione in inglese):**  Amo le lingue e la letteratura.  Mi piacerebbe approfondire la lingua inglese e la cultura anglosassone, con l'obiettivo di lavorare in un ambito internazionale, magari come traduttrice o interprete.
+
+* **Laurea in Psicologia:**  Mi interessa comprendere il comportamento umano, le emozioni e i processi cognitivi.  Mi affascina l'idea di studiare le diverse forme di disturbo mentale e di aiutare le persone a superare le difficoltà.  Mi piacerebbe lavorare in ambito clinico o di ricerca.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe capire meglio come funzionano le istituzioni e le dinamiche di potere.  Sono attratta dalla possibilità di approfondire le relazioni internazionali e la diplomazia.
+
+* **Laurea in Economia:**  Mi affascina l'analisi dei mercati, la gestione delle risorse e la comprensione dei fenomeni economici.  Mi piacerebbe capire come le scelte economiche influenzano la società e come si possono affrontare i problemi economici attuali.
+
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la possibilità di studiare e comprendere le norme che regolano la società.  Mi interessa la giustizia sociale e la difesa dei diritti umani.
+
+* **Laurea in Psicologia:**  Mi appassiona lo studio della mente umana e dei comportamenti.  Vorrei approfondire le diverse teorie psicologiche e le loro applicazioni pratiche.  Mi interessa la possibilità di lavorare con le persone e aiutarle a superare le difficoltà.
+
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e il mondo digitale.  Mi interessa lo sviluppo di software, l'analisi dei dati e l'innovazione tecnologica.  Sono attratta dalla possibilità di creare soluzioni innovative per problemi complessi.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:** Mi interessa la politica, la storia e la società, e vorrei capire meglio i meccanismi che governano le istituzioni.  Mi affascina l'analisi dei fenomeni sociali e la possibilità di lavorare nel settore pubblico o in organizzazioni internazionali.
+
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e analitico dell'economia.  Vorrei comprendere i mercati, le dinamiche finanziarie e le politiche economiche.  Mi piacerebbe lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Laurea in Giurisprudenza:**  Mi piace studiare il diritto e la giustizia, e mi incuriosisce l'applicazione pratica delle leggi.  Vorrei capire come funziona il sistema giudiziario e la possibilità di lavorare come avvocato o in un'attività legale.
+
+* **Laurea in Lingue e Culture Moderne (con specializzazione in Lingua e Cultura Francese):**  Amo le lingue e le culture straniere, e il francese mi affascina particolarmente.  Vorrei approfondire la lingua e la cultura francese, e magari lavorare in un'azienda che opera a livello internazionale o in un'ambasciata.
+
+* **Laurea in Psicologia:**  Mi interessa comprendere il comportamento umano, i processi cognitivi e le dinamiche relazionali.  Vorrei lavorare in ambito psicologico, ad esempio come psicologa o psicoterapeuta, o in un ruolo che richieda la comprensione del comportamento umano.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piace l'idea di studiare le dinamiche di potere e le diverse ideologie.  Sono attratta dalla possibilità di approfondire la relazione tra politica e società, e la possibilità di lavorare in ambito diplomatico o di ricerca.
+
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia e la capacità di comprendere i meccanismi che regolano i mercati.  Mi interessa la parte di analisi dei dati e la possibilità di comprendere le tendenze economiche e le loro conseguenze.  Potrebbe aprirmi la strada verso un lavoro nel settore finanziario o in un'azienda.
+
+* **Laurea in Giurisprudenza:**  Mi piace l'idea di studiare il diritto e di approfondire i principi etici e giuridici che regolano la società.  Mi incuriosisce la possibilità di comprendere come le leggi influenzano la vita quotidiana e di contribuire a risolvere problemi sociali.  Mi piacerebbe lavorare come avvocato o in un'organizzazione non governativa.
+
+* **Laurea in Psicologia:**  Mi affascina la mente umana e il comportamento.  Mi interessa comprendere i processi cognitivi, le emozioni e i disturbi psicologici.  Vorrei approfondire le diverse teorie psicologiche e le loro applicazioni pratiche.  Mi piacerebbe lavorare in un ambito clinico o di ricerca.
+
+* **Laurea in Lingue e Culture Moderne (con specializzazione in Lingua e Cultura Francese):**  Amo le lingue e la cultura francese.  Mi interessa la possibilità di studiare la lingua e la letteratura francese, ma anche la storia e la società francese.  Mi piacerebbe lavorare in un'azienda internazionale o in un'organizzazione culturale.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e la società, e vorrei capire meglio i meccanismi del potere e le dinamiche internazionali.  Mi attrae l'idea di poter lavorare in ambito diplomatico o in organizzazioni internazionali.
+
+* **Laurea in Economia:**  Mi piace l'analisi dei dati e la comprensione dei fenomeni economici.  Mi incuriosisce la possibilità di studiare i mercati finanziari e le politiche economiche, anche in un'ottica di sostenibilità.
+
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia e la programmazione.  Vorrei approfondire le competenze in ambito software e sviluppo web, con l'obiettivo di lavorare in un'azienda tecnologica o di intraprendere un percorso di ricerca.
+
+* **Laurea in Giurisprudenza:**  Mi interessa il diritto e la giustizia, e mi affascina l'idea di studiare le leggi e le norme che regolano la società.  Vorrei capire come funziona il sistema giudiziario e le sue implicazioni pratiche.
+
+* **Laurea in Lingue e Culture Moderne (con specializzazione in Lingua Spagnola):**  Mi piace imparare le lingue e conoscere le culture diverse.  Vorrei approfondire la lingua spagnola e le sue sfumature culturali, con l'obiettivo di lavorare in un'azienda internazionale o di intraprendere un percorso di studi post-laurea.
+",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica (Università di Pisa):**  Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con un'ottima reputazione nel campo.
+
+* **Laurea in Scienze Politiche (Università di Bologna):**  Mi affascina il mondo della politica e della governance.  Bologna è un'università storica e molto rinomata in questo settore, con un'ampia scelta di specializzazioni.
+
+* **Laurea in Economia e Commercio (Università di Firenze):**  Mi incuriosisce il funzionamento dei mercati e l'analisi dei dati economici. Firenze, con la sua storia e la sua posizione strategica, mi sembra un'ottima scelta per studiare questo ambito.
+
+* **Laurea in Scienze Biologiche (Università di Padova):**  Mi piace la biologia e la ricerca scientifica. Padova è nota per la sua tradizione scientifica e per le sue opportunità di ricerca.
+
+* **Laurea in Giurisprudenza (Università di Milano):**  Mi interessa il diritto e la giustizia.  Milano, come centro economico e giuridico, offre un contesto stimolante per studiare questo ambito.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa):  Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con buone opportunità di specializzazione.
+
+* **Laurea in Scienze Politiche** (Università di Bologna):  Mi appassiona la politica, l'analisi dei fenomeni sociali e la comprensione delle dinamiche internazionali.  Bologna è una città con una forte tradizione in questo campo.
+
+* **Laurea in Economia e Commercio** (Università di Firenze):  Mi incuriosisce il mondo del business e dell'economia.  Firenze, con la sua storia e la sua presenza nel panorama economico italiano, potrebbe offrire un'esperienza stimolante.
+
+* **Laurea in Giurisprudenza** (Università di Roma ""La Sapienza""):  Mi affascina il mondo del diritto e la possibilità di approfondire la giustizia e le sue implicazioni sociali.  L'Università di Roma ""La Sapienza"" è un'istituzione importante e consolidata.
+
+* **Laurea in Psicologia** (Università di Padova):  Mi interessa la comprensione del comportamento umano e delle dinamiche psicologiche.  Padova mi sembra una buona opzione per la sua attenzione alla ricerca e alla formazione accademica.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica (Università di Pisa):**  Mi interessa la tecnologia e la programmazione, ma anche l'aspetto più pratico della progettazione e realizzazione di sistemi.  Il curriculum di Pisa mi sembra ben strutturato e con un'ottima reputazione.
+
+* **Scienze Politiche (Università di Bologna):**  Mi affascina il mondo della politica e della società, e vorrei approfondire le dinamiche internazionali.  Bologna è una città con una forte tradizione universitaria e un'ampia offerta di specializzazioni.
+
+* **Economia (Università di Milano-Bicocca):**  Mi piace l'analisi dei dati e la comprensione dei meccanismi economici.  Il curriculum di Bicocca sembra offrire un'ottima combinazione tra teoria e pratica, con possibilità di specializzazione in settori che mi interessano.
+
+* **Architettura (Politecnico di Milano):**  Ho una passione per la progettazione e la creatività, e l'architettura mi permette di unire queste due componenti.  Il Politecnico di Milano ha una grande tradizione e un'ottima reputazione nel campo.
+
+* **Scienze Biologiche (Università di Firenze):**  Mi incuriosisce il mondo della biologia e della ricerca scientifica.  L'Università di Firenze ha un dipartimento di biologia molto attivo e mi piacerebbe approfondire la ricerca in questo ambito.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Bologna):  Mi interessa la tecnologia e la programmazione, ma anche la parte più ""ingegneristica"" della progettazione e dell'implementazione di sistemi complessi.  Mi attrae la possibilità di specializzarmi in aree come l'intelligenza artificiale o il software.
+
+* **Scienze Politiche** (Università di Firenze):  Mi appassiona l'analisi dei fenomeni sociali e politici, e la comprensione delle dinamiche di potere.  Mi piacerebbe approfondire la storia e la teoria politica, e magari in futuro lavorare in un'organizzazione internazionale o nel settore pubblico.
+
+* **Economia e Commercio Internazionale** (Università di Milano-Bicocca):  Mi incuriosisce il mondo del business e l'interazione tra le diverse economie globali.  Mi interessa comprendere i meccanismi del mercato e le strategie di impresa in un contesto internazionale.
+
+* **Architettura** (Politecnico di Milano):  Mi piace la progettazione e la creatività, e l'idea di dare forma a spazi fisici.  Mi affascina l'aspetto estetico e funzionale dell'architettura, e la possibilità di lavorare in un ambito progettuale.
+
+* **Scienze Biologiche** (Università di Padova):  Mi interessa la biologia e la ricerca scientifica.  Mi piacerebbe approfondire le conoscenze in un ambito scientifico, magari con la possibilità di proseguire con un dottorato di ricerca.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica (Università di Pisa):**  Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con un'ottima reputazione nel settore.
+
+* **Laurea in Scienze Politiche (Università di Bologna):**  Mi incuriosisce il mondo della politica e della governance, e vorrei approfondire le dinamiche sociali e le relazioni internazionali.  Bologna è una città vivace e con un'ampia offerta di attività extra-curriculari.
+
+* **Laurea in Economia Aziendale (Università di Torino):**  Mi affascina il funzionamento delle aziende, la gestione finanziaria e la strategia di mercato.  Torino è una città con un'importante presenza di aziende e un'ottima rete di contatti.
+
+* **Laurea in Scienze Biologiche (Università di Firenze):**  Mi piace la biologia e la ricerca scientifica.  Firenze, con la sua storia e la sua bellezza, mi offre un ambiente stimolante per gli studi.
+
+* **Laurea in Giurisprudenza (Università di Milano):**  Mi interessa il diritto e la giustizia.  Milano è una città dinamica e con un'ampia scelta di opportunità lavorative nel settore legale.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica (Università di Bologna):**  Mi interessa la tecnologia e la programmazione, ma anche l'aspetto progettuale.  Il curriculum sembra ben strutturato e con buone opportunità di specializzazione.
+
+* **Scienze Politiche (Università di Firenze):**  Mi attrae la comprensione dei sistemi politici e sociali, e l'analisi critica dei fenomeni contemporanei.  La città di Firenze è un plus.
+
+* **Economia e Commercio Internazionale (Università di Milano-Bicocca):**  Mi incuriosisce il mondo del business e l'interazione tra le diverse economie globali.  La vicinanza a Milano, centro economico, è un fattore importante.
+
+* **Architettura (Politecnico di Milano):**  Mi piace l'idea di progettare e modellare lo spazio, di creare ambienti.  Il Politecnico di Milano ha una buona reputazione in questo campo.
+
+* **Scienze Biologiche (Università di Padova):**  Mi affascina la biologia e la ricerca scientifica.  L'Università di Padova ha un'ottima reputazione nel settore.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica (Università di Pisa):**  Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con un'ottima reputazione nel settore.
+
+* **Laurea in Scienze Politiche (LUISS Guido Carli):**  Mi attrae la politica e la diplomazia, ma anche l'analisi dei fenomeni sociali. La LUISS è nota per la sua forte componente internazionale e per la vicinanza al mondo del lavoro.
+
+* **Laurea in Economia e Commercio (Università di Bologna):**  Mi incuriosisce il mondo dell'economia, la finanza e la gestione aziendale. Bologna è una città vivace e con un'ampia offerta di stage e opportunità di lavoro.
+
+* **Laurea in Giurisprudenza (Università di Padova):**  Mi affascina il diritto e la giustizia, ma anche la possibilità di approfondire la storia e la filosofia. Padova è una città storica con una forte tradizione accademica.
+
+* **Laurea in Scienze Ambientali (Università di Firenze):**  Mi interessa la sostenibilità ambientale e la gestione delle risorse naturali. Firenze, con la sua bellezza e la sua vicinanza a parchi naturali, mi sembra un luogo ideale per studiare questo settore.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa mi sembra ben strutturato e con un'ottima reputazione nel settore.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) - Mi affascina il mondo della politica e della diplomazia.  Bologna è una città storica e l'università ha una grande tradizione in questo campo.
+
+* **Laurea in Economia e Commercio** (Università di Firenze) - Mi piace l'idea di studiare economia e di capire come funzionano i mercati.  Firenze, con la sua storia e la sua cultura, mi sembra un ambiente stimolante.
+
+* **Laurea in Architettura** (Politecnico di Milano) -  Mi appassiona la progettazione e la creazione di spazi.  Il Politecnico di Milano ha una grande reputazione e la città offre molte opportunità.
+
+* **Laurea in Giurisprudenza** (Università di Roma ""La Sapienza"") - Mi incuriosisce il mondo del diritto e la possibilità di studiare in una delle università più grandi d'Italia.  La città di Roma mi attrae molto.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica (Università di Bologna):**  Mi interessa la tecnologia e la programmazione, ma anche la parte più teorica dell'informatica.  Bologna ha una buona reputazione in questo campo e mi attrae l'ambiente universitario.
+
+* **Scienze Politiche (Università di Firenze):**  Mi piace la politica e la storia, e mi incuriosisce l'analisi dei sistemi sociali e delle dinamiche di potere. Firenze, con la sua storia, è un'ottima location per questo tipo di studi.
+
+* **Economia e Commercio (Università di Padova):**  Mi interessa l'aspetto economico, la finanza e il mondo del lavoro. Padova è una città universitaria vivace e mi sembra un buon punto di partenza per una carriera in questo settore.
+
+* **Architettura (Politecnico di Milano):**  Mi affascina il design, la progettazione e la creatività. Il Politecnico di Milano ha una grande reputazione nel campo e mi piacerebbe esplorare questa possibilità.
+
+* **Scienze Biologiche (Università di Pisa):**  Mi interessa la biologia e la ricerca scientifica. Pisa, con il suo legame con la scienza, mi sembra un'ottima scelta per approfondire questo settore.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Ingegneria Informatica** (Università di Pisa) - Mi interessa la tecnologia e la programmazione, ma mi affascina anche l'aspetto progettuale e la possibilità di lavorare su sistemi complessi.  Il curriculum di Pisa sembra ben strutturato e con buone opportunità di specializzazione.
+
+* **Scienze Politiche** (Università di Bologna) -  Mi attrae il mondo della politica e della società, e mi piacerebbe comprendere le dinamiche che governano le relazioni internazionali.  Bologna è una città storica e vivace, con una forte tradizione accademica in questo campo.
+
+* **Economia e Commercio Internazionale** (Università di Firenze) -  Mi incuriosisce il funzionamento dei mercati e delle economie globali.  L'ubicazione a Firenze, una città con una forte tradizione economica e culturale, mi sembra un vantaggio.
+
+* **Architettura** (Politecnico di Milano) -  Mi piace l'idea di progettare e creare spazi, di dare forma all'ambiente.  Il Politecnico di Milano ha una solida reputazione nel campo dell'architettura e mi affascina la possibilità di lavorare con materiali e tecnologie innovative.
+
+* **Scienze Biologiche** (Università di Padova) -  Mi appassiona la biologia e la ricerca scientifica.  Padova è nota per la sua tradizione scientifica e mi piacerebbe approfondire le conoscenze in questo campo, magari con l'obiettivo di una carriera di ricerca.
+",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica e la società, e vorrei approfondire le dinamiche internazionali e le strategie politiche.  Mi attrae l'idea di studiare la storia e l'evoluzione dei sistemi politici, nonché le sfide contemporanee.
+
+* **Laurea in Economia:**  Mi piace l'analisi quantitativa e la comprensione dei meccanismi economici.  Mi incuriosisce l'idea di studiare i mercati, le politiche economiche e le implicazioni sociali delle scelte economiche.
+
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto e la sua applicazione pratica.  Vorrei comprendere a fondo i principi giuridici e le diverse aree del diritto, con l'obiettivo di poter contribuire alla giustizia e all'applicazione della legge.
+
+* **Laurea in Lingue e Culture Moderne (con specializzazione in Lingua e Cultura Francese):**  Amo le lingue e le culture straniere, e il francese mi affascina particolarmente.  Vorrei approfondire la lingua francese, la letteratura e la cultura francese, con l'obiettivo di poter lavorare in un contesto internazionale.
+
+* **Laurea in Psicologia:**  Mi interessa comprendere il comportamento umano e i processi mentali.  Vorrei studiare le diverse teorie psicologiche e le loro applicazioni pratiche, con l'obiettivo di poter lavorare nel campo della salute mentale o in ambiti correlati.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Vorrei capire meglio come funzionano le istituzioni e come si prendono le decisioni a livello nazionale e internazionale.
+
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia, la gestione delle risorse, i mercati finanziari e le dinamiche economiche globali.  Mi piacerebbe capire come si sviluppano le economie e come si possono affrontare le sfide economiche contemporanee.
+
+* **Laurea in Ingegneria Informatica:**  Sono appassionata di tecnologia e di programmazione.  Mi interessa sviluppare applicazioni, progettare sistemi informatici e contribuire all'innovazione tecnologica.
+
+* **Laurea in Lettere Moderne:**  Mi piace la letteratura, la storia e la cultura.  Vorrei approfondire la comprensione dei testi letterari e delle diverse forme artistiche, analizzando come si riflettono le epoche e le società.
+
+* **Laurea in Psicologia:**  Mi interessa comprendere il comportamento umano, le emozioni e i processi cognitivi.  Vorrei studiare le diverse teorie psicologiche e le loro applicazioni pratiche, magari in ambito clinico o di ricerca.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe capire meglio come funzionano le istituzioni e le dinamiche di potere.
+
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia, la gestione delle risorse e la comprensione dei mercati.  Mi piacerebbe approfondire le teorie economiche e le loro applicazioni pratiche.
+
+* **Laurea in Ingegneria Informatica:**  Sono appassionata di tecnologia e di programmazione.  Mi interessa lo sviluppo di software e l'applicazione dell'informatica in diversi settori.
+
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano, le emozioni e i processi mentali.  Vorrei comprendere le dinamiche interpersonali e le possibili applicazioni della psicologia in ambito sociale.
+
+* **Laurea in Lettere Moderne:**  Amo la letteratura, la storia e la cultura.  Mi piacerebbe approfondire lo studio di diversi autori e periodi storici, e comprendere l'evoluzione della lingua e della cultura italiana.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe approfondire la comprensione delle dinamiche politiche e delle sfide contemporanee.
+
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia, la gestione delle risorse e la comprensione dei mercati.  Vorrei studiare come funzionano le economie e come si possono affrontare i problemi economici.
+
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Mi interessa sviluppare soluzioni innovative e creare applicazioni software.
+
+* **Laurea in Giurisprudenza:**  Mi incuriosisce il mondo del diritto e la giustizia.  Mi piacerebbe comprendere le leggi e le norme che regolano la società e contribuire a un sistema più giusto.
+
+* **Laurea in Lettere Moderne:**  Mi appassiona la letteratura, la storia e la cultura.  Vorrei approfondire la comprensione delle diverse forme artistiche e dei contesti storici.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Vorrei capire meglio come funzionano le istituzioni e come si prendono le decisioni politiche.
+* **Laurea in Economia:**  Mi affascina il mondo dell'economia, la finanza e la gestione aziendale.  Mi piacerebbe comprendere i meccanismi di mercato e le dinamiche economiche.
+* **Laurea in Ingegneria Informatica:**  Sono appassionata di tecnologia e di programmazione.  Mi interessa sviluppare software e applicazioni, e capire come funziona il mondo digitale.
+* **Laurea in Giurisprudenza:**  Mi piace studiare il diritto e la giustizia.  Mi interessa comprendere le leggi e come si applicano nella società.
+* **Laurea in Lettere Moderne:**  Mi appassiona la letteratura, la storia e la cultura italiana.  Vorrei approfondire la conoscenza di questi ambiti e magari in futuro lavorare nel campo editoriale o della comunicazione.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e la società, e vorrei approfondire le dinamiche internazionali e le strategie politiche.
+* **Laurea in Economia:**  Mi piace l'analisi dei dati, la comprensione dei mercati e la gestione delle risorse.  Mi incuriosisce l'aspetto quantitativo e la possibilità di applicare le conoscenze in ambito aziendale.
+* **Laurea in Psicologia:**  Mi appassiona lo studio del comportamento umano, delle emozioni e dei processi cognitivi.  Vorrei capire meglio le dinamiche interpersonali e le possibili applicazioni in ambito clinico o di consulenza.
+* **Laurea in Giurisprudenza:**  Mi attrae il mondo del diritto e la possibilità di contribuire alla giustizia e all'applicazione delle leggi.  Mi interessa la comprensione dei sistemi giuridici e la difesa dei diritti.
+* **Laurea in Lettere Moderne:**  Pur essendo attratta da scienze sociali ed economiche, non posso ignorare la mia passione per la letteratura, la storia e la critica culturale.  Mi piacerebbe approfondire la comprensione dei testi e delle culture contemporanee.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Vorrei capire meglio come funzionano le istituzioni e le dinamiche di potere.
+* **Economia:**  Mi affascina il mondo dell'economia, la gestione delle risorse e la comprensione dei mercati.  Mi piacerebbe approfondire le teorie economiche e le loro applicazioni pratiche.
+* **Psicologia:**  Mi incuriosisce il funzionamento della mente umana, i processi cognitivi e le emozioni.  Vorrei capire meglio le dinamiche interpersonali e le diverse forme di comportamento.
+* **Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Mi interessa sviluppare soluzioni innovative e creare applicazioni software.
+* **Architettura:**  Mi appassiona la progettazione di spazi e ambienti.  Vorrei studiare la relazione tra architettura, contesto urbano e benessere umano.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe approfondire la comprensione delle dinamiche politiche e delle relazioni internazionali.
+
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e analitico dell'economia.  Mi incuriosisce la gestione delle risorse e la comprensione dei mercati.
+
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto e la capacità di risolvere problemi complessi attraverso un'analisi giuridica.  Mi piacerebbe approfondire il sistema legale italiano.
+
+* **Laurea in Lingue e Letterature Straniere (con specializzazione in inglese):**  Amo le lingue e la letteratura.  Vorrei sviluppare competenze linguistiche avanzate e approfondire la cultura anglosassone.
+
+* **Laurea in Psicologia:**  Mi interessa la comprensione del comportamento umano e dei processi mentali.  Mi piacerebbe lavorare nel campo della salute mentale o della ricerca psicologica.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Scienze Politiche:**  Mi interessa la politica, la storia e la società, e vorrei approfondire le dinamiche di potere e le relazioni internazionali.  Mi piace l'idea di studiare la complessità del mondo contemporaneo.
+
+* **Economia:**  Mi affascina il funzionamento dei mercati, la finanza e le strategie aziendali.  Vorrei capire come le scelte economiche influenzano la vita delle persone e delle comunità.
+
+* **Psicologia:**  Ho sempre avuto un forte interesse per la mente umana, il comportamento e le emozioni.  Mi piacerebbe comprendere i processi cognitivi e le dinamiche relazionali.
+
+* **Architettura:**  Mi piace l'idea di progettare e costruire spazi, di dare forma all'ambiente che ci circonda.  Mi interessa l'aspetto estetico e funzionale degli edifici e delle città.
+
+* **Scienze Biologiche:**  Mi appassiona la natura, la biodiversità e la ricerca scientifica.  Vorrei approfondire la conoscenza degli organismi viven e dei processi biologici.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi piacerebbe approfondire le dinamiche internazionali e la gestione dei conflitti.
+
+* **Laurea in Economia:**  Mi attrae l'aspetto quantitativo e analitico dell'economia.  Mi incuriosisce la possibilità di studiare i mercati finanziari e le politiche economiche.
+
+* **Laurea in Giurisprudenza:**  Mi affascina il mondo del diritto e la possibilità di comprendere le leggi e i sistemi giuridici.  Mi piacerebbe lavorare in ambito legale o giudiziario.
+
+* **Laurea in Ingegneria Informatica:**  Mi appassiona la tecnologia e il mondo digitale.  Mi interessa sviluppare software, progettare sistemi informatici e comprendere l'evoluzione delle nuove tecnologie.
+
+* **Laurea in Lettere Moderne:**  Mi piace la letteratura, la storia e la cultura.  Mi piacerebbe approfondire la storia italiana e le sue diverse manifestazioni artistiche e culturali.
+",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con ottime opportunità di specializzazione.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) - Mi attrae la comprensione dei processi politici e sociali, e l'analisi dei fenomeni globali.  Bologna è un'università storica con una grande tradizione in questo campo.
+
+* **Laurea in Economia e Commercio** (Università di Firenze) - Mi incuriosisce l'aspetto quantitativo dell'economia e la possibilità di approfondire le tematiche finanziarie.  Firenze, con la sua storia economica, mi sembra un'ottima location.
+
+* **Laurea in Architettura** (Politecnico di Milano) -  Mi piace l'idea di progettare e di creare spazi, ma anche la possibilità di studiare la storia dell'architettura e la sua relazione con l'ambiente.  Il Politecnico di Milano ha una grande reputazione in questo settore.
+
+* **Laurea in Giurisprudenza** (Università di Roma ""La Sapienza"") -  Mi affascina il mondo del diritto e la possibilità di approfondire le tematiche giuridiche, soprattutto quelle relative ai diritti umani.  L'Università di Roma ""La Sapienza"" è una delle più grandi d'Italia e offre un'ampia scelta di specializzazioni.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** presso l'Università di Pisa:  Mi interessa la parte di progettazione e sviluppo software, ma anche l'applicazione dell'informatica ad altri settori, come l'ingegneria civile o meccanica.  Pisa mi sembra una città interessante per studiare.
+
+* **Laurea in Scienze Politiche** presso l'Università di Bologna:  Mi attrae la comprensione dei processi politici e sociali, e l'analisi dei fenomeni contemporanei.  Bologna è una città storica e vivace, con un'ampia offerta culturale.
+
+* **Laurea in Economia e Commercio** presso l'Università di Torino:  Mi incuriosisce il mondo del business e dell'economia, e vorrei approfondire le dinamiche del mercato e le strategie aziendali. Torino mi sembra un'ottima location per studiare economia.
+
+* **Laurea in Architettura** presso l'Università di Firenze:  Mi affascina la progettazione e la creazione di spazi, la capacità di dare forma all'ambiente. Firenze, con la sua storia e bellezza, è un luogo ideale per studiare architettura.
+
+* **Laurea in Giurisprudenza** presso l'Università di Roma La Sapienza:  Mi interessa la comprensione del diritto e la possibilità di contribuire alla giustizia. Roma, con la sua storia e la sua importanza nel campo giuridico, è una scelta naturale.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con ottime opportunità di specializzazione.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) - Mi affascina il mondo della politica e della diplomazia.  Bologna è un'università storica con una grande tradizione in questo campo.
+
+* **Laurea in Scienze Biologiche** (Università di Firenze) - Mi piace la biologia e la ricerca scientifica. Firenze mi attira per il suo ambiente culturale e la possibilità di studiare in un contesto storico.
+
+* **Laurea in Economia e Commercio** (Università di Torino) - Mi incuriosisce il mondo economico e la gestione aziendale. Torino mi sembra una città dinamica e con un'ottima rete di contatti professionali.
+
+* **Laurea in Architettura** (Politecnico di Milano) - Mi piace l'idea di progettare e creare spazi. Milano è una città vibrante e piena di opportunità per un architetto.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e la società contemporanea.  Mi piacerebbe capire meglio i meccanismi del potere e le dinamiche internazionali.
+* **Laurea in Ingegneria Informatica:**  Mi affascina il mondo della tecnologia e la programmazione.  Vorrei sviluppare competenze in ambito software e hardware.
+* **Laurea in Economia e Commercio:**  Mi incuriosisce il funzionamento dei mercati e l'analisi dei dati economici.  Mi piacerebbe capire come le aziende prendono decisioni e come funziona il sistema finanziario.
+* **Laurea in Scienze Biologiche:**  Sono appassionato di biologia e scienza.  Mi interessa la ricerca scientifica e la comprensione dei processi biologici, anche in ambito applicativo.
+* **Laurea in Lettere Moderne:**  Mi piace la letteratura, la storia e la cultura.  Vorrei approfondire la comprensione dei testi letterari e delle diverse forme artistiche.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa la programmazione, l'intelligenza artificiale e la robotica.  Il curriculum di Pisa sembra ben strutturato e con ottime opportunità di specializzazione.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) -  Mi affascina il mondo della politica e della governance.  Bologna è una città con una grande tradizione universitaria e un'ampia scelta di specializzazioni.
+
+* **Laurea in Economia e Commercio** (Università di Firenze) -  Mi incuriosisce il funzionamento dei mercati e l'analisi dei dati economici.  Firenze, con la sua storia e la sua cultura, mi sembra un ambiente stimolante.
+
+* **Laurea in Architettura** (Politecnico di Milano) -  Ho una forte passione per la progettazione e l'estetica. Il Politecnico di Milano è rinomato per la sua qualità e per le sue collaborazioni con il mondo professionale.
+
+* **Laurea in Giurisprudenza** (Università di Roma La Sapienza) -  Mi attrae il mondo del diritto e la possibilità di approfondire le problematiche sociali.  L'Università di Roma La Sapienza è un'istituzione storica con un'ampia offerta formativa.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e il funzionamento delle istituzioni.  Mi affascina l'analisi dei fenomeni sociali e la possibilità di lavorare in ambito diplomatico o di ricerca.
+
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Mi incuriosisce la possibilità di sviluppare software, progettare sistemi e lavorare in un ambito in continua evoluzione.
+
+* **Laurea in Economia e Commercio:**  Mi attrae l'aspetto economico e finanziario.  Vorrei capire come funzionano i mercati e le aziende, e mi piacerebbe lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Laurea in Giurisprudenza:**  Mi interessa la giustizia e il diritto.  Mi affascina l'analisi dei casi, la ricerca di soluzioni e la possibilità di lavorare in un ambito che si occupa di tutelare i diritti e le persone.
+
+* **Laurea in Lettere Moderne:**  Mi piace la letteratura, la storia e la cultura.  Vorrei approfondire la comprensione dei testi e delle opere, e mi piacerebbe lavorare in un ambito editoriale o di ricerca accademica.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa, o eventualmente altre sedi) - Mi interessa la parte di progettazione e sviluppo software, ma anche l'aspetto più teorico dell'informatica.  Mi attrae la possibilità di lavorare in un'azienda tecnologica o di sviluppare progetti innovativi.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) -  Mi incuriosisce l'analisi dei fenomeni sociali e politici, la comprensione delle dinamiche di potere e la possibilità di lavorare nel campo della ricerca o della diplomazia.
+
+* **Laurea in Economia e Commercio** (Università di Milano Bicocca) -  Mi piace l'idea di studiare i mercati, le strategie aziendali e le dinamiche economiche. Mi interessa la possibilità di lavorare in ambito finanziario o aziendale.
+
+* **Laurea in Giurisprudenza** (Università di Roma La Sapienza) -  Mi affascina il mondo del diritto, l'analisi critica delle leggi e la possibilità di lavorare in ambito legale o giudiziario.
+
+* **Laurea in Lingue e Culture Moderne - Specializzazione in Lingua e Cultura Francese** (Università di Firenze) -  Mi piace la lingua francese e la cultura francese.  Vorrei approfondire la conoscenza della lingua e della cultura, e magari lavorare in un'azienda internazionale o nel settore turistico.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa l'aspetto pratico e la possibilità di specializzarmi in intelligenza artificiale o cybersecurity.  Mi attrae la reputazione della facoltà per la ricerca applicata.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) -  Mi incuriosisce l'analisi dei fenomeni sociali e politici, e la possibilità di approfondire la politica internazionale.  Mi piacerebbe lavorare in un'organizzazione internazionale o nel giornalismo politico.
+
+* **Laurea in Economia** (Università di Milano-Bicocca) -  Mi affascina l'aspetto quantitativo e la possibilità di comprendere i meccanismi economici globali.  Vorrei lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Laurea in Giurisprudenza** (Università di Firenze) -  Mi interessa la comprensione del sistema giuridico e la possibilità di specializzarmi in diritto internazionale.  Mi piacerebbe lavorare in un'ambasciata o in un'organizzazione non governativa.
+
+* **Laurea in Scienze Biologiche** (Università di Padova) -  Mi appassiona la biologia e la ricerca scientifica.  Mi piacerebbe approfondire la biologia molecolare o la genetica, e potenzialmente intraprendere un percorso di ricerca post-laurea.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Scienze Politiche:**  Mi interessa la politica, la storia e l'analisi dei sistemi sociali.  Mi affascina l'idea di comprendere le dinamiche di potere e le sfide globali.  Sono attratto/a dalla possibilità di specializzarmi in relazioni internazionali o in politica comparata.
+
+* **Laurea in Ingegneria Informatica:**  Mi piace la tecnologia e la programmazione.  Mi incuriosiscono le applicazioni pratiche dell'informatica e la possibilità di contribuire allo sviluppo di nuove soluzioni tecnologiche.  Mi piacerebbe lavorare nel campo del software o dell'intelligenza artificiale.
+
+* **Laurea in Economia:**  Mi interessa l'analisi dei mercati, la finanza e le strategie aziendali.  Vorrei capire come funziona l'economia a livello macro e micro, e come le scelte economiche influenzano la società.  Mi piacerebbe lavorare in un'azienda o in un'istituzione finanziaria.
+
+* **Laurea in Giurisprudenza:**  Mi appassiona il diritto e la giustizia.  Mi interessa comprendere le leggi e le norme che regolano la società e la possibilità di contribuire a risolvere problemi sociali.  Mi piacerebbe lavorare come avvocato o in un'organizzazione non governativa.
+
+* **Laurea in Psicologia:**  Mi incuriosisce il comportamento umano e la mente.  Mi interessa comprendere le emozioni, i pensieri e i processi cognitivi.  Mi piacerebbe lavorare nel campo della salute mentale o della consulenza psicologica.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3
+it,gemini_1_5_8b,"* **Laurea in Ingegneria Informatica** (Università di Pisa) - Mi interessa la parte di progettazione e sviluppo software, ma anche l'applicazione di queste tecnologie in settori come l'automazione industriale.  Mi attrae la possibilità di studiare in un'università con una solida reputazione nel campo.
+
+* **Laurea in Scienze Politiche** (Università di Bologna) -  Mi affascina l'analisi dei fenomeni sociali e politici, e la comprensione delle dinamiche di potere.  Bologna è una città ricca di storia e cultura, e mi piacerebbe studiare in un ambiente così stimolante.
+
+* **Laurea in Economia e Commercio** (Università di Firenze) -  Mi incuriosisce l'aspetto quantitativo dell'economia e la possibilità di applicare le conoscenze acquisite al mondo del lavoro. Firenze, con la sua storia e la sua cultura, mi sembra un ambiente ideale per studiare questo settore.
+
+* **Laurea in Architettura** (Politecnico di Milano) -  Mi piace l'idea di progettare e realizzare spazi, di pensare a come gli edifici interagiscono con l'ambiente circostante. Il Politecnico di Milano ha una grande reputazione e un'ottima infrastruttura.
+
+* **Laurea in Giurisprudenza** (Università di Roma ""La Sapienza"") -  Mi affascina la comprensione del sistema giuridico e la possibilità di contribuire alla giustizia.  L'Università di Roma ""La Sapienza"" è una delle più grandi e prestigiose d'Italia, e mi piacerebbe studiare in un ambiente così ricco di storia e tradizione.
+",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.3

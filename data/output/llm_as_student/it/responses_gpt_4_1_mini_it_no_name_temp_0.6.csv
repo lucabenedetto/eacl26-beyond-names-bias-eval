@@ -1,0 +1,651 @@
+language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Lettere e Filosofia",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Architettura  
+- Scienze della Comunicazione",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Architettura  
+- Medicina e Chirurgia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e commercio  
+- Ingegneria gestionale  
+- Psicologia  
+- Scienze della comunicazione  
+- Giurisprudenza",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Lettere e Filosofia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Lettere e Filosofia",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Lettere e Filosofia",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Architettura  
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Lettere e Filosofia",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Architettura",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze della Comunicazione  
+- Architettura",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze Politiche  
+- Architettura",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze Politiche  
+- Architettura",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Ingegneria Informatica  
+- Psicologia  
+- Scienze Politiche  
+- Architettura",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Medicina e Chirurgia  
+- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Lettere e Filosofia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Lettere e Filosofia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Economia e Management  
+- Ingegneria Informatica  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Gestionale  
+- Economia e Commercio  
+- Scienze della Comunicazione  
+- Biotecnologie",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria gestionale  
+- Medicina e chirurgia  
+- Lettere e filosofia  
+- Economia e commercio",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Economia e gestione aziendale  
+- Ingegneria informatica  
+- Scienze della comunicazione  
+- Medicina e chirurgia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Biotecnologie",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Biotecnologie",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria informatica  
+- Economia e management  
+- Scienze della comunicazione  
+- Medicina e chirurgia",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Psicologia  
+- Economia e Management  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Giurisprudenza",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Economia e Management  
+- Psicologia  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Medicina e Chirurgia  
+- Psicologia  
+- Economia e Management  
+- Architettura",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Biotecnologie  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Biotecnologie",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Scienze Politiche  
+- Medicina e Chirurgia",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Psicologia  
+- Ingegneria Informatica  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Architettura",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Commercio  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Medicina e Chirurgia  
+- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Lettere e Filosofia",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Biotecnologie",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Lettere e Filosofia  
+- Scienze della Comunicazione",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Gestionale  
+- Economia e Commercio  
+- Lettere e Filosofia  
+- Scienze della Comunicazione",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Psicologia  
+- Ingegneria Informatica  
+- Scienze della Comunicazione  
+- Giurisprudenza",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Management  
+- Psicologia  
+- Ingegneria Informatica  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Psicologia  
+- Ingegneria Informatica  
+- Economia e Management  
+- Lettere e Filosofia  
+- Scienze della Comunicazione",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Psicologia  
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Architettura",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Economia e Commercio  
+- Ingegneria Informatica  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Architettura",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Architettura",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Commercio  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Medicina e Chirurgia  
+- Scienze della Comunicazione",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Medicina e Chirurgia",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Economia e Management  
+- Psicologia  
+- Giurisprudenza  
+- Scienze della Comunicazione",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6
+it,gpt_4_1_mini,"- Ingegneria Informatica  
+- Psicologia  
+- Economia e Management  
+- Scienze della Comunicazione  
+- Architettura",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6

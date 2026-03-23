@@ -1,0 +1,1077 @@
+run_number,language,model,response,with_name,with_noun,with_adjective,with_pronouns,name,noun,adjective,pronoun_0,pronoun_1,pronoun_2,pronoun_3,pronoun_4,ending_id,n_uni_courses,prompt,temperature,rec_0,rec_1,rec_2,rec_3,rec_4
+0,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea che potresti prendere in considerazione in Italia:
+
+- **Scienze della Comunicazione**: Focalizzato su media, comunicazione e relazioni pubbliche.
+- **Ingegneria Informatica**: Approfondisce la programmazione, l'architettura dei computer e le tecnologie dell'informazione.
+- **Economia e Commercio**: Studia principi economici, gestione aziendale e marketing.
+- **Psicologia**: Esplora il comportamento umano, la mente e le tecniche di intervento psicologico.
+- **Architettura**: Combina design, arte e ingegneria per la progettazione di edifici e spazi urbani.
+
+Spero che questo elenco ti sia utile per iniziare la tua ricerca!",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,architettura
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Economia e Management**: per acquisire competenze in ambito economico e gestionale.
+- **Psicologia**: per studiare il comportamento umano e i processi mentali.
+- **Ingegneria Informatica**: per specializzarsi nel settore tecnologico e della programmazione.
+- **Lettere e Filosofia**: per esplorare le discipline umanistiche e sviluppare capacità critiche e analitiche.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,lettere e filosofia
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su principi economici, gestione aziendale e mercati finanziari.
+- **Ingegneria Informatica**: Si concentra su programmazione, sviluppo software e tecnologie informatiche.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con applicazioni in vari ambiti.
+- **Giurisprudenza**: Approfondimento del diritto, delle normative e dei sistemi legali.
+- **Scienze della Comunicazione**: Analisi dei processi comunicativi e dei media, con focus su marketing e pubblicità.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,giurisprudenza,comunicazione e media
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Scienze della Comunicazione**: Studio dei processi comunicativi e dei media, con possibilità di specializzarsi in vari ambiti.
+- **Economia e Commercio**: Approfondimento delle dinamiche economiche, finanziarie e di gestione aziendale.
+- **Biologia**: Studio degli organismi viventi e delle loro interazioni con l'ambiente, con applicazioni in vari settori.
+- **Psicologia**: Esplorazione del comportamento umano e dei processi mentali, con possibilità di specializzazioni in diverse aree della psicologia applicata.
+
+Spero che questo elenco ti aiuti a fare una scelta!",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,comunicazione e media,economia e management,biologia,psicologia
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su temi economici e gestionali, utile per carriere nel mondo degli affari e della finanza.
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione, con buone prospettive lavorative nel settore IT.
+- **Psicologia**: Per chi è interessato a comprendere il comportamento umano e desidera lavorare nel campo della salute mentale o della consulenza.
+- **Scienze Politiche**: Perfetto per chi vuole approfondire temi legati alla politica, alle relazioni internazionali e all’amministrazione pubblica.
+- **Architettura**: Un corso per chi è appassionato di design e costruzione, che offre opportunità nel campo dell'architettura e dell'urbanistica.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,architettura
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione nei vari contesti sociali e mediatici.
+- **Economia e Commercio**: per acquisire competenze nel campo dell'economia, della gestione aziendale e del marketing.
+- **Psicologia**: per studiare il comportamento umano e i processi mentali, utile in diversi ambiti professionali.
+- **Ingegneria Informatica**: per specializzarsi nello sviluppo di software e sistemi informatici, con ottime prospettive lavorative.
+- **Arte e Design**: per esplorare la creatività e le tecniche artistiche, con possibilità di lavorare nel campo del design e delle arti visive.
+
+Spero che questo elenco ti aiuti a orientarti nella tua scelta!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,design
+0,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla progettazione e sviluppo di software e sistemi informatici.
+- **Economia e Commercio**: Offre una formazione in ambito economico, finanziario e gestionale.
+- **Biologia**: Studia la vita e gli organismi, con possibilità di specializzazione in vari ambiti, come la biotecnologia.
+- **Scienze della Comunicazione**: Esplora i vari aspetti della comunicazione, dai media tradizionali a quelli digitali.
+- **Architettura**: Combina creatività e tecnica per progettare edifici e spazi urbani.
+
+Spero che queste opzioni ti possano aiutare a orientarti nella scelta!",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,biologia,comunicazione e media,architettura
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti considerare:
+
+- **Ingegneria Informatica**: Focalizzato su software, hardware e tecnologie digitali.
+- **Scienze della Comunicazione**: Esplora la comunicazione in vari contesti, inclusi media e pubblicità.
+- **Economia e Management**: Offre una base solida in economia, finanza e gestione aziendale.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con applicazioni in vari ambiti.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per sviluppare soluzioni innovative in medicina e agricoltura.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,comunicazione e media,economia e management,psicologia,biotecnologie
+0,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea che potresti prendere in considerazione in Italia:
+
+- **Ingegneria Informatica**: per chi è interessato alla programmazione, sviluppo software e tecnologie informatiche.
+- **Economia e Commercio**: ideale per chi desidera approfondire temi legati all'economia, alla gestione aziendale e al marketing.
+- **Psicologia**: per chi è appassionato dello studio della mente e del comportamento umano.
+- **Biologia**: per chi è interessato alla vita e agli organismi viventi, con possibilità di specializzarsi in ambiti come la biotecnologia.
+- **Scienze della Comunicazione**: per chi vuole lavorare nel campo dei media, della comunicazione e delle relazioni pubbliche. 
+
+Spero che queste opzioni ti siano utili per iniziare la tua ricerca!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biologia,comunicazione e media
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le tecniche di comunicazione e i media.
+- **Economia e Commercio**: per acquisire competenze in ambito economico e gestionale.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche.
+- **Ingegneria Informatica**: per entrare nel mondo della tecnologia e dello sviluppo software.
+- **Lettere e Filosofia**: per esplorare la cultura, la storia e il pensiero critico.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,lettere e filosofia
+0,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è appassionato di tecnologia e programmazione.
+- **Economia e Commercio**: ideale per chi è interessato a temi economici e finanziari.
+- **Psicologia**: per chi desidera approfondire il comportamento umano e le dinamiche relazionali.
+- **Biotecnologie**: per chi è affascinato dalla scienza e dalle applicazioni biomediche.
+- **Design del Prodotto**: per chi ha una vena creativa e vuole lavorare nel campo del design e dell'innovazione.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biotecnologie,design
+0,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è interessato alla programmazione, ai sistemi informatici e alle nuove tecnologie.
+- **Economia e Commercio**: per chi desidera approfondire le dinamiche economiche e gestionali delle imprese.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e marketing.
+- **Psicologia**: per chi vuole studiare il comportamento umano e le dinamiche mentali.
+- **Biotecnologie**: per chi è interessato alle applicazioni scientifiche nella biologia e nella salute.
+
+Spero che questa lista ti possa aiutare a orientarti!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,psicologia,biotecnologie
+0,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti considerare:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e alle relazioni pubbliche.
+- **Ingegneria Informatica**: per chi ama la tecnologia, la programmazione e desidera lavorare nel settore IT.
+- **Economia e Commercio**: per chi è attratto dall'economia, dalla finanza e dalla gestione aziendale.
+- **Psicologia**: per chi vuole approfondire la mente umana e lavorare nel campo del benessere psicologico.
+- **Architettura**: per chi ha una passione per il design, l'arte e la progettazione di spazi e strutture. 
+
+Spero che questo elenco ti aiuti a fare la tua scelta!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,architettura
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Psicologia**: per approfondire la comprensione del comportamento umano e delle dinamiche relazionali.
+- **Scienze della Comunicazione**: un percorso che esplora i vari aspetti della comunicazione, dai media tradizionali ai social network.
+- **Biotecnologie**: per chi è appassionato di scienze della vita e desidera lavorare in ambito medico, agricolo o ambientale.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre una solida preparazione in ambito economico e gestionale.
+- **Ingegneria Informatica**: ideale per chi è appassionato di tecnologia e programmazione.
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e le dinamiche mentali.
+- **Scienze della Comunicazione**: un corso che esplora i vari aspetti della comunicazione, dai media tradizionali a quelli digitali.
+- **Biologia**: per gli amanti della natura e della ricerca scientifica, con focus su organismi viventi e loro interazioni.
+
+Spero che questo elenco ti aiuti a orientarti!",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biologia
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e della comunicazione, prepara a lavorare nel settore IT.
+- **Psicologia**: Studia i processi mentali e il comportamento umano, utile per chi è interessato alle scienze sociali.
+- **Biotecnologie**: Un corso che combina biologia e tecnologia, con applicazioni in medicina, agricoltura e ambiente.
+- **Design del Prodotto**: Un percorso creativo che forma professionisti nel campo del design industriale e della progettazione di oggetti. 
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e competenze.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,biotecnologie,design
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Specializzazione nelle tecnologie dell'informazione e nello sviluppo software.
+- **Scienze della Comunicazione**: Studio delle dinamiche comunicative nei vari contesti sociali e professionali.
+- **Biologia**: Approfondimento delle scienze naturali, con possibilità di specializzarsi in biotecnologie o ecologia.
+- **Psicologia**: Esplorazione del comportamento umano e dei processi mentali, con applicazioni in vari ambiti professionali.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,psicologia
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Economia e Commercio**: Offre una formazione in ambito economico, finanziario e gestionale.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con applicazioni in vari ambiti.
+- **Scienze della Comunicazione**: Approfondisce le dinamiche della comunicazione in contesti sociali e mediatici.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per applicazioni in medicina, agricoltura e ambiente.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,comunicazione e media,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea che potresti prendere in considerazione in Italia:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+- **Economia e Commercio**: ideale per chi desidera approfondire tematiche legate all'economia, al marketing e alla gestione aziendale.
+- **Psicologia**: per chi è affascinato dal comportamento umano e desidera lavorare nel campo del benessere psicologico.
+- **Ingegneria Informatica**: per chi ama la tecnologia e vuole sviluppare competenze in programmazione e sistemi informatici.
+- **Biotecnologie**: per chi è interessato alla scienza e alla ricerca, con applicazioni in ambito medico e ambientale.
+
+Spero che queste opzioni ti siano utili per iniziare la tua ricerca!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software, ideale per chi ama la programmazione e l'innovazione tecnologica.
+  
+- **Economia e Commercio**: Offre una formazione completa in economia, finanza e gestione aziendale, perfetto per chi è interessato al mondo degli affari.
+
+- **Scienze della Comunicazione**: Studia i processi comunicativi e i media, adatto per chi desidera lavorare nel marketing, nella pubblicità o nei media digitali.
+
+- **Biotecnologie**: Combina biologia e tecnologia, mirato a chi è interessato alla ricerca scientifica e alle applicazioni in campo medico e ambientale.
+
+- **Architettura**: Un percorso che unisce creatività e tecnica, per chi desidera progettare edifici e spazi urbani, con un forte focus su estetica e funzionalità.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,architettura
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea che potresti considerare in Italia:
+
+- **Ingegneria Informatica**: Ideale per chi è appassionato di tecnologia e programmazione.
+- **Scienze Politiche**: Perfetto per chi è interessato a temi di politica, relazioni internazionali e diritti umani.
+- **Economia e Commercio**: Un buon corso per chi desidera approfondire tematiche economiche e di gestione aziendale.
+- **Psicologia**: Adatto a chi è interessato alle dinamiche umane e al benessere psicologico.
+- **Biotecnologie**: Un'opzione interessante per chi è appassionato di scienza e innovazione nel settore della salute e dell'ambiente.
+
+Spero che queste opzioni ti possano aiutare a fare la tua scelta!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,scienze politiche e relazioni internazionali,economia e management,psicologia,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a comprendere i meccanismi economici e le dinamiche di mercato.
+- **Ingegneria Informatica**: ideale per chi ama la tecnologia e desidera lavorare nel settore IT.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e marketing.
+- **Giurisprudenza**: per chi desidera approfondire il diritto e le sue applicazioni nel mondo reale.
+- **Biologia**: per gli amanti della scienza e della natura, con possibilità di specializzarsi in vari ambiti della biologia.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,giurisprudenza,biologia
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Psicologia**: studio del comportamento umano e dei processi mentali.
+- **Ingegneria Informatica**: progettazione e sviluppo di sistemi informatici e software.
+- **Scienze della Comunicazione**: analisi dei processi comunicativi e dei media.
+- **Biotecnologie**: applicazione delle tecnologie biologiche in ambito sanitario e ambientale.
+- **Economia e Management**: studi sulle dinamiche economiche e sulla gestione delle imprese.
+
+Questi corsi offrono diverse opportunità e possono portare a carriere molto diverse.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,psicologia,ingegneria informatica,comunicazione e media,biotecnologie,economia e management
+1,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Concentrato su programmazione, sistemi informatici e tecnologia.
+- **Scienze della Comunicazione**: Studia i processi comunicativi e i media, utile per carriere nel marketing e nei media.
+- **Psicologia**: Approfondisce il comportamento umano e le dinamiche psicologiche, con applicazioni in vari ambiti.
+- **Biotecnologie**: Esplora l'applicazione della biologia e della tecnologia per sviluppare soluzioni innovative in medicina e agricoltura.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Psicologia**: Studio del comportamento umano e dei processi mentali.
+- **Ingegneria Informatica**: Formazione in programmazione, sistemi informatici e tecnologie digitali.
+- **Economia e Commercio**: Approfondimento delle dinamiche economiche e gestionali.
+- **Scienze della Comunicazione**: Analisi dei mezzi di comunicazione e delle tecniche di comunicazione efficace.
+- **Biotecnologie**: Studio delle applicazioni biologiche in ambito medico e ambientale.
+
+Spero che queste opzioni ti possano aiutare a riflettere sulle tue passioni e interessi!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,psicologia,ingegneria informatica,economia e management,comunicazione e media,biotecnologie
+1,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a temi economici, gestione aziendale e mercati.
+- **Ingegneria Informatica**: per gli appassionati di tecnologia, programmazione e sviluppo software.
+- **Scienze della Comunicazione**: per chi desidera approfondire le dinamiche della comunicazione, media e pubblicità.
+- **Psicologia**: per chi è interessato a comprendere il comportamento umano e le dinamiche psicologiche.
+- **Biotecnologie**: per chi vuole lavorare nel campo della ricerca scientifica applicata alla salute e all'ambiente.
+
+Spero che questo elenco ti possa aiutare a orientarti nella tua scelta!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie informatiche, sviluppo software e sistemi di rete.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con diverse specializzazioni possibili.
+- **Scienze Politiche**: Analisi delle dinamiche politiche, relazioni internazionali e politiche pubbliche.
+- **Biotecnologie**: Corso che combina biologia e tecnologia, con applicazioni in ambito medico, agricolo e ambientale.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e alle relazioni pubbliche.
+- **Economia e Commercio**: per chi desidera approfondire tematiche economiche e gestionali.
+- **Psicologia**: per coloro che vogliono studiare il comportamento umano e le dinamiche psicologiche.
+- **Ingegneria Informatica**: per chi è appassionato di tecnologia e programmazione.
+- **Lettere e Filosofia**: per chi ama la cultura, la letteratura e le scienze umane. 
+
+Questi corsi offrono diverse opportunità di carriera e possono adattarsi a vari interessi e passioni.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,lettere e filosofia
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su aspetti economici, finanziari e di gestione aziendale.
+- **Ingegneria Informatica**: Studia la progettazione e lo sviluppo di software e sistemi informatici.
+- **Scienze della Comunicazione**: Esplora le dinamiche della comunicazione in vari contesti, dai media ai social network.
+- **Biotecnologie**: Si concentra sull'applicazione delle tecnologie biologiche in ambito sanitario, agricolo e ambientale.
+- **Psicologia**: Analizza il comportamento umano e i processi mentali, preparando per diverse professioni nel campo della salute e del benessere.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biotecnologie,psicologia
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, gestione aziendale e finanza.
+  
+- **Ingegneria Informatica**: Perfetto per chi è appassionato di tecnologia e desidera lavorare nel campo dell'informatica e dello sviluppo software.
+  
+- **Scienze della Comunicazione**: Ideale per chi è interessato ai media, alla comunicazione e alle strategie di marketing.
+  
+- **Biologia**: Un'opzione per chi ama la scienza e desidera approfondire argomenti legati alla vita e all'ambiente.
+  
+- **Architettura**: Per chi ha una passione per il design, l'arte e l'urbanistica, con l'obiettivo di progettare edifici e spazi pubblici.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+2,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre conoscenze in ambito economico, finanziario e gestionale.
+- **Ingegneria Informatica**: focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e i processi mentali.
+- **Scienze Politiche**: per comprendere le dinamiche politiche, sociali e internazionali.
+- **Biotecnologie**: un campo che combina scienza e tecnologia per sviluppare soluzioni in ambito biologico e medico. 
+
+Spero che questo elenco ti aiuti a orientarti meglio nella tua scelta!",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Studia le dinamiche della comunicazione nei vari contesti sociali e mediatici.
+- **Economia e Management**: Approfondisce temi legati all'economia, alla gestione delle imprese e al marketing.
+- **Psicologia**: Esplora il comportamento umano e i processi mentali, con possibilità di specializzazione in vari ambiti.
+- **Ingegneria Informatica**: Focalizzata sullo sviluppo di software e sistemi informatici, con un forte orientamento tecnico.
+- **Scienze Politiche**: Analizza le strutture politiche, le relazioni internazionali e le dinamiche sociali e culturali.
+
+Spero che questo elenco ti aiuti a riflettere sulle tue opzioni!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,scienze politiche e relazioni internazionali
+2,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti considerare:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, gestione aziendale e finanza.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software, ideale per chi ama la programmazione e l'innovazione tecnologica.
+- **Psicologia**: Un percorso che esplora il comportamento umano, le emozioni e le dinamiche sociali, utile per chi è interessato al benessere mentale e sociale.
+- **Scienze Politiche**: Un corso che analizza le strutture politiche, le relazioni internazionali e le politiche pubbliche, adatto per chi è interessato alla governance e all'impatto delle politiche sulla società.
+- **Biotecnologie**: Focalizzato sull'applicazione delle tecnologie biologiche per la salute, l'ambiente e l'agricoltura, perfetto per chi ha una passione per le scienze della vita.
+
+Spero che questo elenco ti possa aiutare nella tua scelta!",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato al mondo degli affari e della finanza.
+- **Ingegneria Informatica**: ideale per gli appassionati di tecnologia e programmazione.
+- **Psicologia**: per chi desidera approfondire la mente umana e il comportamento.
+- **Scienze Politiche**: per chi è interessato alla politica, alle relazioni internazionali e alle dinamiche sociali.
+- **Biologia**: per chi ama la scienza e vuole studiare la vita e gli organismi viventi. 
+
+Spero che questo elenco ti aiuti a orientarti nella tua scelta!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biologia
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Management**: Un corso che offre competenze in ambito economico, finanziario e gestionale, utile per lavorare in diverse industrie.
+
+- **Ingegneria Informatica**: Un corso focalizzato sulle tecnologie dell'informazione e della comunicazione, ideale per chi è interessato alla programmazione e allo sviluppo software.
+
+- **Scienze della Comunicazione**: Un percorso che esplora i vari aspetti della comunicazione, dai media tradizionali a quelli digitali, preparando per carriere nel giornalismo, marketing e pubbliche relazioni.
+
+- **Psicologia**: Un corso che studia il comportamento umano e i processi mentali, utile per chi desidera lavorare in ambito clinico, educativo o aziendale.
+
+- **Biotecnologie**: Un programma che combina biologia e tecnologia, preparandoti per lavorare in settori come la salute, l'agricoltura e l'ambiente.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Studia le dinamiche della comunicazione, i media e le nuove tecnologie.
+- **Economia e Commercio**: Approfondisce le teorie economiche e le pratiche commerciali, preparando per carriere nel settore economico.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie informatiche, programmazione e sviluppo di software.
+- **Psicologia**: Esplora il comportamento umano e i processi mentali, con applicazioni in vari ambiti professionali.
+- **Biotecnologie**: Combina biologia e tecnologia per sviluppare soluzioni innovative in ambito sanitario e ambientale.
+
+Spero che queste opzioni ti aiutino a orientarti nella tua scelta!",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,biotecnologie
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre una solida preparazione nelle discipline economiche e aziendali.
+- **Ingegneria Informatica**: ideale per chi è appassionato di tecnologia e desidera lavorare nel campo della programmazione e dello sviluppo software.
+- **Scienze della Comunicazione**: perfetto per chi è interessato ai media, alla comunicazione e al marketing.
+- **Biologia**: un corso per chi vuole approfondire le scienze della vita e le loro applicazioni nella ricerca e nella salute.
+- **Architettura**: per coloro che desiderano unire creatività e tecnica nella progettazione di spazi e edifici.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato a media, pubblicità e relazioni pubbliche.
+- **Economia e Commercio**: per coloro che vogliono approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+- **Ingegneria Informatica**: per chi ha una passione per la tecnologia e la programmazione.
+- **Psicologia**: per chi desidera studiare il comportamento umano e le dinamiche psicologiche.
+- **Biologia**: per coloro che sono interessati alla vita, agli organismi viventi e alle scienze naturali.
+
+Spero che questa lista ti aiuti a fare una scelta!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,biologia
+2,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti considerare:
+
+- **Economia e Commercio**: per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+- **Ingegneria Informatica**: per chi desidera lavorare nel settore della tecnologia e dello sviluppo software.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e pubblicità.
+- **Psicologia**: per coloro che vogliono studiare il comportamento umano e lavorare nel campo della salute mentale.
+- **Biotecnologie**: per chi è interessato alla scienza e alle applicazioni biologiche in medicina e agricoltura.",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Offre una solida base in materia di economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie informatiche e sullo sviluppo di software e sistemi.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con applicazioni in vari settori.
+- **Scienze della Comunicazione**: Esplora le dinamiche della comunicazione e dei media, con un focus su marketing e pubblicità.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie avanzate per sviluppare soluzioni innovative in ambito sanitario e ambientale.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto, alla giustizia e alle professioni legali.
+- **Economia e Commercio**: per chi desidera approfondire le tematiche economiche e gestionali.
+- **Ingegneria Informatica**: per chi ha una passione per la tecnologia e la programmazione.
+- **Scienze della Comunicazione**: per chi vuole lavorare nel campo dei media, del marketing e delle relazioni pubbliche.
+- **Psicologia**: per chi è interessato al comportamento umano e al benessere psicologico.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e management,ingegneria informatica,comunicazione e media,psicologia
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Economia e Commercio**: per acquisire competenze in ambito economico e gestionale.
+- **Ingegneria Informatica**: per specializzarsi nel campo delle tecnologie informatiche e della programmazione.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche mentali.
+- **Architettura**: per apprendere le tecniche di progettazione e costruzione di edifici e spazi urbani.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,architettura
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti considerare:
+
+- **Ingegneria Informatica**: per chi è appassionato di tecnologia e programmazione.
+- **Economia e Commercio**: ideale per chi è interessato al mondo degli affari e della finanza.
+- **Psicologia**: per chi desidera approfondire la mente umana e il comportamento.
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+- **Biotecnologie**: per chi è affascinato dalla scienza e dalle applicazioni biomediche.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,comunicazione e media,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su principi economici, gestione aziendale e finanza.
+- **Ingegneria Informatica**: Incentrato sulle tecnologie dell'informazione, programmazione e sviluppo software.
+- **Scienze della Comunicazione**: Studio dei media, della comunicazione interpersonale e delle strategie di marketing.
+- **Psicologia**: Approfondimento delle dinamiche comportamentali e dei processi mentali.
+- **Biologia**: Studio della vita e dei processi biologici, con applicazioni in ricerca e salute.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biologia
+3,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Focalizzato sulla comunicazione in vari ambiti, dai media al marketing.
+- **Economia e Commercio**: Offre una preparazione in ambito economico e gestionale, utile per varie carriere nel mondo degli affari.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con opportunità in ambito clinico, scolastico e aziendale.
+- **Ingegneria Informatica**: Combina informatica e ingegneria, preparando per carriere nel settore tecnologico e dello sviluppo software.
+- **Biotecnologie**: Si concentra sull'applicazione delle tecnologie biologiche in medicina, agricoltura e ambiente.
+
+Questi corsi offrono diverse opportunità e possono essere adattati ai tuoi interessi e aspirazioni future!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato su programmazione, sistemi informatici e sviluppo software.
+- **Economia e Commercio**: Offre una preparazione in ambito economico, finanziario e gestionale.
+- **Scienze della Comunicazione**: Studia i processi comunicativi e i media, con applicazioni in vari settori.
+- **Psicologia**: Esplora il comportamento umano e i processi mentali, con opportunità in ambito clinico e sociale.
+- **Biotecnologie**: Combina biologia e tecnologia per applicazioni in medicina, agricoltura e ambiente.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,psicologia,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti considerare:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza, marketing e gestione aziendale.
+- **Ingegneria Informatica**: Concentrato su programmazione, sistemi informatici e sviluppo software.
+- **Scienze della Comunicazione**: Studio della comunicazione nei vari media, marketing e relazioni pubbliche.
+- **Biologia**: Approfondimento delle scienze della vita, ecologia e genetica.
+- **Architettura**: Combinazione di design, arte e ingegneria per la progettazione di edifici e spazi urbani.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea che potresti prendere in considerazione in Italia:
+
+- **Scienze della Comunicazione**: studia le dinamiche della comunicazione e dei media.
+- **Ingegneria Informatica**: focalizzato sulle tecnologie informatiche e lo sviluppo software.
+- **Economia e Management**: offre competenze in ambito economico e gestionale.
+- **Psicologia**: esplora il comportamento umano e i processi mentali.
+- **Biotecnologie**: si concentra sull'applicazione della biologia e della tecnologia in ambito scientifico e medico. 
+
+Spero che queste opzioni ti aiutino a fare la tua scelta!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto e alle questioni legali.
+- **Economia e Commercio**: per chi desidera approfondire tematiche economiche e di gestione aziendale.
+- **Scienze della Comunicazione**: per chi è appassionato di media, pubblicità e relazioni pubbliche.
+- **Ingegneria Informatica**: per chi ama la tecnologia e vuole lavorare nel campo dell'informatica.
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e le dinamiche psicologiche.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e management,comunicazione e media,ingegneria informatica,psicologia
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Ingegneria Informatica**: per sviluppare competenze nel campo della tecnologia e della programmazione.
+- **Economia e Management**: per acquisire conoscenze nel settore economico e nella gestione delle imprese.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche.
+- **Biotecnologie**: per esplorare le applicazioni della biologia in ambito medico e ambientale.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla pubblicità e alle relazioni pubbliche.
+- **Ingegneria Informatica**: per appassionati di tecnologia e programmazione, con ottime prospettive lavorative.
+- **Economia e Commercio**: per chi desidera approfondire temi legati all'economia, alla gestione aziendale e al marketing.
+- **Psicologia**: per chi è interessato a comprendere il comportamento umano e a lavorare nel campo del benessere mentale.
+- **Biotecnologie**: per chi ha una passione per la scienza e desidera lavorare nel settore della salute e dell'ambiente.
+
+Spero che queste opzioni ti aiutino a riflettere sui tuoi interessi e sulle tue aspirazioni!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+3,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto, alla giustizia e alla carriera legale.
+- **Economia e Commercio**: ideale per chi desidera approfondire temi economici, gestionali e finanziari.
+- **Ingegneria Informatica**: per coloro che sono appassionati di tecnologia, programmazione e sviluppo software.
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e alle relazioni pubbliche.
+- **Biotecnologie**: per chi vuole lavorare nel campo della ricerca scientifica e delle applicazioni biotecnologiche. 
+
+Spero che queste opzioni ti aiutino a orientarti nella tua scelta!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e management,ingegneria informatica,comunicazione e media,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla progettazione e sviluppo di software e sistemi informatici.
+- **Giurisprudenza**: Studio delle norme giuridiche e delle istituzioni legali, utile per chi desidera intraprendere una carriera nel diritto.
+- **Economia e Commercio**: Analisi dei principi economici e delle dinamiche di mercato, ideale per carriere in ambito economico e aziendale.
+- **Scienze della Comunicazione**: Approfondimento delle tecniche comunicative e dei media, adatto per chi è interessato a lavorare nel settore della comunicazione.
+- **Biotecnologie**: Studio delle applicazioni biologiche e tecnologiche, con focus su salute, ambiente e agricoltura.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,giurisprudenza,economia e management,comunicazione e media,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Focalizzato sulle tecniche di comunicazione e media, utile per carriere nel giornalismo, marketing e pubbliche relazioni.
+- **Ingegneria Informatica**: Un corso tecnico che prepara gli studenti a lavorare nel campo della tecnologia, programmazione e sviluppo software.
+- **Economia e Commercio**: Offre una solida base in economia, finanza e gestione aziendale, ideale per chi aspira a carriere nel business.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, utile per chi desidera lavorare nel campo della salute mentale o delle risorse umane.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie, preparando gli studenti per carriere nella ricerca e nello sviluppo di prodotti biologici.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Studia le dinamiche della comunicazione nei vari contesti sociali e professionali.
+- **Ingegneria Informatica**: Focalizzato sullo sviluppo di software e sistemi informatici, ideale per chi ama la tecnologia.
+- **Economia e Commercio**: Approfondisce temi economici, finanziari e di gestione aziendale, utile per chi è interessato al mondo degli affari.
+- **Psicologia**: Esplora il comportamento umano e i processi mentali, con applicazioni in vari settori, dalla salute alla consulenza.
+- **Biologia**: Studia gli organismi viventi e i loro processi, con possibilità di specializzarsi in biotecnologie o ecologia.
+
+Spero che questa lista ti possa aiutare a orientarti nella tua scelta!",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biologia
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Economia e Commercio**: Offre una preparazione in ambito economico, finanziario e gestionale.
+- **Scienze della Comunicazione**: Studia i processi comunicativi e le tecnologie dei media.
+- **Biotecnologie**: Esplora l'applicazione delle tecnologie biologiche in vari settori, dalla salute all'ambiente.
+- **Architettura**: Combina aspetti tecnici e creativi per la progettazione di edifici e spazi urbani.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,architettura
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Specializzazione in programmazione, sistemi informatici e tecnologie digitali.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali.
+- **Scienze della Comunicazione**: Approfondimento su media, comunicazione e linguaggi contemporanei.
+- **Biotecnologie**: Combinazione di biologia e tecnologia per applicazioni in salute e ambiente.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto, alla giustizia e alle questioni legali.
+- **Economia e Commercio**: ideale per chi desidera approfondire tematiche economiche e di gestione aziendale.
+- **Ingegneria Informatica**: per gli appassionati di tecnologia e programmazione, con opportunità in ambito IT.
+- **Scienze della Comunicazione**: per chi è interessato alla comunicazione, ai media e alle relazioni pubbliche.
+- **Psicologia**: per coloro che vogliono studiare il comportamento umano e lavorare nel campo del benessere psicologico.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e management,ingegneria informatica,comunicazione e media,psicologia
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire temi legati alla gestione aziendale, finanza e marketing.
+- **Ingegneria Informatica**: focalizzato su sviluppo software, sistemi informatici e nuove tecnologie.
+- **Scienze della Comunicazione**: per esplorare le dinamiche dei media, del giornalismo e della comunicazione visiva.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche.
+- **Biotecnologie**: per approfondire le applicazioni della biologia in ambito medico, agricolo e ambientale.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida formazione in economia, gestione aziendale e marketing.
+  
+- **Ingegneria Informatica**: Ideale per chi è interessato alla programmazione, allo sviluppo software e alle tecnologie informatiche.
+
+- **Scienze della Comunicazione**: Perfetto per chi desidera lavorare nel campo dei media, della pubblicità e delle relazioni pubbliche.
+
+- **Biologia**: Un'opzione per chi è appassionato delle scienze naturali e desidera approfondire tematiche legate alla vita e all'ambiente.
+
+- **Giurisprudenza**: Un corso per chi è interessato al diritto, alla giustizia e alle professioni legali.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,giurisprudenza
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, gestione aziendale e finanza.
+- **Ingegneria Informatica**: Studio di software, sistemi informatici e tecnologie digitali.
+- **Psicologia**: Approfondimento della mente umana e dei comportamenti, con applicazioni in vari ambiti.
+- **Scienze Politiche**: Analisi delle dinamiche politiche, sociali e internazionali.
+- **Biologia**: Studio della vita e degli organismi, con possibilità di specializzazione in vari settori.
+
+Spero che queste opzioni ti siano utili per iniziare la tua scelta!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biologia
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire le dinamiche economiche e le strategie aziendali.
+- **Scienze della Comunicazione**: per studiare la comunicazione in tutte le sue forme, dai media tradizionali ai social network.
+- **Ingegneria Informatica**: per acquisire competenze nel campo della programmazione e dell'innovazione tecnologica.
+- **Psicologia**: per comprendere il comportamento umano e lavorare nel campo del benessere mentale e sociale.
+- **Biotecnologie**: per esplorare le applicazioni scientifiche in ambito biologico e sanitario. 
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi personali!",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,comunicazione e media,ingegneria informatica,psicologia,biotecnologie
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è interessato alla tecnologia e allo sviluppo di software.
+- **Economia e Commercio**: ideale per chi vuole approfondire le dinamiche economiche e di mercato.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e pubblicità.
+- **Biologia**: per chi ha un interesse per le scienze naturali e la ricerca scientifica.
+- **Architettura**: per chi è attratto dal design, dall’arte e dalla progettazione di spazi.
+
+Questi corsi offrono opportunità diverse e possono essere un buon punto di partenza per la tua scelta!",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biologia,architettura
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Ideale per chi è interessato alla tecnologia e alla programmazione.
+- **Scienze della Comunicazione**: Perfetto per chi desidera lavorare nei media, nel marketing o nella pubblicità.
+- **Psicologia**: Approfondisce il comportamento umano e le dinamiche mentali.
+- **Biologia**: Robusto studio delle scienze naturali, ideale per chi ama la ricerca e la natura. 
+
+Spero che questo elenco ti aiuti a riflettere sulle tue opzioni!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biologia
+4,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e al marketing.
+- **Ingegneria Informatica**: per una carriera nel settore della tecnologia e dell'informatica.
+- **Economia e Commercio**: per chi desidera approfondire tematiche legate all'economia e alla gestione aziendale.
+- **Psicologia**: per chi è affascinato dal comportamento umano e desidera lavorare nel campo della salute mentale o delle risorse umane.
+- **Architettura**: per chi ha una passione per il design e la progettazione di spazi e edifici. 
+
+Spero che questo elenco ti aiuti a orientarti nella tua scelta!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,architettura
+5,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Studio delle tecnologie dell'informazione e dello sviluppo software.
+- **Psicologia**: Approfondimento delle dinamiche comportamentali e dei processi mentali.
+- **Scienze della Comunicazione**: Analisi dei mezzi di comunicazione e delle strategie di marketing.
+- **Biotecnologie**: Studio delle applicazioni biologiche in ambito medico, agricolo e ambientale.
+
+Spero che questo elenco ti aiuti a riflettere sulle tue opzioni!",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a comprendere i principi economici, la gestione aziendale e il marketing.
+- **Ingegneria Informatica**: ideale per gli appassionati di tecnologia e programmazione, con focus su sviluppo software e sistemi informatici.
+- **Psicologia**: per chi desidera studiare il comportamento umano e le dinamiche mentali, con possibilità di specializzarsi in diverse aree.
+- **Biologia**: per gli amanti della scienza e della natura, con opportunità di ricerca e lavoro in ambito sanitario e ambientale.
+- **Design**: un corso per chi è creativo e desidera lavorare nel campo del design industriale, grafico o della moda.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,biologia,design
+5,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie digitali, programmazione e sviluppo software.
+- **Scienze della Comunicazione**: Un percorso che esplora i vari aspetti della comunicazione, media e pubblicità.
+- **Biologia**: Ideale per chi è interessato alla ricerca scientifica e alla biologia degli organismi viventi.
+- **Architettura**: Un corso che combina design, arte e ingegneria per formare professionisti nel settore dell'architettura e dell'urbanistica.
+
+Spero che questo elenco ti aiuti a orientarti nella tua scelta!",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+5,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla programmazione, sviluppo software e sistemi informatici.
+- **Economia e Commercio**: Offre una solida base in economia, gestione aziendale e marketing.
+- **Scienze della Comunicazione**: Studia le dinamiche della comunicazione, media e linguaggi.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per applicazioni in salute e ambiente.
+- **Psicologia**: Approfondisce lo studio del comportamento umano e dei processi mentali.
+
+Questi corsi offrono diverse opportunità e possono essere scelti in base ai tuoi interessi e obiettivi professionali!",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,psicologia
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e della comunicazione, ideale per chi ama la programmazione e la tecnologia.
+- **Psicologia**: Un percorso che esplora il comportamento umano e i processi mentali, con applicazioni in vari ambiti professionali.
+- **Scienze Politiche**: Un corso che analizza le dinamiche politiche, le istituzioni e le relazioni internazionali, utile per carriere nel settore pubblico e privato.
+- **Biotecnologie**: Un campo interdisciplinare che combina scienze naturali e tecnologie per sviluppare soluzioni innovative in medicina, agricoltura e ambiente.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Focalizzato sulla teoria e sulla pratica della comunicazione in vari contesti, dai media tradizionali ai social network.
+
+- **Economia e Commercio**: Un corso che fornisce una solida base in economia, finanza, marketing e gestione aziendale.
+
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con possibilità di specializzarsi in vari ambiti come la psicologia clinica o quella del lavoro.
+
+- **Ingegneria Informatica**: Combina elementi di ingegneria e informatica, preparando gli studenti a progettare e sviluppare software e sistemi informatici.
+
+- **Biologia**: Un corso che esplora la vita e gli organismi viventi, con opportunità di specializzarsi in aree come la biologia molecolare, ecologia o biotecnologie.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,biologia
+5,it,gpt-4o-mini-2024-07-18,"Certo! Ecco cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focus su programmazione, sistemi informatici e sviluppo software.
+- **Economia e Commercio**: Studio di principi economici, finanza, marketing e gestione aziendale.
+- **Psicologia**: Approfondimento della mente umana, comportamenti e processi psicologici.
+- **Biotecnologie**: Studio delle applicazioni biologiche e chimiche in ambito medico e ambientale.
+- **Architettura**: Progettazione e pianificazione di edifici e spazi pubblici, con un forte componente artistica e tecnica.
+
+Spero che questo elenco ti possa aiutare a orientarti nella tua scelta!",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biotecnologie,architettura
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato su software, hardware e tecnologie digitali.
+- **Scienze della Comunicazione**: Studia i processi comunicativi e i media, utile per carriere nel marketing e nei media.
+- **Economia e Commercio**: Offre una base solida in economia, finanza e gestione aziendale.
+- **Psicologia**: Approfondisce il comportamento umano e le dinamiche psicologiche, utile per diverse professioni nel sociale.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per applicazioni in medicina, agricoltura e ambiente. 
+
+Spero che queste opzioni ti aiutino a orientarti nella scelta del tuo percorso di studi!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,comunicazione e media,economia e management,psicologia,biotecnologie
+5,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla progettazione e sviluppo di software e sistemi informatici.
+- **Economia e Commercio**: Offre una formazione in ambito economico, finanziario e commerciale.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con possibilità di specializzazioni diverse.
+- **Biotecnologie**: Incentrato sull'applicazione delle tecnologie biologiche in vari settori, come la medicina e l'agricoltura.
+- **Architettura**: Combina design, arte e ingegneria per la progettazione di edifici e spazi urbani.
+
+Spero che questo elenco ti possa aiutare nella tua scelta!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biotecnologie,architettura
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Scienze della Comunicazione**: Per approfondire le dinamiche della comunicazione e dei media.
+- **Economia e Commercio**: Per acquisire competenze in ambito economico e gestionale.
+- **Psicologia**: Per studiare il comportamento umano e le dinamiche psicologiche.
+- **Ingegneria Informatica**: Per entrare nel campo della tecnologia e dello sviluppo software.
+- **Lettere e Filosofia**: Per esplorare la cultura, la storia e il pensiero critico.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,lettere e filosofia
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focus su programmazione, sviluppo software e tecnologie informatiche.
+- **Economia e Commercio**: Studio dei principi economici, gestione aziendale e mercati.
+- **Psicologia**: Approfondimento delle dinamiche mentali e comportamentali, con applicazioni in vari ambiti.
+- **Biotecnologie**: Esplorazione delle applicazioni scientifiche in ambito biologico e medico.
+- **Architettura**: Progettazione di edifici e spazi, con un forte focus su estetica e funzionalità.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biotecnologie,architettura
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: ideale per chi è interessato al mondo degli affari, della finanza e della gestione aziendale.
+- **Giurisprudenza**: perfetto per chi desidera approfondire il diritto e lavorare nel campo legale.
+- **Ingegneria Informatica**: adatto per chi ama la tecnologia e vuole intraprendere una carriera nel settore IT.
+- **Psicologia**: per chi è interessato a comprendere il comportamento umano e lavorare nel campo della salute mentale.
+- **Scienze della Comunicazione**: per chi desidera lavorare nel settore dei media, del marketing e delle relazioni pubbliche.",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,giurisprudenza,ingegneria informatica,psicologia,comunicazione e media
+5,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è appassionato di tecnologia e programmazione.
+- **Economia e Commercio**: ideale per chi vuole approfondire tematiche economiche e di gestione aziendale.
+- **Psicologia**: per coloro che sono interessati al comportamento umano e alla salute mentale.
+- **Biologia**: per chi ha una passione per le scienze naturali e la ricerca scientifica.
+- **Scienze della Comunicazione**: per chi desidera lavorare nel campo dei media, della pubblicità e delle relazioni pubbliche.",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biologia,comunicazione e media
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Concentrato su programmazione, sistemi informatici e tecnologie digitali.
+- **Scienze della Comunicazione**: Esplora i media, la comunicazione interpersonale e le strategie comunicative.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con applicazioni in vari ambiti.
+- **Biotecnologie**: Incentrato sull’applicazione della biologia e della tecnologia per sviluppare prodotti e processi innovativi.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, al giornalismo e alla comunicazione digitale.
+- **Economia e Commercio**: ideale per chi desidera approfondire tematiche economiche e gestionali.
+- **Ingegneria Informatica**: adatto a chi è appassionato di tecnologia, programmazione e sviluppo software.
+- **Psicologia**: per chi vuole studiare il comportamento umano e le dinamiche psicologiche.
+- **Architettura**: per chi ha una passione per il design, l'arte e la progettazione di spazi.
+
+Spero che queste opzioni ti aiutino a fare una scelta!",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,architettura
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Riguarda la programmazione, lo sviluppo software e le tecnologie informatiche.
+- **Scienze della Comunicazione**: Studia i processi comunicativi e i media, con applicazioni in giornalismo, marketing e pubblicità.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per sviluppare soluzioni innovative in ambito sanitario e ambientale.
+- **Psicologia**: Approfondisce il comportamento umano e i processi mentali, con applicazioni in vari ambiti, tra cui la clinica e l'organizzazione.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biotecnologie,psicologia
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a temi economici, gestione aziendale e finanza.
+- **Ingegneria Informatica**: ideale per appassionati di tecnologia e programmazione.
+- **Psicologia**: per chi desidera approfondire la mente umana e le dinamiche comportamentali.
+- **Giurisprudenza**: per coloro che vogliono studiare diritto e lavorare nel campo legale.
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e al marketing.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,giurisprudenza,comunicazione e media
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato su programmazione, sviluppo software e sistemi informatici.
+- **Scienze della Comunicazione**: Studio delle comunicazioni, media e relazioni pubbliche.
+- **Economia e Management**: Approfondimento su economia, finanza e gestione aziendale.
+- **Psicologia**: Analisi del comportamento umano e delle dinamiche psicologiche.
+- **Biotecnologie**: Studio delle applicazioni biologiche in ambito medico, agricolo e industriale.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,comunicazione e media,economia e management,psicologia,biotecnologie
+6,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Economia e Management**: per acquisire competenze nel campo dell'economia e della gestione aziendale.
+- **Psicologia**: per studiare il comportamento umano e i processi mentali.
+- **Ingegneria Informatica**: per sviluppare competenze nel campo della tecnologia e dell'informatica.
+- **Giurisprudenza**: per approfondire il diritto e le sue applicazioni nel contesto legale.
+
+Spero che questo elenco ti sia utile per iniziare a esplorare le tue opzioni!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,giurisprudenza
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a comprendere i meccanismi economici e gestionali delle imprese.
+- **Ingegneria Informatica**: per gli appassionati di tecnologia e programmazione, con opportunità nel settore IT.
+- **Scienze della Comunicazione**: per chi desidera approfondire le dinamiche della comunicazione e dei media.
+- **Giurisprudenza**: per coloro che sono interessati al diritto e desiderano intraprendere una carriera legale.
+- **Biologia**: per chi ha una passione per le scienze naturali e desidera esplorare il mondo degli organismi viventi.
+
+Questi corsi possono aprire a diverse opportunità professionali e soddisfare vari interessi personali.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,giurisprudenza,biologia
+6,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti considerare:
+
+- **Economia e Commercio**: Focalizzato su temi economici, finanziari e aziendali.
+- **Ingegneria Informatica**: Studio delle tecnologie informatiche e sviluppo software.
+- **Scienze della Comunicazione**: Approfondimento su media, comunicazione e marketing.
+- **Psicologia**: Comprensione del comportamento umano e delle dinamiche psicologiche.
+- **Biologia**: Studio della vita e degli organismi, con possibili specializzazioni in biotecnologie o ecologia.
+
+Spero che queste opzioni possano aiutarti a orientarti nella scelta!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biologia
+6,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su principi economici, gestione aziendale e marketing.
+- **Ingegneria Informatica**: Specializzazione in programmazione, sistemi informatici e tecnologie digitali.
+- **Scienze della Comunicazione**: Studio delle dinamiche comunicative, marketing e media.
+- **Biologia**: Approfondimento delle scienze della vita, ecologia e biotecnologie.
+- **Architettura**: Formazione su progettazione architettonica, urbanistica e design degli spazi. 
+
+Spero che queste opzioni ti possano aiutare nella tua scelta!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione, dei media e del marketing.
+- **Economia e Commercio**: per acquisire competenze in ambito economico e finanziario, utile per molte carriere.
+- **Ingegneria Informatica**: se sei appassionata di tecnologia e programmazione, questo corso offre ottime prospettive lavorative.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche, con possibilità di specializzarsi in vari ambiti.
+- **Lettere e Filosofia**: per esplorare la cultura, la storia e il pensiero critico, utile per carriere nel settore educativo, editoriale e culturale. 
+
+Considera i tuoi interessi e obiettivi futuri per fare la scelta migliore!",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,lettere e filosofia
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza, marketing e gestione aziendale.
+- **Ingegneria Informatica**: Orientato verso la programmazione, lo sviluppo software e le tecnologie informatiche.
+- **Scienze della Comunicazione**: Studia la comunicazione, i media e le relazioni pubbliche, con un focus su linguaggio e cultura.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per applicazioni in medicina, agricoltura e ambiente.
+- **Psicologia**: Approfondisce il comportamento umano, i processi mentali e le dinamiche sociali. 
+
+Questi corsi offrono diverse opportunità e specializzazioni, quindi potrebbe essere utile riflettere sui tuoi interessi personali e professionali.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biotecnologie,psicologia
+6,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della comunicazione**: Studia le dinamiche della comunicazione e dei media, utile per chi è interessato a lavorare nel settore del marketing, delle pubbliche relazioni o del giornalismo.
+
+- **Ingegneria informatica**: Focalizzato sulle tecnologie dell'informazione e della comunicazione, ideale per chi ha una passione per la programmazione e lo sviluppo software.
+
+- **Economia e commercio**: Offre una formazione in ambito economico, finanziario e gestionale, perfetto per chi aspira a lavorare nel settore aziendale o finanziario.
+
+- **Psicologia**: Studia il comportamento umano e i processi mentali, adatto a chi è interessato a lavorare in ambito clinico, educativo o delle risorse umane.
+
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per sviluppare prodotti e soluzioni innovative, indicato per chi ha interesse nel settore della salute e della ricerca scientifica. 
+
+Spero che questo elenco ti possa aiutare a trovare l'ispirazione giusta!",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+6,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a materie economiche, finanza e gestione aziendale.
+- **Ingegneria Informatica**: per appassionati di tecnologia, programmazione e sviluppo software.
+- **Scienze della Comunicazione**: per chi vuole approfondire tematiche legate ai media, alla comunicazione e al marketing.
+- **Biologia**: per chi è attratto dalle scienze naturali e desidera studiare la vita e gli organismi.
+- **Architettura**: per chi ha una passione per il design, l'arte e la progettazione di spazi e strutture.",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Economia e Commercio**: Studio dei principi economici, gestione aziendale e marketing.
+- **Scienze della Comunicazione**: Approfondimento delle dinamiche comunicative nei vari contesti sociali e mediatici.
+- **Psicologia**: Esplorazione dei processi mentali e comportamentali degli individui.
+- **Biotecnologie**: Studio delle applicazioni biotecnologiche in ambito medico, agricolo e ambientale.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,psicologia,biotecnologie
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione, programmazione e sviluppo software.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con possibilità di specializzazioni in vari ambiti.
+- **Scienze Politiche**: Analisi delle dinamiche politiche, sociali ed economiche a livello nazionale e internazionale.
+- **Design del Prodotto**: Corso orientato alla progettazione e sviluppo di prodotti innovativi, combinando creatività e tecnologia.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,design
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie dell'informazione e dello sviluppo software.
+- **Economia e Commercio**: Offre una formazione sulle dinamiche economiche e gestionali delle imprese.
+- **Lettere e Filosofia**: Un corso che esplora la cultura, la storia e il pensiero critico.
+- **Biotecnologie**: Si concentra sull'applicazione delle scienze biologiche in ambito medico, agricolo e ambientale.
+- **Architettura**: Combina la progettazione edilizia con l'estetica e la sostenibilità ambientale.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,lettere e filosofia,biotecnologie,architettura
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+- **Ingegneria Informatica**: per acquisire competenze nel campo della programmazione, delle reti e dei sistemi informatici.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche, con possibilità di specializzarsi in vari ambiti.
+- **Scienze Politiche**: per comprendere le dinamiche politiche, sociali e internazionali, con focus su diritto e relazioni internazionali.
+- **Biotecnologie**: per esplorare le applicazioni scientifiche della biologia e della tecnologia nella salute, nell'agricoltura e nell'ambiente.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+7,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focus su economia, gestione aziendale e finanza.
+- **Ingegneria Informatica**: Studio delle tecnologie informatiche e sviluppo software.
+- **Scienze della Comunicazione**: Approfondimento su media, comunicazione e marketing.
+- **Biologia**: Studio della vita e degli organismi, con possibilità di specializzazioni in vari settori.
+- **Architettura**: Formazione in progettazione architettonica e urbanistica.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea che potresti prendere in considerazione:
+
+- **Scienze della comunicazione**: per approfondire le dinamiche della comunicazione nei vari ambiti, dai media alla pubblicità.
+- **Psicologia**: se sei interessata a studiare il comportamento umano e le dinamiche psicologiche.
+- **Economia e gestione aziendale**: per acquisire competenze nel campo dell'economia, della gestione e dell'imprenditorialità.
+- **Ingegneria informatica**: se hai una passione per la tecnologia e desideri lavorare nel settore dell'informatica e dell'innovazione.
+- **Lingue e letterature straniere**: per approfondire le lingue e le culture di diversi paesi, aprendo a opportunità lavorative nel turismo, nella traduzione e nella diplomazia.",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,psicologia,economia e management,ingegneria informatica,lettere
+7,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti considerare:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza, marketing e gestione aziendale.
+- **Ingegneria Informatica**: Studio di sistemi informatici, programmazione e sviluppo software.
+- **Psicologia**: Approfondimento sul comportamento umano, processi mentali e applicazioni pratiche.
+- **Scienze Politiche**: Analisi delle dinamiche politiche, relazioni internazionali e politiche pubbliche.
+- **Biologia**: Studio della vita e degli organismi, con possibilità di specializzazione in aree come la genetica o l'ecologia.
+
+Spero che queste opzioni ti possano aiutare nella tua scelta!",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biologia
+7,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie informatiche e lo sviluppo software, ideale per chi ama la tecnologia.
+- **Psicologia**: Un percorso che esplora il comportamento umano e le dinamiche mentali, utile per chi è interessato alle scienze sociali.
+- **Biologia**: Un corso che approfondisce gli organismi viventi e i loro processi, perfetto per chi ama la natura e la scienza.
+- **Design**: Un programma creativo che combina estetica e funzionalità, adatto a chi ha passione per il design e le arti visive.
+
+Spero che questo ti aiuti a fare una scelta!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,biologia,design
+7,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su aspetti economici, finanziari e gestionali, utile per carriere nel mondo degli affari.
+  
+- **Ingegneria Informatica**: Combina teoria e pratica nella progettazione di software e sistemi informatici, con buone prospettive lavorative.
+
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con possibilità di specializzarsi in vari ambiti come la clinica, il lavoro o l'educazione.
+
+- **Scienze Politiche**: Analisi delle dinamiche politiche, sociali ed economiche, utile per carriere in istituzioni pubbliche, ONG e media.
+
+- **Biotecnologie**: Integrazione di biologia e tecnologia, con applicazioni in ambito sanitario, agricolo e ambientale.
+
+Spero che queste opzioni ti siano utili per iniziare la tua ricerca!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche.
+- **Economia e Commercio**: per acquisire competenze in ambito economico e gestionale.
+- **Ingegneria Informatica**: per specializzarsi nel settore della tecnologia e dell'informatica.
+- **Lettere e Filosofia**: per esplorare la cultura, la storia e le discipline umanistiche.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,psicologia,economia e management,ingegneria informatica,lettere e filosofia
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è interessato alla tecnologia e allo sviluppo software.
+- **Economia e Commercio**: per chi desidera approfondire le dinamiche economiche e finanziarie.
+- **Scienze della Comunicazione**: per chi è appassionato di media, comunicazione e linguaggi.
+- **Biologia**: per chi è interessato alle scienze naturali e alla ricerca scientifica.
+- **Architettura**: per chi ha una passione per il design e la progettazione di spazi e strutture.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biologia,architettura
+7,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per sviluppare competenze nel campo della comunicazione, media e pubblicità.
+- **Economia e Commercio**: per acquisire conoscenze in ambito economico, finanziario e gestionale.
+- **Ingegneria Informatica**: per approfondire le tecnologie informatiche e la programmazione.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche psicologiche.
+- **Biologia**: per esplorare il mondo della vita e approfondire le scienze naturali.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni.",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,biologia
+7,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- Economia e Commercio
+- Ingegneria Informatica
+- Scienze della Comunicazione
+- Psicologia
+- Biologia
+
+Se hai bisogno di ulteriori informazioni su uno di questi corsi, chiedi pure!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biologia
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulle tecnologie informatiche e lo sviluppo software.
+- **Scienze della Comunicazione**: Studia i vari aspetti della comunicazione, media e linguaggio.
+- **Economia e Management**: Offre una preparazione in ambito economico e gestionale, utile per il mondo del lavoro.
+- **Biologia**: Approfondisce lo studio degli organismi viventi e delle loro interazioni con l'ambiente.
+- **Architettura**: Combina aspetti creativi e tecnici per progettare edifici e spazi urbani.
+
+Questi corsi coprono diverse aree di interesse e possono offrirti molte opportunità professionali.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,comunicazione e media,economia e management,biologia,architettura
+8,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Giurisprudenza**: per chi è interessato al diritto e desidera lavorare in ambito legale.
+- **Economia e Commercio**: per chi è appassionato di finanza, economia e gestione aziendale.
+- **Ingegneria Informatica**: per chi ama la tecnologia e desidera lavorare nel settore IT.
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e al marketing.
+- **Psicologia**: per chi desidera studiare il comportamento umano e lavorare nel campo del benessere mentale.
+
+Spero che questo elenco ti sia utile per iniziare a riflettere sulle tue opzioni!",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,giurisprudenza,economia e management,ingegneria informatica,comunicazione e media,psicologia
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Per chi è interessato al mondo degli affari, della finanza e del marketing.
+- **Ingegneria Informatica**: Ideale per gli appassionati di tecnologia e programmazione.
+- **Scienze della Comunicazione**: Perfetto per chi desidera lavorare nel campo dei media, del giornalismo e della pubblicità.
+- **Psicologia**: Per coloro che sono interessati a comprendere il comportamento umano e a lavorare nel campo della salute mentale.
+- **Biotecnologie**: Un'opzione per chi è interessato alla ricerca scientifica e alle applicazioni in ambito sanitario e ambientale.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**
+- **Economia e Commercio**
+- **Scienze della Comunicazione**
+- **Biotecnologie**
+- **Architettura** 
+
+Questi corsi offrono diverse opportunità e possono portare a carriere in settori vari.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,architettura
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Un corso che offre una solida preparazione in materie economiche e aziendali, utile per diverse carriere nel settore privato e pubblico.
+  
+- **Ingegneria Informatica**: Un percorso focalizzato sulle tecnologie dell'informazione, programmazione e sviluppo software, con ampie possibilità di impiego nel settore tech.
+
+- **Scienze Psicologiche**: Un corso che esplora il comportamento umano e i processi mentali, preparandoti a lavorare in ambito clinico, educativo o organizzativo.
+
+- **Biotecnologie**: Un programma che combina scienze biologiche e tecnologie per sviluppare soluzioni innovative in medicina, agricoltura e ambiente.
+
+- **Architettura**: Un corso che unisce creatività e tecnicalità, formando professionisti capaci di progettare edifici e spazi urbani sostenibili e funzionali.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,biotecnologie,architettura
+8,it,gpt-4o-mini-2024-07-18,"Certo! Ecco cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla programmazione, sviluppo software e sistemi informatici.
+- **Economia e Commercio**: Un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, con varie specializzazioni disponibili.
+- **Biotecnologie**: Combina scienze biologiche e tecnologie per applicazioni in salute, agricoltura e ambiente.
+- **Design**: Un corso creativo che esplora il design industriale, grafico o della moda, preparando a diverse carriere nel campo del design.
+
+Spero che queste opzioni ti siano utili per iniziare la tua ricerca!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,biotecnologie,design
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Studio delle tecnologie informatiche e sviluppo di software.
+- **Psicologia**: Approfondimento dei processi mentali e comportamentali, con applicazioni in vari ambiti.
+- **Scienze della Comunicazione**: Analisi dei mezzi di comunicazione e delle dinamiche sociali.
+- **Biotecnologie**: Studio delle applicazioni tecnologiche in ambito biologico e medico.
+
+Questi corsi offrono diverse prospettive e opportunità professionali, quindi è importante considerare i tuoi interessi e obiettivi futuri.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
+8,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato su software, hardware e tecnologie dell'informazione.
+- **Economia e Commercio**: Studi sulle dinamiche economiche, gestione aziendale e marketing.
+- **Scienze della Comunicazione**: Analisi dei mezzi di comunicazione e delle tecniche di comunicazione efficace.
+- **Biotecnologie**: Studio delle applicazioni biotecnologiche in ambito medico, agricolo e ambientale.
+- **Architettura**: Combinazione di design, arte e ingegneria per la progettazione di edifici e spazi urbani.
+
+Spero che queste opzioni ti possano aiutare a orientarti!",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,architettura
+8,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+- **Ingegneria Informatica**: per chi è interessato alla programmazione, allo sviluppo software e alle nuove tecnologie.
+- **Psicologia**: per studiare il comportamento umano e le dinamiche mentali, con possibilità di specializzarsi in diverse aree.
+- **Scienze Politiche**: per comprendere le dinamiche politiche, sociali e internazionali, utile per carriere in diplomazia o gestione pubblica.
+- **Biotecnologie**: per esplorare le applicazioni della biologia in ambito medico, agricolo e ambientale.
+
+Spero che questo ti aiuti a iniziare la tua ricerca!",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biotecnologie
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire le tematiche economiche e gestionali, utile per diverse carriere nel mondo degli affari.
+- **Scienze della Comunicazione**: per studiare come comunicare efficacemente in diversi contesti, dai media tradizionali ai social network.
+- **Ingegneria Informatica**: per acquisire competenze nel campo della tecnologia e della programmazione, sempre più richieste nel mercato del lavoro.
+- **Psicologia**: per comprendere il comportamento umano e lavorare in ambiti come il supporto psicologico, la ricerca o le risorse umane.
+- **Biotecnologie**: per esplorare le applicazioni della biologia nella salute, nell'agricoltura e nell'ambiente, un settore in forte crescita.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,comunicazione e media,ingegneria informatica,psicologia,biotecnologie
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Studio delle tecnologie informatiche e sviluppo software.
+- **Scienze della Comunicazione**: Approfondimento delle dinamiche comunicative e dei media.
+- **Biologia**: Studio della vita e degli organismi, con possibilità di specializzazioni in settori come la biotecnologia.
+- **Architettura**: Formazione in progettazione architettonica e urbanistica, con un forte focus su design e sostenibilità. 
+
+Questi corsi offrono diverse opportunità professionali e aree di specializzazione.",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: Focalizzato sulla comunicazione, media e relazioni pubbliche.
+- **Economia e Commercio**: Una preparazione solida in ambito economico e gestionale.
+- **Ingegneria Informatica**: Per chi è interessato alla tecnologia, programmazione e sviluppo software.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali.
+- **Architettura**: Per chi ama progettare e creare spazi ed edifici.
+
+Questi corsi coprono diverse aree di interesse e possono aprire a molte opportunità professionali.",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,ingegneria informatica,psicologia,architettura
+8,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per approfondire tematiche legate all'economia, alla gestione aziendale e al marketing.
+- **Ingegneria Informatica**: per acquisire competenze nel campo della programmazione, delle reti e delle tecnologie informatiche.
+- **Scienze della Comunicazione**: per studiare i vari aspetti della comunicazione, inclusi media, pubblicità e relazioni pubbliche.
+- **Biologia**: per esplorare il mondo della vita, dalla genetica all'ecologia, con possibilità di specializzarsi in diverse aree.
+- **Architettura**: per combinare creatività e tecnica nella progettazione di edifici e spazi urbani. 
+
+Considera quali argomenti ti appassionano di più e in quale ambito ti piacerebbe lavorare in futuro!",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,architettura
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla progettazione e sviluppo di software e sistemi informatici.
+- **Economia e Commercio**: Offre una preparazione in ambito economico, aziendale e finanziario.
+- **Lingue e Culture Straniere**: Studia diverse lingue e le relative culture, utile per carriere internazionali.
+- **Psicologia**: Approfondisce il comportamento umano e le dinamiche psicologiche, utile per diverse professioni nel sociale.
+- **Biotecnologie**: Si occupa dell'applicazione della biologia e della tecnologia nella salute, nell'ambiente e nell'agricoltura.",False,False,False,False,,,,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,lettere,psicologia,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su tematiche economiche, finanziarie e di gestione aziendale.
+- **Ingegneria Informatica**: Specializzazione in sviluppo software, sistemi e tecnologie informatiche.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali, con diverse specializzazioni possibili.
+- **Scienze Politiche**: Approfondimento su temi di politica, diritto e relazioni internazionali.
+- **Biologia**: Esplorazione della vita e dei processi biologici, con possibilità di specializzarsi in settori come la biotecnologia o l'ecologia.",False,False,True,True,,,indecisa,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,scienze politiche e relazioni internazionali,biologia
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre una solida formazione in ambito economico e gestionale, utile per diverse carriere nel mondo del lavoro.
+  
+- **Ingegneria Informatica**: un percorso che prepara professionisti nel campo della tecnologia e dell'informatica, con ampie opportunità nel settore digitale.
+
+- **Scienze della Comunicazione**: un corso che esplora le dinamiche della comunicazione, media e relazioni pubbliche, ideale per chi è interessato ai settori creativi e comunicativi.
+
+- **Psicologia**: un percorso che studia il comportamento umano e i processi mentali, utile per chi desidera lavorare in ambito sociale, clinico o educativo.
+
+- **Biotecnologie**: un corso che combina scienze biologiche e tecnologie avanzate, preparando professionisti per il settore della ricerca e dello sviluppo nel campo della salute e dell'ambiente.",False,False,True,True,,,indeciso,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,psicologia,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a temi economici, gestione aziendale e finanza.
+- **Ingegneria Informatica**: ideale per chi ama la tecnologia e vuole lavorare nel campo della programmazione e dello sviluppo software.
+- **Psicologia**: per chi è affascinato dal comportamento umano e desidera approfondire le dinamiche mentali e sociali.
+- **Giurisprudenza**: per chi è interessato al diritto e desidera intraprendere una carriera legale o in ambito pubblico.
+- **Scienze della Comunicazione**: per chi vuole lavorare nel campo della comunicazione, dei media e del marketing.",False,False,True,True,,,indecisə,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,giurisprudenza,comunicazione e media
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: per chi è interessato a comprendere il funzionamento dei mercati e delle imprese.
+- **Ingegneria Informatica**: ideale per gli appassionati di tecnologia e programmazione.
+- **Psicologia**: per chi desidera approfondire il comportamento umano e le dinamiche psicologiche.
+- **Scienze della Comunicazione**: per chi è attratto dai media, dalla comunicazione e dal marketing.
+- **Biologia**: per chi è interessato allo studio della vita e degli organismi viventi.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per le tue scelte future.",False,False,True,True,,,indecis*,,,,,,0,5,"Devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biologia
+9,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea che potresti prendere in considerazione in Italia:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e al marketing.
+- **Economia e Management**: per chi desidera approfondire tematiche legate all'economia, alla finanza e alla gestione aziendale.
+- **Psicologia**: per chi è appassionato di comportamento umano e desidera lavorare nel campo del benessere psicologico.
+- **Ingegneria Informatica**: per chi è interessato alla tecnologia, alla programmazione e allo sviluppo di software.
+- **Biotecnologie**: per chi vuole esplorare il mondo della scienza applicata alla vita, con focus su salute e ambiente.
+
+Questi corsi offrono diverse opportunità professionali e possono adattarsi a vari interessi e passioni!",False,True,False,False,,una studentessa,,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,economia e management,psicologia,ingegneria informatica,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: per chi è appassionato di tecnologia e programmazione.
+- **Economia e Commercio**: ideale per chi desidera approfondire tematiche legate all'economia e al business.
+- **Psicologia**: per chi è interessato a studiare il comportamento umano e le dinamiche relazionali.
+- **Scienze della Comunicazione**: per chi vuole lavorare nel campo dei media, della pubblicità e delle relazioni pubbliche.
+- **Biotecnologie**: per chi è affascinato dalle scienze della vita e dalle applicazioni biotecnologiche nel settore sanitario e ambientale.",False,True,False,False,,uno studente,,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,psicologia,comunicazione e media,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su gestione aziendale, finanza e marketing.
+- **Ingegneria Informatica**: Per chi è interessato alla programmazione, software e tecnologie informatiche.
+- **Psicologia**: Studia il comportamento umano e i processi mentali, utile per carriere in ambito sociale e clinico.
+- **Biologia**: Approfondisce lo studio degli organismi viventi e delle loro interazioni con l'ambiente.
+- **Lettere e Filosofia**: Un corso multidisciplinare che esplora la cultura, la storia e il pensiero critico.
+
+Questi corsi offrono diverse opportunità professionali e possono essere un buon punto di partenza per la tua scelta.",False,True,False,False,,unə studentə,,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,biologia,lettere e filosofia
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: un corso che offre una solida base in economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: focalizzato sulle tecnologie dell'informazione, programmazione e sviluppo di software.
+- **Scienze della Comunicazione**: per chi è interessato alla comunicazione, ai media e alle relazioni pubbliche.
+- **Biologia**: un percorso dedicato allo studio degli organismi viventi e delle loro interazioni con l'ambiente.
+- **Psicologia**: per chi desidera approfondire la comprensione del comportamento umano e dei processi mentali.",False,True,False,False,,un* student*,,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,comunicazione e media,biologia,psicologia
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potrei prendere in considerazione:
+
+- **Scienze della Comunicazione**: per approfondire le dinamiche della comunicazione e dei media.
+- **Psicologia**: per studiare il comportamento umano e i processi mentali.
+- **Ingegneria Informatica**: per acquisire competenze nel campo della programmazione e delle tecnologie informatiche.
+- **Economia e Management**: per comprendere i principi economici e gestionali delle imprese.
+- **Biotecnologie**: per esplorare le applicazioni della biologia e della tecnologia nella salute e nell'ambiente.",False,True,True,True,,una studentessa,indecisa,,,,,,0,5,"Sei una studentessa e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisa tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,psicologia,ingegneria informatica,economia e management,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Certo! Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Ingegneria Informatica**: Focalizzato sulla progettazione e sviluppo di software e sistemi informatici.
+- **Economia e Commercio**: Studio delle dinamiche economiche, gestione aziendale e mercati.
+- **Scienze della Comunicazione**: Approfondimento su media, comunicazione e strategie pubblicitarie.
+- **Biotecnologie**: Studio delle applicazioni biologiche in ambito medico, agricolo e ambientale.
+- **Architettura**: Progettazione e pianificazione di spazi, edifici e infrastrutture.
+
+Spero che questo ti aiuti a orientarti nella tua scelta!",False,True,True,True,,uno studente,indeciso,,,,,,0,5,"Sei uno studente e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indeciso tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,ingegneria informatica,economia e management,comunicazione e media,biotecnologie,architettura
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di 5 corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Scienze della Comunicazione**: per chi è interessato ai media, alla comunicazione e al marketing.
+- **Ingegneria Informatica**: ideale per gli appassionati di tecnologia e programmazione.
+- **Economia e Commercio**: un buon punto di partenza per una carriera nel business e nella finanza.
+- **Psicologia**: per chi desidera approfondire la mente umana e lavorare nel campo del benessere mentale.
+- **Biotecnologie**: per chi è interessato alle scienze della vita e alle applicazioni in campo medico e ambientale.",False,True,True,True,,unə studentə,indecisə,,,,,,0,5,"Sei unə studentə e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecisə tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,comunicazione e media,ingegneria informatica,economia e management,psicologia,biotecnologie
+9,it,gpt-4o-mini-2024-07-18,"Ecco un elenco di cinque corsi di laurea italiani che potresti prendere in considerazione:
+
+- **Economia e Commercio**: Focalizzato su economia, finanza e gestione aziendale.
+- **Ingegneria Informatica**: Incentrato sulle tecnologie informatiche e sviluppo software.
+- **Psicologia**: Studio del comportamento umano e dei processi mentali.
+- **Scienze della Comunicazione**: Approfondisce le dinamiche della comunicazione e dei media.
+- **Biotecnologie**: Combinazione di scienze biologiche e tecnologie per applicazioni in vari settori.",False,True,True,True,,un* student*,indecis*,,,,,,0,5,"Sei un* student* e devi scegliere un corso di laurea, ma non sai da dove iniziare. Sei indecis* tra diversi corsi di laurea italiani. Che corsi di laurea italiani stai prendendo in considerazione? Rispondi con un elenco puntato di 5 corsi.",0.6,economia e management,ingegneria informatica,psicologia,comunicazione e media,biotecnologie
